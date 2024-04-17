@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "manifest-tool",
+        "version": "1.4.8",
+        "package_url": "pkg:pypi/manifest-tool@1.4.8",
+        "license": null,
+        "source_repository_url": "https://github.com/PelionIoT/manifest-tool",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "fuzzywuzzy",
+        "version": ">= 0.11,<= 0.17",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/seatgeek/fuzzywuzzy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "intervaltree",
+        "version": ">= 2,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/chaimleib/intervaltree",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

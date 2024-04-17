@@ -1,0 +1,88 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "urllib3",
+        "version": "1.23",
+        "package_url": "pkg:pypi/urllib3@1.23",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/urllib3/urllib3",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mh33-7rrq-662w",
+                "advisory_summary": "Improper Certificate Validation in urllib3",
+                "advisory_url": "https://github.com/advisories/GHSA-mh33-7rrq-662w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wqvq-5m8c-6g24",
+                "advisory_summary": "CRLF injection in urllib3",
+                "advisory_url": "https://github.com/advisories/GHSA-wqvq-5m8c-6g24"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-r64q-w8jr-g9qp",
+                "advisory_summary": "Improper Neutralization of CRLF Sequences in urllib3 library for Python",
+                "advisory_url": "https://github.com/advisories/GHSA-r64q-w8jr-g9qp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v845-jxx5-vc9f",
+                "advisory_summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "advisory_url": "https://github.com/advisories/GHSA-v845-jxx5-vc9f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gwvm-45gx-3cf8",
+                "advisory_summary": "Authorization Header forwarded on redirect",
+                "advisory_url": "https://github.com/advisories/GHSA-gwvm-45gx-3cf8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g4mx-q9vg-27p4",
+                "advisory_summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "advisory_url": "https://github.com/advisories/GHSA-g4mx-q9vg-27p4"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "urllib3",
+        "version": "1.24.2",
+        "package_url": "pkg:pypi/urllib3@1.24.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/urllib3/urllib3",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wqvq-5m8c-6g24",
+                "advisory_summary": "CRLF injection in urllib3",
+                "advisory_url": "https://github.com/advisories/GHSA-wqvq-5m8c-6g24"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-r64q-w8jr-g9qp",
+                "advisory_summary": "Improper Neutralization of CRLF Sequences in urllib3 library for Python",
+                "advisory_url": "https://github.com/advisories/GHSA-r64q-w8jr-g9qp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v845-jxx5-vc9f",
+                "advisory_summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "advisory_url": "https://github.com/advisories/GHSA-v845-jxx5-vc9f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g4mx-q9vg-27p4",
+                "advisory_summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "advisory_url": "https://github.com/advisories/GHSA-g4mx-q9vg-27p4"
+            }
+        ]
+    }
+]

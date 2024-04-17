@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/flatpak.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flat-manager",
+        "version": "6",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flat-manager@6",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/flatpak.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "6",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@6",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/flatpak.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flat-manager",
+        "version": "5",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flat-manager@5",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/flatpak.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "apple-actions/import-codesign-certs",
+        "version": "8f3fb608891dd2244cdab3d69cd68c0d37a7fe93",
+        "package_url": "pkg:githubactions/apple-actions/import-codesign-certs@8f3fb608891dd2244cdab3d69cd68c0d37a7fe93",
+        "license": null,
+        "source_repository_url": "https://github.com/Apple-Actions/import-codesign-certs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "6",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@6",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "apple-actions/import-codesign-certs",
+        "version": "253ddeeac23f2bdad1646faac5c8c2832e800071",
+        "package_url": "pkg:githubactions/apple-actions/import-codesign-certs@253ddeeac23f2bdad1646faac5c8c2832e800071",
+        "license": null,
+        "source_repository_url": "https://github.com/Apple-Actions/import-codesign-certs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

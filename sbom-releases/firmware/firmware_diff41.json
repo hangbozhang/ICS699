@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_esp32_s3.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_esp32_s3.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_esp32_s3.yml",
+        "ecosystem": "actions",
+        "name": "dsaltares/fetch-gh-release-asset",
+        "version": "master",
+        "package_url": "pkg:githubactions/dsaltares/fetch-gh-release-asset@master",
+        "license": null,
+        "source_repository_url": "https://github.com/dsaltares/fetch-gh-release-asset",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

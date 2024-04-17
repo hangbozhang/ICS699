@@ -1,0 +1,256 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "4.9.0",
+        "package_url": "pkg:npm/mongodb@4.9.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/node-mongodb-native",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vxvm-qww3-2fh7",
+                "advisory_summary": "MongoDB Driver may publish events containing authentication-related data",
+                "advisory_url": "https://github.com/advisories/GHSA-vxvm-qww3-2fh7"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "4.6.0",
+        "package_url": "pkg:npm/mongodb@4.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/node-mongodb-native",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vxvm-qww3-2fh7",
+                "advisory_summary": "MongoDB Driver may publish events containing authentication-related data",
+                "advisory_url": "https://github.com/advisories/GHSA-vxvm-qww3-2fh7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "18.7.6",
+        "package_url": "pkg:npm/%40types/node@18.7.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/whatwg-url",
+        "version": "8.2.2",
+        "package_url": "pkg:npm/%40types/whatwg-url@8.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bson",
+        "version": "4.7.0",
+        "package_url": "pkg:npm/bson@4.7.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/js-bson",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "denque",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/denque@2.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/invertase/denque",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ip",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/ip@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/indutny/node-ip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mongodb-connection-string-url",
+        "version": "2.5.3",
+        "package_url": "pkg:npm/mongodb-connection-string-url@2.5.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb-js/mongodb-connection-string-url",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socks",
+        "version": "2.7.0",
+        "package_url": "pkg:npm/socks@2.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/JoshGlazebrook/socks",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "17.0.35",
+        "package_url": "pkg:npm/%40types/node@17.0.35",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/whatwg-url",
+        "version": "8.2.1",
+        "package_url": "pkg:npm/%40types/whatwg-url@8.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bson",
+        "version": "4.6.4",
+        "package_url": "pkg:npm/bson@4.6.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/js-bson",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "denque",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/denque@2.0.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/invertase/denque",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ip",
+        "version": "1.1.5",
+        "package_url": "pkg:npm/ip@1.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/indutny/node-ip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mongodb-connection-string-url",
+        "version": "2.5.2",
+        "package_url": "pkg:npm/mongodb-connection-string-url@2.5.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb-js/mongodb-connection-string-url",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socks",
+        "version": "2.6.2",
+        "package_url": "pkg:npm/socks@2.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/JoshGlazebrook/socks",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "^4.9.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mongodb/node-mongodb-native",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "bson",
+        "version": "^4.6.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mongodb/js-bson",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "^4.6.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mongodb/node-mongodb-native",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/setup.py",
+        "ecosystem": "pip",
+        "name": "mock",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/calvinchengx/python-mock",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

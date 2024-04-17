@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "vinkabuki/upload-s3-action",
+        "version": "files",
+        "package_url": "pkg:githubactions/vinkabuki/upload-s3-action@files",
+        "license": null,
+        "source_repository_url": "https://github.com/vinkabuki/upload-s3-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "vinkabuki/upload-s3-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/vinkabuki/upload-s3-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/vinkabuki/upload-s3-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

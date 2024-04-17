@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/analyze",
+        "version": "1",
+        "package_url": "pkg:githubactions/github/codeql-action/analyze@1",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/autobuild",
+        "version": "1",
+        "package_url": "pkg:githubactions/github/codeql-action/autobuild@1",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "1",
+        "package_url": "pkg:githubactions/github/codeql-action/init@1",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-drafter.yml",
+        "ecosystem": "actions",
+        "name": "release-drafter/release-drafter",
+        "version": "5",
+        "package_url": "pkg:githubactions/release-drafter/release-drafter@5",
+        "license": null,
+        "source_repository_url": "https://github.com/release-drafter/release-drafter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "demo/social/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/social/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": ">= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "click",
+        "version": ">= 6.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redis",
+        "version": "2.10.6",
+        "package_url": "pkg:pypi/redis@2.10.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redis/redis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

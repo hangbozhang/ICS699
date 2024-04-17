@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/macos-homebrew.yml",
+        "ecosystem": "actions",
+        "name": "mikepenz/release-changelog-builder-action",
+        "version": "3.5.0",
+        "package_url": "pkg:githubactions/mikepenz/release-changelog-builder-action@3.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/mikepenz/release-changelog-builder-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/macos-homebrew.yml",
+        "ecosystem": "actions",
+        "name": "metcalfc/changelog-generator",
+        "version": "3.0.0",
+        "package_url": "pkg:githubactions/metcalfc/changelog-generator@3.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/metcalfc/changelog-generator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

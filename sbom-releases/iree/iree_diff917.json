@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/ci_requirements.txt",
+        "ecosystem": "pip",
+        "name": "cmake",
+        "version": ">= 3.18.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scikit-build/cmake-python-distributions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/ci_requirements.txt",
+        "ecosystem": "pip",
+        "name": "ninja",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scikit-build/ninja-python-distributions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": ">= 2.6.0.dev0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/lint.yml",
+        "ecosystem": "actions",
+        "name": "thompsonja/bazel-buildifier",
+        "version": "0.2.1",
+        "package_url": "pkg:githubactions/thompsonja/bazel-buildifier@0.2.1",
+        "license": null,
+        "source_repository_url": "https://github.com/thompsonja/bazel-buildifier",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/publish_docs.yml",
+        "ecosystem": "actions",
+        "name": "abhinavsingh/setup-bazel",
+        "version": "3",
+        "package_url": "pkg:githubactions/abhinavsingh/setup-bazel@3",
+        "license": null,
+        "source_repository_url": "https://github.com/abhinavsingh/setup-bazel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/publish_docs.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/publish_docs.yml",
+        "ecosystem": "actions",
+        "name": "ad-m/github-push-action",
+        "version": "0.5.0",
+        "package_url": "pkg:githubactions/ad-m/github-push-action@0.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ad-m/github-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/publish_docs.yml",
+        "ecosystem": "actions",
+        "name": "seanmiddleditch/gha-setup-ninja",
+        "version": "3",
+        "package_url": "pkg:githubactions/seanmiddleditch/gha-setup-ninja@3",
+        "license": null,
+        "source_repository_url": "https://github.com/seanmiddleditch/gha-setup-ninja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "cmake",
+        "version": ">= 3.18.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scikit-build/cmake-python-distributions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "ninja",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scikit-build/ninja-python-distributions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

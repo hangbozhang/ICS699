@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "8398a7/action-slack",
+        "version": "2",
+        "package_url": "pkg:githubactions/8398a7/action-slack@2",
+        "license": null,
+        "source_repository_url": "https://github.com/8398a7/action-slack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "pullreminders/slack-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/pullreminders/slack-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/abinoda/slack-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

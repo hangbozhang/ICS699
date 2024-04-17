@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "native/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "cc",
+        "version": "1.0.73",
+        "package_url": "pkg:cargo/cc@1.0.73",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/rust-lang/cc-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "proc-macro2",
+        "version": "1.0.40",
+        "package_url": "pkg:cargo/proc-macro2@1.0.40",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/dtolnay/proc-macro2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "quote",
+        "version": "1.0.20",
+        "package_url": "pkg:cargo/quote@1.0.20",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/dtolnay/quote",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "syn",
+        "version": "1.0.98",
+        "package_url": "pkg:cargo/syn@1.0.98",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/dtolnay/syn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-ident",
+        "version": "1.0.1",
+        "package_url": "pkg:cargo/unicode-ident@1.0.1",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/dtolnay/unicode-ident",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/base/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cxx",
+        "version": ">= 1.0.69, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dtolnay/cxx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/core/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cxx",
+        "version": ">= 1.0.69, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dtolnay/cxx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "native/rust/init/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cxx",
+        "version": ">= 1.0.69, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dtolnay/cxx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

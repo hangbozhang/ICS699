@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "assert",
+        "version": "^1.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/browserify/commonjs-assert",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

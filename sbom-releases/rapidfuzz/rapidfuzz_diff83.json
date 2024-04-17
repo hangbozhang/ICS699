@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pythonbuild.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pythonbuild.yml",
+        "ecosystem": "actions",
+        "name": "joerick/cibuildwheel",
+        "version": "1.10.0",
+        "package_url": "pkg:githubactions/joerick/cibuildwheel@1.10.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/cibuildwheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/pythonbuild.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/pythonbuild.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/setup-python@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/pythonbuild.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

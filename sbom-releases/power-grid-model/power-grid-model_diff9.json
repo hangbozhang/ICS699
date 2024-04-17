@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/check-code-quality.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "5",
+        "package_url": "pkg:githubactions/actions/setup-python@5",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/check-code-quality.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "5",
+        "package_url": "pkg:githubactions/actions/setup-python@5",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/sonar.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "5",
+        "package_url": "pkg:githubactions/actions/setup-python@5",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/sonar.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

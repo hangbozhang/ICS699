@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/CD.yml",
+        "ecosystem": "actions",
+        "name": "pypa/gh-action-pypi-publish",
+        "version": "master",
+        "package_url": "pkg:githubactions/pypa/gh-action-pypi-publish@master",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/gh-action-pypi-publish",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

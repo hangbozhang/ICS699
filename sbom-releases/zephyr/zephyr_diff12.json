@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "~> 5.0,< 5.2.0.post0 || > 5.2.0.post0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "~> 5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

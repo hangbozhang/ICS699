@@ -1,0 +1,291 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "handlebars",
+        "version": "4.7.6",
+        "package_url": "pkg:npm/handlebars@4.7.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/handlebars-lang/handlebars.js",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-f2jv-r9rf-7988",
+                "advisory_summary": "Remote code execution in handlebars when compiling templates",
+                "advisory_url": "https://github.com/advisories/GHSA-f2jv-r9rf-7988"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-765h-qjxv-5f44",
+                "advisory_summary": "Prototype Pollution in handlebars",
+                "advisory_url": "https://github.com/advisories/GHSA-765h-qjxv-5f44"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob-parent",
+        "version": "5.1.0",
+        "package_url": "pkg:npm/glob-parent@5.1.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/gulpjs/glob-parent",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ww39-953v-wcq6",
+                "advisory_summary": "glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex",
+                "advisory_url": "https://github.com/advisories/GHSA-ww39-953v-wcq6"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.20",
+        "package_url": "pkg:npm/lodash@4.17.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "7.0.36",
+        "package_url": "pkg:npm/postcss@7.0.36",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "hosted-git-info",
+        "version": "2.8.8",
+        "package_url": "pkg:npm/hosted-git-info@2.8.8",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/hosted-git-info",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-43f8-2h32-f4cj",
+                "advisory_summary": "Regular Expression Denial of Service in hosted-git-info",
+                "advisory_url": "https://github.com/advisories/GHSA-43f8-2h32-f4cj"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "7.0.17",
+        "package_url": "pkg:npm/postcss@7.0.17",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hwj9-h5mp-3pm3",
+                "advisory_summary": "Regular Expression Denial of Service in postcss",
+                "advisory_url": "https://github.com/advisories/GHSA-hwj9-h5mp-3pm3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-566m-qj78-rww5",
+                "advisory_summary": "Regular Expression Denial of Service in postcss",
+                "advisory_url": "https://github.com/advisories/GHSA-566m-qj78-rww5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "7.3.0",
+        "package_url": "pkg:npm/ws@7.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/websockets/ws",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6fc8-4gx4-v693",
+                "advisory_summary": "ReDoS in Sec-Websocket-Protocol header",
+                "advisory_url": "https://github.com/advisories/GHSA-6fc8-4gx4-v693"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob-parent",
+        "version": "5.1.2",
+        "package_url": "pkg:npm/glob-parent@5.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/gulpjs/glob-parent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "handlebars",
+        "version": "4.7.7",
+        "package_url": "pkg:npm/handlebars@4.7.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/handlebars-lang/handlebars.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "hosted-git-info",
+        "version": "2.8.9",
+        "package_url": "pkg:npm/hosted-git-info@2.8.9",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/hosted-git-info",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.21",
+        "package_url": "pkg:npm/lodash@4.17.21",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "neo-async",
+        "version": "2.6.2",
+        "package_url": "pkg:npm/neo-async@2.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/suguru03/neo-async",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "uglify-js",
+        "version": "3.13.9",
+        "package_url": "pkg:npm/uglify-js@3.13.9",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/mishoo/UglifyJS",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "7.5.0",
+        "package_url": "pkg:npm/ws@7.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/websockets/ws",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.3",
+        "package_url": "pkg:npm/y18n@4.0.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "commander",
+        "version": "2.20.3",
+        "package_url": "pkg:npm/commander@2.20.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tj/commander.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "neo-async",
+        "version": "2.6.1",
+        "package_url": "pkg:npm/neo-async@2.6.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/suguru03/neo-async",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "uglify-js",
+        "version": "3.9.4",
+        "package_url": "pkg:npm/uglify-js@3.9.4",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/mishoo/UglifyJS",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-classic",
+        "version": "1.0.13",
+        "package_url": "pkg:maven/ch.qos.logback/logback-classic@1.0.13",
+        "license": "EPL-1.0 OR LGPL-2.1-only",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-vmfg-rjjm-rjrj",
+                "advisory_summary": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfg-rjjm-rjrj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.0.13",
+        "package_url": "pkg:maven/ch.qos.logback/logback-core@1.0.13",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-vmfg-rjjm-rjrj",
+                "advisory_summary": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfg-rjjm-rjrj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-668q-qrv7-99fm",
+                "advisory_summary": "Deserialization of Untrusted Data in logback",
+                "advisory_url": "https://github.com/advisories/GHSA-668q-qrv7-99fm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-classic",
+        "version": "1.2.0",
+        "package_url": "pkg:maven/ch.qos.logback/logback-classic@1.2.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.2.0",
+        "package_url": "pkg:maven/ch.qos.logback/logback-core@1.2.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-668q-qrv7-99fm",
+                "advisory_summary": "Deserialization of Untrusted Data in logback",
+                "advisory_url": "https://github.com/advisories/GHSA-668q-qrv7-99fm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.30",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.30",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.22",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.22",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

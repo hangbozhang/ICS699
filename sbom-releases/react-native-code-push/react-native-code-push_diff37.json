@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-push-plugin-testing-framework",
+        "version": "file:file:../code-push/plugin-testing-framework/bin",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-push-plugin-testing-framework",
+        "version": "file:code-push-plugin-testing-framework",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

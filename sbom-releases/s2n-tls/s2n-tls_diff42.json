@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_compliance.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "clap",
+        "version": ">= 3.1.0, < 3.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/clap-rs/clap",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "rand",
+        "version": ">= 0.8.0, < 0.9.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-random/rand",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "clap",
+        "version": ">= 3.1.0, < 4.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/clap-rs/clap",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

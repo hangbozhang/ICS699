@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "76866dbe54312617f00798d1762df7f43def6e5c",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@76866dbe54312617f00798d1762df7f43def6e5c",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/snap.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "76866dbe54312617f00798d1762df7f43def6e5c",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@76866dbe54312617f00798d1762df7f43def6e5c",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

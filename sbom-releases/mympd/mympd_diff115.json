@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_debug.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/dockerimage.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

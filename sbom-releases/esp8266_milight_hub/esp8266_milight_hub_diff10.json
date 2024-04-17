@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/remote/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "rspec-retry",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/NoRedInk/rspec-retry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/remote/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rspec-retry",
+        "version": "0.6.2",
+        "package_url": "pkg:gem/rspec-retry@0.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/NoRedInk/rspec-retry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "8.8.0",
+        "package_url": "pkg:npm/acorn@8.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "acorn-jsx",
+        "version": "5.3.2",
+        "package_url": "pkg:npm/acorn-jsx@5.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn-jsx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-visitor-keys",
+        "version": "3.3.0",
+        "package_url": "pkg:npm/eslint-visitor-keys@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/eslint/eslint-visitor-keys",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "espree",
+        "version": "9.4.0",
+        "package_url": "pkg:npm/espree@9.4.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/eslint/espree",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cherow",
+        "version": "1.6.9",
+        "package_url": "pkg:npm/cherow@1.6.9",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/cherow/cherow",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "espree",
+        "version": "^9.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eslint/espree",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "cherow",
+        "version": "^1.6.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/cherow/cherow",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "aruba",
+        "version": "~> 0.14.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/cucumber/aruba",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "~> 1.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "diff_dirs",
+        "version": "~> 0.1.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/cmer/diff_dirs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "em-rubyserial",
+        "version": "~> 0.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jcantara/em-rubyserial",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "hex_string",
+        "version": "~> 1.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/atomicobject/hex_string",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "particle-spec",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/accept/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "rspec-expectations",
+        "version": "~> 3.5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rspec/rspec-expectations",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

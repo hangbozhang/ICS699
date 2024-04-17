@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main-ci.yml",
+        "ecosystem": "actions",
+        "name": "fkirc/skip-duplicate-actions",
+        "version": "5",
+        "package_url": "pkg:githubactions/fkirc/skip-duplicate-actions@5",
+        "license": null,
+        "source_repository_url": "https://github.com/fkirc/skip-duplicate-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

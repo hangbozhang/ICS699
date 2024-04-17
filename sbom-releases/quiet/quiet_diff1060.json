@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "check-disk-space",
+        "version": "^3.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Alex-D/check-disk-space",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.10.2-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/identity",
+        "version": "^0.9.2-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^0.10.2-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.10.1-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/identity",
+        "version": "^0.9.1-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^0.10.1-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "charset-normalizer",
+        "version": "2.0.4",
+        "package_url": "pkg:pypi/charset-normalizer@2.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Ousret/charset_normalizer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-cloud-pubsub",
+        "version": "2.7.1",
+        "package_url": "pkg:pypi/google-cloud-pubsub@2.7.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/python-pubsub",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "libcst",
+        "version": "0.3.20",
+        "package_url": "pkg:pypi/libcst@0.3.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Instagram/LibCST",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mypy-extensions",
+        "version": "0.4.3",
+        "package_url": "pkg:pypi/mypy-extensions@0.4.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python/mypy_extensions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "proto-plus",
+        "version": "1.19.0",
+        "package_url": "pkg:pypi/proto-plus@1.19.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/proto-plus-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "typing-extensions",
+        "version": "3.10.0.2",
+        "package_url": "pkg:pypi/typing-extensions@3.10.0.2",
+        "license": "Python-2.0.1",
+        "source_repository_url": "https://github.com/python/typing",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "typing-inspect",
+        "version": "0.7.1",
+        "package_url": "pkg:pypi/typing-inspect@0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ilevkivskyi/typing_inspect",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-cloud-pubsub",
+        "version": "1.7.0",
+        "package_url": "pkg:pypi/google-cloud-pubsub@1.7.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/python-pubsub",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "svenstaro/upload-release-action",
+        "version": "1beeb572c19a9242f4361f4cee78f8e0d9aec5df",
+        "package_url": "pkg:githubactions/svenstaro/upload-release-action@1beeb572c19a9242f4361f4cee78f8e0d9aec5df",
+        "license": null,
+        "source_repository_url": "https://github.com/svenstaro/upload-release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "svenstaro/upload-release-action",
+        "version": "e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d",
+        "package_url": "pkg:githubactions/svenstaro/upload-release-action@e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d",
+        "license": null,
+        "source_repository_url": "https://github.com/svenstaro/upload-release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

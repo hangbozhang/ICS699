@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/python/rsasample/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "4.1",
+        "package_url": "pkg:pypi/rsa@4.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrx6-fmxq-rjj2",
+                "advisory_summary": "Timing attacks in python-rsa",
+                "advisory_url": "https://github.com/advisories/GHSA-xrx6-fmxq-rjj2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/rsasample/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "4.7",
+        "package_url": "pkg:pypi/rsa@4.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

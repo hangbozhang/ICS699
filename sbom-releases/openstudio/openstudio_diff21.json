@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "json_pure",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/flori/json",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "json_pure",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/flori/json",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-extension",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/openstudio-extension-gem",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "simplecov",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/simplecov-ruby/simplecov",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-standards",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/openstudio-standards",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

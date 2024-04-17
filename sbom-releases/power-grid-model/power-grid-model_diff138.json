@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/citations.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/citations.yml",
+        "ecosystem": "actions",
+        "name": "dieghernan/cff-validator",
+        "version": "2.3",
+        "package_url": "pkg:githubactions/dieghernan/cff-validator@2.3",
+        "license": null,
+        "source_repository_url": "https://github.com/dieghernan/cff-validator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

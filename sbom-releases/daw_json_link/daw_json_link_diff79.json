@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/clang-format-check.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/clang-format-check.yml",
+        "ecosystem": "actions",
+        "name": "jidicula/clang-format-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/jidicula/clang-format-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/jidicula/clang-format-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

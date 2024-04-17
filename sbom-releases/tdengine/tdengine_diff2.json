@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "3.2.7",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@3.2.7",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "3.0.0",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

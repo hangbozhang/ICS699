@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "nick-fields/retry",
+        "version": "2",
+        "package_url": "pkg:githubactions/nick-fields/retry@2",
+        "license": null,
+        "source_repository_url": "https://github.com/nick-fields/retry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

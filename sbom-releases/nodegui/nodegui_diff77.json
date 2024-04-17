@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.0.2",
+        "package_url": "pkg:npm/prettier@2.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/experimental-utils",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/experimental-utils@2.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/typescript-estree",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/typescript-estree@2.23.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/prettier@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.10.0",
+        "package_url": "pkg:golang/golang.org/x/net@0.10.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.17.0",
+        "package_url": "pkg:golang/golang.org/x/net@0.17.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.13.0",
+        "package_url": "pkg:golang/golang.org/x/sys@0.13.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/term",
+        "version": "0.13.0",
+        "package_url": "pkg:golang/golang.org/x/term@0.13.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/text",
+        "version": "0.13.0",
+        "package_url": "pkg:golang/golang.org/x/text@0.13.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.9.0",
+        "package_url": "pkg:golang/golang.org/x/sys@0.9.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/term",
+        "version": "0.8.0",
+        "package_url": "pkg:golang/golang.org/x/term@0.8.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/text",
+        "version": "0.9.0",
+        "package_url": "pkg:golang/golang.org/x/text@0.9.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

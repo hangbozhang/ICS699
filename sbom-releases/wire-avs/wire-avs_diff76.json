@@ -1,0 +1,105 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "engine.io",
+        "version": "6.2.1",
+        "package_url": "pkg:npm/engine.io@6.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/engine.io",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-q9mw-68c2-j6m5",
+                "advisory_summary": "engine.io Uncaught Exception vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-q9mw-68c2-j6m5"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "engine.io",
+        "version": "6.4.2",
+        "package_url": "pkg:npm/engine.io@6.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/engine.io",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socket.io",
+        "version": "4.6.1",
+        "package_url": "pkg:npm/socket.io@4.6.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/socket.io",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socket.io-adapter",
+        "version": "2.5.2",
+        "package_url": "pkg:npm/socket.io-adapter@2.5.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/socket.io-adapter",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "8.11.0",
+        "package_url": "pkg:npm/ws@8.11.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/websockets/ws",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socket.io",
+        "version": "4.5.4",
+        "package_url": "pkg:npm/socket.io@4.5.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/socket.io",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socket.io-adapter",
+        "version": "2.4.0",
+        "package_url": "pkg:npm/socket.io-adapter@2.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/socket.io-adapter",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "8.2.3",
+        "package_url": "pkg:npm/ws@8.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/websockets/ws",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

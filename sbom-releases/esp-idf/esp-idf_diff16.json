@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements/requirements.ci.txt",
+        "ecosystem": "pip",
+        "name": "jsonschema",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-jsonschema/jsonschema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements/requirements.ttfw.txt",
+        "ecosystem": "pip",
+        "name": "paho-mqtt",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eclipse/paho.mqtt.python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

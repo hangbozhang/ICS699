@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "cbindgen",
+        "version": "0.16.0",
+        "package_url": "pkg:cargo/cbindgen@0.16.0",
+        "license": "MPL-2.0",
+        "source_repository_url": "https://github.com/mozilla/cbindgen",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/bridge_core/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cbindgen",
+        "version": ">= 0.16.0, < 0.17.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mozilla/cbindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/bridge_flate/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cbindgen",
+        "version": ">= 0.16.0, < 0.17.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mozilla/cbindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/engine_bibtex/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cbindgen",
+        "version": ">= 0.16.0, < 0.17.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mozilla/cbindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/engine_xdvipdfmx/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cbindgen",
+        "version": ">= 0.16.0, < 0.17.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mozilla/cbindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/engine_xetex/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cbindgen",
+        "version": ">= 0.16.0, < 0.17.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mozilla/cbindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

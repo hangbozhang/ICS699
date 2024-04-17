@@ -1,0 +1,1949 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp-pre0.49/package.json",
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "^25.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp-pre0.49/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-windows",
+        "version": "^1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/react-native-windows",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp-pre0.49/package.json",
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "20.0.3",
+        "package_url": "pkg:npm/babel-jest@20.0.3",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp-pre0.49/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-windows",
+        "version": "^0.43.0-rc.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/react-native-windows",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp-pre0.49/windows/CodePushDemoApp.Wpf/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.ChakraCore",
+        "version": "1.4.1",
+        "package_url": "pkg:nuget/Microsoft.ChakraCore@1.4.1",
+        "license": null,
+        "source_repository_url": "https://github.com/chakra-core/ChakraCore",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-448h-7hmp-99fg",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-448h-7hmp-99fg"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-fw42-4mq4-4qpq",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fw42-4mq4-4qpq"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-ghwq-7v3r-5433",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-ghwq-7v3r-5433"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-c79v-2rjq-965m",
+                "advisory_summary": "ChakraCore vulnerable to privilege escalation",
+                "advisory_url": "https://github.com/advisories/GHSA-c79v-2rjq-965m"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8v2h-4jpm-3wfm",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8v2h-4jpm-3wfm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rhvg-r9fw-9wqj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rhvg-r9fw-9wqj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fmv2-jv3p-6w47",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fmv2-jv3p-6w47"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mjg2-326q-49f9",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-mjg2-326q-49f9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f3qw-7p9p-j87f",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-f3qw-7p9p-j87f"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h9cr-2hcf-cg8p",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h9cr-2hcf-cg8p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hfhr-xxxq-vg7g",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hfhr-xxxq-vg7g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-79xq-c7xr-29jh",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-79xq-c7xr-29jh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3hqw-mg9x-r2vr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3hqw-mg9x-r2vr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3mv8-x3jj-3j7m",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3mv8-x3jj-3j7m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vh9x-fprq-2hhj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vh9x-fprq-2hhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c6mx-gwgr-mfm2",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c6mx-gwgr-mfm2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g549-jfg6-98ch",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g549-jfg6-98ch"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q4qj-2f5m-98gc",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-q4qj-2f5m-98gc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8f4c-h6m3-22rw",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8f4c-h6m3-22rw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p9qf-56xw-h2vj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-p9qf-56xw-h2vj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5ggm-q98v-76hx",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5ggm-q98v-76hx"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gxxx-j8m7-hh7m",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-gxxx-j8m7-hh7m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4f79-fxh8-vgq2",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-4f79-fxh8-vgq2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vwqh-cmvp-6694",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vwqh-cmvp-6694"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vjf9-8wqg-xc7r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vjf9-8wqg-xc7r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p37h-rg3w-23wx",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-p37h-rg3w-23wx"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2589-r26x-mh8p",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-2589-r26x-mh8p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xxp7-423f-hcp4",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-xxp7-423f-hcp4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mm5q-x9qg-x4vp",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-mm5q-x9qg-x4vp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fvpg-qx3g-7mp7",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-fvpg-qx3g-7mp7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3j65-2jcq-w9fr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3j65-2jcq-w9fr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h575-j3ph-hjvc",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h575-j3ph-hjvc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wc4x-9h9p-9494",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wc4x-9h9p-9494"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5q2v-52gc-4w7p",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5q2v-52gc-4w7p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-67f9-qmg7-fmcq",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-67f9-qmg7-fmcq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wc52-2xwv-h7xr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wc52-2xwv-h7xr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3fvw-g6mr-w247",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3fvw-g6mr-w247"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g6mc-8679-ghx9",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g6mc-8679-ghx9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xmvg-c4x3-9qwp",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-xmvg-c4x3-9qwp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-25vh-gq6v-hrx5",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-25vh-gq6v-hrx5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-prhh-h793-h32r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-prhh-h793-h32r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wjmf-6x7g-xq67",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wjmf-6x7g-xq67"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8rqh-8726-83h7",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8rqh-8726-83h7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-frh8-wrx9-gc53",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-frh8-wrx9-gc53"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5hxp-3237-j2hp",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5hxp-3237-j2hp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7cc5-cqmx-9v7g",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7cc5-cqmx-9v7g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gqh4-4r89-pr95",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-gqh4-4r89-pr95"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jv5x-p843-g4qr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jv5x-p843-g4qr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5wrx-85mr-7hrg",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5wrx-85mr-7hrg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wwm6-r38h-ppg7",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wwm6-r38h-ppg7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ch84-pxpj-7hhm",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-ch84-pxpj-7hhm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5439-x5v5-2vhj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5439-x5v5-2vhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h5hw-qrrw-vfxg",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h5hw-qrrw-vfxg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w9rv-wwxr-vc3q",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-w9rv-wwxr-vc3q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7c7v-g484-j4cf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7c7v-g484-j4cf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4c93-q79v-mw45",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-4c93-q79v-mw45"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6r3x-5gwg-g642",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6r3x-5gwg-g642"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8h76-7vc3-mj3v",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8h76-7vc3-mj3v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xw5f-g937-wgm2",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-xw5f-g937-wgm2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-923j-972p-hchf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-923j-972p-hchf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f8f9-q5hg-9c7q",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-f8f9-q5hg-9c7q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hrf4-ww4w-6rv6",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hrf4-ww4w-6rv6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pcr8-75v3-w9pf",
+                "advisory_summary": "Chakra Core vulnerable to privilege escalation due to type confusion",
+                "advisory_url": "https://github.com/advisories/GHSA-pcr8-75v3-w9pf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9f2p-wm46-6m5f",
+                "advisory_summary": "Chakra Core vulnerable to privilege escalation when writing to JavaScript null scope objects",
+                "advisory_url": "https://github.com/advisories/GHSA-9f2p-wm46-6m5f"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-43qp-hphf-5rjw",
+                "advisory_summary": "Chakra Core vulnerable to privilege escalation due to reading an invalid pointer",
+                "advisory_url": "https://github.com/advisories/GHSA-43qp-hphf-5rjw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-72gm-pp6q-gpx5",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-72gm-pp6q-gpx5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-735f-mx7h-46w8",
+                "advisory_summary": "ChakraCore vulnerable to remote code execution due to insufficient InlineCache check",
+                "advisory_url": "https://github.com/advisories/GHSA-735f-mx7h-46w8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5f5r-65pm-r3wr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5f5r-65pm-r3wr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p3rw-88pp-w4jh",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-p3rw-88pp-w4jh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6p7q-85qq-7c43",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6p7q-85qq-7c43"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rm8g-7g54-w6fh",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rm8g-7g54-w6fh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-68cp-h96v-gg3x",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68cp-h96v-gg3x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v8jw-x9wq-hw4v",
+                "advisory_summary": "ChakraCore RCE via Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-v8jw-x9wq-hw4v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxrx-5j36-pwg5",
+                "advisory_summary": "ChakraCore RCE via Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-fxrx-5j36-pwg5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g8q3-rcf9-qx4q",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g8q3-rcf9-qx4q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4v6q-gjm6-6vv4",
+                "advisory_summary": "ChakraCore RCE via Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-4v6q-gjm6-6vv4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c6r3-ghjw-hgrj",
+                "advisory_summary": "ChakraCore vulnerable to remote code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-c6r3-ghjw-hgrj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w4qx-vw2w-q566",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-w4qx-vw2w-q566"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2xrc-27mc-638q",
+                "advisory_summary": "ChakraCore Remote code execution Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-2xrc-27mc-638q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rxg4-vw2v-rxm4",
+                "advisory_summary": "ChakraCore remote code execution vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rxg4-vw2v-rxm4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6gj2-5366-p95v",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6gj2-5366-p95v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pcgp-vfgq-mf5j",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-pcgp-vfgq-mf5j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6xmv-mx7q-789r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6xmv-mx7q-789r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-788w-269g-j92q",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-788w-269g-j92q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j67m-wpv6-pv44",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-j67m-wpv6-pv44"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6g23-fww6-rfrj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6g23-fww6-rfrj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wgw2-wwq8-c7wf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wgw2-wwq8-c7wf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vgxq-xv7f-jxjx",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vgxq-xv7f-jxjx"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h8jq-5737-hpcf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h8jq-5737-hpcf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-38r7-rv5p-ggwq",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-38r7-rv5p-ggwq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gxcf-6h72-8gxf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-gxcf-6h72-8gxf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-85j8-g29g-m326",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-85j8-g29g-m326"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p349-q795-qj4q",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-p349-q795-qj4q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ggvv-6v25-r49r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-ggvv-6v25-r49r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-67x3-36j7-pj4g",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-67x3-36j7-pj4g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jgj7-hq9p-rqmg",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jgj7-hq9p-rqmg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p97q-j98q-f98w",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-p97q-j98q-f98w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fv8m-p45w-gf38",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fv8m-p45w-gf38"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xphq-3x6q-q2qq",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-xphq-3x6q-q2qq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qfcq-4vv7-9mq7",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-qfcq-4vv7-9mq7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8r5c-8v97-g7vh",
+                "advisory_summary": "ChakraCore vulnerable to privilege escalation due to exposure from scriptFunction",
+                "advisory_url": "https://github.com/advisories/GHSA-8r5c-8v97-g7vh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qpf-v72j-j9qh",
+                "advisory_summary": "ChakraCore vulnerable to remote code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-9qpf-v72j-j9qh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rhwh-jw9h-4m49",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rhwh-jw9h-4m49"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-px6p-jxwr-27mc",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-px6p-jxwr-27mc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6mw4-phmc-x477",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6mw4-phmc-x477"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3c78-m682-8wp9",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3c78-m682-8wp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5rcr-q3rx-j7vr",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-5rcr-q3rx-j7vr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v648-p92f-9996",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-v648-p92f-9996"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6973-94v8-5mgw",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-6973-94v8-5mgw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-758c-g2ff-9444",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-758c-g2ff-9444"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rfj-2mwp-787v",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2rfj-2mwp-787v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qw8-ccq9-ffj9",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-9qw8-ccq9-ffj9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cwp9-956f-vcwh",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-cwp9-956f-vcwh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ppxc-pmx9-qjv9",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-ppxc-pmx9-qjv9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hfm2-fffh-v47v",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-hfm2-fffh-v47v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v89p-5hr2-4rh4",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-v89p-5hr2-4rh4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pwpr-vp2v-99xw",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-pwpr-vp2v-99xw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pcgf-qjx2-qv4q",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-pcgf-qjx2-qv4q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q99r-j969-6jwr",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-q99r-j969-6jwr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2452-3rwv-x89c",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2452-3rwv-x89c"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-grvw-q343-58wh",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-grvw-q343-58wh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vw2g-5827-m9fp",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-vw2g-5827-m9fp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6j89-jhpr-849f",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-6j89-jhpr-849f"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p23j-g745-8449",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-p23j-g745-8449"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2wwc-w2gw-4329",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2wwc-w2gw-4329"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mw7r-3g6w-85qg",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-mw7r-3g6w-85qg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qwwg-gc55-qqrv",
+                "advisory_summary": "Out-of-bounds Write in Chakra",
+                "advisory_url": "https://github.com/advisories/GHSA-qwwg-gc55-qqrv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c8qc-62qv-5p2x",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-c8qc-62qv-5p2x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h2xm-2p6w-mj2v",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-h2xm-2p6w-mj2v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6cc6-66f5-mxjj",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-6cc6-66f5-mxjj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-86gw-g9jv-8vfg",
+                "advisory_summary": " Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-86gw-g9jv-8vfg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g644-6fg4-hrh9",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-g644-6fg4-hrh9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3w9q-c44j-37jj",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-3w9q-c44j-37jj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8qh8-cv77-h83g",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-8qh8-cv77-h83g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7ph8-f946-q5r7",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-7ph8-f946-q5r7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fv38-4c3m-25v8",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-fv38-4c3m-25v8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pjpj-f6r8-56rm",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-pjpj-f6r8-56rm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6jf5-rmhv-38cw",
+                "advisory_summary": "High severity vulnerability that affects Microsoft.ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-6jf5-rmhv-38cw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w89r-qch4-8jv5",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-w89r-qch4-8jv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9735-p6r2-2hgh",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-9735-p6r2-2hgh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h6wf-hvwc-fm77",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-h6wf-hvwc-fm77"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fm9p-5m9f-rq85",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-fm9p-5m9f-rq85"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59cj-99cw-rq64",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-59cj-99cw-rq64"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rx34-jff5-ph35",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-rx34-jff5-ph35"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7423-5qfm-g648",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-7423-5qfm-g648"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h23m-w6x5-jwr4",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-h23m-w6x5-jwr4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hrmm-f4j8-8vxc",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-hrmm-f4j8-8vxc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-prxj-c66c-4gcf",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-prxj-c66c-4gcf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-37pf-w9ff-gqvm",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-37pf-w9ff-gqvm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5rq8-3wvf-wrfg",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-5rq8-3wvf-wrfg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8gvg-8vhf-h26g",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-8gvg-8vhf-h26g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9824-rp6m-xx9w",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-9824-rp6m-xx9w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w32p-76xr-88pc",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-w32p-76xr-88pc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-53r4-h27g-rg3x",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-53r4-h27g-rg3x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rh4p-g7x6-8pqg",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-rh4p-g7x6-8pqg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2x75-mf24-588m",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2x75-mf24-588m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmf5-924f-25f2",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-vmf5-924f-25f2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mg98-x2cm-4cpf",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-mg98-x2cm-4cpf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8xv4-c7rq-j577",
+                "advisory_summary": "ChakraCore Remote Code Execution Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8xv4-c7rq-j577"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hg36-rmmm-hc5r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hg36-rmmm-hc5r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rpfg-xf88-cq5r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rpfg-xf88-cq5r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6c6r-39cv-x5fq",
+                "advisory_summary": "Chakra JIT server Privilege Escalation ",
+                "advisory_url": "https://github.com/advisories/GHSA-6c6r-39cv-x5fq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2mmc-5phj-4wjj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-2mmc-5phj-4wjj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5rq3-9wc9-m9c3",
+                "advisory_summary": "ChakraCore Memory Corruption Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5rq3-9wc9-m9c3"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fv87-p7qr-xh5x",
+                "advisory_summary": "ChakraCore Memory Corruption Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fv87-p7qr-xh5x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qxmj-3c5h-546c",
+                "advisory_summary": "ChakraCore Memory Corruption Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-qxmj-3c5h-546c"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2m5h-6g38-jjf2",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-2m5h-6g38-jjf2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6x4f-5v4h-r29j",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6x4f-5v4h-r29j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3w4v-qfqc-3433",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3w4v-qfqc-3433"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7724-427r-8rvm",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7724-427r-8rvm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6v8r-83v3-rmrf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6v8r-83v3-rmrf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6c2v-xc8f-fvf7",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-6c2v-xc8f-fvf7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-phcc-frh9-q545",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-phcc-frh9-q545"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h9h7-4jfm-3fxr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h9h7-4jfm-3fxr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3xp-3wpq-rvhp",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3xp-3wpq-rvhp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9pvj-pgg9-pvqq",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-9pvj-pgg9-pvqq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7gjv-9m33-chg8",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7gjv-9m33-chg8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-399v-jg88-3gx6",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-399v-jg88-3gx6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q9x6-7hjh-q9fc",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-q9x6-7hjh-q9fc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j762-mr2c-fmp9",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-j762-mr2c-fmp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h9wf-mpvf-9jqg",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h9wf-mpvf-9jqg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m8x8-5ch7-c5w9",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-m8x8-5ch7-c5w9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3cwf-pwcg-57xr",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3cwf-pwcg-57xr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5j48-826p-2w9r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5j48-826p-2w9r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wc67-4cg3-35wf",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wc67-4cg3-35wf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jv2c-mhcq-6wp4",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-jv2c-mhcq-6wp4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2qgv-2cv4-g4cg",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-2qgv-2cv4-g4cg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5p67-cp9c-hqw4",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-5p67-cp9c-hqw4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wvhv-rr3v-vhpj",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-wvhv-rr3v-vhpj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j89m-gcjf-6ghp",
+                "advisory_summary": " Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-j89m-gcjf-6ghp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7j34-xq9v-9mqg",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-7j34-xq9v-9mqg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wc43-7wj6-4ggr",
+                "advisory_summary": "Remote code execution in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-wc43-7wj6-4ggr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xxfr-jrgh-x392",
+                "advisory_summary": "Remote code execution in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-xxfr-jrgh-x392"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9f8c-f7h4-xghf",
+                "advisory_summary": "Remote code execution in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-9f8c-f7h4-xghf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pfrg-w49c-8432",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-pfrg-w49c-8432"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpc2-7xmf-ppmf",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-vpc2-7xmf-ppmf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-88cw-3m6x-49f7",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-88cw-3m6x-49f7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jgrp-6qqq-3284",
+                "advisory_summary": "Chakra Scripting Engine and ChakraCore Vulnerable to Memory Corruption",
+                "advisory_url": "https://github.com/advisories/GHSA-jgrp-6qqq-3284"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvvh-5xrm-pxff",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vvvh-5xrm-pxff"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-233h-59m2-qqf2",
+                "advisory_summary": "ChakraCore Remote Code Execution Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-233h-59m2-qqf2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g3m9-qrfj-xw4g",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g3m9-qrfj-xw4g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jr84-p554-62pm",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jr84-p554-62pm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-63fw-7jgf-5hwv",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-63fw-7jgf-5hwv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-67xp-4726-4978",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-67xp-4726-4978"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fhc8-h6hr-h9mq",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fhc8-h6hr-h9mq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g67x-mgrv-m3gv",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g67x-mgrv-m3gv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pg99-mp4c-75g6",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-pg99-mp4c-75g6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9hjg-j983-mqcc",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-9hjg-j983-mqcc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w6qf-35f2-j6h7",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-w6qf-35f2-j6h7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h6m7-jphx-f9p5",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-h6m7-jphx-f9p5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-93c7-2942-3h47",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-93c7-2942-3h47"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w3qr-8v4r-592m",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-w3qr-8v4r-592m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wg47-6cqc-q52j",
+                "advisory_summary": "ChakraCore Security Bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-wg47-6cqc-q52j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wwfw-m54g-gv72",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-wwfw-m54g-gv72"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pjpr-2qqp-gprf",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-pjpr-2qqp-gprf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jhx3-2w5x-x39x",
+                "advisory_summary": "Microsoft.ChakraCore vulnerable to Exposure of Sensitive Information to an Unauthorized Actor ",
+                "advisory_url": "https://github.com/advisories/GHSA-jhx3-2w5x-x39x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xgcc-r2f3-rq6p",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-xgcc-r2f3-rq6p"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp-pre0.49/windows/CodePushDemoApp.Wpf/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.ChakraCore",
+        "version": "1.11.7",
+        "package_url": "pkg:nuget/Microsoft.ChakraCore@1.11.7",
+        "license": null,
+        "source_repository_url": "https://github.com/chakra-core/ChakraCore",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w89r-qch4-8jv5",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-w89r-qch4-8jv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9735-p6r2-2hgh",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-9735-p6r2-2hgh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h6wf-hvwc-fm77",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-h6wf-hvwc-fm77"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fm9p-5m9f-rq85",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-fm9p-5m9f-rq85"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59cj-99cw-rq64",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-59cj-99cw-rq64"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rx34-jff5-ph35",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-rx34-jff5-ph35"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7423-5qfm-g648",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-7423-5qfm-g648"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h23m-w6x5-jwr4",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-h23m-w6x5-jwr4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hrmm-f4j8-8vxc",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-hrmm-f4j8-8vxc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-prxj-c66c-4gcf",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-prxj-c66c-4gcf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-37pf-w9ff-gqvm",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-37pf-w9ff-gqvm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5rq8-3wvf-wrfg",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-5rq8-3wvf-wrfg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8gvg-8vhf-h26g",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-8gvg-8vhf-h26g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9824-rp6m-xx9w",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-9824-rp6m-xx9w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w32p-76xr-88pc",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-w32p-76xr-88pc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-53r4-h27g-rg3x",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-53r4-h27g-rg3x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rh4p-g7x6-8pqg",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-rh4p-g7x6-8pqg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2x75-mf24-588m",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2x75-mf24-588m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmf5-924f-25f2",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-vmf5-924f-25f2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mg98-x2cm-4cpf",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-mg98-x2cm-4cpf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5rcr-q3rx-j7vr",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-5rcr-q3rx-j7vr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v648-p92f-9996",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-v648-p92f-9996"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6973-94v8-5mgw",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-6973-94v8-5mgw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-758c-g2ff-9444",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-758c-g2ff-9444"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rfj-2mwp-787v",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2rfj-2mwp-787v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qw8-ccq9-ffj9",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-9qw8-ccq9-ffj9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cwp9-956f-vcwh",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-cwp9-956f-vcwh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ppxc-pmx9-qjv9",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-ppxc-pmx9-qjv9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hfm2-fffh-v47v",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-hfm2-fffh-v47v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v89p-5hr2-4rh4",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-v89p-5hr2-4rh4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pwpr-vp2v-99xw",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-pwpr-vp2v-99xw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pcgf-qjx2-qv4q",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-pcgf-qjx2-qv4q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q99r-j969-6jwr",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-q99r-j969-6jwr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2452-3rwv-x89c",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2452-3rwv-x89c"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-grvw-q343-58wh",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-grvw-q343-58wh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vw2g-5827-m9fp",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-vw2g-5827-m9fp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6j89-jhpr-849f",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-6j89-jhpr-849f"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p23j-g745-8449",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-p23j-g745-8449"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2wwc-w2gw-4329",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-2wwc-w2gw-4329"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-mw7r-3g6w-85qg",
+                "advisory_summary": "Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-mw7r-3g6w-85qg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qwwg-gc55-qqrv",
+                "advisory_summary": "Out-of-bounds Write in Chakra",
+                "advisory_url": "https://github.com/advisories/GHSA-qwwg-gc55-qqrv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c8qc-62qv-5p2x",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-c8qc-62qv-5p2x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h2xm-2p6w-mj2v",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-h2xm-2p6w-mj2v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6cc6-66f5-mxjj",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-6cc6-66f5-mxjj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-86gw-g9jv-8vfg",
+                "advisory_summary": " Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-86gw-g9jv-8vfg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g644-6fg4-hrh9",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-g644-6fg4-hrh9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jv2c-mhcq-6wp4",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-jv2c-mhcq-6wp4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2qgv-2cv4-g4cg",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-2qgv-2cv4-g4cg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5p67-cp9c-hqw4",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-5p67-cp9c-hqw4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wvhv-rr3v-vhpj",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-wvhv-rr3v-vhpj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j89m-gcjf-6ghp",
+                "advisory_summary": " Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-j89m-gcjf-6ghp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7j34-xq9v-9mqg",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-7j34-xq9v-9mqg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wc43-7wj6-4ggr",
+                "advisory_summary": "Remote code execution in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-wc43-7wj6-4ggr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xxfr-jrgh-x392",
+                "advisory_summary": "Remote code execution in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-xxfr-jrgh-x392"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9f8c-f7h4-xghf",
+                "advisory_summary": "Remote code execution in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-9f8c-f7h4-xghf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pfrg-w49c-8432",
+                "advisory_summary": "Out-of-bounds write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-pfrg-w49c-8432"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpc2-7xmf-ppmf",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-vpc2-7xmf-ppmf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-88cw-3m6x-49f7",
+                "advisory_summary": "Out-of-bounds Write in ChakraCore",
+                "advisory_url": "https://github.com/advisories/GHSA-88cw-3m6x-49f7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jgrp-6qqq-3284",
+                "advisory_summary": "Chakra Scripting Engine and ChakraCore Vulnerable to Memory Corruption",
+                "advisory_url": "https://github.com/advisories/GHSA-jgrp-6qqq-3284"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvvh-5xrm-pxff",
+                "advisory_summary": "ChakraCore information disclosure vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vvvh-5xrm-pxff"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w6qf-35f2-j6h7",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-w6qf-35f2-j6h7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9hjg-j983-mqcc",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-9hjg-j983-mqcc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pg99-mp4c-75g6",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-pg99-mp4c-75g6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g67x-mgrv-m3gv",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g67x-mgrv-m3gv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fhc8-h6hr-h9mq",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fhc8-h6hr-h9mq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-67xp-4726-4978",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-67xp-4726-4978"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-63fw-7jgf-5hwv",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-63fw-7jgf-5hwv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jr84-p554-62pm",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jr84-p554-62pm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g3m9-qrfj-xw4g",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g3m9-qrfj-xw4g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-233h-59m2-qqf2",
+                "advisory_summary": "ChakraCore Remote Code Execution Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-233h-59m2-qqf2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8xv4-c7rq-j577",
+                "advisory_summary": "ChakraCore Remote Code Execution Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8xv4-c7rq-j577"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hg36-rmmm-hc5r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hg36-rmmm-hc5r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rpfg-xf88-cq5r",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rpfg-xf88-cq5r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2mmc-5phj-4wjj",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-2mmc-5phj-4wjj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5rq3-9wc9-m9c3",
+                "advisory_summary": "ChakraCore Memory Corruption Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-5rq3-9wc9-m9c3"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fv87-p7qr-xh5x",
+                "advisory_summary": "ChakraCore Memory Corruption Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fv87-p7qr-xh5x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qxmj-3c5h-546c",
+                "advisory_summary": "ChakraCore Memory Corruption Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-qxmj-3c5h-546c"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g6mc-8679-ghx9",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g6mc-8679-ghx9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v8jw-x9wq-hw4v",
+                "advisory_summary": "ChakraCore RCE via Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-v8jw-x9wq-hw4v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxrx-5j36-pwg5",
+                "advisory_summary": "ChakraCore RCE via Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-fxrx-5j36-pwg5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g8q3-rcf9-qx4q",
+                "advisory_summary": "ChakraCore RCE Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g8q3-rcf9-qx4q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4v6q-gjm6-6vv4",
+                "advisory_summary": "ChakraCore RCE via Out-of-bounds write",
+                "advisory_url": "https://github.com/advisories/GHSA-4v6q-gjm6-6vv4"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "^0.61.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "^25.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "^25.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "21.2.0",
+        "package_url": "pkg:npm/babel-jest@21.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "21.2.1",
+        "package_url": "pkg:npm/jest@21.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "^0.49.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

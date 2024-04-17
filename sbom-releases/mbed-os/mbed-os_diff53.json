@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "intervaltree",
+        "version": ">= 2,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/chaimleib/intervaltree",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

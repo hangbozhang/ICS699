@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/reuse-compliance.yml",
+        "ecosystem": "actions",
+        "name": "fsfe/reuse-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/fsfe/reuse-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/fsfe/reuse-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/reuse-compliance.yml",
+        "ecosystem": "actions",
+        "name": "fsfe/reuse-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/fsfe/reuse-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/fsfe/reuse-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

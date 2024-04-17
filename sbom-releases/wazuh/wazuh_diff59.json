@@ -1,0 +1,415 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "certifi",
+        "version": "2019.9.11",
+        "package_url": "pkg:pypi/certifi@2019.9.11",
+        "license": "MPL-2.0",
+        "source_repository_url": "https://github.com/certifi/python-certifi",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xqr8-7jwr-rhp7",
+                "advisory_summary": "Removal of e-Tugra root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-xqr8-7jwr-rhp7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-43fp-rhv2-5gv8",
+                "advisory_summary": "Certifi removing TrustCor root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-43fp-rhv2-5gv8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "grpcio",
+        "version": "1.24.0",
+        "package_url": "pkg:pypi/grpcio@1.24.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/grpc/grpc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cfgp-2977-2fmm",
+                "advisory_summary": "Connection confusion in gRPC",
+                "advisory_url": "https://github.com/advisories/GHSA-cfgp-2977-2fmm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6628-q6j9-w8vg",
+                "advisory_summary": "gRPC Reachable Assertion issue",
+                "advisory_url": "https://github.com/advisories/GHSA-6628-q6j9-w8vg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9hxf-ppjv-w6rq",
+                "advisory_summary": "gRPC connection termination issue",
+                "advisory_url": "https://github.com/advisories/GHSA-9hxf-ppjv-w6rq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "protobuf",
+        "version": "3.9.2",
+        "package_url": "pkg:pypi/protobuf@3.9.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/protocolbuffers/protobuf",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-77rm-9x9h-xj3g",
+                "advisory_summary": "NULL Pointer Dereference in Protocol Buffers",
+                "advisory_url": "https://github.com/advisories/GHSA-77rm-9x9h-xj3g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8gq9-2x98-w8hf",
+                "advisory_summary": "protobuf-cpp and protobuf-python have potential Denial of Service issue",
+                "advisory_url": "https://github.com/advisories/GHSA-8gq9-2x98-w8hf"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "4.0",
+        "package_url": "pkg:pypi/rsa@4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-537h-rv9q-vvph",
+                "advisory_summary": "Python-RSA decryption of ciphertext leads to DoS",
+                "advisory_url": "https://github.com/advisories/GHSA-537h-rv9q-vvph"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrx6-fmxq-rjj2",
+                "advisory_summary": "Timing attacks in python-rsa",
+                "advisory_url": "https://github.com/advisories/GHSA-xrx6-fmxq-rjj2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "urllib3",
+        "version": "1.24.3",
+        "package_url": "pkg:pypi/urllib3@1.24.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/urllib3/urllib3",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wqvq-5m8c-6g24",
+                "advisory_summary": "CRLF injection in urllib3",
+                "advisory_url": "https://github.com/advisories/GHSA-wqvq-5m8c-6g24"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v845-jxx5-vc9f",
+                "advisory_summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "advisory_url": "https://github.com/advisories/GHSA-v845-jxx5-vc9f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g4mx-q9vg-27p4",
+                "advisory_summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "advisory_url": "https://github.com/advisories/GHSA-g4mx-q9vg-27p4"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "asn1crypto",
+        "version": "0.24.0",
+        "package_url": "pkg:pypi/asn1crypto@0.24.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/wbond/asn1crypto",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "azure-common",
+        "version": "1.1.23",
+        "package_url": "pkg:pypi/azure-common@1.1.23",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/azure-sdk-for-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "azure-storage-common",
+        "version": "1.4.2",
+        "package_url": "pkg:pypi/azure-storage-common@1.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/azure-storage-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "botocore",
+        "version": "1.12.240",
+        "package_url": "pkg:pypi/botocore@1.12.240",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/boto/botocore",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cachetools",
+        "version": "3.1.1",
+        "package_url": "pkg:pypi/cachetools@3.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tkem/cachetools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "1.12.3",
+        "package_url": "pkg:pypi/cffi@1.12.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "chardet",
+        "version": "3.0.4",
+        "package_url": "pkg:pypi/chardet@3.0.4",
+        "license": "LGPL-2.1-or-later",
+        "source_repository_url": "https://github.com/chardet/chardet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docker-pycreds",
+        "version": "0.4.0",
+        "package_url": "pkg:pypi/docker-pycreds@0.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/shin-/dockerpy-creds",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "0.15.2",
+        "package_url": "pkg:pypi/docutils@0.15.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-api-core",
+        "version": "1.14.2",
+        "package_url": "pkg:pypi/google-api-core@1.14.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/python-api-core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-auth",
+        "version": "1.6.3",
+        "package_url": "pkg:pypi/google-auth@1.6.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/google-auth-library-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-cloud-pubsub",
+        "version": "1.0.2",
+        "package_url": "pkg:pypi/google-cloud-pubsub@1.0.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/python-pubsub",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "googleapis-common-protos",
+        "version": "1.6.0",
+        "package_url": "pkg:pypi/googleapis-common-protos@1.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/python-api-common-protos",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "grpc-google-iam-v1",
+        "version": "0.12.3",
+        "package_url": "pkg:pypi/grpc-google-iam-v1@0.12.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/python-grpc-google-iam-v1",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "idna",
+        "version": "2.8",
+        "package_url": "pkg:pypi/idna@2.8",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/kjd/idna",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jmespath",
+        "version": "0.9.4",
+        "package_url": "pkg:pypi/jmespath@0.9.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jmespath/jmespath.py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyasn1",
+        "version": "0.4.7",
+        "package_url": "pkg:pypi/pyasn1@0.4.7",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/etingof/pyasn1",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyasn1-modules",
+        "version": "0.2.6",
+        "package_url": "pkg:pypi/pyasn1-modules@0.2.6",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/etingof/pyasn1-modules",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycparser",
+        "version": "2.19",
+        "package_url": "pkg:pypi/pycparser@2.19",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/eliben/pycparser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "python-dateutil",
+        "version": "2.8.0",
+        "package_url": "pkg:pypi/python-dateutil@2.8.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/dateutil/dateutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "s3transfer",
+        "version": "0.1.13",
+        "package_url": "pkg:pypi/s3transfer@0.1.13",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/boto/s3transfer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "six",
+        "version": "1.12.0",
+        "package_url": "pkg:pypi/six@1.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/benjaminp/six",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "websocket-client",
+        "version": "0.56.0",
+        "package_url": "pkg:pypi/websocket-client@0.56.0",
+        "license": "LGPL-2.1-or-later",
+        "source_repository_url": "https://github.com/websocket-client/websocket-client",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

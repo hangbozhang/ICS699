@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "rlespinasse/github-slug-action",
+        "version": "4",
+        "package_url": "pkg:githubactions/rlespinasse/github-slug-action@4",
+        "license": null,
+        "source_repository_url": "https://github.com/rlespinasse/github-slug-action",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6q4m-7476-932w",
+                "advisory_summary": "github-slug-action vulnerable to arbitrary code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-6q4m-7476-932w"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "styfle/cancel-workflow-action",
+        "version": "0.10.0",
+        "package_url": "pkg:githubactions/styfle/cancel-workflow-action@0.10.0",
+        "license": null,
+        "source_repository_url": "https://github.com/styfle/cancel-workflow-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

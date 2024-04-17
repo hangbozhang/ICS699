@@ -1,0 +1,2418 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "vm2",
+        "version": "3.9.3",
+        "package_url": "pkg:npm/vm2@3.9.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/patriksimek/vm2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-rjf2-j2r6-q8gr",
+                "advisory_summary": "Prototype Pollution in vm2",
+                "advisory_url": "https://github.com/advisories/GHSA-rjf2-j2r6-q8gr"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6pw2-5hjv-9pf7",
+                "advisory_summary": "Sandbox bypass in vm2",
+                "advisory_url": "https://github.com/advisories/GHSA-6pw2-5hjv-9pf7"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-mrgp-mrhc-5jrq",
+                "advisory_summary": "vm2 vulnerable to Sandbox Escape resulting in Remote Code Execution on host",
+                "advisory_url": "https://github.com/advisories/GHSA-mrgp-mrhc-5jrq"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-4w2j-2rg4-5mjw",
+                "advisory_summary": "vm2 vulnerable to Arbitrary Code Execution",
+                "advisory_url": "https://github.com/advisories/GHSA-4w2j-2rg4-5mjw"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7jxr-cg7f-gpgv",
+                "advisory_summary": "vm2 vulnerable to sandbox escape",
+                "advisory_url": "https://github.com/advisories/GHSA-7jxr-cg7f-gpgv"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-xj72-wvfv-8985",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-xj72-wvfv-8985"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-ch3r-j5x3-6q2m",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-ch3r-j5x3-6q2m"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-whpj-8f3w-67p5",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-whpj-8f3w-67p5"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-g644-9gfx-q4q4",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g644-9gfx-q4q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-cchq-frgv-rjh5",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-cchq-frgv-rjh5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p5gc-c584-jj6v",
+                "advisory_summary": "vm2 vulnerable to Inspect Manipulation",
+                "advisory_url": "https://github.com/advisories/GHSA-p5gc-c584-jj6v"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "url-parse",
+        "version": "1.5.3",
+        "package_url": "pkg:npm/url-parse@1.5.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/unshiftio/url-parse",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-hgjh-723h-mx2j",
+                "advisory_summary": "Authorization Bypass Through User-Controlled Key in url-parse",
+                "advisory_url": "https://github.com/advisories/GHSA-hgjh-723h-mx2j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rqff-837h-mm52",
+                "advisory_summary": "Authorization bypass in url-parse",
+                "advisory_url": "https://github.com/advisories/GHSA-rqff-837h-mm52"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8v38-pw62-9cw2",
+                "advisory_summary": "url-parse Incorrectly parses URLs that include an '@'",
+                "advisory_url": "https://github.com/advisories/GHSA-8v38-pw62-9cw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jf5r-8hm2-f872",
+                "advisory_summary": "url-parse incorrectly parses hostname / protocol due to unstripped leading control characters.",
+                "advisory_url": "https://github.com/advisories/GHSA-jf5r-8hm2-f872"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "flat",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/flat@4.1.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/hughsk/flat",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2j2x-2gpw-g8fm",
+                "advisory_summary": "flat vulnerable to Prototype Pollution",
+                "advisory_url": "https://github.com/advisories/GHSA-2j2x-2gpw-g8fm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "plist",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/plist@3.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/plist.js",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-4cpg-3vgw-4877",
+                "advisory_summary": "Prototype pollution in Plist before 3.0.5 can cause denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-4cpg-3vgw-4877"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "xmldom",
+        "version": "0.5.0",
+        "package_url": "pkg:npm/xmldom@0.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/xmldom/xmldom",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-crh6-fp67-6883",
+                "advisory_summary": "xmldom allows multiple root nodes in a DOM",
+                "advisory_url": "https://github.com/advisories/GHSA-crh6-fp67-6883"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5fg8-2547-mr8q",
+                "advisory_summary": "Misinterpretation of malicious XML input",
+                "advisory_url": "https://github.com/advisories/GHSA-5fg8-2547-mr8q"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "url-parse",
+        "version": "1.5.1",
+        "package_url": "pkg:npm/url-parse@1.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/unshiftio/url-parse",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-hgjh-723h-mx2j",
+                "advisory_summary": "Authorization Bypass Through User-Controlled Key in url-parse",
+                "advisory_url": "https://github.com/advisories/GHSA-hgjh-723h-mx2j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hh27-ffr2-f2jc",
+                "advisory_summary": "Open redirect in url-parse",
+                "advisory_url": "https://github.com/advisories/GHSA-hh27-ffr2-f2jc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rqff-837h-mm52",
+                "advisory_summary": "Authorization bypass in url-parse",
+                "advisory_url": "https://github.com/advisories/GHSA-rqff-837h-mm52"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8v38-pw62-9cw2",
+                "advisory_summary": "url-parse Incorrectly parses URLs that include an '@'",
+                "advisory_url": "https://github.com/advisories/GHSA-8v38-pw62-9cw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jf5r-8hm2-f872",
+                "advisory_summary": "url-parse incorrectly parses hostname / protocol due to unstripped leading control characters.",
+                "advisory_url": "https://github.com/advisories/GHSA-jf5r-8hm2-f872"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "plist",
+        "version": "3.0.2",
+        "package_url": "pkg:npm/plist@3.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/plist.js",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-4cpg-3vgw-4877",
+                "advisory_summary": "Prototype pollution in Plist before 3.0.5 can cause denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-4cpg-3vgw-4877"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-regex",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/ansi-regex@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-regex",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-93q8-gq69-wqmw",
+                "advisory_summary": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "advisory_url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "degenerator",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/degenerator@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-degenerator",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9j49-mfvp-vmhm",
+                "advisory_summary": "Code Injection in pac-resolver",
+                "advisory_url": "https://github.com/advisories/GHSA-9j49-mfvp-vmhm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob-parent",
+        "version": "5.1.1",
+        "package_url": "pkg:npm/glob-parent@5.1.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/gulpjs/glob-parent",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ww39-953v-wcq6",
+                "advisory_summary": "glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex",
+                "advisory_url": "https://github.com/advisories/GHSA-ww39-953v-wcq6"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.19",
+        "package_url": "pkg:npm/lodash@4.17.19",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pac-resolver",
+        "version": "4.2.0",
+        "package_url": "pkg:npm/pac-resolver@4.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-pac-resolver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9j49-mfvp-vmhm",
+                "advisory_summary": "Code Injection in pac-resolver",
+                "advisory_url": "https://github.com/advisories/GHSA-9j49-mfvp-vmhm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "shelljs",
+        "version": "0.8.3",
+        "package_url": "pkg:npm/shelljs@0.8.3",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/shelljs/shelljs",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4rq4-32rv-6wp6",
+                "advisory_summary": "Improper Privilege Management in shelljs",
+                "advisory_url": "https://github.com/advisories/GHSA-4rq4-32rv-6wp6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-64g7-mvw6-v9qj",
+                "advisory_summary": "Improper Privilege Management in shelljs",
+                "advisory_url": "https://github.com/advisories/GHSA-64g7-mvw6-v9qj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pac-resolver",
+        "version": "4.2.0",
+        "package_url": "pkg:npm/pac-resolver@4.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-pac-resolver",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9j49-mfvp-vmhm",
+                "advisory_summary": "Code Injection in pac-resolver",
+                "advisory_url": "https://github.com/advisories/GHSA-9j49-mfvp-vmhm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "shelljs",
+        "version": "0.8.4",
+        "package_url": "pkg:npm/shelljs@0.8.4",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/shelljs/shelljs",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4rq4-32rv-6wp6",
+                "advisory_summary": "Improper Privilege Management in shelljs",
+                "advisory_url": "https://github.com/advisories/GHSA-4rq4-32rv-6wp6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-64g7-mvw6-v9qj",
+                "advisory_summary": "Improper Privilege Management in shelljs",
+                "advisory_url": "https://github.com/advisories/GHSA-64g7-mvw6-v9qj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "degenerator",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/degenerator@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-degenerator",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9j49-mfvp-vmhm",
+                "advisory_summary": "Code Injection in pac-resolver",
+                "advisory_url": "https://github.com/advisories/GHSA-9j49-mfvp-vmhm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "7.3.2",
+        "package_url": "pkg:npm/semver@7.3.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-parse",
+        "version": "1.0.6",
+        "package_url": "pkg:npm/path-parse@1.0.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jbgutierrez/path-parse",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hj48-42vr-x3v9",
+                "advisory_summary": "Regular Expression Denial of Service in path-parse",
+                "advisory_url": "https://github.com/advisories/GHSA-hj48-42vr-x3v9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "nanoid",
+        "version": "3.1.20",
+        "package_url": "pkg:npm/nanoid@3.1.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ai/nanoid",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qrpm-p2h7-hrv2",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in nanoid",
+                "advisory_url": "https://github.com/advisories/GHSA-qrpm-p2h7-hrv2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "7.3.5",
+        "package_url": "pkg:npm/semver@7.3.5",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "nanoid",
+        "version": "3.1.23",
+        "package_url": "pkg:npm/nanoid@3.1.23",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ai/nanoid",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qrpm-p2h7-hrv2",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in nanoid",
+                "advisory_url": "https://github.com/advisories/GHSA-qrpm-p2h7-hrv2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "4.1.1",
+        "package_url": "pkg:npm/debug@4.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxpj-cx7g-858c",
+                "advisory_summary": "Regular Expression Denial of Service in debug",
+                "advisory_url": "https://github.com/advisories/GHSA-gxpj-cx7g-858c"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "9.0.0",
+        "package_url": "pkg:npm/%40types/mocha@9.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-styles",
+        "version": "4.3.0",
+        "package_url": "pkg:npm/ansi-styles@4.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-styles",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "anymatch",
+        "version": "3.1.2",
+        "package_url": "pkg:npm/anymatch@3.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/micromatch/anymatch",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "binary-extensions",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/binary-extensions@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/binary-extensions",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/bl@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "buffer",
+        "version": "5.7.1",
+        "package_url": "pkg:npm/buffer@5.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/feross/buffer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "chalk",
+        "version": "4.1.2",
+        "package_url": "pkg:npm/chalk@4.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/chalk",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "chokidar",
+        "version": "3.5.2",
+        "package_url": "pkg:npm/chokidar@3.5.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/paulmillr/chokidar",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "cli-spinners",
+        "version": "2.6.0",
+        "package_url": "pkg:npm/cli-spinners@2.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/cli-spinners",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "clone",
+        "version": "1.0.4",
+        "package_url": "pkg:npm/clone@1.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pvorb/clone",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-push",
+        "version": "4.0.5",
+        "package_url": "pkg:npm/code-push@4.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/code-push",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-push-plugin-testing-framework",
+        "version": "file:code-push-plugin-testing-framework",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "3.2.7",
+        "package_url": "pkg:npm/debug@3.2.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "4.3.1",
+        "package_url": "pkg:npm/debug@4.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "4.3.2",
+        "package_url": "pkg:npm/debug@4.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "defaults",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/defaults@1.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/node-defaults",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "degenerator",
+        "version": "3.0.1",
+        "package_url": "pkg:npm/degenerator@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-degenerator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "form-data",
+        "version": "3.0.1",
+        "package_url": "pkg:npm/form-data@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/form-data/form-data",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "7.1.7",
+        "package_url": "pkg:npm/glob@7.1.7",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob-parent",
+        "version": "5.1.2",
+        "package_url": "pkg:npm/glob-parent@5.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/gulpjs/glob-parent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ieee754",
+        "version": "1.2.1",
+        "package_url": "pkg:npm/ieee754@1.2.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/feross/ieee754",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "inquirer",
+        "version": "8.1.5",
+        "package_url": "pkg:npm/inquirer@8.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SBoudrias/Inquirer.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "interpret",
+        "version": "1.4.0",
+        "package_url": "pkg:npm/interpret@1.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/gulpjs/interpret",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-interactive",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/is-interactive@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-interactive",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-unicode-supported",
+        "version": "0.1.0",
+        "package_url": "pkg:npm/is-unicode-supported@0.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-unicode-supported",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/js-yaml@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.21",
+        "package_url": "pkg:npm/lodash@4.17.21",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "log-symbols",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/log-symbols@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/log-symbols",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lru-cache",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/lru-cache@6.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/node-lru-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "9.1.1",
+        "package_url": "pkg:npm/mocha@9.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ora",
+        "version": "5.4.1",
+        "package_url": "pkg:npm/ora@5.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/ora",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pac-proxy-agent",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/pac-proxy-agent@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-pac-proxy-agent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pac-proxy-agent",
+        "version": "5.0.0",
+        "package_url": "pkg:npm/pac-proxy-agent@5.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-pac-proxy-agent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pac-resolver",
+        "version": "5.0.0",
+        "package_url": "pkg:npm/pac-resolver@5.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-pac-resolver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-parse",
+        "version": "1.0.7",
+        "package_url": "pkg:npm/path-parse@1.0.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jbgutierrez/path-parse",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "proxy-agent",
+        "version": "4.0.1",
+        "package_url": "pkg:npm/proxy-agent@4.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-proxy-agent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "proxy-agent",
+        "version": "5.0.0",
+        "package_url": "pkg:npm/proxy-agent@5.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-proxy-agent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "readdirp",
+        "version": "3.6.0",
+        "package_url": "pkg:npm/readdirp@3.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/paulmillr/readdirp",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "rxjs",
+        "version": "7.3.0",
+        "package_url": "pkg:npm/rxjs@7.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/ReactiveX/rxjs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "serialize-javascript",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/serialize-javascript@6.0.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/yahoo/serialize-javascript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "shx",
+        "version": "0.3.3",
+        "package_url": "pkg:npm/shx@0.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/shelljs/shx",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "superagent",
+        "version": "5.3.1",
+        "package_url": "pkg:npm/superagent@5.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ladjs/superagent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "superagent",
+        "version": "6.1.0",
+        "package_url": "pkg:npm/superagent@6.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ladjs/superagent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "superagent-proxy",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/superagent-proxy@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/superagent-proxy",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "superagent-proxy",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/superagent-proxy@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/superagent-proxy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "supports-color",
+        "version": "7.2.0",
+        "package_url": "pkg:npm/supports-color@7.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/supports-color",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "tslib",
+        "version": "1.13.0",
+        "package_url": "pkg:npm/tslib@1.13.0",
+        "license": "0BSD",
+        "source_repository_url": "https://github.com/microsoft/tslib",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "tslib",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/tslib@2.1.0",
+        "license": "0BSD",
+        "source_repository_url": "https://github.com/microsoft/tslib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.4.3",
+        "package_url": "pkg:npm/typescript@4.4.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "wcwidth",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/wcwidth@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/timoxley/wcwidth",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "workerpool",
+        "version": "6.1.5",
+        "package_url": "pkg:npm/workerpool@6.1.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/josdejong/workerpool",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yallist",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/yallist@4.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/yallist",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/color-name",
+        "version": "1.1.1",
+        "package_url": "pkg:npm/%40types/color-name@1.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "8.0.3",
+        "package_url": "pkg:npm/%40types/mocha@8.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-styles",
+        "version": "4.2.1",
+        "package_url": "pkg:npm/ansi-styles@4.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-styles",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "anymatch",
+        "version": "3.1.1",
+        "package_url": "pkg:npm/anymatch@3.1.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/micromatch/anymatch",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "array.prototype.map",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/array.prototype.map@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/es-shims/Array.prototype.map",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "base64-js",
+        "version": "1.5.1",
+        "package_url": "pkg:npm/base64-js@1.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/beatgammit/base64-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "binary-extensions",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/binary-extensions@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/binary-extensions",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/bl@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "buffer",
+        "version": "5.7.1",
+        "package_url": "pkg:npm/buffer@5.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/feross/buffer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "chalk",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/chalk@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/chalk",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "chokidar",
+        "version": "3.5.1",
+        "package_url": "pkg:npm/chokidar@3.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/paulmillr/chokidar",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "chokidar",
+        "version": "3.4.2",
+        "package_url": "pkg:npm/chokidar@3.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/paulmillr/chokidar",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "cliui",
+        "version": "5.0.0",
+        "package_url": "pkg:npm/cliui@5.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/cliui",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-push",
+        "version": "4.0.4",
+        "package_url": "pkg:npm/code-push@4.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/code-push",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-push-plugin-testing-framework",
+        "version": "file:code-push-plugin-testing-framework",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "3.2.7",
+        "package_url": "pkg:npm/debug@3.2.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "4.3.1",
+        "package_url": "pkg:npm/debug@4.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "define-properties",
+        "version": "1.1.3",
+        "package_url": "pkg:npm/define-properties@1.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/define-properties",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "emoji-regex",
+        "version": "7.0.3",
+        "package_url": "pkg:npm/emoji-regex@7.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mathiasbynens/emoji-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "es-abstract",
+        "version": "1.17.5",
+        "package_url": "pkg:npm/es-abstract@1.17.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/es-abstract",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "es-array-method-boxes-properly",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/es-array-method-boxes-properly@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/es-array-method-boxes-properly",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "es-get-iterator",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/es-get-iterator@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/es-get-iterator",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "es-to-primitive",
+        "version": "1.2.1",
+        "package_url": "pkg:npm/es-to-primitive@1.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/es-to-primitive",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "es6-object-assign",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/es6-object-assign@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rubennorte/es6-object-assign",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "find-up",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/find-up@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/find-up",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "fsevents",
+        "version": "2.1.2",
+        "package_url": "pkg:npm/fsevents@2.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/fsevents/fsevents",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "7.1.6",
+        "package_url": "pkg:npm/glob@7.1.6",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ieee754",
+        "version": "1.2.1",
+        "package_url": "pkg:npm/ieee754@1.2.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/feross/ieee754",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "inquirer",
+        "version": "7.3.3",
+        "package_url": "pkg:npm/inquirer@7.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SBoudrias/Inquirer.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "interpret",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/interpret@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/gulpjs/interpret",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-arguments",
+        "version": "1.0.4",
+        "package_url": "pkg:npm/is-arguments@1.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-arguments",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-buffer",
+        "version": "2.0.4",
+        "package_url": "pkg:npm/is-buffer@2.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/feross/is-buffer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-callable",
+        "version": "1.1.5",
+        "package_url": "pkg:npm/is-callable@1.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-callable",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-date-object",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/is-date-object@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-date-object",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-map",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/is-map@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-map",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-plain-obj",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/is-plain-obj@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-plain-obj",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-regex",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/is-regex@1.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-set",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/is-set@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-set",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-string",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/is-string@1.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-string",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-symbol",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/is-symbol@1.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-symbol",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "isarray",
+        "version": "2.0.5",
+        "package_url": "pkg:npm/isarray@2.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/juliangruber/isarray",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "iterate-iterator",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/iterate-iterator@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/iterate-iterator",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "iterate-value",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/iterate-value@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/iterate-value",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "3.14.0",
+        "package_url": "pkg:npm/js-yaml@3.14.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/js-yaml@4.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "locate-path",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/locate-path@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/locate-path",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "log-symbols",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/log-symbols@4.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/log-symbols",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "8.1.3",
+        "package_url": "pkg:npm/mocha@8.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "8.3.2",
+        "package_url": "pkg:npm/mocha@8.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ms",
+        "version": "2.1.2",
+        "package_url": "pkg:npm/ms@2.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vercel/ms",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "object-inspect",
+        "version": "1.7.0",
+        "package_url": "pkg:npm/object-inspect@1.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/object-inspect",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "object-keys",
+        "version": "1.1.1",
+        "package_url": "pkg:npm/object-keys@1.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/object-keys",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "object.assign",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/object.assign@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/object.assign",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-limit",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/p-limit@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-limit",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-locate",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/p-locate@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-locate",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pac-proxy-agent",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/pac-proxy-agent@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-pac-proxy-agent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-exists",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/path-exists@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/path-exists",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "promise.allsettled",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/promise.allsettled@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/es-shims/Promise.allSettled",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "proxy-agent",
+        "version": "4.0.1",
+        "package_url": "pkg:npm/proxy-agent@4.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-proxy-agent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "readdirp",
+        "version": "3.4.0",
+        "package_url": "pkg:npm/readdirp@3.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/paulmillr/readdirp",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "readdirp",
+        "version": "3.5.0",
+        "package_url": "pkg:npm/readdirp@3.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/paulmillr/readdirp",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "rxjs",
+        "version": "6.6.2",
+        "package_url": "pkg:npm/rxjs@6.6.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/ReactiveX/rxjs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "serialize-javascript",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/serialize-javascript@4.0.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/yahoo/serialize-javascript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "serialize-javascript",
+        "version": "5.0.1",
+        "package_url": "pkg:npm/serialize-javascript@5.0.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/yahoo/serialize-javascript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "shx",
+        "version": "0.3.2",
+        "package_url": "pkg:npm/shx@0.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/shelljs/shx",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "string-width",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/string-width@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/string-width",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "string.prototype.trimend",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/string.prototype.trimend@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/es-shims/String.prototype.trimEnd",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "string.prototype.trimleft",
+        "version": "2.1.2",
+        "package_url": "pkg:npm/string.prototype.trimleft@2.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/es-shims/String.prototype.trimLeft",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "string.prototype.trimright",
+        "version": "2.1.2",
+        "package_url": "pkg:npm/string.prototype.trimright@2.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/es-shims/String.prototype.trimRight",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "string.prototype.trimstart",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/string.prototype.trimstart@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/es-shims/String.prototype.trimStart",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-ansi",
+        "version": "5.2.0",
+        "package_url": "pkg:npm/strip-ansi@5.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/strip-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-json-comments",
+        "version": "3.0.1",
+        "package_url": "pkg:npm/strip-json-comments@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/strip-json-comments",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "superagent",
+        "version": "5.3.1",
+        "package_url": "pkg:npm/superagent@5.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ladjs/superagent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "superagent-proxy",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/superagent-proxy@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/superagent-proxy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "supports-color",
+        "version": "7.1.0",
+        "package_url": "pkg:npm/supports-color@7.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/supports-color",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "tslib",
+        "version": "1.13.0",
+        "package_url": "pkg:npm/tslib@1.13.0",
+        "license": "0BSD",
+        "source_repository_url": "https://github.com/microsoft/tslib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.2.4",
+        "package_url": "pkg:npm/typescript@4.2.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "workerpool",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/workerpool@6.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/josdejong/workerpool",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "workerpool",
+        "version": "6.1.0",
+        "package_url": "pkg:npm/workerpool@6.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/josdejong/workerpool",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "wrap-ansi",
+        "version": "5.1.0",
+        "package_url": "pkg:npm/wrap-ansi@5.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/wrap-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "14.2.3",
+        "package_url": "pkg:npm/yargs@14.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "13.3.2",
+        "package_url": "pkg:npm/yargs@13.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-parser",
+        "version": "15.0.1",
+        "package_url": "pkg:npm/yargs-parser@15.0.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/yargs-parser",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-parser",
+        "version": "13.1.2",
+        "package_url": "pkg:npm/yargs-parser@13.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/yargs-parser",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-unparser",
+        "version": "1.6.1",
+        "package_url": "pkg:npm/yargs-unparser@1.6.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs-unparser",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "yocto-queue",
+        "version": "0.1.0",
+        "package_url": "pkg:npm/yocto-queue@0.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/yocto-queue",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^9.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "code-push",
+        "version": "^4.0.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/code-push",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "^7.1.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "inquirer",
+        "version": "^8.1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/SBoudrias/Inquirer.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^9.1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "plist",
+        "version": "^3.0.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TooTallNate/plist.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "^7.3.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "shx",
+        "version": "^0.3.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/shelljs/shx",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^4.4.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^8.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "code-push",
+        "version": "^4.0.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/code-push",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "^7.1.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "inquirer",
+        "version": "^7.3.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/SBoudrias/Inquirer.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^8.1.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "plist",
+        "version": "^3.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TooTallNate/plist.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "^7.3.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "shx",
+        "version": "^0.3.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/shelljs/shx",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^4.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

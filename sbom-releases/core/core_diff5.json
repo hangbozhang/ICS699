@@ -1,0 +1,197 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/cs_loader/netcore/source/project.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.CodeAnalysis.CSharp",
+        "version": "4.4.0",
+        "package_url": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@4.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/roslyn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/cs_loader/netcore/source/project.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.CodeAnalysis.CSharp",
+        "version": "3.2.1",
+        "package_url": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@3.2.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/dotnet/roslyn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.2.6.2",
+        "package_url": "pkg:gem/rack@2.2.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.2.3.1",
+        "package_url": "pkg:gem/rack@2.2.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "globalid",
+        "version": "0.4.2",
+        "package_url": "pkg:gem/globalid@0.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/globalid",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-23c2-gwp5-pxw9",
+                "advisory_summary": "ReDoS based DoS vulnerability in GlobalID",
+                "advisory_url": "https://github.com/advisories/GHSA-23c2-gwp5-pxw9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "1.1.10",
+        "package_url": "pkg:gem/concurrent-ruby@1.1.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "globalid",
+        "version": "1.0.1",
+        "package_url": "pkg:gem/globalid@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/globalid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "i18n",
+        "version": "1.12.0",
+        "package_url": "pkg:gem/i18n@1.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-i18n/i18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "minitest",
+        "version": "5.17.0",
+        "package_url": "pkg:gem/minitest@5.17.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/minitest/minitest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "1.1.5",
+        "package_url": "pkg:gem/concurrent-ruby@1.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "i18n",
+        "version": "1.6.0",
+        "package_url": "pkg:gem/i18n@1.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-i18n/i18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "minitest",
+        "version": "5.11.3",
+        "package_url": "pkg:gem/minitest@5.11.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/minitest/minitest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

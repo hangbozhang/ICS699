@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": ">= 3.13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "0.16.1",
+        "package_url": "pkg:pypi/pyocd@0.16.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/pyOCD",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": ">= 3.12",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "0.15.0",
+        "package_url": "pkg:pypi/pyocd@0.15.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/pyOCD",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

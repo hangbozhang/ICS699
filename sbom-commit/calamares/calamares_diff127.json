@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/push.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/matrix-notify",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/matrix-notify@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

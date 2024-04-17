@@ -1,0 +1,148 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/clang-format.yml",
+        "ecosystem": "actions",
+        "name": "jidicula/clang-format-action",
+        "version": "4.9.0",
+        "package_url": "pkg:githubactions/jidicula/clang-format-action@4.9.0",
+        "license": null,
+        "source_repository_url": "https://github.com/jidicula/clang-format-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/clang-format.yml",
+        "ecosystem": "actions",
+        "name": "jidicula/clang-format-action",
+        "version": "4.4.1",
+        "package_url": "pkg:githubactions/jidicula/clang-format-action@4.4.1",
+        "license": null,
+        "source_repository_url": "https://github.com/jidicula/clang-format-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/linux-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/sanitizer.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/thread-sanitizer.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-test.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.13.9",
+        "package_url": "pkg:gem/nokogiri@1.13.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qv4q-mr5r-qprj",
+                "advisory_summary": "Unchecked return value from xmlTextReaderExpand",
+                "advisory_url": "https://github.com/advisories/GHSA-qv4q-mr5r-qprj"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.13.6",
+        "package_url": "pkg:gem/nokogiri@1.13.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

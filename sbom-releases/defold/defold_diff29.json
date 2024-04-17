@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/engine-nightly.yml",
+        "ecosystem": "actions",
+        "name": "maxim-lobanov/setup-xcode",
+        "version": "1",
+        "package_url": "pkg:githubactions/maxim-lobanov/setup-xcode@1",
+        "license": null,
+        "source_repository_url": "https://github.com/maxim-lobanov/setup-xcode",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

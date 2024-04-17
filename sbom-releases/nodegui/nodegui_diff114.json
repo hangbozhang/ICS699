@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/%40nodegui/qode@1.0.3",
+        "license": "MIT",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/%40nodegui/qode@1.0.2",
+        "license": "MIT",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "bindings",
+        "version": "1.5.0",
+        "package_url": "pkg:npm/bindings@1.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-bindings",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "file-uri-to-path",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/file-uri-to-path@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/file-uri-to-path",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "^1.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "^1.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "bindings",
+        "version": "^1.5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TooTallNate/node-bindings",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

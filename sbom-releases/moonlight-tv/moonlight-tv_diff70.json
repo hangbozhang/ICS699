@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/webos-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/create-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/create-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/create-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

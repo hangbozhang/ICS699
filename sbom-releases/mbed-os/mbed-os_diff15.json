@@ -1,0 +1,89 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.16.0",
+        "package_url": "pkg:pypi/future@0.16.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": ">= 0.18.0,< 1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/cmake/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.16.0",
+        "package_url": "pkg:pypi/future@0.16.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/cmake/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": ">= 2.10.1,< 2.11",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g3rq-g295-4j3m",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+                "advisory_url": "https://github.com/advisories/GHSA-g3rq-g295-4j3m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/cmake/requirements.txt",
+        "ecosystem": "pip",
+        "name": "prettytable",
+        "version": "0.7.2",
+        "package_url": "pkg:pypi/prettytable@0.7.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jazzband/prettytable",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

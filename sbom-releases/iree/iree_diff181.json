@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "nanobind",
+        "version": ">= 1.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/wjakob/nanobind",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

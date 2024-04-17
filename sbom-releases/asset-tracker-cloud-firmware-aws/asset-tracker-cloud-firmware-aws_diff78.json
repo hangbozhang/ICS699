@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "9.2.25",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@9.2.25",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.5.0",
+        "package_url": "pkg:npm/prettier@2.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "9.2.24",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@9.2.24",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.4.1",
+        "package_url": "pkg:npm/prettier@2.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "9.2.25",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@9.2.25",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "9.2.24",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@9.2.24",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

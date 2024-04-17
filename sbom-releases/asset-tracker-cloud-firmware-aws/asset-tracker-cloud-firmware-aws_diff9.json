@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.174",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.174",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.33.0",
+        "package_url": "pkg:npm/eslint@8.33.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.9.5",
+        "package_url": "pkg:npm/typescript@4.9.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.172",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.172",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.32.0",
+        "package_url": "pkg:npm/eslint@8.32.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.9.4",
+        "package_url": "pkg:npm/typescript@4.9.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.174",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.174",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.172",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.172",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

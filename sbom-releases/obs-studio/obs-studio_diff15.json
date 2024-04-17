@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/steam.yml",
+        "ecosystem": "actions",
+        "name": "CyberAndrii/setup-steamcmd",
+        "version": "b786e0da44db3d817e66fa3910a9560cb28c9323",
+        "package_url": "pkg:githubactions/CyberAndrii/setup-steamcmd@b786e0da44db3d817e66fa3910a9560cb28c9323",
+        "license": null,
+        "source_repository_url": "https://github.com/CyberAndrii/setup-steamcmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/steam.yml",
+        "ecosystem": "actions",
+        "name": "CyberAndrii/steam-totp",
+        "version": "c7f636bc64e77f1b901e0420b7890813141508ee",
+        "package_url": "pkg:githubactions/CyberAndrii/steam-totp@c7f636bc64e77f1b901e0420b7890813141508ee",
+        "license": null,
+        "source_repository_url": "https://github.com/CyberAndrii/steam-totp",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/steam.yml",
+        "ecosystem": "actions",
+        "name": "CyberAndrii/setup-steamcmd",
+        "version": "e19cd1516315ce46dbfffa47193f92fe42d1419e",
+        "package_url": "pkg:githubactions/CyberAndrii/setup-steamcmd@e19cd1516315ce46dbfffa47193f92fe42d1419e",
+        "license": null,
+        "source_repository_url": "https://github.com/CyberAndrii/setup-steamcmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/steam.yml",
+        "ecosystem": "actions",
+        "name": "CyberAndrii/steam-totp",
+        "version": "0fc9e59dc5bbf4368d23d5a33956f104248da31a",
+        "package_url": "pkg:githubactions/CyberAndrii/steam-totp@0fc9e59dc5bbf4368d23d5a33956f104248da31a",
+        "license": null,
+        "source_repository_url": "https://github.com/CyberAndrii/steam-totp",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

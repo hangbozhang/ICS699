@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "beautifulsoup4",
+        "version": ">= 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/wention/BeautifulSoup4",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "fuzzywuzzy",
+        "version": ">= 0.11",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/seatgeek/fuzzywuzzy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "project-generator",
+        "version": "0.9.10",
+        "package_url": "pkg:pypi/project-generator@0.9.10",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/project-generator/project_generator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "project_generator_definitions",
+        "version": ">= 0.2.26,< 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/project-generator/project_generator_definitions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

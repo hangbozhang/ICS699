@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "7.0.1",
+        "package_url": "pkg:npm/husky@7.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typicode/husky",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "11.1.1",
+        "package_url": "pkg:npm/lint-staged@11.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/husky@6.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typicode/husky",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "11.0.0",
+        "package_url": "pkg:npm/lint-staged@11.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "7.0.1",
+        "package_url": "pkg:npm/husky@7.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typicode/husky",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "11.1.1",
+        "package_url": "pkg:npm/lint-staged@11.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/husky@6.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typicode/husky",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "11.0.0",
+        "package_url": "pkg:npm/lint-staged@11.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

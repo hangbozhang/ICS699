@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "tasks/requirements.txt",
+        "ecosystem": "pip",
+        "name": "spdx-lookup",
+        "version": "0.3.2",
+        "package_url": "pkg:pypi/spdx-lookup@0.3.2",
+        "license": null,
+        "source_repository_url": "https://github.com/bbqsrc/spdx-lookup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

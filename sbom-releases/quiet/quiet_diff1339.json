@@ -1,0 +1,306 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "integration-tests",
+        "version": "^0.6.1-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joshmatz/supertest-example",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "testcafe-browser-provider-electron",
+        "version": "^0.2.3-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DevExpress/testcafe-browser-provider-electron",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "integration-tests",
+        "version": "^0.6.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joshmatz/supertest-example",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "testcafe-browser-provider-electron",
+        "version": "^0.2.2-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DevExpress/testcafe-browser-provider-electron",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron",
+        "version": "^18.2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/electron",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qqvq-6xgj-jw8g",
+                "advisory_summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-qqvq-6xgj-jw8g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7v2-p9m8-qqg7",
+                "advisory_summary": "Electron context isolation bypass via nested unserializable return value",
+                "advisory_url": "https://github.com/advisories/GHSA-p7v2-p9m8-qqg7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x97-j373-85x5",
+                "advisory_summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+                "advisory_url": "https://github.com/advisories/GHSA-7x97-j373-85x5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7m48-wc93-9g85",
+                "advisory_summary": "ASAR Integrity bypass via filetype confusion in electron",
+                "advisory_url": "https://github.com/advisories/GHSA-7m48-wc93-9g85"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron",
+        "version": "17.3.1",
+        "package_url": "pkg:npm/electron@17.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/electron",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qqvq-6xgj-jw8g",
+                "advisory_summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-qqvq-6xgj-jw8g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p2jh-44qj-pf2v",
+                "advisory_summary": "Exfiltration of hashed SMB credentials on Windows via file:// redirect",
+                "advisory_url": "https://github.com/advisories/GHSA-p2jh-44qj-pf2v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7v2-p9m8-qqg7",
+                "advisory_summary": "Electron context isolation bypass via nested unserializable return value",
+                "advisory_url": "https://github.com/advisories/GHSA-p7v2-p9m8-qqg7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x97-j373-85x5",
+                "advisory_summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+                "advisory_url": "https://github.com/advisories/GHSA-7x97-j373-85x5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7m48-wc93-9g85",
+                "advisory_summary": "ASAR Integrity bypass via filetype confusion in electron",
+                "advisory_url": "https://github.com/advisories/GHSA-7m48-wc93-9g85"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@electron/remote",
+        "version": "^2.0.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/remote",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.6.1-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@electron/remote",
+        "version": "^2.0.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/remote",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.6.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.6.1-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.6.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/testcafe-browser-provider-electron/package.json",
+        "ecosystem": "npm",
+        "name": "electron",
+        "version": "^18.2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/electron",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qqvq-6xgj-jw8g",
+                "advisory_summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-qqvq-6xgj-jw8g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7v2-p9m8-qqg7",
+                "advisory_summary": "Electron context isolation bypass via nested unserializable return value",
+                "advisory_url": "https://github.com/advisories/GHSA-p7v2-p9m8-qqg7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x97-j373-85x5",
+                "advisory_summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+                "advisory_url": "https://github.com/advisories/GHSA-7x97-j373-85x5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7m48-wc93-9g85",
+                "advisory_summary": "ASAR Integrity bypass via filetype confusion in electron",
+                "advisory_url": "https://github.com/advisories/GHSA-7m48-wc93-9g85"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/testcafe-browser-provider-electron/package.json",
+        "ecosystem": "npm",
+        "name": "electron",
+        "version": "17.3.1",
+        "package_url": "pkg:npm/electron@17.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/electron",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qqvq-6xgj-jw8g",
+                "advisory_summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-qqvq-6xgj-jw8g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p2jh-44qj-pf2v",
+                "advisory_summary": "Exfiltration of hashed SMB credentials on Windows via file:// redirect",
+                "advisory_url": "https://github.com/advisories/GHSA-p2jh-44qj-pf2v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7v2-p9m8-qqg7",
+                "advisory_summary": "Electron context isolation bypass via nested unserializable return value",
+                "advisory_url": "https://github.com/advisories/GHSA-p7v2-p9m8-qqg7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x97-j373-85x5",
+                "advisory_summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+                "advisory_url": "https://github.com/advisories/GHSA-7x97-j373-85x5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7m48-wc93-9g85",
+                "advisory_summary": "ASAR Integrity bypass via filetype confusion in electron",
+                "advisory_url": "https://github.com/advisories/GHSA-7m48-wc93-9g85"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/testcafe-browser-provider-electron/package.json",
+        "ecosystem": "npm",
+        "name": "@electron/remote",
+        "version": "^2.0.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/remote",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/testcafe-browser-provider-electron/package.json",
+        "ecosystem": "npm",
+        "name": "@electron/remote",
+        "version": "^2.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/remote",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

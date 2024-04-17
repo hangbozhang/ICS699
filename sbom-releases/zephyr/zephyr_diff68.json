@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "0.19.0",
+        "package_url": "pkg:pypi/pyocd@0.19.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/pyOCD",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "0.16.1",
+        "package_url": "pkg:pypi/pyocd@0.16.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/pyOCD",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

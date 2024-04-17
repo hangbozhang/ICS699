@@ -1,0 +1,88 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/crypto",
+        "version": "0.0.0-20201002170205-7f63de1d35b0",
+        "package_url": "pkg:golang/golang.org/x/crypto@0.0.0-20201002170205-7f63de1d35b0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8c26-wmh5-6g9v",
+                "advisory_summary": "golang.org/x/crypto/ssh Denial of service via crafted Signer",
+                "advisory_url": "https://github.com/advisories/GHSA-8c26-wmh5-6g9v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gwc9-m7rh-j2ww",
+                "advisory_summary": "x/crypto/ssh vulnerable to panic via malformed packets",
+                "advisory_url": "https://github.com/advisories/GHSA-gwc9-m7rh-j2ww"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3vm4-22fp-5rfm",
+                "advisory_summary": "golang.org/x/crypto/ssh NULL Pointer Dereference vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3vm4-22fp-5rfm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-45x7-px36-x8w8",
+                "advisory_summary": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+                "advisory_url": "https://github.com/advisories/GHSA-45x7-px36-x8w8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/crypto",
+        "version": "0.0.0-20200622213623-75b288015ac9",
+        "package_url": "pkg:golang/golang.org/x/crypto@0.0.0-20200622213623-75b288015ac9",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8c26-wmh5-6g9v",
+                "advisory_summary": "golang.org/x/crypto/ssh Denial of service via crafted Signer",
+                "advisory_url": "https://github.com/advisories/GHSA-8c26-wmh5-6g9v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gwc9-m7rh-j2ww",
+                "advisory_summary": "x/crypto/ssh vulnerable to panic via malformed packets",
+                "advisory_url": "https://github.com/advisories/GHSA-gwc9-m7rh-j2ww"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3vm4-22fp-5rfm",
+                "advisory_summary": "golang.org/x/crypto/ssh NULL Pointer Dereference vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-3vm4-22fp-5rfm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-45x7-px36-x8w8",
+                "advisory_summary": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+                "advisory_url": "https://github.com/advisories/GHSA-45x7-px36-x8w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "k8s.io/client-go",
+        "version": "0.20.2",
+        "package_url": "pkg:golang/k8s.io/client-go@0.20.2",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes/client-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

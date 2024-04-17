@@ -1,0 +1,93 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "coloredlogs",
+        "version": "10.0",
+        "package_url": "pkg:pypi/coloredlogs@10.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/xolox/python-coloredlogs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jsondiff",
+        "version": ">= 1.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/xlwings/jsondiff",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyyaml",
+        "version": ">= 4.2b1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "schema",
+        "version": "0.6.8",
+        "package_url": "pkg:pypi/schema@0.6.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/keleshev/schema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyyaml",
+        "version": ">= 3.0,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8q59-q68h-6hv4",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6757-jp84-gxfx",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-6757-jp84-gxfx"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-rprw-h62v-c2w7",
+                "advisory_summary": "PyYAML insecurely deserializes YAML strings leading to arbitrary code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-rprw-h62v-c2w7"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "schema",
+        "version": "0.6.8",
+        "package_url": "pkg:pypi/schema@0.6.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/keleshev/schema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

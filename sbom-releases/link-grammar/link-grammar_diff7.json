@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "coffee-script",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jashkenas/coffeescript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "ffi",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/node-ffi/node-ffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "ref",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TooTallNate/ref",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "ref-struct",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TooTallNate/ref-struct",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "should",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/shouldjs/should.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node.js/package.json",
+        "ecosystem": "npm",
+        "name": "underscore",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jashkenas/underscore",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

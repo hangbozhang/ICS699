@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/core",
+        "version": "4.2.0-beta.6",
+        "package_url": "pkg:npm/%40babylonjs/core@4.2.0-beta.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/core",
+        "version": "4.2.0-beta.2",
+        "package_url": "pkg:npm/%40babylonjs/core@4.2.0-beta.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/core",
+        "version": "4.2.0-beta.6",
+        "package_url": "pkg:npm/%40babylonjs/core@4.2.0-beta.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/loaders",
+        "version": "4.2.0-beta.6",
+        "package_url": "pkg:npm/%40babylonjs/loaders@4.2.0-beta.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "babylonjs-gltf2interface",
+        "version": "4.2.0-beta.6",
+        "package_url": "pkg:npm/babylonjs-gltf2interface@4.2.0-beta.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/core",
+        "version": "4.2.0-beta.2",
+        "package_url": "pkg:npm/%40babylonjs/core@4.2.0-beta.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/loaders",
+        "version": "4.2.0-beta.2",
+        "package_url": "pkg:npm/%40babylonjs/loaders@4.2.0-beta.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "babylonjs-gltf2interface",
+        "version": "4.2.0-beta.2",
+        "package_url": "pkg:npm/babylonjs-gltf2interface@4.2.0-beta.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

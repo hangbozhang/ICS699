@@ -1,0 +1,58 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:58:45Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ]
+        },
+        "name": "com.github.ocornut/imgui",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.ocornut-imgui"
+        ],
+        "documentNamespace": "https://github.com/ocornut/imgui/dependency_graph/sbom-aab0dedf6d407e00",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.ocornut-imgui",
+                "name": "com.github.ocornut/imgui",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/ocornut/imgui",
+                "licenseDeclared": "MIT",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/ocornut/imgui"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-3",
+                "name": "actions:actions/checkout",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.ocornut-imgui",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,489 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Werkzeug",
+        "version": "1.0.1",
+        "package_url": "pkg:pypi/werkzeug@1.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/werkzeug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xg9f-g7g7-2323",
+                "advisory_summary": "High resource usage when parsing multipart form data with many fields",
+                "advisory_url": "https://github.com/advisories/GHSA-xg9f-g7g7-2323"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrfv-mqp8-q5rw",
+                "advisory_summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+                "advisory_url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-px8h-6qxv-m22q",
+                "advisory_summary": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-px8h-6qxv-m22q"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp",
+        "version": "3.6.2",
+        "package_url": "pkg:pypi/aiohttp@3.6.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q3qx-c6g2-7pw2",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "advisory_url": "https://github.com/advisories/GHSA-q3qx-c6g2-7pw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-45c4-8wx5-qw6w",
+                "advisory_summary": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+                "advisory_url": "https://github.com/advisories/GHSA-45c4-8wx5-qw6w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gfw2-4jvh-wgfg",
+                "advisory_summary": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "advisory_url": "https://github.com/advisories/GHSA-gfw2-4jvh-wgfg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pjjw-qhg8-p2p9",
+                "advisory_summary": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-pjjw-qhg8-p2p9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qvrw-v9rv-5rjx",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "advisory_url": "https://github.com/advisories/GHSA-qvrw-v9rv-5rjx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v6wp-4m6f-gcjg",
+                "advisory_summary": "`aiohttp` Open Redirect vulnerability (`normalize_path_middleware` middleware)",
+                "advisory_url": "https://github.com/advisories/GHSA-v6wp-4m6f-gcjg"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xx9p-xxvh-7g8j",
+                "advisory_summary": "Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding` differing in C and Python fallbacks",
+                "advisory_url": "https://github.com/advisories/GHSA-xx9p-xxvh-7g8j"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ecdsa",
+        "version": "0.13.3",
+        "package_url": "pkg:pypi/ecdsa@0.13.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tlsfuzzer/python-ecdsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wj6h-64fc-37mp",
+                "advisory_summary": "Minerva timing attack on P-256 in python-ecdsa",
+                "advisory_url": "https://github.com/advisories/GHSA-wj6h-64fc-37mp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.17.1",
+        "package_url": "pkg:pypi/future@0.17.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "setuptools",
+        "version": "46.1.3",
+        "package_url": "pkg:pypi/setuptools@46.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/setuptools",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-r9hx-vwmv-q579",
+                "advisory_summary": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-r9hx-vwmv-q579"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheel",
+        "version": "0.34.2",
+        "package_url": "pkg:pypi/wheel@0.34.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qwmp-2cf2-g9g6",
+                "advisory_summary": "pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-qwmp-2cf2-g9g6"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "2.10.1",
+        "package_url": "pkg:pypi/jinja2@2.10.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g3rq-g295-4j3m",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+                "advisory_url": "https://github.com/advisories/GHSA-g3rq-g295-4j3m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Click",
+        "version": "7.0",
+        "package_url": "pkg:pypi/click@7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "MarkupSafe",
+        "version": "1.1.1",
+        "package_url": "pkg:pypi/markupsafe@1.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/markupsafe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "SQLAlchemy",
+        "version": "1.3.11",
+        "package_url": "pkg:pypi/sqlalchemy@1.3.11",
+        "license": null,
+        "source_repository_url": "https://github.com/sqlalchemy/sqlalchemy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-cache",
+        "version": "2.0.2",
+        "package_url": "pkg:pypi/aiohttp-cache@2.0.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/cr0hn/aiohttp-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-cors",
+        "version": "0.7.0",
+        "package_url": "pkg:pypi/aiohttp-cors@0.7.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp-cors",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-jinja2",
+        "version": "1.2.0",
+        "package_url": "pkg:pypi/aiohttp-jinja2@1.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp-jinja2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-swagger",
+        "version": "1.0.14",
+        "package_url": "pkg:pypi/aiohttp-swagger@1.0.14",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/cr0hn/aiohttp-swagger",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "azure-storage-blob",
+        "version": "2.1.0",
+        "package_url": "pkg:pypi/azure-storage-blob@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/azure-storage-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "clickclick",
+        "version": "1.2.2",
+        "package_url": "pkg:pypi/clickclick@1.2.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/hjacobs/python-clickclick",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "connexion",
+        "version": "2.6.0",
+        "package_url": "pkg:pypi/connexion@2.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spec-first/connexion",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "defusedxml",
+        "version": "0.6.0",
+        "package_url": "pkg:pypi/defusedxml@0.6.0",
+        "license": "Python-2.0",
+        "source_repository_url": "https://github.com/tiran/defusedxml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "inflection",
+        "version": "0.3.1",
+        "package_url": "pkg:pypi/inflection@0.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jpvanhal/inflection",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "itsdangerous",
+        "version": "1.1.0",
+        "package_url": "pkg:pypi/itsdangerous@1.1.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/itsdangerous",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jsonschema",
+        "version": "2.6.0",
+        "package_url": "pkg:pypi/jsonschema@2.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-jsonschema/jsonschema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "openapi-spec-validator",
+        "version": "0.2.6",
+        "package_url": "pkg:pypi/openapi-spec-validator@0.2.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/python-openapi/openapi-spec-validator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pathlib",
+        "version": "1.0.1",
+        "package_url": "pkg:pypi/pathlib@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/budlight/pathlib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.7.0",
+        "package_url": "pkg:pypi/psutil@5.7.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "python-jose",
+        "version": "3.0.1",
+        "package_url": "pkg:pypi/python-jose@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mpdavis/python-jose",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "swagger-ui-bundle",
+        "version": "0.0.3",
+        "package_url": "pkg:pypi/swagger-ui-bundle@0.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/spec-first/swagger_ui_bundle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "azure-core",
+        "version": "1.4.0",
+        "package_url": "pkg:pypi/azure-core@1.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/azure-sdk-for-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "azure-storage-blob",
+        "version": "12.3.1",
+        "package_url": "pkg:pypi/azure-storage-blob@12.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/azure-sdk-for-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "isodate",
+        "version": "0.6.0",
+        "package_url": "pkg:pypi/isodate@0.6.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/gweis/isodate",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "msrest",
+        "version": "0.6.13",
+        "package_url": "pkg:pypi/msrest@0.6.13",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/msrest-for-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "oauthlib",
+        "version": "3.1.0",
+        "package_url": "pkg:pypi/oauthlib@3.1.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/oauthlib/oauthlib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests-oauthlib",
+        "version": "1.3.0",
+        "package_url": "pkg:pypi/requests-oauthlib@1.3.0",
+        "license": "BSD-2-Clause AND ISC",
+        "source_repository_url": "https://github.com/requests/requests-oauthlib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

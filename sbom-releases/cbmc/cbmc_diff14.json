@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/syntax-checks.yaml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.51",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.51",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.13.0",
+        "package_url": "pkg:npm/eslint@8.13.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.50",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.50",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.12.0",
+        "package_url": "pkg:npm/eslint@8.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.51",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.51",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.50",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.50",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,2256 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:59:14Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ]
+        },
+        "name": "com.github.topjohnwu/Magisk",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.topjohnwu-Magisk"
+        ],
+        "documentNamespace": "https://github.com/topjohnwu/Magisk/dependency_graph/sbom-08b9cd164dbb2bd4",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.topjohnwu-Magisk",
+                "name": "com.github.topjohnwu/Magisk",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/topjohnwu/Magisk",
+                "licenseDeclared": "GPL-3.0",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/topjohnwu/Magisk"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-aho-corasick-1.1.0",
+                "name": "rust:aho-corasick",
+                "versionInfo": "1.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Unlicense OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/aho-corasick@1.1.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-ansi-term-0.12.1",
+                "name": "rust:ansi_term",
+                "versionInfo": "0.12.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/ansi_term@0.12.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-argh-0.1.12",
+                "name": "rust:argh",
+                "versionInfo": "0.1.12",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/argh@0.1.12",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-argh-derive-0.1.12",
+                "name": "rust:argh_derive",
+                "versionInfo": "0.1.12",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/argh_derive@0.1.12",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-argh-shared-0.1.12",
+                "name": "rust:argh_shared",
+                "versionInfo": "0.1.12",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/argh_shared@0.1.12",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-atty-0.2.14",
+                "name": "rust:atty",
+                "versionInfo": "0.2.14",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/atty@0.2.14",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-autocfg-1.1.0",
+                "name": "rust:autocfg",
+                "versionInfo": "1.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/autocfg@1.1.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-base16ct-0.2.0",
+                "name": "rust:base16ct",
+                "versionInfo": "0.2.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/base16ct@0.2.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-base64ct-1.6.0",
+                "name": "rust:base64ct",
+                "versionInfo": "1.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/base64ct@1.6.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-bitflags-1.3.2",
+                "name": "rust:bitflags",
+                "versionInfo": "1.3.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/bitflags@1.3.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-block-buffer-0.10.4",
+                "name": "rust:block-buffer",
+                "versionInfo": "0.10.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/block-buffer@0.10.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-bytemuck-1.14.0",
+                "name": "rust:bytemuck",
+                "versionInfo": "1.14.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Zlib OR (Apache-2.0 OR MIT)",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/bytemuck@1.14.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-bytemuck-derive-1.5.0",
+                "name": "rust:bytemuck_derive",
+                "versionInfo": "1.5.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Zlib OR Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/bytemuck_derive@1.5.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-byteorder-1.4.3",
+                "name": "rust:byteorder",
+                "versionInfo": "1.4.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Unlicense OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/byteorder@1.4.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-cc-1.0.83",
+                "name": "rust:cc",
+                "versionInfo": "1.0.83",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/cc@1.0.83",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-cfg-if-1.0.0",
+                "name": "rust:cfg-if",
+                "versionInfo": "1.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/cfg-if@1.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-clap-2.34.0",
+                "name": "rust:clap",
+                "versionInfo": "2.34.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/clap@2.34.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-codespan-reporting-0.11.1",
+                "name": "rust:codespan-reporting",
+                "versionInfo": "0.11.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/codespan-reporting@0.11.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-const-oid-0.9.5",
+                "name": "rust:const-oid",
+                "versionInfo": "0.9.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/const-oid@0.9.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-cpufeatures-0.2.9",
+                "name": "rust:cpufeatures",
+                "versionInfo": "0.2.9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/cpufeatures@0.2.9",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-crypto-bigint-0.5.3",
+                "name": "rust:crypto-bigint",
+                "versionInfo": "0.5.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/crypto-bigint@0.5.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-crypto-common-0.1.6",
+                "name": "rust:crypto-common",
+                "versionInfo": "0.1.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/crypto-common@0.1.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-der-0.7.8",
+                "name": "rust:der",
+                "versionInfo": "0.7.8",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/der@0.7.8",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-der-derive-0.7.2",
+                "name": "rust:der_derive",
+                "versionInfo": "0.7.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/der_derive@0.7.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-digest-0.10.7",
+                "name": "rust:digest",
+                "versionInfo": "0.10.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/digest@0.10.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-ecdsa-0.16.8",
+                "name": "rust:ecdsa",
+                "versionInfo": "0.16.8",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/ecdsa@0.16.8",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-elliptic-curve-0.13.5",
+                "name": "rust:elliptic-curve",
+                "versionInfo": "0.13.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/elliptic-curve@0.13.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-env-logger-0.7.1",
+                "name": "rust:env_logger",
+                "versionInfo": "0.7.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 AND MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/env_logger@0.7.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-fdt-0.1.5",
+                "name": "rust:fdt",
+                "versionInfo": "0.1.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MPL-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/fdt@0.1.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-ff-0.13.0",
+                "name": "rust:ff",
+                "versionInfo": "0.13.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/ff@0.13.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-flagset-0.4.4",
+                "name": "rust:flagset",
+                "versionInfo": "0.4.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/flagset@0.4.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-generic-array-0.14.7",
+                "name": "rust:generic-array",
+                "versionInfo": "0.14.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/generic-array@0.14.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-getrandom-0.2.10",
+                "name": "rust:getrandom",
+                "versionInfo": "0.2.10",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/getrandom@0.2.10",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-group-0.13.0",
+                "name": "rust:group",
+                "versionInfo": "0.13.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/group@0.13.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-hermit-abi-0.1.19",
+                "name": "rust:hermit-abi",
+                "versionInfo": "0.1.19",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 AND MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/hermit-abi@0.1.19",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-hkdf-0.12.3",
+                "name": "rust:hkdf",
+                "versionInfo": "0.12.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/hkdf@0.12.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-hmac-0.12.1",
+                "name": "rust:hmac",
+                "versionInfo": "0.12.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/hmac@0.12.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-humantime-1.3.0",
+                "name": "rust:humantime",
+                "versionInfo": "1.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR (Apache-2.0 AND MIT)",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/humantime@1.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-lazy-static-1.4.0",
+                "name": "rust:lazy_static",
+                "versionInfo": "1.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 AND MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/lazy_static@1.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-libc-0.2.148",
+                "name": "rust:libc",
+                "versionInfo": "0.2.148",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/libc@0.2.148",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-libm-0.2.7",
+                "name": "rust:libm",
+                "versionInfo": "0.2.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/libm@0.2.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-log-0.4.20",
+                "name": "rust:log",
+                "versionInfo": "0.4.20",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/log@0.4.20",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-memchr-2.6.3",
+                "name": "rust:memchr",
+                "versionInfo": "2.6.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Unlicense OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/memchr@2.6.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-minimal-lexical-0.2.1",
+                "name": "rust:minimal-lexical",
+                "versionInfo": "0.2.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/minimal-lexical@0.2.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-nom-7.1.3",
+                "name": "rust:nom",
+                "versionInfo": "7.1.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/nom@7.1.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-num-bigint-dig-0.8.4",
+                "name": "rust:num-bigint-dig",
+                "versionInfo": "0.8.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/num-bigint-dig@0.8.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-num-derive-0.4.0",
+                "name": "rust:num-derive",
+                "versionInfo": "0.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/num-derive@0.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-num-integer-0.1.45",
+                "name": "rust:num-integer",
+                "versionInfo": "0.1.45",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/num-integer@0.1.45",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-num-iter-0.1.43",
+                "name": "rust:num-iter",
+                "versionInfo": "0.1.43",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/num-iter@0.1.43",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-num-traits-0.2.16",
+                "name": "rust:num-traits",
+                "versionInfo": "0.2.16",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/num-traits@0.2.16",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-p256-0.13.2",
+                "name": "rust:p256",
+                "versionInfo": "0.13.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/p256@0.13.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-p384-0.13.0",
+                "name": "rust:p384",
+                "versionInfo": "0.13.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/p384@0.13.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-pb-rs-0.10.0",
+                "name": "rust:pb-rs",
+                "versionInfo": "0.10.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/pb-rs@0.10.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-pem-rfc7468-0.7.0",
+                "name": "rust:pem-rfc7468",
+                "versionInfo": "0.7.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/pem-rfc7468@0.7.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-pkcs1-0.7.5",
+                "name": "rust:pkcs1",
+                "versionInfo": "0.7.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/pkcs1@0.7.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-pkcs8-0.10.2",
+                "name": "rust:pkcs8",
+                "versionInfo": "0.10.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/pkcs8@0.10.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-ppv-lite86-0.2.17",
+                "name": "rust:ppv-lite86",
+                "versionInfo": "0.2.17",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/ppv-lite86@0.2.17",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-primeorder-0.13.2",
+                "name": "rust:primeorder",
+                "versionInfo": "0.13.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/primeorder@0.13.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-proc-macro2-1.0.67",
+                "name": "rust:proc-macro2",
+                "versionInfo": "1.0.67",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/proc-macro2@1.0.67",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-quick-error-1.2.3",
+                "name": "rust:quick-error",
+                "versionInfo": "1.2.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 AND MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/quick-error@1.2.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-quick-protobuf-0.8.1",
+                "name": "rust:quick-protobuf",
+                "versionInfo": "0.8.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/quick-protobuf@0.8.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-quote-1.0.33",
+                "name": "rust:quote",
+                "versionInfo": "1.0.33",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/quote@1.0.33",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-rand-0.8.5",
+                "name": "rust:rand",
+                "versionInfo": "0.8.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/rand@0.8.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-rand-chacha-0.3.1",
+                "name": "rust:rand_chacha",
+                "versionInfo": "0.3.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/rand_chacha@0.3.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-rand-core-0.6.4",
+                "name": "rust:rand_core",
+                "versionInfo": "0.6.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/rand_core@0.6.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-regex-1.9.5",
+                "name": "rust:regex",
+                "versionInfo": "1.9.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/regex@1.9.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-regex-automata-0.3.8",
+                "name": "rust:regex-automata",
+                "versionInfo": "0.3.8",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/regex-automata@0.3.8",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-regex-syntax-0.7.5",
+                "name": "rust:regex-syntax",
+                "versionInfo": "0.7.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/regex-syntax@0.7.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-rfc6979-0.4.0",
+                "name": "rust:rfc6979",
+                "versionInfo": "0.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/rfc6979@0.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-rsa-0.9.2",
+                "name": "rust:rsa",
+                "versionInfo": "0.9.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/rsa@0.9.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-sec1-0.7.3",
+                "name": "rust:sec1",
+                "versionInfo": "0.7.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/sec1@0.7.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-serde-1.0.188",
+                "name": "rust:serde",
+                "versionInfo": "1.0.188",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/serde@1.0.188",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-serde-derive-1.0.188",
+                "name": "rust:serde_derive",
+                "versionInfo": "1.0.188",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/serde_derive@1.0.188",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-sha1-0.10.5",
+                "name": "rust:sha1",
+                "versionInfo": "0.10.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/sha1@0.10.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-sha2-0.10.7",
+                "name": "rust:sha2",
+                "versionInfo": "0.10.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/sha2@0.10.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-signature-2.1.0",
+                "name": "rust:signature",
+                "versionInfo": "2.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/signature@2.1.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-size-0.4.1",
+                "name": "rust:size",
+                "versionInfo": "0.4.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/size@0.4.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-smallvec-1.11.0",
+                "name": "rust:smallvec",
+                "versionInfo": "1.11.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/smallvec@1.11.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-spin-0.5.2",
+                "name": "rust:spin",
+                "versionInfo": "0.5.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/spin@0.5.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-spki-0.7.2",
+                "name": "rust:spki",
+                "versionInfo": "0.7.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/spki@0.7.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-strsim-0.8.0",
+                "name": "rust:strsim",
+                "versionInfo": "0.8.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/strsim@0.8.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-subtle-2.5.0",
+                "name": "rust:subtle",
+                "versionInfo": "2.5.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/subtle@2.5.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-syn-2.0.37",
+                "name": "rust:syn",
+                "versionInfo": "2.0.37",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/syn@2.0.37",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-termcolor-1.3.0",
+                "name": "rust:termcolor",
+                "versionInfo": "1.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Unlicense OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/termcolor@1.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-textwrap-0.11.0",
+                "name": "rust:textwrap",
+                "versionInfo": "0.11.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/textwrap@0.11.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-thiserror-1.0.48",
+                "name": "rust:thiserror",
+                "versionInfo": "1.0.48",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/thiserror@1.0.48",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-thiserror-impl-1.0.48",
+                "name": "rust:thiserror-impl",
+                "versionInfo": "1.0.48",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/thiserror-impl@1.0.48",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-typenum-1.17.0",
+                "name": "rust:typenum",
+                "versionInfo": "1.17.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/typenum@1.17.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-unicode-ident-1.0.12",
+                "name": "rust:unicode-ident",
+                "versionInfo": "1.0.12",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/unicode-ident@1.0.12",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-unicode-width-0.1.10",
+                "name": "rust:unicode-width",
+                "versionInfo": "0.1.10",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/unicode-width@0.1.10",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-vec-map-0.8.2",
+                "name": "rust:vec_map",
+                "versionInfo": "0.8.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 AND MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/vec_map@0.8.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-version-check-0.9.4",
+                "name": "rust:version_check",
+                "versionInfo": "0.9.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/version_check@0.9.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-wasi-0.11.0+wasi-snapshot-preview1",
+                "name": "rust:wasi",
+                "versionInfo": "0.11.0+wasi-snapshot-preview1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 WITH LLVM-exception OR (Apache-2.0 OR MIT)",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/wasi@0.11.0%2Bwasi-snapshot-preview1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-winapi-0.3.9",
+                "name": "rust:winapi",
+                "versionInfo": "0.3.9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 AND MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/winapi@0.3.9",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-winapi-i686-pc-windows-gnu-0.4.0",
+                "name": "rust:winapi-i686-pc-windows-gnu",
+                "versionInfo": "0.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-winapi-util-0.1.5",
+                "name": "rust:winapi-util",
+                "versionInfo": "0.1.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR (MIT AND Unlicense)",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/winapi-util@0.1.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-winapi-x86-64-pc-windows-gnu-0.4.0",
+                "name": "rust:winapi-x86_64-pc-windows-gnu",
+                "versionInfo": "0.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT OR Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-x509-cert-0.2.4",
+                "name": "rust:x509-cert",
+                "versionInfo": "0.2.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/x509-cert@0.2.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rust-zeroize-1.6.0",
+                "name": "rust:zeroize",
+                "versionInfo": "1.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:cargo/zeroize@1.6.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-cache-3",
+                "name": "actions:actions/cache",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/cache@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-3",
+                "name": "actions:actions/checkout",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-download-artifact-3",
+                "name": "actions:actions/download-artifact",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/download-artifact@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-java-3",
+                "name": "actions:actions/setup-java",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-java@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-python-4",
+                "name": "actions:actions/setup-python",
+                "versionInfo": "4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-python@4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-upload-artifact-3",
+                "name": "actions:actions/upload-artifact",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/upload-artifact@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-hendrikmuhs-ccache-action-1.2",
+                "name": "actions:hendrikmuhs/ccache-action",
+                "versionInfo": "1.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/hendrikmuhs/ccache-action@1.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-aho-corasick-1.1.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-ansi-term-0.12.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-argh-0.1.12"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-argh-derive-0.1.12"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-argh-shared-0.1.12"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-atty-0.2.14"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-autocfg-1.1.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-base16ct-0.2.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-base64ct-1.6.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-bitflags-1.3.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-block-buffer-0.10.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-bytemuck-1.14.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-bytemuck-derive-1.5.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-byteorder-1.4.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-cc-1.0.83"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-cfg-if-1.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-clap-2.34.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-codespan-reporting-0.11.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-const-oid-0.9.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-cpufeatures-0.2.9"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-crypto-bigint-0.5.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-crypto-common-0.1.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-der-0.7.8"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-der-derive-0.7.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-digest-0.10.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-ecdsa-0.16.8"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-elliptic-curve-0.13.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-env-logger-0.7.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-fdt-0.1.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-ff-0.13.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-flagset-0.4.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-generic-array-0.14.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-getrandom-0.2.10"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-group-0.13.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-hermit-abi-0.1.19"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-hkdf-0.12.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-hmac-0.12.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-humantime-1.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-lazy-static-1.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-libc-0.2.148"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-libm-0.2.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-log-0.4.20"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-memchr-2.6.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-minimal-lexical-0.2.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-nom-7.1.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-num-bigint-dig-0.8.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-num-derive-0.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-num-integer-0.1.45"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-num-iter-0.1.43"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-num-traits-0.2.16"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-p256-0.13.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-p384-0.13.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-pb-rs-0.10.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-pem-rfc7468-0.7.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-pkcs1-0.7.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-pkcs8-0.10.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-ppv-lite86-0.2.17"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-primeorder-0.13.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-proc-macro2-1.0.67"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-quick-error-1.2.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-quick-protobuf-0.8.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-quote-1.0.33"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-rand-0.8.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-rand-chacha-0.3.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-rand-core-0.6.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-regex-1.9.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-regex-automata-0.3.8"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-regex-syntax-0.7.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-rfc6979-0.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-rsa-0.9.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-sec1-0.7.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-serde-1.0.188"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-serde-derive-1.0.188"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-sha1-0.10.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-sha2-0.10.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-signature-2.1.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-size-0.4.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-smallvec-1.11.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-spin-0.5.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-spki-0.7.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-strsim-0.8.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-subtle-2.5.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-syn-2.0.37"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-termcolor-1.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-textwrap-0.11.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-thiserror-1.0.48"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-thiserror-impl-1.0.48"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-typenum-1.17.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-unicode-ident-1.0.12"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-unicode-width-0.1.10"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-vec-map-0.8.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-version-check-0.9.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-wasi-0.11.0+wasi-snapshot-preview1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-winapi-0.3.9"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-winapi-i686-pc-windows-gnu-0.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-winapi-util-0.1.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-winapi-x86-64-pc-windows-gnu-0.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-x509-cert-0.2.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-rust-zeroize-1.6.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-actions-cache-3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-actions-download-artifact-3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-java-3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-python-4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-actions-upload-artifact-3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.topjohnwu-Magisk",
+                "relatedSpdxElement": "SPDXRef-actions-hendrikmuhs-ccache-action-1.2"
+            }
+        ]
+    }
+}

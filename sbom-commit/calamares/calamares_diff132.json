@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-debian.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "5",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@5",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/nightly-debian.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-neon.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "5",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@5",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/nightly-neon.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-opensuse-qt6.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "5",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@5",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/nightly-opensuse-qt6.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-opensuse.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "5",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@5",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/nightly-opensuse.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/push.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "5",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@5",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/push.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "330c45ae1eb6efad4ad75a6dd887c3c5d5fe1590",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@330c45ae1eb6efad4ad75a6dd887c3c5d5fe1590",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

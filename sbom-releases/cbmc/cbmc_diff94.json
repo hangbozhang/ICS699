@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test-Xen.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-and-test-Xen.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

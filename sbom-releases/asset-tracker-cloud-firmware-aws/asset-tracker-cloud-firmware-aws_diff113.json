@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-release.yaml",
+        "ecosystem": "actions",
+        "name": "docker/build-push-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/build-push-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/build-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-release.yaml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/login-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

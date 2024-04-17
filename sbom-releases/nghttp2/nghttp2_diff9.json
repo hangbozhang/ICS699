@@ -1,0 +1,269 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/crypto",
+        "version": "0.0.0-20210921155107-089bfa567519",
+        "package_url": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8c26-wmh5-6g9v",
+                "advisory_summary": "golang.org/x/crypto/ssh Denial of service via crafted Signer",
+                "advisory_url": "https://github.com/advisories/GHSA-8c26-wmh5-6g9v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gwc9-m7rh-j2ww",
+                "advisory_summary": "x/crypto/ssh vulnerable to panic via malformed packets",
+                "advisory_url": "https://github.com/advisories/GHSA-gwc9-m7rh-j2ww"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.0.0-20220722155237-a158d28d115b",
+        "package_url": "pkg:golang/golang.org/x/net@0.0.0-20220722155237-a158d28d115b",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvpx-j8f3-3w6h",
+                "advisory_summary": "Uncontrolled Resource Consumption",
+                "advisory_url": "https://github.com/advisories/GHSA-vvpx-j8f3-3w6h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-69cg-p879-7622",
+                "advisory_summary": "golang.org/x/net/http2 Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-69cg-p879-7622"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxg5-wq6x-vr4w",
+                "advisory_summary": "golang.org/x/net/http2/h2c vulnerable to request smuggling attack",
+                "advisory_url": "https://github.com/advisories/GHSA-fxg5-wq6x-vr4w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "swift-nio-http2 vulnerable to HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.0.0-20220421235706-1d1ef9303861",
+        "package_url": "pkg:golang/golang.org/x/net@0.0.0-20220421235706-1d1ef9303861",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvpx-j8f3-3w6h",
+                "advisory_summary": "Uncontrolled Resource Consumption",
+                "advisory_url": "https://github.com/advisories/GHSA-vvpx-j8f3-3w6h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-69cg-p879-7622",
+                "advisory_summary": "golang.org/x/net/http2 Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-69cg-p879-7622"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxg5-wq6x-vr4w",
+                "advisory_summary": "golang.org/x/net/http2/h2c vulnerable to request smuggling attack",
+                "advisory_url": "https://github.com/advisories/GHSA-fxg5-wq6x-vr4w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "swift-nio-http2 vulnerable to HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/go-task/slim-sprig",
+        "version": "0.0.0-20210107165309-348f09dbbbc0",
+        "package_url": "pkg:golang/github.com/go-task/slim-sprig@0.0.0-20210107165309-348f09dbbbc0",
+        "license": null,
+        "source_repository_url": "https://github.com/go-task/slim-sprig",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/golang/mock",
+        "version": "1.6.0",
+        "package_url": "pkg:golang/github.com/golang/mock@1.6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/golang/mock",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/google/pprof",
+        "version": "0.0.0-20210407192527-94a9f03dee38",
+        "package_url": "pkg:golang/github.com/google/pprof@0.0.0-20210407192527-94a9f03dee38",
+        "license": null,
+        "source_repository_url": "https://github.com/google/pprof",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/lucas-clemente/quic-go",
+        "version": "0.30.0",
+        "package_url": "pkg:golang/github.com/lucas-clemente/quic-go@0.30.0",
+        "license": null,
+        "source_repository_url": "https://github.com/quic-go/quic-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/marten-seemann/qpack",
+        "version": "0.3.0",
+        "package_url": "pkg:golang/github.com/marten-seemann/qpack@0.3.0",
+        "license": null,
+        "source_repository_url": "https://github.com/quic-go/qpack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/marten-seemann/qtls-go1-18",
+        "version": "0.1.3",
+        "package_url": "pkg:golang/github.com/marten-seemann/qtls-go1-18@0.1.3",
+        "license": null,
+        "source_repository_url": "https://github.com/quic-go/qtls-go1-18",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/marten-seemann/qtls-go1-19",
+        "version": "0.1.1",
+        "package_url": "pkg:golang/github.com/marten-seemann/qtls-go1-19@0.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/quic-go/qtls-go1-19",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/onsi/ginkgo/v2",
+        "version": "2.2.0",
+        "package_url": "pkg:golang/github.com/onsi/ginkgo/v2@2.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/onsi/ginkgo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/exp",
+        "version": "0.0.0-20220722155223-a9213eeb770e",
+        "package_url": "pkg:golang/golang.org/x/exp@0.0.0-20220722155223-a9213eeb770e",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/mod",
+        "version": "0.6.0-dev.0.20220419223038-86c51ed26bb4",
+        "package_url": "pkg:golang/golang.org/x/mod@0.6.0-dev.0.20220419223038-86c51ed26bb4",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20220722155257-8c9f86f7a55f",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20220722155257-8c9f86f7a55f",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/tools",
+        "version": "0.1.12",
+        "package_url": "pkg:golang/golang.org/x/tools@0.1.12",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

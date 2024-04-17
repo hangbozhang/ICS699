@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "recommonmark",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/recommonmark",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

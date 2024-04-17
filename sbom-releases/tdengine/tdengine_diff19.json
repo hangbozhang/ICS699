@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyopenssl",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/msabramo/pyOpenSSL",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

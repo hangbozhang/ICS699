@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "15.4.0",
+        "package_url": "pkg:npm/react@15.4.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.39.0",
+        "package_url": "pkg:npm/react-native@0.39.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "15.3.1",
+        "package_url": "pkg:npm/react@15.3.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.37.0",
+        "package_url": "pkg:npm/react-native@0.37.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

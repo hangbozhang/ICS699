@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "little-core-labs/get-git-tag",
+        "version": "3.0.2",
+        "package_url": "pkg:githubactions/little-core-labs/get-git-tag@3.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/little-core-labs/get-git-tag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "olegtarasov/get-tag",
+        "version": "2",
+        "package_url": "pkg:githubactions/olegtarasov/get-tag@2",
+        "license": null,
+        "source_repository_url": "https://github.com/olegtarasov/get-tag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

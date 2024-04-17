@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.6",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.6",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.7.0",
+        "package_url": "pkg:npm/eslint@8.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-visitor-keys",
+        "version": "3.2.0",
+        "package_url": "pkg:npm/eslint-visitor-keys@3.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/eslint/eslint-visitor-keys",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.5",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.5",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.6.0",
+        "package_url": "pkg:npm/eslint@8.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-visitor-keys",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/eslint-visitor-keys@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/eslint/eslint-visitor-keys",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "progress",
+        "version": "2.0.3",
+        "package_url": "pkg:npm/progress@2.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/visionmedia/node-progress",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.6",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.6",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.5",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.5",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

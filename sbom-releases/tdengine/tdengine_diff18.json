@@ -1,0 +1,214 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-core",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-core@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wxqc-pxw9-g2p8",
+                "advisory_summary": "Spring Framework vulnerable to denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-wxqc-pxw9-g2p8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-core",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-core@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wxqc-pxw9-g2p8",
+                "advisory_summary": "Spring Framework vulnerable to denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-wxqc-pxw9-g2p8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-564r-hj7v-mcr5",
+                "advisory_summary": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                "advisory_url": "https://github.com/advisories/GHSA-564r-hj7v-mcr5"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aop",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-aop@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aspects",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-aspects@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-beans",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-beans@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-context",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-context@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-expression",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-expression@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-jdbc",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-jdbc@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-test",
+        "version": "5.3.26",
+        "package_url": "pkg:maven/org.springframework/spring-test@5.3.26",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aop",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-aop@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aspects",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-aspects@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-beans",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-beans@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-context",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-context@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-expression",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-expression@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-jdbc",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-jdbc@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-test",
+        "version": "5.3.20",
+        "package_url": "pkg:maven/org.springframework/spring-test@5.3.20",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

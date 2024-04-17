@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "alert/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/taosdata/driver-go",
+        "version": "0.0.0-20201113094317-050667e5b4d0",
+        "package_url": "pkg:golang/github.com/taosdata/driver-go@0.0.0-20201113094317-050667e5b4d0",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/driver-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "alert/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/taosdata/driver-go",
+        "version": "0.0.0-20200727182616-1a3b1941c206",
+        "package_url": "pkg:golang/github.com/taosdata/driver-go@0.0.0-20200727182616-1a3b1941c206",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/driver-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

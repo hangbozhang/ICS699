@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "contrib/PC/ARKUpdater/requirements.txt",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.9.4",
+        "package_url": "pkg:pypi/psutil@5.9.4",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "contrib/PC/ARKUpdater/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pywin32",
+        "version": "305",
+        "package_url": "pkg:pypi/pywin32@305",
+        "license": null,
+        "source_repository_url": "https://github.com/mhammond/pywin32",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

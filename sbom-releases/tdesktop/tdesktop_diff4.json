@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/mac_packaged.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "3.0.11",
+        "package_url": "pkg:githubactions/actions/cache@3.0.11",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/mac_packaged.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3.1.0",
+        "package_url": "pkg:githubactions/actions/checkout@3.1.0",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/mac_packaged.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/upload-artifact@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

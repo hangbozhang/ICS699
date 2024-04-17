@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "extensions/api/package.json",
+        "ecosystem": "npm",
+        "name": "express",
+        "version": "~4.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/expressjs/express",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gpvr-g6gh-9mc2",
+                "advisory_summary": "No Charset in Content-Type Header in express",
+                "advisory_url": "https://github.com/advisories/GHSA-gpvr-g6gh-9mc2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "extensions/api/package.json",
+        "ecosystem": "npm",
+        "name": "body-parser",
+        "version": "~1.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/expressjs/body-parser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

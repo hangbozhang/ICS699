@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pythonbuild.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

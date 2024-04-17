@@ -1,0 +1,148 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Pillow",
+        "version": "9.1.1",
+        "package_url": "pkg:pypi/pillow@9.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/python-pillow/Pillow",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m2vv-5vj5-2hm7",
+                "advisory_summary": "Pillow vulnerable to Data Amplification attack.",
+                "advisory_url": "https://github.com/advisories/GHSA-m2vv-5vj5-2hm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j7hp-h8jx-5ppr",
+                "advisory_summary": "libwebp: OOB write in BuildHuffmanTable",
+                "advisory_url": "https://github.com/advisories/GHSA-j7hp-h8jx-5ppr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-56pw-mpj4-fxww",
+                "advisory_summary": "Bundled libwebp in Pillow vulnerable",
+                "advisory_url": "https://github.com/advisories/GHSA-56pw-mpj4-fxww"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8ghj-p4vj-mr35",
+                "advisory_summary": "Pillow Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-8ghj-p4vj-mr35"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3f63-hfp8-52jq",
+                "advisory_summary": "Arbitrary Code Execution in Pillow",
+                "advisory_url": "https://github.com/advisories/GHSA-3f63-hfp8-52jq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "protobuf",
+        "version": "3.20.1",
+        "package_url": "pkg:pypi/protobuf@3.20.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/protocolbuffers/protobuf",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8gq9-2x98-w8hf",
+                "advisory_summary": "protobuf-cpp and protobuf-python have potential Denial of Service issue",
+                "advisory_url": "https://github.com/advisories/GHSA-8gq9-2x98-w8hf"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "SCons",
+        "version": "4.4.0",
+        "package_url": "pkg:pypi/scons@4.4.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ansi",
+        "version": "0.3.6",
+        "package_url": "pkg:pypi/ansi@0.3.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tehmaze/ansi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "black",
+        "version": "22.6.0",
+        "package_url": "pkg:pypi/black@22.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/psf/black",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "colorlog",
+        "version": "6.7.0",
+        "package_url": "pkg:pypi/colorlog@6.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/borntyping/python-colorlog",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "heatshrink2",
+        "version": "0.11.0",
+        "package_url": "pkg:pypi/heatshrink2@0.11.0",
+        "license": null,
+        "source_repository_url": "https://github.com/eerimoq/pyheatshrink",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyserial",
+        "version": "3.5",
+        "package_url": "pkg:pypi/pyserial@3.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pyserial/pyserial",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "python3-protobuf",
+        "version": "2.5.0",
+        "package_url": "pkg:pypi/python3-protobuf@2.5.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

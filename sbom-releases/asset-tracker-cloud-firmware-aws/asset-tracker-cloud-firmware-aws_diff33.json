@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.90",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.90",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.18.0",
+        "package_url": "pkg:npm/eslint@8.18.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "13.0.2",
+        "package_url": "pkg:npm/lint-staged@13.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.7.4",
+        "package_url": "pkg:npm/typescript@4.7.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.87",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.87",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.17.0",
+        "package_url": "pkg:npm/eslint@8.17.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "13.0.1",
+        "package_url": "pkg:npm/lint-staged@13.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.7.3",
+        "package_url": "pkg:npm/typescript@4.7.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.90",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.90",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.87",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.87",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

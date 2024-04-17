@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/manifest.yml",
+        "ecosystem": "actions",
+        "name": "zephyrproject-rtos/action-manifest",
+        "version": "1.2.0",
+        "package_url": "pkg:githubactions/zephyrproject-rtos/action-manifest@1.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/action-manifest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/manifest.yml",
+        "ecosystem": "actions",
+        "name": "zephyrproject-rtos/action-manifest",
+        "version": "f223dce288b0d8f30bfd57eb2b14b18c230a7d8b",
+        "package_url": "pkg:githubactions/zephyrproject-rtos/action-manifest@f223dce288b0d8f30bfd57eb2b14b18c230a7d8b",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/action-manifest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/spf13/pflag",
+        "version": "1.0.5",
+        "package_url": "pkg:golang/github.com/spf13/pflag@1.0.5",
+        "license": null,
+        "source_repository_url": "https://github.com/spf13/pflag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

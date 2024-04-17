@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "Homebrew/actions/git-user-config",
+        "version": "07da0794847043a11761f14c97cc682577c74d5d",
+        "package_url": "pkg:githubactions/Homebrew/actions/git-user-config@07da0794847043a11761f14c97cc682577c74d5d",
+        "license": null,
+        "source_repository_url": "https://github.com/Homebrew/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

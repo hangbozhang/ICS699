@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/regular-release.yaml",
+        "ecosystem": "actions",
+        "name": "rtCamp/action-slack-notify",
+        "version": "2",
+        "package_url": "pkg:githubactions/rtCamp/action-slack-notify@2",
+        "license": null,
+        "source_repository_url": "https://github.com/rtCamp/action-slack-notify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "rtCamp/action-slack-notify",
+        "version": "2",
+        "package_url": "pkg:githubactions/rtCamp/action-slack-notify@2",
+        "license": null,
+        "source_repository_url": "https://github.com/rtCamp/action-slack-notify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

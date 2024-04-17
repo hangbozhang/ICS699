@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/benchmark_large.yml",
+        "ecosystem": "actions",
+        "name": "sarisia/actions-status-discord",
+        "version": "61114b793b460ee85fe38ad3fccc78c7ead38d55",
+        "package_url": "pkg:githubactions/sarisia/actions-status-discord@61114b793b460ee85fe38ad3fccc78c7ead38d55",
+        "license": null,
+        "source_repository_url": "https://github.com/sarisia/actions-status-discord",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/benchmark_long.yml",
+        "ecosystem": "actions",
+        "name": "sarisia/actions-status-discord",
+        "version": "61114b793b460ee85fe38ad3fccc78c7ead38d55",
+        "package_url": "pkg:githubactions/sarisia/actions-status-discord@61114b793b460ee85fe38ad3fccc78c7ead38d55",
+        "license": null,
+        "source_repository_url": "https://github.com/sarisia/actions-status-discord",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

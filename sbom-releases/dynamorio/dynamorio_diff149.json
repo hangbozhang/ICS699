@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci-docs.yml",
+        "ecosystem": "actions",
+        "name": "crazy-max/ghaction-github-pages",
+        "version": "2",
+        "package_url": "pkg:githubactions/crazy-max/ghaction-github-pages@2",
+        "license": null,
+        "source_repository_url": "https://github.com/crazy-max/ghaction-github-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

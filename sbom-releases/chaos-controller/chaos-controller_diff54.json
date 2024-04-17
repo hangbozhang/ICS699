@@ -1,0 +1,233 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/runc",
+        "version": "1.0.3",
+        "package_url": "pkg:golang/github.com/opencontainers/runc@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/runc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpvm-3wq2-2wvm",
+                "advisory_summary": "Opencontainers runc Incorrect Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vpvm-3wq2-2wvm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f3fp-gc8g-vw66",
+                "advisory_summary": "Default inheritable capabilities for linux container should be empty",
+                "advisory_url": "https://github.com/advisories/GHSA-f3fp-gc8g-vw66"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g2j6-57v7-gm8c",
+                "advisory_summary": "runc AppArmor bypass with symlinked /proc",
+                "advisory_url": "https://github.com/advisories/GHSA-g2j6-57v7-gm8c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m8cg-xc2p-r3fc",
+                "advisory_summary": "rootless: `/sys/fs/cgroup` is writable when cgroupns isn't unshared in runc",
+                "advisory_url": "https://github.com/advisories/GHSA-m8cg-xc2p-r3fc"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/runc",
+        "version": "1.0.2",
+        "package_url": "pkg:golang/github.com/opencontainers/runc@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/runc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpvm-3wq2-2wvm",
+                "advisory_summary": "Opencontainers runc Incorrect Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vpvm-3wq2-2wvm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v95c-p5hm-xq8f",
+                "advisory_summary": "Overflow in netlink bytemsg length field allows attacker to override netlink-based container configuration in RunC",
+                "advisory_url": "https://github.com/advisories/GHSA-v95c-p5hm-xq8f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f3fp-gc8g-vw66",
+                "advisory_summary": "Default inheritable capabilities for linux container should be empty",
+                "advisory_url": "https://github.com/advisories/GHSA-f3fp-gc8g-vw66"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g2j6-57v7-gm8c",
+                "advisory_summary": "runc AppArmor bypass with symlinked /proc",
+                "advisory_url": "https://github.com/advisories/GHSA-g2j6-57v7-gm8c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m8cg-xc2p-r3fc",
+                "advisory_summary": "rootless: `/sys/fs/cgroup` is writable when cgroupns isn't unshared in runc",
+                "advisory_url": "https://github.com/advisories/GHSA-m8cg-xc2p-r3fc"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "k8s.io/kubernetes",
+        "version": "1.20.2",
+        "package_url": "pkg:golang/k8s.io/kubernetes@1.20.2",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes/kubernetes",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f5f7-6478-qm6p",
+                "advisory_summary": "Files or Directories Accessible to External Parties in kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-f5f7-6478-qm6p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q78c-gwqw-jcmc",
+                "advisory_summary": "Kubernetes privilege escalation vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-q78c-gwqw-jcmc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7fxm-f474-hf8w",
+                "advisory_summary": "Kubernetes privilege escalation vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7fxm-f474-hf8w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hq6q-c2x6-hmch",
+                "advisory_summary": "Kubernetes Improper Input Validation vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hq6q-c2x6-hmch"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mfv7-gq43-w965",
+                "advisory_summary": "Incomplete List of Disallowed Inputs in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-mfv7-gq43-w965"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-74j8-88mm-7496",
+                "advisory_summary": "Confused Deputy in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-74j8-88mm-7496"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g42g-737j-qx6j",
+                "advisory_summary": "Access Restriction Bypass in kube-apiserver",
+                "advisory_url": "https://github.com/advisories/GHSA-g42g-737j-qx6j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j9wf-vvm6-4r9w",
+                "advisory_summary": "Unverified Ownership in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-j9wf-vvm6-4r9w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xc8m-28vv-4pjc",
+                "advisory_summary": "Kubelet vulnerable to bypass of seccomp profile enforcement",
+                "advisory_url": "https://github.com/advisories/GHSA-xc8m-28vv-4pjc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qc2g-gmh6-95p4",
+                "advisory_summary": "kube-apiserver vulnerable to policy bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-qc2g-gmh6-95p4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cgcv-5272-97pr",
+                "advisory_summary": "Kubernetes mountable secrets policy bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-cgcv-5272-97pr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-35c7-w35f-xwgh",
+                "advisory_summary": "Kube-proxy may unintentionally forward traffic",
+                "advisory_url": "https://github.com/advisories/GHSA-35c7-w35f-xwgh"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-vw47-mr44-3jf9",
+                "advisory_summary": "Confused Deputy in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-vw47-mr44-3jf9"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-qh36-44jv-c8xj",
+                "advisory_summary": "Potential proxy IP restriction bypass in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-qh36-44jv-c8xj"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-f9jg-8p32-2f55",
+                "advisory_summary": "kubectl ANSI escape characters not filtered",
+                "advisory_url": "https://github.com/advisories/GHSA-f9jg-8p32-2f55"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/go-connections",
+        "version": "0.4.0",
+        "package_url": "pkg:golang/github.com/docker/go-connections@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/go-connections",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/gorilla/mux",
+        "version": "1.8.0",
+        "package_url": "pkg:golang/github.com/gorilla/mux@1.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/gorilla/mux",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/morikuni/aec",
+        "version": "1.0.0",
+        "package_url": "pkg:golang/github.com/morikuni/aec@1.0.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "k8s.io/klog/v2",
+        "version": "2.9.0",
+        "package_url": "pkg:golang/k8s.io/klog/v2@2.9.0",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes/klog",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

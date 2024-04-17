@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_package.yml",
+        "ecosystem": "actions",
+        "name": "benc-uk/workflow-dispatch",
+        "version": "1",
+        "package_url": "pkg:githubactions/benc-uk/workflow-dispatch@1",
+        "license": null,
+        "source_repository_url": "https://github.com/benc-uk/workflow-dispatch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/validate_and_publish_release.yml",
+        "ecosystem": "actions",
+        "name": "eregon/publish-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/eregon/publish-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/eregon/publish-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": ">= 2.7.0.dev20210802",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": ">= 2.6.0.dev0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "llvm-external-projects/iree-compiler-api/setup.py",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "llvm-external-projects/iree-compiler-api/setup.py",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

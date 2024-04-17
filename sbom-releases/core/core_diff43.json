@@ -1,0 +1,262 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.11.1",
+        "package_url": "pkg:gem/nokogiri@1.11.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jw9f-hh49-cvp9",
+                "advisory_summary": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jw9f-hh49-cvp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v4f8-2847-rwm7",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "advisory_url": "https://github.com/advisories/GHSA-v4f8-2847-rwm7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrm-v45f-jp64",
+                "advisory_summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-286v-pcf5-25rc",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "advisory_url": "https://github.com/advisories/GHSA-286v-pcf5-25rc"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.10.8",
+        "package_url": "pkg:gem/nokogiri@1.10.8",
+        "license": "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND MIT AND NOASSERTION AND X11 AND Zlib",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v4f8-2847-rwm7",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "advisory_url": "https://github.com/advisories/GHSA-v4f8-2847-rwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jw9f-hh49-cvp9",
+                "advisory_summary": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jw9f-hh49-cvp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrm-v45f-jp64",
+                "advisory_summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-286v-pcf5-25rc",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "advisory_url": "https://github.com/advisories/GHSA-286v-pcf5-25rc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vr8q-g5c7-m54m",
+                "advisory_summary": "Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vr8q-g5c7-m54m"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_portile2",
+        "version": "2.5.0",
+        "package_url": "pkg:gem/mini_portile2@2.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/mini_portile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "racc",
+        "version": "1.5.2",
+        "package_url": "pkg:gem/racc@1.5.2",
+        "license": "BSD-2-Clause OR (BSD-2-Clause AND Ruby)",
+        "source_repository_url": "https://github.com/ruby/racc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_portile2",
+        "version": "2.4.0",
+        "package_url": "pkg:gem/mini_portile2@2.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/mini_portile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

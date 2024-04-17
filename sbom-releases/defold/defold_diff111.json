@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/engine-nightly.yml",
+        "ecosystem": "actions",
+        "name": "homoluctus/slatify",
+        "version": "master",
+        "package_url": "pkg:githubactions/homoluctus/slatify@master",
+        "license": null,
+        "source_repository_url": "https://github.com/lazy-actions/slatify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

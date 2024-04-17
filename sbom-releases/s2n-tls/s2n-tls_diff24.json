@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_linting.yml",
+        "ecosystem": "actions",
+        "name": "harrisonkaiser/clang-format-action",
+        "version": "verbose",
+        "package_url": "pkg:githubactions/harrisonkaiser/clang-format-action@verbose",
+        "license": null,
+        "source_repository_url": "https://github.com/harrisonkaiser/clang-format-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci_clang_format_check.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci_clang_format_check.yml",
+        "ecosystem": "actions",
+        "name": "jidicula/clang-format-action",
+        "version": "4.9.0",
+        "package_url": "pkg:githubactions/jidicula/clang-format-action@4.9.0",
+        "license": null,
+        "source_repository_url": "https://github.com/jidicula/clang-format-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

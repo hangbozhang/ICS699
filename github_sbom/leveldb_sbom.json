@@ -1,0 +1,58 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:59:32Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ]
+        },
+        "name": "com.github.google/leveldb",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.google-leveldb"
+        ],
+        "documentNamespace": "https://github.com/google/leveldb/dependency_graph/sbom-b8627c43fd867d22",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.google-leveldb",
+                "name": "com.github.google/leveldb",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/google/leveldb",
+                "licenseDeclared": "BSD-3-Clause",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/google/leveldb"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-2",
+                "name": "actions:actions/checkout",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.google-leveldb",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-2"
+            }
+        ]
+    }
+}

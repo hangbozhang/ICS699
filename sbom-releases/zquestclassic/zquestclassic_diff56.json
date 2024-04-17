@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "KyleMayes/install-llvm-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/KyleMayes/install-llvm-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/KyleMayes/install-llvm-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "click",
+        "version": "8.1.3",
+        "package_url": "pkg:pypi/click@8.1.3",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "clickclick",
+        "version": "20.10.2",
+        "package_url": "pkg:pypi/clickclick@20.10.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/hjacobs/python-clickclick",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Click",
+        "version": "7.0",
+        "package_url": "pkg:pypi/click@7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "clickclick",
+        "version": "1.2.2",
+        "package_url": "pkg:pypi/clickclick@1.2.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/hjacobs/python-clickclick",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

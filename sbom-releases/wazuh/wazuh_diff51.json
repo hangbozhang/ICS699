@@ -1,0 +1,106 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": "3.2.1",
+        "package_url": "pkg:pypi/cryptography@3.2.1",
+        "license": "Apache-2.0 AND BSD-3-Clause AND Python-2.0",
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-rhm9-p9w5-fwm7",
+                "advisory_summary": "PyCA Cryptography symmetrically encrypting large values can lead to integer overflow",
+                "advisory_url": "https://github.com/advisories/GHSA-rhm9-p9w5-fwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jfhm-5ghh-2f97",
+                "advisory_summary": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+                "advisory_url": "https://github.com/advisories/GHSA-jfhm-5ghh-2f97"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": "2.9.2",
+        "package_url": "pkg:pypi/cryptography@2.9.2",
+        "license": "Apache-2.0 AND BSD-3-Clause AND Python-2.0",
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    }
+]

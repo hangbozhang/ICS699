@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-macos.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/spellcheck.yml",
+        "ecosystem": "actions",
+        "name": "rojopolis/spellcheck-github-actions",
+        "version": "0.26.0",
+        "package_url": "pkg:githubactions/rojopolis/spellcheck-github-actions@0.26.0",
+        "license": null,
+        "source_repository_url": "https://github.com/rojopolis/spellcheck-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/spellcheck.yml",
+        "ecosystem": "actions",
+        "name": "redis-stack/github-actions/spellcheck",
+        "version": "main",
+        "package_url": "pkg:githubactions/redis-stack/github-actions/spellcheck@main",
+        "license": null,
+        "source_repository_url": "https://github.com/redis-stack/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/trigger-benchmark.yml",
+        "ecosystem": "actions",
+        "name": "DanielTamkin/HasLabel",
+        "version": "1.0.4",
+        "package_url": "pkg:githubactions/DanielTamkin/haslabel@1.0.4",
+        "license": null,
+        "source_repository_url": "https://github.com/DanielTamkin/HasLabel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/trigger-benchmark.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/compat-json.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/compat-json.yml",
+        "ecosystem": "actions",
+        "name": "yuzutech/annotations-action",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/yuzutech/annotations-action@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/yuzutech/annotations-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docs.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docs.yml",
+        "ecosystem": "actions",
+        "name": "cloudflare/wrangler-action",
+        "version": "4c10c1822abba527d820b29e6333e7f5dac2cabd",
+        "package_url": "pkg:githubactions/cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd",
+        "license": null,
+        "source_repository_url": "https://github.com/cloudflare/wrangler-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/flatpak.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/flatpak.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "5",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@5",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@83ec7c1998a152b7d47507a2da5d7a4b21e612ff",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "5",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@5",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

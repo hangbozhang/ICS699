@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tests-lint-review.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tests-lint-review.yml",
+        "ecosystem": "actions",
+        "name": "actions/github-script",
+        "version": "3.1.0",
+        "package_url": "pkg:githubactions/actions/github-script@3.1.0",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/github-script",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tests-lint-review.yml",
+        "ecosystem": "actions",
+        "name": "chipsalliance/verible-linter-action",
+        "version": "main",
+        "package_url": "pkg:githubactions/chipsalliance/verible-linter-action@main",
+        "license": null,
+        "source_repository_url": "https://github.com/chipsalliance/verible-linter-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

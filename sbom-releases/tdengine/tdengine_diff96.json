@@ -1,0 +1,87 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.google.guava:guava",
+        "version": "29.0-jre",
+        "package_url": "pkg:maven/com.google.guava/guava@29.0-jre",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/guava",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7g45-4rm6-3mm3",
+                "advisory_summary": "Guava vulnerable to insecure use of temporary directory",
+                "advisory_url": "https://github.com/advisories/GHSA-7g45-4rm6-3mm3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5mg8-w23w-74h3",
+                "advisory_summary": "Information Disclosure in Guava",
+                "advisory_url": "https://github.com/advisories/GHSA-5mg8-w23w-74h3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/odbc/examples/js/package.json",
+        "ecosystem": "npm",
+        "name": "odbc",
+        "version": "^2.3.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/markdirish/node-odbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/odbc/examples/rust/main/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "env_logger",
+        "version": ">= 0.8.2, < 0.9.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-cli/env_logger",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/odbc/examples/rust/main/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "odbc",
+        "version": ">= 0.17.0, < 0.18.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Koka/odbc-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.22",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.22",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

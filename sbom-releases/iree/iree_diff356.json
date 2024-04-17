@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/benchmarks.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "e2f20e631ae6d7dd3b768f56a5d2af784dd54791",
+        "package_url": "pkg:githubactions/actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

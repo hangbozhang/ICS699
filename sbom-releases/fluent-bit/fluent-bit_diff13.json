@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.6.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.5.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/call-test-images.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.6.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/call-test-images.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.5.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pr-image-tests.yaml",
+        "ecosystem": "actions",
+        "name": "docker/metadata-action",
+        "version": "4",
+        "package_url": "pkg:githubactions/docker/metadata-action@4",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/metadata-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/staging-release.yaml",
+        "ecosystem": "actions",
+        "name": "WyriHaximus/github-action-next-semvers",
+        "version": "1",
+        "package_url": "pkg:githubactions/WyriHaximus/github-action-next-semvers@1",
+        "license": null,
+        "source_repository_url": "https://github.com/WyriHaximus/github-action-next-semvers",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/staging-release.yaml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/staging-release.yaml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

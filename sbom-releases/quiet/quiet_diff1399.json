@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "vinkabuki/s3-upload-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/vinkabuki/s3-upload-action@master",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

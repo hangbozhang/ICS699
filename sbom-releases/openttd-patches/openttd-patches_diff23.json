@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "advanced-security/filter-sarif",
+        "version": "1",
+        "package_url": "pkg:githubactions/advanced-security/filter-sarif@1",
+        "license": null,
+        "source_repository_url": "https://github.com/advanced-security/filter-sarif",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/analyze",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/analyze@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/autobuild",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/autobuild@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/init@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/upload-sarif",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/upload-sarif@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

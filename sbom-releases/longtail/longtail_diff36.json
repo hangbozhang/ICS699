@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "softprops/action-gh-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/softprops/action-gh-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/softprops/action-gh-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "Roang-zero1/github-upload-release-artifacts-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/Roang-zero1/github-upload-release-artifacts-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/Roang-zero1/github-upload-release-artifacts-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/create-release",
+        "version": "latest",
+        "package_url": "pkg:githubactions/actions/create-release@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/create-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/database.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/database.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-node@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/database.yml",
+        "ecosystem": "actions",
+        "name": "s3-actions/s3cmd",
+        "version": "4e3a53c3e9313f573ff3f69aec7a772366f2f8f5",
+        "package_url": "pkg:githubactions/s3-actions/s3cmd@4e3a53c3e9313f573ff3f69aec7a772366f2f8f5",
+        "license": null,
+        "source_repository_url": "https://github.com/s3-actions/s3cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

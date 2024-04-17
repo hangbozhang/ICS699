@@ -1,0 +1,934 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hyper",
+        "version": "0.10.12",
+        "package_url": "pkg:cargo/hyper@0.10.12",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/hyperium/hyper",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f67m-9j94-qv9j",
+                "advisory_summary": "Parser creates invalid uninitialized value",
+                "advisory_url": "https://github.com/advisories/GHSA-f67m-9j94-qv9j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5h46-h7hh-c6x9",
+                "advisory_summary": "Integer Overflow in Chunked Transfer-Encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-5h46-h7hh-c6x9"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-f3pg-qwvg-p99c",
+                "advisory_summary": "Lenient Parsing of Content-Length Header When Prefixed with Plus Sign",
+                "advisory_url": "https://github.com/advisories/GHSA-f3pg-qwvg-p99c"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl",
+        "version": "0.9.14",
+        "package_url": "pkg:cargo/openssl@0.9.14",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6hcf-g6gr-hhcr",
+                "advisory_summary": "`openssl` `X509Extension::new` and `X509Extension::new_nid` null pointer dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-6hcf-g6gr-hhcr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qwg-crg9-m2vc",
+                "advisory_summary": "`openssl` `SubjectAlternativeName` and `ExtendedKeyUsage::other` allow arbitrary file read",
+                "advisory_url": "https://github.com/advisories/GHSA-9qwg-crg9-m2vc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3gxf-9r58-2ghg",
+                "advisory_summary": "`openssl` `X509NameBuilder::build` returned object is not thread safe",
+                "advisory_url": "https://github.com/advisories/GHSA-3gxf-9r58-2ghg"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "thread_local",
+        "version": "0.3.4",
+        "package_url": "pkg:cargo/thread_local@0.3.4",
+        "license": "Apache-2.0 OR MIT",
+        "source_repository_url": "https://github.com/Amanieu/thread_local-rs",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9hpw-r23r-xgm5",
+                "advisory_summary": "Data race in `Iter` and `IterMut`",
+                "advisory_url": "https://github.com/advisories/GHSA-9hpw-r23r-xgm5"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hyper",
+        "version": "0.10.11",
+        "package_url": "pkg:cargo/hyper@0.10.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/hyperium/hyper",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f67m-9j94-qv9j",
+                "advisory_summary": "Parser creates invalid uninitialized value",
+                "advisory_url": "https://github.com/advisories/GHSA-f67m-9j94-qv9j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5h46-h7hh-c6x9",
+                "advisory_summary": "Integer Overflow in Chunked Transfer-Encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-5h46-h7hh-c6x9"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-f3pg-qwvg-p99c",
+                "advisory_summary": "Lenient Parsing of Content-Length Header When Prefixed with Plus Sign",
+                "advisory_url": "https://github.com/advisories/GHSA-f3pg-qwvg-p99c"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl",
+        "version": "0.9.12",
+        "package_url": "pkg:cargo/openssl@0.9.12",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6hcf-g6gr-hhcr",
+                "advisory_summary": "`openssl` `X509Extension::new` and `X509Extension::new_nid` null pointer dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-6hcf-g6gr-hhcr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qwg-crg9-m2vc",
+                "advisory_summary": "`openssl` `SubjectAlternativeName` and `ExtendedKeyUsage::other` allow arbitrary file read",
+                "advisory_url": "https://github.com/advisories/GHSA-9qwg-crg9-m2vc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3gxf-9r58-2ghg",
+                "advisory_summary": "`openssl` `X509NameBuilder::build` returned object is not thread safe",
+                "advisory_url": "https://github.com/advisories/GHSA-3gxf-9r58-2ghg"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "thread_local",
+        "version": "0.3.3",
+        "package_url": "pkg:cargo/thread_local@0.3.3",
+        "license": "Apache-2.0/MIT",
+        "source_repository_url": "https://github.com/Amanieu/thread_local-rs",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9hpw-r23r-xgm5",
+                "advisory_summary": "Data race in `Iter` and `IterMut`",
+                "advisory_url": "https://github.com/advisories/GHSA-9hpw-r23r-xgm5"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "time",
+        "version": "0.1.38",
+        "package_url": "pkg:cargo/time@0.1.38",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/time-rs/time",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wcg3-cvx6-7396",
+                "advisory_summary": "Segmentation fault in time",
+                "advisory_url": "https://github.com/advisories/GHSA-wcg3-cvx6-7396"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "time",
+        "version": "0.1.37",
+        "package_url": "pkg:cargo/time@0.1.37",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/time-rs/time",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wcg3-cvx6-7396",
+                "advisory_summary": "Segmentation fault in time",
+                "advisory_url": "https://github.com/advisories/GHSA-wcg3-cvx6-7396"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "bitflags",
+        "version": "0.9.1",
+        "package_url": "pkg:cargo/bitflags@0.9.1",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/bitflags/bitflags",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "cfg-if",
+        "version": "0.1.2",
+        "package_url": "pkg:cargo/cfg-if@0.1.2",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/rust-lang/cfg-if",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "clap",
+        "version": "2.25.0",
+        "package_url": "pkg:cargo/clap@2.25.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/clap-rs/clap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "coco",
+        "version": "0.1.1",
+        "package_url": "pkg:cargo/coco@0.1.1",
+        "license": "Apache-2.0/MIT",
+        "source_repository_url": "https://github.com/inherd/coco",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "either",
+        "version": "1.1.0",
+        "package_url": "pkg:cargo/either@1.1.0",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/bluss/either",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "fs2",
+        "version": "0.4.2",
+        "package_url": "pkg:cargo/fs2@0.4.2",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/danburkert/fs2-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "futures",
+        "version": "0.1.14",
+        "package_url": "pkg:cargo/futures@0.1.14",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/rust-lang/futures-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "gcc",
+        "version": "0.3.51",
+        "package_url": "pkg:cargo/gcc@0.3.51",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hyper-native-tls",
+        "version": "0.2.4",
+        "package_url": "pkg:cargo/hyper-native-tls@0.2.4",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/hyper-native-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "libc",
+        "version": "0.2.26",
+        "package_url": "pkg:cargo/libc@0.2.26",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/rust-lang/libc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "matches",
+        "version": "0.1.6",
+        "package_url": "pkg:cargo/matches@0.1.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SimonSapin/rust-std-candidates",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "md-5",
+        "version": "0.4.4",
+        "package_url": "pkg:cargo/md-5@0.4.4",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/RustCrypto/hashes",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "native-tls",
+        "version": "0.1.4",
+        "package_url": "pkg:cargo/native-tls@0.1.4",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/rust-native-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "num_cpus",
+        "version": "1.6.2",
+        "package_url": "pkg:cargo/num_cpus@1.6.2",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/seanmonstar/num_cpus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": "0.9.14",
+        "package_url": "pkg:cargo/openssl-sys@0.9.14",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "percent-encoding",
+        "version": "1.0.0",
+        "package_url": "pkg:cargo/percent-encoding@1.0.0",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/servo/rust-url",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "rayon",
+        "version": "0.7.1",
+        "package_url": "pkg:cargo/rayon@0.7.1",
+        "license": "Apache-2.0 OR MIT",
+        "source_repository_url": "https://github.com/rayon-rs/rayon",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "rayon-core",
+        "version": "1.2.1",
+        "package_url": "pkg:cargo/rayon-core@1.2.1",
+        "license": "Apache-2.0 OR MIT",
+        "source_repository_url": "https://github.com/rayon-rs/rayon",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "redox_syscall",
+        "version": "0.1.21",
+        "package_url": "pkg:cargo/redox_syscall@0.1.21",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redox-os/syscall",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "schannel",
+        "version": "0.1.7",
+        "package_url": "pkg:cargo/schannel@0.1.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/steffengy/schannel-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "scopeguard",
+        "version": "0.3.2",
+        "package_url": "pkg:cargo/scopeguard@0.3.2",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/bluss/scopeguard",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "sha2",
+        "version": "0.5.3",
+        "package_url": "pkg:cargo/sha2@0.5.3",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/RustCrypto/hashes",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "textwrap",
+        "version": "0.6.0",
+        "package_url": "pkg:cargo/textwrap@0.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mgeisler/textwrap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicase",
+        "version": "1.4.2",
+        "package_url": "pkg:cargo/unicase@1.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/seanmonstar/unicase",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-bidi",
+        "version": "0.3.4",
+        "package_url": "pkg:cargo/unicode-bidi@0.3.4",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/servo/unicode-bidi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-normalization",
+        "version": "0.1.5",
+        "package_url": "pkg:cargo/unicode-normalization@0.1.5",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/unicode-rs/unicode-normalization",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-segmentation",
+        "version": "1.1.0",
+        "package_url": "pkg:cargo/unicode-segmentation@1.1.0",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/unicode-rs/unicode-segmentation",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unreachable",
+        "version": "1.0.0",
+        "package_url": "pkg:cargo/unreachable@1.0.0",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/reem/rust-unreachable",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "url",
+        "version": "1.5.1",
+        "package_url": "pkg:cargo/url@1.5.1",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/servo/rust-url",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "version_check",
+        "version": "0.1.2",
+        "package_url": "pkg:cargo/version_check@0.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SergioBenitez/version_check",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "wincolor",
+        "version": "0.1.4",
+        "package_url": "pkg:cargo/wincolor@0.1.4",
+        "license": "Unlicense/MIT",
+        "source_repository_url": "https://github.com/BurntSushi/termcolor",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "zip",
+        "version": "0.2.5",
+        "package_url": "pkg:cargo/zip@0.2.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zip-rs/zip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "bitflags",
+        "version": "0.8.2",
+        "package_url": "pkg:cargo/bitflags@0.8.2",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/bitflags/bitflags",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "cfg-if",
+        "version": "0.1.0",
+        "package_url": "pkg:cargo/cfg-if@0.1.0",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/rust-lang/cfg-if",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "clap",
+        "version": "2.24.2",
+        "package_url": "pkg:cargo/clap@2.24.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/clap-rs/clap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "fs2",
+        "version": "0.4.1",
+        "package_url": "pkg:cargo/fs2@0.4.1",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/danburkert/fs2-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "gcc",
+        "version": "0.3.49",
+        "package_url": "pkg:cargo/gcc@0.3.49",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "gdi32-sys",
+        "version": "0.2.0",
+        "package_url": "pkg:cargo/gdi32-sys@0.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/retep998/winapi-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hyper-native-tls",
+        "version": "0.2.2",
+        "package_url": "pkg:cargo/hyper-native-tls@0.2.2",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/hyper-native-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "libc",
+        "version": "0.2.23",
+        "package_url": "pkg:cargo/libc@0.2.23",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/libc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "matches",
+        "version": "0.1.4",
+        "package_url": "pkg:cargo/matches@0.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SimonSapin/rust-std-candidates",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "md-5",
+        "version": "0.4.3",
+        "package_url": "pkg:cargo/md-5@0.4.3",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/RustCrypto/hashes",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "native-tls",
+        "version": "0.1.2",
+        "package_url": "pkg:cargo/native-tls@0.1.2",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/rust-native-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "num_cpus",
+        "version": "1.5.0",
+        "package_url": "pkg:cargo/num_cpus@1.5.0",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/seanmonstar/num_cpus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": "0.9.12",
+        "package_url": "pkg:cargo/openssl-sys@0.9.12",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "redox_syscall",
+        "version": "0.1.17",
+        "package_url": "pkg:cargo/redox_syscall@0.1.17",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redox-os/syscall",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "rustc_version",
+        "version": "0.1.7",
+        "package_url": "pkg:cargo/rustc_version@0.1.7",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/djc/rustc-version-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "schannel",
+        "version": "0.1.5",
+        "package_url": "pkg:cargo/schannel@0.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/steffengy/schannel-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "semver",
+        "version": "0.1.20",
+        "package_url": "pkg:cargo/semver@0.1.20",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/dtolnay/semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "sha2",
+        "version": "0.5.2",
+        "package_url": "pkg:cargo/sha2@0.5.2",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/RustCrypto/hashes",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "thread-id",
+        "version": "3.1.0",
+        "package_url": "pkg:cargo/thread-id@3.1.0",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/ruuda/thread-id",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicase",
+        "version": "1.4.0",
+        "package_url": "pkg:cargo/unicase@1.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/seanmonstar/unicase",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-bidi",
+        "version": "0.3.3",
+        "package_url": "pkg:cargo/unicode-bidi@0.3.3",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/servo/unicode-bidi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-normalization",
+        "version": "0.1.4",
+        "package_url": "pkg:cargo/unicode-normalization@0.1.4",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/unicode-rs/unicode-normalization",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-segmentation",
+        "version": "1.2.0",
+        "package_url": "pkg:cargo/unicode-segmentation@1.2.0",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/unicode-rs/unicode-segmentation",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unreachable",
+        "version": "0.1.1",
+        "package_url": "pkg:cargo/unreachable@0.1.1",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/reem/rust-unreachable",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "url",
+        "version": "1.4.1",
+        "package_url": "pkg:cargo/url@1.4.1",
+        "license": "MIT/Apache-2.0",
+        "source_repository_url": "https://github.com/servo/rust-url",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "user32-sys",
+        "version": "0.2.0",
+        "package_url": "pkg:cargo/user32-sys@0.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/retep998/winapi-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "wincolor",
+        "version": "0.1.3",
+        "package_url": "pkg:cargo/wincolor@0.1.3",
+        "license": "Unlicense/MIT",
+        "source_repository_url": "https://github.com/BurntSushi/termcolor",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "zip",
+        "version": "0.2.3",
+        "package_url": "pkg:cargo/zip@0.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zip-rs/zip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tempdir",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang-deprecated/tempdir",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

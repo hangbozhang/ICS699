@@ -1,0 +1,21 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jinja2",
+        "version": "< 3.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    }
+]

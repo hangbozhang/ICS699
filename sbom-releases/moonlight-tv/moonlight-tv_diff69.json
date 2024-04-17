@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/setup-node@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ncipollo/release-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/ncipollo/release-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ncipollo/release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "olegtarasov/get-tag",
+        "version": "2.1",
+        "package_url": "pkg:githubactions/olegtarasov/get-tag@2.1",
+        "license": null,
+        "source_repository_url": "https://github.com/olegtarasov/get-tag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/webos-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/webos-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/webos-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/setup-node@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/webos-release.yml",
+        "ecosystem": "actions",
+        "name": "ncipollo/release-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/ncipollo/release-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ncipollo/release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

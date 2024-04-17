@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.177",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.177",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.34.0",
+        "package_url": "pkg:npm/eslint@8.34.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "13.1.1",
+        "package_url": "pkg:npm/lint-staged@13.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.8.4",
+        "package_url": "pkg:npm/prettier@2.8.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.174",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.174",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.33.0",
+        "package_url": "pkg:npm/eslint@8.33.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "13.1.0",
+        "package_url": "pkg:npm/lint-staged@13.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lint-staged/lint-staged",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.8.3",
+        "package_url": "pkg:npm/prettier@2.8.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.177",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.177",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "11.0.174",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@11.0.174",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

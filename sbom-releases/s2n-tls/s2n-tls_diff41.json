@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": "0.0.9",
+        "package_url": "pkg:cargo/s2n-tls@0.0.9",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": "0.0.8",
+        "package_url": "pkg:cargo/s2n-tls@0.0.8",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.9",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.9",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.8",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.8",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

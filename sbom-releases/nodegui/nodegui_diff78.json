@@ -1,0 +1,280 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "underscore",
+        "version": "1.9.2",
+        "package_url": "pkg:npm/underscore@1.9.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jashkenas/underscore",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-cf4h-3jhx-xvhq",
+                "advisory_summary": "Arbitrary Code Execution in underscore",
+                "advisory_url": "https://github.com/advisories/GHSA-cf4h-3jhx-xvhq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "jquery",
+        "version": "3.4.1",
+        "package_url": "pkg:npm/jquery@3.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jquery/jquery",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jpcq-cgw6-v4j6",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxr4-xjj5-5px2",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-257q-pv89-v3xv",
+                "advisory_summary": "jQuery Cross Site Scripting vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-257q-pv89-v3xv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "13.9.3",
+        "package_url": "pkg:npm/%40types/node@13.9.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "2.24.0",
+        "package_url": "pkg:npm/%40typescript-eslint/eslint-plugin@2.24.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/experimental-utils",
+        "version": "2.24.0",
+        "package_url": "pkg:npm/%40typescript-eslint/experimental-utils@2.24.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "2.24.0",
+        "package_url": "pkg:npm/%40typescript-eslint/parser@2.24.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/typescript-estree",
+        "version": "2.24.0",
+        "package_url": "pkg:npm/%40typescript-eslint/typescript-estree@2.24.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "6.10.1",
+        "package_url": "pkg:npm/eslint-config-prettier@6.10.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/eslint-config-prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/prettier@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "0.17.3",
+        "package_url": "pkg:npm/typedoc@0.17.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc-default-themes",
+        "version": "0.9.0",
+        "package_url": "pkg:npm/typedoc-default-themes@0.9.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc-default-themes",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "13.9.1",
+        "package_url": "pkg:npm/%40types/node@13.9.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/eslint-plugin@2.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/parser@2.23.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "backbone",
+        "version": "1.4.0",
+        "package_url": "pkg:npm/backbone@1.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jashkenas/backbone",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "6.10.0",
+        "package_url": "pkg:npm/eslint-config-prettier@6.10.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/eslint-config-prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "1.19.1",
+        "package_url": "pkg:npm/prettier@1.19.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "0.17.0",
+        "package_url": "pkg:npm/typedoc@0.17.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc-default-themes",
+        "version": "0.8.0",
+        "package_url": "pkg:npm/typedoc-default-themes@0.8.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc-default-themes",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^2.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^1.18.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

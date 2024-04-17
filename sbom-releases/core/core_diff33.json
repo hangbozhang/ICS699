@@ -1,0 +1,173 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/clang-format.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/clang-format.yml",
+        "ecosystem": "actions",
+        "name": "jidicula/clang-format-action",
+        "version": "3.2.0",
+        "package_url": "pkg:githubactions/jidicula/clang-format-action@3.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/jidicula/clang-format-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "14.14.37",
+        "package_url": "pkg:npm/%40types/node@14.14.37",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.2.3",
+        "package_url": "pkg:npm/typescript@4.2.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "3.9.7",
+        "package_url": "pkg:npm/typescript@3.9.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^14.14.37",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^4.2.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^3.9.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/y18n@4.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c4w7-xm78-47vh",
+                "advisory_summary": "Prototype Pollution in y18n",
+                "advisory_url": "https://github.com/advisories/GHSA-c4w7-xm78-47vh"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.1",
+        "package_url": "pkg:npm/y18n@4.0.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/python/rsasample/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "3.4.2",
+        "package_url": "pkg:pypi/rsa@3.4.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-537h-rv9q-vvph",
+                "advisory_summary": "Python-RSA decryption of ciphertext leads to DoS",
+                "advisory_url": "https://github.com/advisories/GHSA-537h-rv9q-vvph"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrx6-fmxq-rjj2",
+                "advisory_summary": "Timing attacks in python-rsa",
+                "advisory_url": "https://github.com/advisories/GHSA-xrx6-fmxq-rjj2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/rsasample/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "4.1",
+        "package_url": "pkg:pypi/rsa@4.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrx6-fmxq-rjj2",
+                "advisory_summary": "Timing attacks in python-rsa",
+                "advisory_url": "https://github.com/advisories/GHSA-xrx6-fmxq-rjj2"
+            }
+        ]
+    }
+]

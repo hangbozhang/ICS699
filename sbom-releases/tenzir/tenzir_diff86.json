@@ -1,0 +1,119 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "styfle/cancel-workflow-action",
+        "version": "0.9.1",
+        "package_url": "pkg:githubactions/styfle/cancel-workflow-action@0.9.1",
+        "license": null,
+        "source_repository_url": "https://github.com/styfle/cancel-workflow-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "styfle/cancel-workflow-action",
+        "version": "0.9.0",
+        "package_url": "pkg:githubactions/styfle/cancel-workflow-action@0.9.0",
+        "license": null,
+        "source_repository_url": "https://github.com/styfle/cancel-workflow-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/jupyter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 0.17,< 5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/jupyter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 0.17",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "pyvast/example/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 0.17,< 5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "pyvast/example/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 0.16",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "vast/integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 0.17,< 5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "vast/integration/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 0.17",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

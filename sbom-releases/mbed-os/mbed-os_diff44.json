@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pywin32",
+        "version": "224",
+        "package_url": "pkg:pypi/pywin32@224",
+        "license": "PSF-2.0",
+        "source_repository_url": "https://github.com/mhammond/pywin32",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hwfp-hg2m-9vr2",
+                "advisory_summary": "Integer overflow in pywin32",
+                "advisory_url": "https://github.com/advisories/GHSA-hwfp-hg2m-9vr2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "wmi",
+        "version": "1.4.9",
+        "package_url": "pkg:pypi/wmi@1.4.9",
+        "license": null,
+        "source_repository_url": "https://github.com/cloudbase/wmi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

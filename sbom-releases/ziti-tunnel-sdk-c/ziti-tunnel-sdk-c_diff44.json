@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "lukka/get-cmake",
+        "version": "latest",
+        "package_url": "pkg:githubactions/lukka/get-cmake@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/get-cmake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

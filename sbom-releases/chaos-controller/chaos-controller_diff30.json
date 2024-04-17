@@ -1,0 +1,76 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/containerd/containerd",
+        "version": "1.5.18",
+        "package_url": "pkg:golang/github.com/containerd/containerd@1.5.18",
+        "license": null,
+        "source_repository_url": "https://github.com/containerd/containerd",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7ww5-4wqc-m92c",
+                "advisory_summary": "containerd allows RAPL to be accessible to a container",
+                "advisory_url": "https://github.com/advisories/GHSA-7ww5-4wqc-m92c"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/containerd/containerd",
+        "version": "1.5.16",
+        "package_url": "pkg:golang/github.com/containerd/containerd@1.5.16",
+        "license": null,
+        "source_repository_url": "https://github.com/containerd/containerd",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hmfx-3pcx-653p",
+                "advisory_summary": "Supplementary groups are not set up properly in github.com/containerd/containerd",
+                "advisory_url": "https://github.com/advisories/GHSA-hmfx-3pcx-653p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-259w-8hf6-59c2",
+                "advisory_summary": "OCI image importer memory exhaustion in github.com/containerd/containerd",
+                "advisory_url": "https://github.com/advisories/GHSA-259w-8hf6-59c2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7ww5-4wqc-m92c",
+                "advisory_summary": "containerd allows RAPL to be accessible to a container",
+                "advisory_url": "https://github.com/advisories/GHSA-7ww5-4wqc-m92c"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/Microsoft/hcsshim",
+        "version": "0.8.25",
+        "package_url": "pkg:golang/github.com/Microsoft/hcsshim@0.8.25",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/hcsshim",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/Microsoft/hcsshim",
+        "version": "0.8.24",
+        "package_url": "pkg:golang/github.com/Microsoft/hcsshim@0.8.24",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/hcsshim",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

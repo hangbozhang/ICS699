@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache/restore",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/cache/restore@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache/save",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/cache/save@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "msys2/setup-msys2",
+        "version": "2",
+        "package_url": "pkg:githubactions/msys2/setup-msys2@2",
+        "license": null,
+        "source_repository_url": "https://github.com/msys2/setup-msys2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/download-artifact@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "geekyeggo/delete-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/geekyeggo/delete-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/GeekyEggo/delete-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

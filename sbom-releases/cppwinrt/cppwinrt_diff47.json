@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cppwinrt/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.210225.2",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.210225.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "cppwinrt/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.191022.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.191022.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.210225.2",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.210225.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.191006.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.191006.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

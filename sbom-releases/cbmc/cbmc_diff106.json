@@ -1,0 +1,57 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "jbmc/regression/jbmc/classpath-jar-load-whole-jar/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-jar-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "jbmc/regression/jbmc/deterministic_assignments_json/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.cedarsoftware:json-io",
+        "version": "4.10.1",
+        "package_url": "pkg:maven/com.cedarsoftware/json-io@4.10.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/jdereg/json-io",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-779h-3r69-4f5p",
+                "advisory_summary": "json-io vulnerable to stack exhaustion",
+                "advisory_url": "https://github.com/advisories/GHSA-779h-3r69-4f5p"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "jbmc/regression/jbmc/deterministic_assignments_json/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "jbmc/regression/jbmc/deterministic_assignments_json/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-jar-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

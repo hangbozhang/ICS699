@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "CMake/setup.py",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

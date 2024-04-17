@@ -1,0 +1,64 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.29",
+        "package_url": "pkg:npm/postcss@8.4.29",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.28",
+        "package_url": "pkg:npm/postcss@8.4.28",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^8.4.29",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^8.4.28",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

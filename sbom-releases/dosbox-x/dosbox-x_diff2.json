@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/hxdos.yml",
+        "ecosystem": "actions",
+        "name": "robinraju/release-downloader",
+        "version": "1.8",
+        "package_url": "pkg:githubactions/robinraju/release-downloader@1.8",
+        "license": null,
+        "source_repository_url": "https://github.com/robinraju/release-downloader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/hxdos.yml",
+        "ecosystem": "actions",
+        "name": "robinraju/release-downloader",
+        "version": "1.7",
+        "package_url": "pkg:githubactions/robinraju/release-downloader@1.7",
+        "license": null,
+        "source_repository_url": "https://github.com/robinraju/release-downloader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-installers.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache/restore",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/cache/restore@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-installers.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache/save",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/cache/save@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-installers.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3.1.2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-installers.yml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.3",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.3",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-installers.yml",
+        "ecosystem": "actions",
+        "name": "msys2/setup-msys2",
+        "version": "2",
+        "package_url": "pkg:githubactions/msys2/setup-msys2@2",
+        "license": null,
+        "source_repository_url": "https://github.com/msys2/setup-msys2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/windows-installers.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "main",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@main",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

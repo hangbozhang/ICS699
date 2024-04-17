@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native-blob-util",
+        "version": "0.16.2",
+        "package_url": "pkg:npm/react-native-blob-util@0.16.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/RonRadtke/react-native-blob-util",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package-lock.json",
+        "ecosystem": "npm",
+        "name": "redux-persist-filesystem-storage",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/redux-persist-filesystem-storage@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/robwalkerco/redux-persist-filesystem-storage",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-blob-util",
+        "version": "^0.16.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RonRadtke/react-native-blob-util",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "redux-persist-filesystem-storage",
+        "version": "^4.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/robwalkerco/redux-persist-filesystem-storage",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

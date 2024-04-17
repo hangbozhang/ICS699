@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "vsix/Dev16/vsix.Dev16.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.BuildTools",
+        "version": "17.0.1619-preview1",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.BuildTools@17.0.1619-preview1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "vsix/Dev17/vsix.Dev17.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.BuildTools",
+        "version": "17.0.4207-preview4",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.BuildTools@17.0.4207-preview4",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "vsix/Dev17/vsix.Dev17.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VisualStudio.SDK",
+        "version": "17.0.0-previews-4-31709-430",
+        "package_url": "pkg:nuget/Microsoft.VisualStudio.SDK@17.0.0-previews-4-31709-430",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "vsix/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.BuildTools",
+        "version": "17.0.1619-preview1",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.BuildTools@17.0.1619-preview1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

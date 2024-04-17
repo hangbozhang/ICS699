@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-6.2.yml",
+        "ecosystem": "actions",
+        "name": "joncloud/makensis-action",
+        "version": "3.6",
+        "package_url": "pkg:githubactions/joncloud/makensis-action@3.6",
+        "license": null,
+        "source_repository_url": "https://github.com/joncloud/makensis-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows.yml",
+        "ecosystem": "actions",
+        "name": "joncloud/makensis-action",
+        "version": "3.6",
+        "package_url": "pkg:githubactions/joncloud/makensis-action@3.6",
+        "license": null,
+        "source_repository_url": "https://github.com/joncloud/makensis-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

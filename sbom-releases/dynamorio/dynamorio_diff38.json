@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci-aarch64-native.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci-aarch64-native.yml",
+        "ecosystem": "actions",
+        "name": "dawidd6/action-send-mail",
+        "version": "2",
+        "package_url": "pkg:githubactions/dawidd6/action-send-mail@2",
+        "license": null,
+        "source_repository_url": "https://github.com/dawidd6/action-send-mail",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci-aarch64-native.yml",
+        "ecosystem": "actions",
+        "name": "n1hility/cancel-previous-runs",
+        "version": "2",
+        "package_url": "pkg:githubactions/n1hility/cancel-previous-runs@2",
+        "license": null,
+        "source_repository_url": "https://github.com/n1hility/cancel-previous-runs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,3243 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/cs_loader/netcore/source/project.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.CodeAnalysis.CSharp",
+        "version": "3.2.1",
+        "package_url": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@3.2.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/dotnet/roslyn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cherow",
+        "version": "1.6.9",
+        "package_url": "pkg:npm/cherow@1.6.9",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/cherow/cherow",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/node_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "cherow",
+        "version": "^1.6.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/cherow/cherow",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "flat",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/flat@4.1.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/hughsk/flat",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2j2x-2gpw-g8fm",
+                "advisory_summary": "flat vulnerable to Prototype Pollution",
+                "advisory_url": "https://github.com/advisories/GHSA-2j2x-2gpw-g8fm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimist",
+        "version": "0.0.8",
+        "package_url": "pkg:npm/minimist@0.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/substack/minimist",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-xvch-5gv4-984h",
+                "advisory_summary": "Prototype Pollution in minimist",
+                "advisory_url": "https://github.com/advisories/GHSA-xvch-5gv4-984h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vh95-rmgr-6w4m",
+                "advisory_summary": "Prototype Pollution in minimist",
+                "advisory_url": "https://github.com/advisories/GHSA-vh95-rmgr-6w4m"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-regex",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/ansi-regex@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-regex",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-93q8-gq69-wqmw",
+                "advisory_summary": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "advisory_url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-regex",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/ansi-regex@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-regex",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-93q8-gq69-wqmw",
+                "advisory_summary": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "advisory_url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.14",
+        "package_url": "pkg:npm/lodash@4.17.14",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p6mc-m468-83gw",
+                "advisory_summary": "Prototype Pollution in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-p6mc-m468-83gw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/minimatch@3.0.4",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/minimatch",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f8q6-p94x-37v3",
+                "advisory_summary": "minimatch ReDoS vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-f8q6-p94x-37v3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/y18n@4.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c4w7-xm78-47vh",
+                "advisory_summary": "Prototype Pollution in y18n",
+                "advisory_url": "https://github.com/advisories/GHSA-c4w7-xm78-47vh"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "3.2.6",
+        "package_url": "pkg:npm/debug@3.2.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxpj-cx7g-858c",
+                "advisory_summary": "Regular Expression Denial of Service in debug",
+                "advisory_url": "https://github.com/advisories/GHSA-gxpj-cx7g-858c"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "5.7.0",
+        "package_url": "pkg:npm/semver@5.7.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-parser",
+        "version": "11.1.1",
+        "package_url": "pkg:npm/yargs-parser@11.1.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/yargs-parser",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p9pc-299p-vxgp",
+                "advisory_summary": "yargs-parser Vulnerable to Prototype Pollution",
+                "advisory_url": "https://github.com/advisories/GHSA-p9pc-299p-vxgp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-parser",
+        "version": "13.0.0",
+        "package_url": "pkg:npm/yargs-parser@13.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/yargs-parser",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p9pc-299p-vxgp",
+                "advisory_summary": "yargs-parser Vulnerable to Prototype Pollution",
+                "advisory_url": "https://github.com/advisories/GHSA-p9pc-299p-vxgp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-colors",
+        "version": "3.2.3",
+        "package_url": "pkg:npm/ansi-colors@3.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/doowb/ansi-colors",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-regex",
+        "version": "2.1.1",
+        "package_url": "pkg:npm/ansi-regex@2.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-styles",
+        "version": "3.2.1",
+        "package_url": "pkg:npm/ansi-styles@3.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-styles",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "argparse",
+        "version": "1.0.10",
+        "package_url": "pkg:npm/argparse@1.0.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/argparse",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "balanced-match",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/balanced-match@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/juliangruber/balanced-match",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "brace-expansion",
+        "version": "1.1.11",
+        "package_url": "pkg:npm/brace-expansion@1.1.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/juliangruber/brace-expansion",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "browser-stdout",
+        "version": "1.3.1",
+        "package_url": "pkg:npm/browser-stdout@1.3.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/kumavis/browser-stdout",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "camelcase",
+        "version": "5.3.1",
+        "package_url": "pkg:npm/camelcase@5.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/camelcase",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "chalk",
+        "version": "2.4.2",
+        "package_url": "pkg:npm/chalk@2.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/chalk",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cliui",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/cliui@4.1.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/cliui",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "code-point-at",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/code-point-at@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/code-point-at",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "color-convert",
+        "version": "1.9.3",
+        "package_url": "pkg:npm/color-convert@1.9.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Qix-/color-convert",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "color-name",
+        "version": "1.1.3",
+        "package_url": "pkg:npm/color-name@1.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/colorjs/color-name",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "concat-map",
+        "version": "0.0.1",
+        "package_url": "pkg:npm/concat-map@0.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/substack/node-concat-map",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "package_url": "pkg:npm/cross-spawn@6.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/moxystudio/node-cross-spawn",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "decamelize",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/decamelize@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/decamelize",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "define-properties",
+        "version": "1.1.3",
+        "package_url": "pkg:npm/define-properties@1.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/define-properties",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "diff",
+        "version": "3.5.0",
+        "package_url": "pkg:npm/diff@3.5.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/kpdecker/jsdiff",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "emoji-regex",
+        "version": "7.0.3",
+        "package_url": "pkg:npm/emoji-regex@7.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mathiasbynens/emoji-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "end-of-stream",
+        "version": "1.4.1",
+        "package_url": "pkg:npm/end-of-stream@1.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mafintosh/end-of-stream",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "es-abstract",
+        "version": "1.13.0",
+        "package_url": "pkg:npm/es-abstract@1.13.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/es-abstract",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "es-to-primitive",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/es-to-primitive@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/es-to-primitive",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "escape-string-regexp",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/escape-string-regexp@1.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/escape-string-regexp",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "esprima",
+        "version": "4.0.1",
+        "package_url": "pkg:npm/esprima@4.0.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jquery/esprima",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "execa",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/execa@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/execa",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "find-up",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/find-up@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/find-up",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "fs.realpath",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/fs.realpath@1.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/fs.realpath",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "function-bind",
+        "version": "1.1.1",
+        "package_url": "pkg:npm/function-bind@1.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Raynos/function-bind",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "get-caller-file",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/get-caller-file@1.0.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/stefanpenner/get-caller-file",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "get-caller-file",
+        "version": "2.0.5",
+        "package_url": "pkg:npm/get-caller-file@2.0.5",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/stefanpenner/get-caller-file",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "get-stream",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/get-stream@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/get-stream",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "7.1.3",
+        "package_url": "pkg:npm/glob@7.1.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "growl",
+        "version": "1.10.5",
+        "package_url": "pkg:npm/growl@1.10.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tj/node-growl",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "has",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/has@1.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tarruda/has",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "has-flag",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/has-flag@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/has-flag",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "has-symbols",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/has-symbols@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/has-symbols",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "he",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/he@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mathiasbynens/he",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "inflight",
+        "version": "1.0.6",
+        "package_url": "pkg:npm/inflight@1.0.6",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/inflight",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "inherits",
+        "version": "2.0.4",
+        "package_url": "pkg:npm/inherits@2.0.4",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/inherits",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "invert-kv",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/invert-kv@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/invert-kv",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-buffer",
+        "version": "2.0.3",
+        "package_url": "pkg:npm/is-buffer@2.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/feross/is-buffer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-callable",
+        "version": "1.1.4",
+        "package_url": "pkg:npm/is-callable@1.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-callable",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-date-object",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/is-date-object@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-date-object",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-fullwidth-code-point",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/is-fullwidth-code-point@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-fullwidth-code-point",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-fullwidth-code-point",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/is-fullwidth-code-point@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-fullwidth-code-point",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-regex",
+        "version": "1.0.4",
+        "package_url": "pkg:npm/is-regex@1.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-stream",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/is-stream@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-stream",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-symbol",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/is-symbol@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inspect-js/is-symbol",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "isexe",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/isexe@2.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/isexe",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "3.13.1",
+        "package_url": "pkg:npm/js-yaml@3.13.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lcid",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/lcid@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/lcid",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "locate-path",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/locate-path@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/locate-path",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "log-symbols",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/log-symbols@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/log-symbols",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "map-age-cleaner",
+        "version": "0.1.3",
+        "package_url": "pkg:npm/map-age-cleaner@0.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SamVerschueren/map-age-cleaner",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mem",
+        "version": "4.3.0",
+        "package_url": "pkg:npm/mem@4.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/memoize",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mimic-fn",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/mimic-fn@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/mimic-function",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mkdirp",
+        "version": "0.5.1",
+        "package_url": "pkg:npm/mkdirp@0.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/substack/node-mkdirp",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "6.1.4",
+        "package_url": "pkg:npm/mocha@6.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ms",
+        "version": "2.1.1",
+        "package_url": "pkg:npm/ms@2.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vercel/ms",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "nice-try",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/nice-try@1.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electerious/nice-try",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "node-addon-api",
+        "version": "1.6.3",
+        "package_url": "pkg:npm/node-addon-api@1.6.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodejs/node-addon-api",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "node-environment-flags",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/node-environment-flags@1.0.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/boneskull/node-environment-flags",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "npm-run-path",
+        "version": "2.0.2",
+        "package_url": "pkg:npm/npm-run-path@2.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/npm-run-path",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "number-is-nan",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/number-is-nan@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/number-is-nan",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "object-keys",
+        "version": "1.1.1",
+        "package_url": "pkg:npm/object-keys@1.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/object-keys",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "object.assign",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/object.assign@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/object.assign",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "object.getownpropertydescriptors",
+        "version": "2.0.3",
+        "package_url": "pkg:npm/object.getownpropertydescriptors@2.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ljharb/Object.getOwnPropertyDescriptors",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "once",
+        "version": "1.4.0",
+        "package_url": "pkg:npm/once@1.4.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/once",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "os-locale",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/os-locale@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/os-locale",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-defer",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/p-defer@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-defer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-finally",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/p-finally@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-finally",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-is-promise",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/p-is-promise@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-is-promise",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-limit",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/p-limit@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-limit",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-locate",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/p-locate@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-locate",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-try",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/p-try@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-try",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-exists",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/path-exists@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/path-exists",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/path-is-absolute@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/path-is-absolute",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-key",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/path-key@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/path-key",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "pump",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/pump@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mafintosh/pump",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "require-directory",
+        "version": "2.1.1",
+        "package_url": "pkg:npm/require-directory@2.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/troygoode/node-require-directory",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "require-main-filename",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/require-main-filename@1.0.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/require-main-filename",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "require-main-filename",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/require-main-filename@2.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/require-main-filename",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "set-blocking",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/set-blocking@2.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/set-blocking",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "shebang-command",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/shebang-command@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/kevva/shebang-command",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "shebang-regex",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/shebang-regex@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/shebang-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "signal-exit",
+        "version": "3.0.2",
+        "package_url": "pkg:npm/signal-exit@3.0.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/tapjs/signal-exit",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "sprintf-js",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/sprintf-js@1.0.3",
+        "license": "BSD-3-Clause AND BSD-3-Clause-Clear",
+        "source_repository_url": "https://github.com/alexei/sprintf.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "string-width",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/string-width@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/string-width",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "string-width",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/string-width@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/string-width",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "string-width",
+        "version": "2.1.1",
+        "package_url": "pkg:npm/string-width@2.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/string-width",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-ansi",
+        "version": "5.2.0",
+        "package_url": "pkg:npm/strip-ansi@5.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/strip-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-ansi",
+        "version": "3.0.1",
+        "package_url": "pkg:npm/strip-ansi@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/strip-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-ansi",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/strip-ansi@4.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/strip-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-eof",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/strip-eof@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/strip-final-newline",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-json-comments",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/strip-json-comments@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/strip-json-comments",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "supports-color",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/supports-color@6.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/supports-color",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "supports-color",
+        "version": "5.5.0",
+        "package_url": "pkg:npm/supports-color@5.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/supports-color",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "which",
+        "version": "1.3.1",
+        "package_url": "pkg:npm/which@1.3.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-which",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "which-module",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/which-module@2.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/nexdrew/which-module",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "wide-align",
+        "version": "1.1.3",
+        "package_url": "pkg:npm/wide-align@1.1.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/iarna/wide-align",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "wrap-ansi",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/wrap-ansi@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/wrap-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "wrappy",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/wrappy@1.0.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/wrappy",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "12.0.5",
+        "package_url": "pkg:npm/yargs@12.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "13.2.2",
+        "package_url": "pkg:npm/yargs@13.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-unparser",
+        "version": "1.5.0",
+        "package_url": "pkg:npm/yargs-unparser@1.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs-unparser",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^6.1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package.json",
+        "ecosystem": "npm",
+        "name": "node-addon-api",
+        "version": "^1.6.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nodejs/node-addon-api",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "joblib",
+        "version": "0.13.2",
+        "package_url": "pkg:pypi/joblib@0.13.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/joblib/joblib",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6hrg-qmvc-2xh8",
+                "advisory_summary": "joblib vulnerable to arbitrary code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-6hrg-qmvc-2xh8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.16.1",
+        "package_url": "pkg:pypi/numpy@1.16.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5545-2q6w-2gh6",
+                "advisory_summary": "NumPy NULL Pointer Dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-5545-2q6w-2gh6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6p56-wp2h-9hxr",
+                "advisory_summary": "NumPy Buffer Overflow (Disputed)",
+                "advisory_url": "https://github.com/advisories/GHSA-6p56-wp2h-9hxr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f7c7-j99h-c22f",
+                "advisory_summary": "Buffer Copy without Checking Size of Input in NumPy",
+                "advisory_url": "https://github.com/advisories/GHSA-f7c7-j99h-c22f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fpfv-jqm9-f5jm",
+                "advisory_summary": "Incorrect Comparison in NumPy",
+                "advisory_url": "https://github.com/advisories/GHSA-fpfv-jqm9-f5jm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "scipy",
+        "version": "1.2.1",
+        "package_url": "pkg:pypi/scipy@1.2.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/scipy/scipy",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9jx5-6pgf-crrp",
+                "advisory_summary": "scipy memory leak vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-9jx5-6pgf-crrp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "scikit-learn",
+        "version": "0.19.1",
+        "package_url": "pkg:pypi/scikit-learn@0.19.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/scikit-learn/scikit-learn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activerecord",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/activerecord@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-3hhc-qp5v-9p2j",
+                "advisory_summary": "Active Record RCE bug with Serialized Columns",
+                "advisory_url": "https://github.com/advisories/GHSA-3hhc-qp5v-9p2j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8hc4-xxm3-5ppp",
+                "advisory_summary": "Active Record subject to Regular Expression Denial-of-Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-8hc4-xxm3-5ppp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-579w-22j4-4749",
+                "advisory_summary": "Denial of Service Vulnerability in ActiveRecord's PostgreSQL adapter",
+                "advisory_url": "https://github.com/advisories/GHSA-579w-22j4-4749"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activerecord",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/activerecord@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-3hhc-qp5v-9p2j",
+                "advisory_summary": "Active Record RCE bug with Serialized Columns",
+                "advisory_url": "https://github.com/advisories/GHSA-3hhc-qp5v-9p2j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8hc4-xxm3-5ppp",
+                "advisory_summary": "Active Record subject to Regular Expression Denial-of-Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-8hc4-xxm3-5ppp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-579w-22j4-4749",
+                "advisory_summary": "Denial of Service Vulnerability in ActiveRecord's PostgreSQL adapter",
+                "advisory_url": "https://github.com/advisories/GHSA-579w-22j4-4749"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activesupport",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/activesupport@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2p68-f74v-9wc6",
+                "advisory_summary": "ActiveSupport potentially unintended unmarshalling of user-provided objects in MemCacheStore and RedisCacheStore",
+                "advisory_url": "https://github.com/advisories/GHSA-2p68-f74v-9wc6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pj73-v5mw-pm9j",
+                "advisory_summary": "Possible XSS Security Vulnerability in SafeBuffer#bytesplice",
+                "advisory_url": "https://github.com/advisories/GHSA-pj73-v5mw-pm9j"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-j6gc-792m-qgm2",
+                "advisory_summary": "ReDoS based DoS vulnerability in Active Support's underscore",
+                "advisory_url": "https://github.com/advisories/GHSA-j6gc-792m-qgm2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activesupport",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/activesupport@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2p68-f74v-9wc6",
+                "advisory_summary": "ActiveSupport potentially unintended unmarshalling of user-provided objects in MemCacheStore and RedisCacheStore",
+                "advisory_url": "https://github.com/advisories/GHSA-2p68-f74v-9wc6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pj73-v5mw-pm9j",
+                "advisory_summary": "Possible XSS Security Vulnerability in SafeBuffer#bytesplice",
+                "advisory_url": "https://github.com/advisories/GHSA-pj73-v5mw-pm9j"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-j6gc-792m-qgm2",
+                "advisory_summary": "ReDoS based DoS vulnerability in Active Support's underscore",
+                "advisory_url": "https://github.com/advisories/GHSA-j6gc-792m-qgm2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.9.1",
+        "package_url": "pkg:gem/nokogiri@1.9.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-cr5j-953j-xw5p",
+                "advisory_summary": "Nokogiri Command Injection Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-cr5j-953j-xw5p"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-qxcg-xjjg-66mj",
+                "advisory_summary": "Nokogiri vulnerable to libxslt protection mechanism bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-qxcg-xjjg-66mj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmfx-gcfq-wvm2",
+                "advisory_summary": "Nokogiri implementation of libxslt vulnerable to heap corruption",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfx-gcfq-wvm2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-242x-7cm6-4w8j",
+                "advisory_summary": "Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-242x-7cm6-4w8j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v4f8-2847-rwm7",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "advisory_url": "https://github.com/advisories/GHSA-v4f8-2847-rwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4hm9-844j-jmxp",
+                "advisory_summary": "Uninitialized read in Nokogiri gem",
+                "advisory_url": "https://github.com/advisories/GHSA-4hm9-844j-jmxp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jw9f-hh49-cvp9",
+                "advisory_summary": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jw9f-hh49-cvp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cf46-6xxh-pc75",
+                "advisory_summary": "libxslt Type Confusion vulnerability that affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cf46-6xxh-pc75"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7553-jr98-vx47",
+                "advisory_summary": "libxml as used in Nokogiri has an infinite loop in a certain end-of-file situation",
+                "advisory_url": "https://github.com/advisories/GHSA-7553-jr98-vx47"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-286v-pcf5-25rc",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "advisory_url": "https://github.com/advisories/GHSA-286v-pcf5-25rc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrm-v45f-jp64",
+                "advisory_summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vr8q-g5c7-m54m",
+                "advisory_summary": "Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vr8q-g5c7-m54m"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "3.12.0",
+        "package_url": "pkg:gem/puma@3.12.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x7jg-6pwg-fx5h",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-x7jg-6pwg-fx5h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7xx3-m584-x994",
+                "advisory_summary": "A poorly-behaved client could use keepalive requests to monopolize Puma's reactor and create a denial of service attack",
+                "advisory_url": "https://github.com/advisories/GHSA-7xx3-m584-x994"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-84j7-475p-hp8v",
+                "advisory_summary": "HTTP Response Splitting in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-84j7-475p-hp8v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-33vf-4xgg-9r58",
+                "advisory_summary": "HTTP Response Splitting (Early Hints) in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-33vf-4xgg-9r58"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w64w-qqph-5gxm",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-w64w-qqph-5gxm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.0.6",
+        "package_url": "pkg:gem/rack@2.0.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-wq4h-7r42-5hrr",
+                "advisory_summary": "Possible shell escape sequence injection vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-wq4h-7r42-5hrr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j6w9-fv6q-3q52",
+                "advisory_summary": "Rack allows Percent-encoded cookies to overwrite existing prefixed cookie names",
+                "advisory_url": "https://github.com/advisories/GHSA-j6w9-fv6q-3q52"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5f9h-9pjv-v6j7",
+                "advisory_summary": "Directory traversal in Rack::Directory app bundled with Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-5f9h-9pjv-v6j7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hxqx-xwvh-44m2",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-hxqx-xwvh-44m2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrqr-hxpp-chr3",
+                "advisory_summary": "Possible Information Leak / Session Hijack Vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-hrqr-hxpp-chr3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.0.7",
+        "package_url": "pkg:gem/rack@2.0.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-wq4h-7r42-5hrr",
+                "advisory_summary": "Possible shell escape sequence injection vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-wq4h-7r42-5hrr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j6w9-fv6q-3q52",
+                "advisory_summary": "Rack allows Percent-encoded cookies to overwrite existing prefixed cookie names",
+                "advisory_url": "https://github.com/advisories/GHSA-j6w9-fv6q-3q52"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5f9h-9pjv-v6j7",
+                "advisory_summary": "Directory traversal in Rack::Directory app bundled with Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-5f9h-9pjv-v6j7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hxqx-xwvh-44m2",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-hxqx-xwvh-44m2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrqr-hxpp-chr3",
+                "advisory_summary": "Possible Information Leak / Session Hijack Vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-hrqr-hxpp-chr3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "3.12.1",
+        "package_url": "pkg:gem/puma@3.12.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x7jg-6pwg-fx5h",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-x7jg-6pwg-fx5h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7xx3-m584-x994",
+                "advisory_summary": "A poorly-behaved client could use keepalive requests to monopolize Puma's reactor and create a denial of service attack",
+                "advisory_url": "https://github.com/advisories/GHSA-7xx3-m584-x994"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-84j7-475p-hp8v",
+                "advisory_summary": "HTTP Response Splitting in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-84j7-475p-hp8v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-33vf-4xgg-9r58",
+                "advisory_summary": "HTTP Response Splitting (Early Hints) in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-33vf-4xgg-9r58"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w64w-qqph-5gxm",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-w64w-qqph-5gxm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actionpack",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/actionpack@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8727-m6gj-mc37",
+                "advisory_summary": "Possible Strong Parameters Bypass in ActionPack",
+                "advisory_url": "https://github.com/advisories/GHSA-8727-m6gj-mc37"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hjg4-8q5f-x6fm",
+                "advisory_summary": "Action Pack contains Information Disclosure / Unintended Method Execution vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hjg4-8q5f-x6fm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wh98-p28r-vrc9",
+                "advisory_summary": "Exposure of information in Action Pack",
+                "advisory_url": "https://github.com/advisories/GHSA-wh98-p28r-vrc9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7wjx-3g7j-8584",
+                "advisory_summary": "Possible DoS Vulnerability in Action Controller Token Authentication",
+                "advisory_url": "https://github.com/advisories/GHSA-7wjx-3g7j-8584"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jp5v-5gx4-jmj9",
+                "advisory_summary": "Ability to forge per-form CSRF tokens in Rails",
+                "advisory_url": "https://github.com/advisories/GHSA-jp5v-5gx4-jmj9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4g8v-vg43-wpgf",
+                "advisory_summary": "Actionpack has possible cross-site scripting vulnerability via User Supplied Values to redirect_to",
+                "advisory_url": "https://github.com/advisories/GHSA-4g8v-vg43-wpgf"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-p84v-45xj-wwqj",
+                "advisory_summary": "ReDoS based DoS vulnerability in Action Dispatch",
+                "advisory_url": "https://github.com/advisories/GHSA-p84v-45xj-wwqj"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-8xww-x3g3-6jcv",
+                "advisory_summary": "ReDoS based DoS vulnerability in Action Dispatch",
+                "advisory_url": "https://github.com/advisories/GHSA-8xww-x3g3-6jcv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actionview",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/actionview@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m63j-wh5w-c252",
+                "advisory_summary": "Denial of Service Vulnerability in Action View",
+                "advisory_url": "https://github.com/advisories/GHSA-m63j-wh5w-c252"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-86g5-2wh3-gc9j",
+                "advisory_summary": "Path Traversal in Action View",
+                "advisory_url": "https://github.com/advisories/GHSA-86g5-2wh3-gc9j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-65cv-r6x7-79hv",
+                "advisory_summary": "Cross site scripting vulnerability in ActionView",
+                "advisory_url": "https://github.com/advisories/GHSA-65cv-r6x7-79hv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xq5j-gw7f-jgj8",
+                "advisory_summary": "CSRF Vulnerability in rails-ujs",
+                "advisory_url": "https://github.com/advisories/GHSA-xq5j-gw7f-jgj8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cfjv-5498-mph5",
+                "advisory_summary": "XSS in Action View",
+                "advisory_url": "https://github.com/advisories/GHSA-cfjv-5498-mph5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-ch3h-j2vf-95pv",
+                "advisory_summary": "XSS Vulnerability in Action View tag helpers",
+                "advisory_url": "https://github.com/advisories/GHSA-ch3h-j2vf-95pv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails-html-sanitizer",
+        "version": "1.0.4",
+        "package_url": "pkg:gem/rails-html-sanitizer@1.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails-html-sanitizer",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5x79-w82f-gw8w",
+                "advisory_summary": "Inefficient Regular Expression Complexity in rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-5x79-w82f-gw8w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pg8v-g4xq-hww9",
+                "advisory_summary": "Rails::Html::Sanitizer vulnerable to Cross-site Scripting",
+                "advisory_url": "https://github.com/advisories/GHSA-pg8v-g4xq-hww9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mcvf-2q2m-x72m",
+                "advisory_summary": "Improper neutralization of data URIs may allow XSS in rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-mcvf-2q2m-x72m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9h9g-93gc-623h",
+                "advisory_summary": "Possible XSS vulnerability with certain configurations of rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-9h9g-93gc-623h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rrfc-7g8p-99q8",
+                "advisory_summary": "Possible XSS vulnerability with certain configurations of rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-rrfc-7g8p-99q8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "websocket-extensions",
+        "version": "0.1.3",
+        "package_url": "pkg:gem/websocket-extensions@0.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/faye/websocket-extensions-ruby",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g6wq-qcwm-j5g2",
+                "advisory_summary": "Regular Expression Denial of Service in websocket-extensions (RubyGem)",
+                "advisory_url": "https://github.com/advisories/GHSA-g6wq-qcwm-j5g2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.10.4",
+        "package_url": "pkg:gem/nokogiri@1.10.4",
+        "license": "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND MIT AND NOASSERTION AND X11 AND Zlib",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmfx-gcfq-wvm2",
+                "advisory_summary": "Nokogiri implementation of libxslt vulnerable to heap corruption",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfx-gcfq-wvm2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-242x-7cm6-4w8j",
+                "advisory_summary": "Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-242x-7cm6-4w8j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v4f8-2847-rwm7",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "advisory_url": "https://github.com/advisories/GHSA-v4f8-2847-rwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4hm9-844j-jmxp",
+                "advisory_summary": "Uninitialized read in Nokogiri gem",
+                "advisory_url": "https://github.com/advisories/GHSA-4hm9-844j-jmxp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jw9f-hh49-cvp9",
+                "advisory_summary": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jw9f-hh49-cvp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cf46-6xxh-pc75",
+                "advisory_summary": "libxslt Type Confusion vulnerability that affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cf46-6xxh-pc75"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7553-jr98-vx47",
+                "advisory_summary": "libxml as used in Nokogiri has an infinite loop in a certain end-of-file situation",
+                "advisory_url": "https://github.com/advisories/GHSA-7553-jr98-vx47"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-286v-pcf5-25rc",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "advisory_url": "https://github.com/advisories/GHSA-286v-pcf5-25rc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrm-v45f-jp64",
+                "advisory_summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vr8q-g5c7-m54m",
+                "advisory_summary": "Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vr8q-g5c7-m54m"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails-html-sanitizer",
+        "version": "1.2.0",
+        "package_url": "pkg:gem/rails-html-sanitizer@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails-html-sanitizer",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5x79-w82f-gw8w",
+                "advisory_summary": "Inefficient Regular Expression Complexity in rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-5x79-w82f-gw8w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pg8v-g4xq-hww9",
+                "advisory_summary": "Rails::Html::Sanitizer vulnerable to Cross-site Scripting",
+                "advisory_url": "https://github.com/advisories/GHSA-pg8v-g4xq-hww9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mcvf-2q2m-x72m",
+                "advisory_summary": "Improper neutralization of data URIs may allow XSS in rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-mcvf-2q2m-x72m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9h9g-93gc-623h",
+                "advisory_summary": "Possible XSS vulnerability with certain configurations of rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-9h9g-93gc-623h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rrfc-7g8p-99q8",
+                "advisory_summary": "Possible XSS vulnerability with certain configurations of rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-rrfc-7g8p-99q8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "websocket-extensions",
+        "version": "0.1.4",
+        "package_url": "pkg:gem/websocket-extensions@0.1.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/faye/websocket-extensions-ruby",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g6wq-qcwm-j5g2",
+                "advisory_summary": "Regular Expression Denial of Service in websocket-extensions (RubyGem)",
+                "advisory_url": "https://github.com/advisories/GHSA-g6wq-qcwm-j5g2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actionpack",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/actionpack@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8727-m6gj-mc37",
+                "advisory_summary": "Possible Strong Parameters Bypass in ActionPack",
+                "advisory_url": "https://github.com/advisories/GHSA-8727-m6gj-mc37"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hjg4-8q5f-x6fm",
+                "advisory_summary": "Action Pack contains Information Disclosure / Unintended Method Execution vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hjg4-8q5f-x6fm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wh98-p28r-vrc9",
+                "advisory_summary": "Exposure of information in Action Pack",
+                "advisory_url": "https://github.com/advisories/GHSA-wh98-p28r-vrc9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7wjx-3g7j-8584",
+                "advisory_summary": "Possible DoS Vulnerability in Action Controller Token Authentication",
+                "advisory_url": "https://github.com/advisories/GHSA-7wjx-3g7j-8584"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jp5v-5gx4-jmj9",
+                "advisory_summary": "Ability to forge per-form CSRF tokens in Rails",
+                "advisory_url": "https://github.com/advisories/GHSA-jp5v-5gx4-jmj9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4g8v-vg43-wpgf",
+                "advisory_summary": "Actionpack has possible cross-site scripting vulnerability via User Supplied Values to redirect_to",
+                "advisory_url": "https://github.com/advisories/GHSA-4g8v-vg43-wpgf"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-p84v-45xj-wwqj",
+                "advisory_summary": "ReDoS based DoS vulnerability in Action Dispatch",
+                "advisory_url": "https://github.com/advisories/GHSA-p84v-45xj-wwqj"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-8xww-x3g3-6jcv",
+                "advisory_summary": "ReDoS based DoS vulnerability in Action Dispatch",
+                "advisory_url": "https://github.com/advisories/GHSA-8xww-x3g3-6jcv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rake",
+        "version": "12.3.2",
+        "package_url": "pkg:gem/rake@12.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby/rake",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jppv-gw3r-w3q8",
+                "advisory_summary": "OS Command Injection in Rake",
+                "advisory_url": "https://github.com/advisories/GHSA-jppv-gw3r-w3q8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "jquery-rails",
+        "version": "4.3.5",
+        "package_url": "pkg:gem/jquery-rails@4.3.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/jquery-rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jpcq-cgw6-v4j6",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-257q-pv89-v3xv",
+                "advisory_summary": "jQuery Cross Site Scripting vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-257q-pv89-v3xv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxr4-xjj5-5px2",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "jquery-rails",
+        "version": "4.3.3",
+        "package_url": "pkg:gem/jquery-rails@4.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/jquery-rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jpcq-cgw6-v4j6",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6c3j-c64m-qhgq",
+                "advisory_summary": "XSS in jQuery as used in Drupal, Backdrop CMS, and other products",
+                "advisory_url": "https://github.com/advisories/GHSA-6c3j-c64m-qhgq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-257q-pv89-v3xv",
+                "advisory_summary": "jQuery Cross Site Scripting vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-257q-pv89-v3xv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxr4-xjj5-5px2",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actionview",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/actionview@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-65cv-r6x7-79hv",
+                "advisory_summary": "Cross site scripting vulnerability in ActionView",
+                "advisory_url": "https://github.com/advisories/GHSA-65cv-r6x7-79hv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xq5j-gw7f-jgj8",
+                "advisory_summary": "CSRF Vulnerability in rails-ujs",
+                "advisory_url": "https://github.com/advisories/GHSA-xq5j-gw7f-jgj8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cfjv-5498-mph5",
+                "advisory_summary": "XSS in Action View",
+                "advisory_url": "https://github.com/advisories/GHSA-cfjv-5498-mph5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-ch3h-j2vf-95pv",
+                "advisory_summary": "XSS Vulnerability in Action View tag helpers",
+                "advisory_url": "https://github.com/advisories/GHSA-ch3h-j2vf-95pv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "globalid",
+        "version": "0.4.1",
+        "package_url": "pkg:gem/globalid@0.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/globalid",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-23c2-gwp5-pxw9",
+                "advisory_summary": "ReDoS based DoS vulnerability in GlobalID",
+                "advisory_url": "https://github.com/advisories/GHSA-23c2-gwp5-pxw9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "globalid",
+        "version": "0.4.2",
+        "package_url": "pkg:gem/globalid@0.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/globalid",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-23c2-gwp5-pxw9",
+                "advisory_summary": "ReDoS based DoS vulnerability in GlobalID",
+                "advisory_url": "https://github.com/advisories/GHSA-23c2-gwp5-pxw9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actioncable",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/actioncable@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actionmailer",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/actionmailer@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activejob",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/activejob@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activemodel",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/activemodel@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "bindex",
+        "version": "0.8.1",
+        "package_url": "pkg:gem/bindex@0.8.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/gsamokovarov/skiptrace",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "byebug",
+        "version": "11.0.1",
+        "package_url": "pkg:gem/byebug@11.0.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/deivid-rodriguez/byebug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "1.1.5",
+        "package_url": "pkg:gem/concurrent-ruby@1.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "ffi",
+        "version": "1.11.1",
+        "package_url": "pkg:gem/ffi@1.11.1",
+        "license": "BSD-3-Clause AND MIT",
+        "source_repository_url": "https://github.com/ffi/ffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "i18n",
+        "version": "1.6.0",
+        "package_url": "pkg:gem/i18n@1.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-i18n/i18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "jbuilder",
+        "version": "2.9.1",
+        "package_url": "pkg:gem/jbuilder@2.9.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/jbuilder",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_mime",
+        "version": "1.0.2",
+        "package_url": "pkg:gem/mini_mime@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/discourse/mini_mime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nio4r",
+        "version": "2.4.0",
+        "package_url": "pkg:gem/nio4r@2.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketry/nio4r",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/rails@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "railties",
+        "version": "5.0.7.2",
+        "package_url": "pkg:gem/railties@5.0.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rake",
+        "version": "12.3.3",
+        "package_url": "pkg:gem/rake@12.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby/rake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "sass",
+        "version": "3.7.4",
+        "package_url": "pkg:gem/sass@3.7.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sass/ruby-sass",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "sqlite3",
+        "version": "1.4.1",
+        "package_url": "pkg:gem/sqlite3@1.4.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/sparklemotion/sqlite3-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actioncable",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/actioncable@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "actionmailer",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/actionmailer@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activejob",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/activejob@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "activemodel",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/activemodel@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "bindex",
+        "version": "0.5.0",
+        "package_url": "pkg:gem/bindex@0.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/gsamokovarov/skiptrace",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "byebug",
+        "version": "10.0.2",
+        "package_url": "pkg:gem/byebug@10.0.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/deivid-rodriguez/byebug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "1.1.4",
+        "package_url": "pkg:gem/concurrent-ruby@1.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "ffi",
+        "version": "1.9.25",
+        "package_url": "pkg:gem/ffi@1.9.25",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/ffi/ffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "i18n",
+        "version": "1.3.0",
+        "package_url": "pkg:gem/i18n@1.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-i18n/i18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "jbuilder",
+        "version": "2.8.0",
+        "package_url": "pkg:gem/jbuilder@2.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/jbuilder",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_mime",
+        "version": "1.0.1",
+        "package_url": "pkg:gem/mini_mime@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/discourse/mini_mime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "multi_json",
+        "version": "1.13.1",
+        "package_url": "pkg:gem/multi_json@1.13.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/intridea/multi_json",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nio4r",
+        "version": "2.3.1",
+        "package_url": "pkg:gem/nio4r@2.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketry/nio4r",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/rails@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "railties",
+        "version": "5.0.7.1",
+        "package_url": "pkg:gem/railties@5.0.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "sass",
+        "version": "3.7.2",
+        "package_url": "pkg:gem/sass@3.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sass/ruby-sass",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "sqlite3",
+        "version": "1.3.13",
+        "package_url": "pkg:gem/sqlite3@1.3.13",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/sparklemotion/sqlite3-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/py_port/package/setup.py",
+        "ecosystem": "pip",
+        "name": "peppercorn",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Pylons/peppercorn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

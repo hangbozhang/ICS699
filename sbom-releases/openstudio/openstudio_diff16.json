@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "csharp/examples/OpenStudio.Tests/OpenStudio.Tests.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "16.2.0",
+        "package_url": "pkg:nuget/Microsoft.NET.Test.Sdk@16.2.0",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/microsoft/vstest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "csharp/examples/OpenStudio.Tests/OpenStudio.Tests.csproj",
+        "ecosystem": "nuget",
+        "name": "coverlet.collector",
+        "version": "1.0.1",
+        "package_url": "pkg:nuget/coverlet.collector@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/coverlet-coverage/coverlet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "csharp/examples/OpenStudio.Tests/OpenStudio.Tests.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "csharp/examples/OpenStudio.Tests/OpenStudio.Tests.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit.runner.visualstudio",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit.runner.visualstudio@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/cli/test/bundle/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-workflow",
+        "version": "2.0.0.pre1",
+        "package_url": "pkg:gem/openstudio-workflow@2.0.0.pre1",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/OpenStudio-workflow-gem",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/cli/test/bundle/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "json_pure",
+        "version": "2.1.0",
+        "package_url": "pkg:gem/json_pure@2.1.0",
+        "license": "Ruby",
+        "source_repository_url": "https://github.com/flori/json",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/cli/test/bundle/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-standards",
+        "version": "0.2.0",
+        "package_url": "pkg:gem/openstudio-standards@0.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/openstudio-standards",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

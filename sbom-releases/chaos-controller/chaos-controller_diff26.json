@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/aquasecurity/libbpfgo",
+        "version": "0.4.5-libbpf-1.0.1",
+        "package_url": "pkg:golang/github.com/aquasecurity/libbpfgo@0.4.5-libbpf-1.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/aquasecurity/libbpfgo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/aquasecurity/libbpfgo/helpers",
+        "version": "0.4.5",
+        "package_url": "pkg:golang/github.com/aquasecurity/libbpfgo/helpers@0.4.5",
+        "license": null,
+        "source_repository_url": "https://github.com/aquasecurity/libbpfgo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

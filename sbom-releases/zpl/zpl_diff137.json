@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/notify-release.yml",
+        "ecosystem": "actions",
+        "name": "sarisia/actions-status-discord",
+        "version": "1",
+        "package_url": "pkg:githubactions/sarisia/actions-status-discord@1",
+        "license": null,
+        "source_repository_url": "https://github.com/sarisia/actions-status-discord",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

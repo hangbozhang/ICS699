@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/handle-stale-discussions.yml",
+        "ecosystem": "actions",
+        "name": "aws-github-ops/handle-stale-discussions",
+        "version": "1",
+        "package_url": "pkg:githubactions/aws-github-ops/handle-stale-discussions@1",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-github-ops/handle-stale-discussions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

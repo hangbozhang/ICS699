@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_package.yml",
+        "ecosystem": "actions",
+        "name": "egor-tensin/vs-shell",
+        "version": "2",
+        "package_url": "pkg:githubactions/egor-tensin/vs-shell@2",
+        "license": null,
+        "source_repository_url": "https://github.com/egor-tensin/vs-shell",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

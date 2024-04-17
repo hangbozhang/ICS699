@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "mislav/bump-homebrew-formula-action",
+        "version": "eb843fa04b91b8bc5d4953899e3fff15c95f347c",
+        "package_url": "pkg:githubactions/mislav/bump-homebrew-formula-action@eb843fa04b91b8bc5d4953899e3fff15c95f347c",
+        "license": null,
+        "source_repository_url": "https://github.com/mislav/bump-homebrew-formula-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

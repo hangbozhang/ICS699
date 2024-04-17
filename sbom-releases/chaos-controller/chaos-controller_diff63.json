@@ -1,0 +1,75 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "google.golang.org/grpc",
+        "version": "1.39.0",
+        "package_url": "pkg:golang/google.golang.org/grpc@1.39.0",
+        "license": null,
+        "source_repository_url": "https://github.com/grpc/grpc-go",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m425-mq94-257g",
+                "advisory_summary": "gRPC-Go HTTP/2 Rapid Reset vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-m425-mq94-257g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/slack-go/slack",
+        "version": "0.9.5",
+        "package_url": "pkg:golang/github.com/slack-go/slack@0.9.5",
+        "license": null,
+        "source_repository_url": "https://github.com/slack-go/slack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/testify",
+        "version": "1.5.1",
+        "package_url": "pkg:golang/github.com/stretchr/testify@1.5.1",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/testify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "google.golang.org/protobuf",
+        "version": "1.27.1",
+        "package_url": "pkg:golang/google.golang.org/protobuf@1.27.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/testify",
+        "version": "1.4.0",
+        "package_url": "pkg:golang/github.com/stretchr/testify@1.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/testify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

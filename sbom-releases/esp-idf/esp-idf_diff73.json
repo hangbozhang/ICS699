@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.11.1",
+        "package_url": "pkg:pypi/breathe@4.11.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 1.8.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx-notfound-page",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx-notfound-page",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-blockdiag",
+        "version": ">= 1.5.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-blockdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.7.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 1.6.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-blockdiag",
+        "version": ">= 1.5.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-blockdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/0.63.1/package-lock.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "7.3.5",
+        "package_url": "pkg:npm/semver@7.3.5",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/0.63.1/package-lock.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "7.3.4",
+        "package_url": "pkg:npm/semver@7.3.4",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.64.0",
+        "package_url": "pkg:npm/react-native@0.64.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.64.1",
+        "package_url": "pkg:npm/react-native@0.64.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "^0.64.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "^0.64.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

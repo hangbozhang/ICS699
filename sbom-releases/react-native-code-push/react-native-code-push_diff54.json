@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "19.0.0",
+        "package_url": "pkg:npm/babel-jest@19.0.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "babel-preset-react-native",
+        "version": "1.9.1",
+        "package_url": "pkg:npm/babel-preset-react-native@1.9.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "19.0.2",
+        "package_url": "pkg:npm/jest@19.0.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/jestjs/jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "16.0.0-alpha.6",
+        "package_url": "pkg:npm/react@16.0.0-alpha.6",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "^0.43.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-test-renderer",
+        "version": "16.0.0-alpha.6",
+        "package_url": "pkg:npm/react-test-renderer@16.0.0-alpha.6",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "babel-preset-react-native-stage-0",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/babel-preset-react-native-stage-0@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/skevy/babel-preset-react-native-stage-0",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "15.4.0",
+        "package_url": "pkg:npm/react@15.4.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.40.0",
+        "package_url": "pkg:npm/react-native@0.40.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-windows",
+        "version": "0.40.0-rc.1",
+        "package_url": "pkg:npm/react-native-windows@0.40.0-rc.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/react-native-windows",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

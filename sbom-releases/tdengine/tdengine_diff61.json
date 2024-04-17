@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "mypy",
+        "version": "^ 0.910",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python/mypy",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pdoc",
+        "version": "^ 7.1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mitmproxy/pdoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "python",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python/cpython",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "typing",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/akaihola/typing",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

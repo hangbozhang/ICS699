@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/analyze",
+        "version": "3",
+        "package_url": "pkg:githubactions/github/codeql-action/analyze@3",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "3",
+        "package_url": "pkg:githubactions/github/codeql-action/init@3",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/analyze",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/analyze@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/init@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/upload-artifact@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/upload-artifact@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

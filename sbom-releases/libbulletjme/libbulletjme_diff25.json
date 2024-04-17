@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/push.yml",
+        "ecosystem": "actions",
+        "name": "mattsb42/not-grep",
+        "version": "master",
+        "package_url": "pkg:githubactions/mattsb42/not-grep@master",
+        "license": null,
+        "source_repository_url": "https://github.com/mattsb42/not-grep",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

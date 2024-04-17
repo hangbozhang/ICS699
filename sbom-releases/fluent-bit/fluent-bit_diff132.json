@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "plugins/out_kafka/librdkafka-0.11.4/packaging/nuget/requirements.txt",
+        "ecosystem": "pip",
+        "name": "boto3",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/boto/boto3",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "plugins/out_kafka/librdkafka-0.11.4/packaging/nuget/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rpmfile",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/srossross/rpmfile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

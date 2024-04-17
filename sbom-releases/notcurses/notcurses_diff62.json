@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cstr_core",
+        "version": ">= 0.2.2, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Amanieu/cstr_core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "libc-print",
+        "version": ">= 0.1.14, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mmastrac/rust-libc-print",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

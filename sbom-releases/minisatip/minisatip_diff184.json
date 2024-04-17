@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/binaries.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/binaries.yml",
+        "ecosystem": "actions",
+        "name": "anothrNick/github-tag-action",
+        "version": "1.35.0",
+        "package_url": "pkg:githubactions/anothrNick/github-tag-action@1.35.0",
+        "license": null,
+        "source_repository_url": "https://github.com/anothrNick/github-tag-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/binaries.yml",
+        "ecosystem": "actions",
+        "name": "svenstaro/upload-release-action",
+        "version": "1-release",
+        "package_url": "pkg:githubactions/svenstaro/upload-release-action@1-release",
+        "license": null,
+        "source_repository_url": "https://github.com/svenstaro/upload-release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/c-cpp.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/coverity-scan.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

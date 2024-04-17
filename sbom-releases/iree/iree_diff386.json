@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "7f80679172b057fc5e90d70d197929d454754a5a",
+        "package_url": "pkg:githubactions/actions/setup-python@7f80679172b057fc5e90d70d197929d454754a5a",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

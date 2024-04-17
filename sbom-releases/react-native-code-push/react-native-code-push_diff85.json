@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "code-push",
+        "version": "1.8.0-beta",
+        "package_url": "pkg:npm/code-push@1.8.0-beta",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/code-push",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "code-push",
+        "version": "1.5.2-beta",
+        "package_url": "pkg:npm/code-push@1.5.2-beta",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/code-push",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

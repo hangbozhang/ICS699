@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pr-cloud-comment.yml",
+        "ecosystem": "actions",
+        "name": "thollander/actions-comment-pull-request",
+        "version": "2",
+        "package_url": "pkg:githubactions/thollander/actions-comment-pull-request@2",
+        "license": null,
+        "source_repository_url": "https://github.com/thollander/actions-comment-pull-request",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/stale.yaml",
+        "ecosystem": "actions",
+        "name": "actions/stale",
+        "version": "8",
+        "package_url": "pkg:githubactions/actions/stale@8",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/stale",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/stale.yaml",
+        "ecosystem": "actions",
+        "name": "actions/stale",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/stale@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/stale",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/artifact-links.yml",
+        "ecosystem": "actions",
+        "name": "tonyhallett/artifacts-url-comments",
+        "version": "1.1.0",
+        "package_url": "pkg:githubactions/tonyhallett/artifacts-url-comments@1.1.0",
+        "license": null,
+        "source_repository_url": "https://github.com/tonyhallett/artifacts-url-comments",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/hide-artifact-links.yml",
+        "ecosystem": "actions",
+        "name": "int128/hide-comment-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/int128/hide-comment-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/int128/hide-comment-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

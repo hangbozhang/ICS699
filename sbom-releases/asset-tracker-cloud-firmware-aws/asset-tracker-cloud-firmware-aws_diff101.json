@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.3.2",
+        "package_url": "pkg:npm/prettier@2.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.3.1",
+        "package_url": "pkg:npm/prettier@2.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.3.2",
+        "package_url": "pkg:npm/prettier@2.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.3.1",
+        "package_url": "pkg:npm/prettier@2.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,311 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/deployment_vars.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/deployment_vars.yml",
+        "ecosystem": "actions",
+        "name": "fountainhead/action-wait-for-check",
+        "version": "1.0.0",
+        "package_url": "pkg:githubactions/fountainhead/action-wait-for-check@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/fountainhead/action-wait-for-check",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Flask",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/flask@2.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/flask",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m2qf-hxjv-5gpq",
+                "advisory_summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "advisory_url": "https://github.com/advisories/GHSA-m2qf-hxjv-5gpq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "certifi",
+        "version": "2022.12.7",
+        "package_url": "pkg:pypi/certifi@2022.12.7",
+        "license": "MPL-2.0",
+        "source_repository_url": "https://github.com/certifi/python-certifi",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xqr8-7jwr-rhp7",
+                "advisory_summary": "Removal of e-Tugra root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-xqr8-7jwr-rhp7"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Flask",
+        "version": "1.1.2",
+        "package_url": "pkg:pypi/flask@1.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/flask",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m2qf-hxjv-5gpq",
+                "advisory_summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "advisory_url": "https://github.com/advisories/GHSA-m2qf-hxjv-5gpq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Werkzeug",
+        "version": "2.0.2",
+        "package_url": "pkg:pypi/werkzeug@2.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/werkzeug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xg9f-g7g7-2323",
+                "advisory_summary": "High resource usage when parsing multipart form data with many fields",
+                "advisory_url": "https://github.com/advisories/GHSA-xg9f-g7g7-2323"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrfv-mqp8-q5rw",
+                "advisory_summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+                "advisory_url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-px8h-6qxv-m22q",
+                "advisory_summary": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-px8h-6qxv-m22q"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "certifi",
+        "version": "2020.4.5.1",
+        "package_url": "pkg:pypi/certifi@2020.4.5.1",
+        "license": "MPL-2.0",
+        "source_repository_url": "https://github.com/certifi/python-certifi",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xqr8-7jwr-rhp7",
+                "advisory_summary": "Removal of e-Tugra root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-xqr8-7jwr-rhp7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-43fp-rhv2-5gv8",
+                "advisory_summary": "Certifi removing TrustCor root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-43fp-rhv2-5gv8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.17.1",
+        "package_url": "pkg:pypi/future@0.17.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "3.0.0",
+        "package_url": "pkg:pypi/jinja2@3.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Werkzeug",
+        "version": "2.2.3",
+        "package_url": "pkg:pypi/werkzeug@2.2.3",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/werkzeug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrfv-mqp8-q5rw",
+                "advisory_summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+                "advisory_url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "2.11.3",
+        "package_url": "pkg:pypi/jinja2@2.11.3",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "MarkupSafe",
+        "version": "2.1.2",
+        "package_url": "pkg:pypi/markupsafe@2.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/markupsafe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.18.3",
+        "package_url": "pkg:pypi/future@0.18.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "itsdangerous",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/itsdangerous@2.0.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/itsdangerous",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.8.0",
+        "package_url": "pkg:pypi/psutil@5.8.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "python-json-logger",
+        "version": "2.0.2",
+        "package_url": "pkg:pypi/python-json-logger@2.0.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/madzak/python-json-logger",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "MarkupSafe",
+        "version": "1.1.1",
+        "package_url": "pkg:pypi/markupsafe@1.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/markupsafe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "itsdangerous",
+        "version": "1.1.0",
+        "package_url": "pkg:pypi/itsdangerous@1.1.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/itsdangerous",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.7.0",
+        "package_url": "pkg:pypi/psutil@5.7.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

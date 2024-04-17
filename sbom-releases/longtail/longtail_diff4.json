@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/upload-artifact@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/master-build.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/upload-artifact@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/pr-build.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/upload-artifact@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

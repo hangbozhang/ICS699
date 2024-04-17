@@ -1,0 +1,291 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ecdsa",
+        "version": "0.16.1",
+        "package_url": "pkg:pypi/ecdsa@0.16.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tlsfuzzer/python-ecdsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wj6h-64fc-37mp",
+                "advisory_summary": "Minerva timing attack on P-256 in python-ecdsa",
+                "advisory_url": "https://github.com/advisories/GHSA-wj6h-64fc-37mp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "grpcio",
+        "version": ">= 1.28.1,<= 1.36.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/grpc/grpc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cfgp-2977-2fmm",
+                "advisory_summary": "Connection confusion in gRPC",
+                "advisory_url": "https://github.com/advisories/GHSA-cfgp-2977-2fmm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6628-q6j9-w8vg",
+                "advisory_summary": "gRPC Reachable Assertion issue",
+                "advisory_url": "https://github.com/advisories/GHSA-6628-q6j9-w8vg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9hxf-ppjv-w6rq",
+                "advisory_summary": "gRPC connection termination issue",
+                "advisory_url": "https://github.com/advisories/GHSA-9hxf-ppjv-w6rq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ecdsa",
+        "version": "0.13.3",
+        "package_url": "pkg:pypi/ecdsa@0.13.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tlsfuzzer/python-ecdsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wj6h-64fc-37mp",
+                "advisory_summary": "Minerva timing attack on P-256 in python-ecdsa",
+                "advisory_url": "https://github.com/advisories/GHSA-wj6h-64fc-37mp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "grpcio",
+        "version": "1.28.1",
+        "package_url": "pkg:pypi/grpcio@1.28.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/grpc/grpc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cfgp-2977-2fmm",
+                "advisory_summary": "Connection confusion in gRPC",
+                "advisory_url": "https://github.com/advisories/GHSA-cfgp-2977-2fmm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6628-q6j9-w8vg",
+                "advisory_summary": "gRPC Reachable Assertion issue",
+                "advisory_url": "https://github.com/advisories/GHSA-6628-q6j9-w8vg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9hxf-ppjv-w6rq",
+                "advisory_summary": "gRPC connection termination issue",
+                "advisory_url": "https://github.com/advisories/GHSA-9hxf-ppjv-w6rq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "4.0",
+        "package_url": "pkg:pypi/rsa@4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-537h-rv9q-vvph",
+                "advisory_summary": "Python-RSA decryption of ciphertext leads to DoS",
+                "advisory_url": "https://github.com/advisories/GHSA-537h-rv9q-vvph"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrx6-fmxq-rjj2",
+                "advisory_summary": "Timing attacks in python-rsa",
+                "advisory_url": "https://github.com/advisories/GHSA-xrx6-fmxq-rjj2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "2.11.3",
+        "package_url": "pkg:pypi/jinja2@2.11.3",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "2.10.1",
+        "package_url": "pkg:pypi/jinja2@2.10.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g3rq-g295-4j3m",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+                "advisory_url": "https://github.com/advisories/GHSA-g3rq-g295-4j3m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-cache",
+        "version": "2.2.0",
+        "package_url": "pkg:pypi/aiohttp-cache@2.2.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/cr0hn/aiohttp-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-jinja2",
+        "version": "1.4.2",
+        "package_url": "pkg:pypi/aiohttp-jinja2@1.4.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp-jinja2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-auth",
+        "version": "1.28.0",
+        "package_url": "pkg:pypi/google-auth@1.28.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/google-auth-library-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rsa",
+        "version": "4.7.2",
+        "package_url": "pkg:pypi/rsa@4.7.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sybrenstuvel/python-rsa",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "uvloop",
+        "version": "0.15.2",
+        "package_url": "pkg:pypi/uvloop@0.15.2",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/MagicStack/uvloop",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-cache",
+        "version": "2.0.2",
+        "package_url": "pkg:pypi/aiohttp-cache@2.0.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/cr0hn/aiohttp-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-jinja2",
+        "version": "1.2.0",
+        "package_url": "pkg:pypi/aiohttp-jinja2@1.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp-jinja2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp-swagger",
+        "version": "1.0.14",
+        "package_url": "pkg:pypi/aiohttp-swagger@1.0.14",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/cr0hn/aiohttp-swagger",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-auth",
+        "version": "1.14.1",
+        "package_url": "pkg:pypi/google-auth@1.14.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/googleapis/google-auth-library-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "uvloop",
+        "version": "0.14.0",
+        "package_url": "pkg:pypi/uvloop@0.14.0",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/MagicStack/uvloop",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

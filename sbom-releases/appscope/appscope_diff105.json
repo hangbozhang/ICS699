@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/syndtr/gocapability",
+        "version": "0.0.0-20200815063812-42c35b437635",
+        "package_url": "pkg:golang/github.com/syndtr/gocapability@0.0.0-20200815063812-42c35b437635",
+        "license": null,
+        "source_repository_url": "https://github.com/syndtr/gocapability",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "marvinpinto/action-automatic-releases",
+        "version": "latest",
+        "package_url": "pkg:githubactions/marvinpinto/action-automatic-releases@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/marvinpinto/action-automatic-releases",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "tensorflow-model-optimization",
+        "version": "0.5.1.dev0",
+        "package_url": "pkg:pypi/tensorflow-model-optimization@0.5.1.dev0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/tensorflow/model-optimization",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

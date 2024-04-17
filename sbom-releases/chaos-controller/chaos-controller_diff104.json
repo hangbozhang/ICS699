@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/coreos/go-iptables",
+        "version": "0.4.5",
+        "package_url": "pkg:golang/github.com/coreos/go-iptables@0.4.5",
+        "license": null,
+        "source_repository_url": "https://github.com/coreos/go-iptables",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

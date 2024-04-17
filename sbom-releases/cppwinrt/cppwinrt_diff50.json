@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/nuget/ConsoleApplication1/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.CppWinRT",
+        "version": "2.0.201102.2",
+        "package_url": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.201102.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/cppwinrt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

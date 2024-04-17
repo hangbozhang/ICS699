@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/autobuild",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/autobuild@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/init@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/autobuild",
+        "version": "1",
+        "package_url": "pkg:githubactions/github/codeql-action/autobuild@1",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/codeql-analysis.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "1",
+        "package_url": "pkg:githubactions/github/codeql-action/init@1",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

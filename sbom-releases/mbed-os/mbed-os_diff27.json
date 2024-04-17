@@ -1,0 +1,168 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.5,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.4.x,< 2.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.6.2",
+        "package_url": "pkg:pypi/psutil@5.6.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qfc5-mcwq-26q8",
+                "advisory_summary": "Double Free in psutil",
+                "advisory_url": "https://github.com/advisories/GHSA-qfc5-mcwq-26q8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycryptodome",
+        "version": ">= 3.7.2,<= 3.7.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Legrandin/pycryptodome",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j225-cvw7-qrx7",
+                "advisory_summary": "PyCryptodome and pycryptodomex side-channel leakage for OAEP decryption",
+                "advisory_url": "https://github.com/advisories/GHSA-j225-cvw7-qrx7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cbor",
+        "version": ">= 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/brianolson/cbor_py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.6.6",
+        "package_url": "pkg:pypi/psutil@5.6.6",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycryptodome",
+        "version": ">= 3.9.3,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Legrandin/pycryptodome",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

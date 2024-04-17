@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bindings.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bindings.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bindings.yml",
+        "ecosystem": "actions",
+        "name": "camshaft/rust-cache",
+        "version": "1",
+        "package_url": "pkg:githubactions/camshaft/rust-cache@1",
+        "license": null,
+        "source_repository_url": "https://github.com/camshaft/rust-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/generate/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "bindgen",
+        "version": ">= 0.58.0, < 0.59.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/rust-bindgen",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/generate/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "glob",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/glob",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/generate/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "heck",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/withoutboats/heck",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-sys/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cc",
+        "version": ">= 1.0.0, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/cc-rs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-sys/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "libc",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/libc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-sys/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": ">= 0.9.0, < 0.10.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

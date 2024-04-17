@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "poncho/src/poncho/setup.py",
+        "ecosystem": "pip",
+        "name": "dill",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/uqfoundation/dill",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

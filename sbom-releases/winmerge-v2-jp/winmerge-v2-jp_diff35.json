@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "ShellExtension/WinMergeContextMenu/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.ImplementationLibrary",
+        "version": "1.0.201120.3",
+        "package_url": "pkg:nuget/Microsoft.Windows.ImplementationLibrary@1.0.201120.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/wil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

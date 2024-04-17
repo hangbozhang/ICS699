@@ -1,0 +1,361 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:fastjson",
+        "version": "1.2.58",
+        "package_url": "pkg:maven/com.alibaba/fastjson@1.2.58",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/fastjson2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pv7h-hx5h-mgfj",
+                "advisory_summary": "Unsafe deserialization in com.alibaba:fastjson",
+                "advisory_url": "https://github.com/advisories/GHSA-pv7h-hx5h-mgfj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.httpcomponents:httpclient",
+        "version": "4.5.8",
+        "package_url": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.8",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/httpcomponents-client",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7r82-7xv7-xcpj",
+                "advisory_summary": "Cross-site scripting in Apache HttpClient",
+                "advisory_url": "https://github.com/advisories/GHSA-7r82-7xv7-xcpj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-lang3",
+        "version": "3.9",
+        "package_url": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-lang",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.12",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.12",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.8",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.8",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "log4j:log4j",
+        "version": "1.2.17",
+        "package_url": "pkg:maven/log4j/log4j@1.2.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j1",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-65fg-84f6-3jq3",
+                "advisory_summary": "SQL Injection in Log4j 1.2.x",
+                "advisory_url": "https://github.com/advisories/GHSA-65fg-84f6-3jq3"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-f7vh-qwp3-x37m",
+                "advisory_summary": "Deserialization of Untrusted Data in Apache Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-f7vh-qwp3-x37m"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2qrg-x229-3v8q",
+                "advisory_summary": "Deserialization of Untrusted Data in Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-2qrg-x229-3v8q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fp5r-v3w9-4333",
+                "advisory_summary": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
+                "advisory_url": "https://github.com/advisories/GHSA-fp5r-v3w9-4333"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w9p3-5cr8-m3jj",
+                "advisory_summary": "Deserialization of Untrusted Data in Log4j 1.x",
+                "advisory_url": "https://github.com/advisories/GHSA-w9p3-5cr8-m3jj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.mchange:c3p0",
+        "version": "0.9.5.4",
+        "package_url": "pkg:maven/com.mchange/c3p0@0.9.5.4",
+        "license": "LGPL-2.1-only OR EPL-1.0",
+        "source_repository_url": "https://github.com/swaldman/c3p0",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.11",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.11",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.zaxxer:HikariCP",
+        "version": "3.2.0",
+        "package_url": "pkg:maven/com.zaxxer/hikaricp@3.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/brettwooldridge/HikariCP",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-dbcp:commons-dbcp",
+        "version": "1.4",
+        "package_url": "pkg:maven/commons-dbcp/commons-dbcp@1.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-dbcp",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-pool:commons-pool",
+        "version": "1.5.4",
+        "package_url": "pkg:maven/commons-pool/commons-pool@1.5.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mariusae/commons-pool",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "mysql:mysql-connector-java",
+        "version": "5.1.47",
+        "package_url": "pkg:maven/mysql/mysql-connector-java@5.1.47",
+        "license": "GPL-2.0",
+        "source_repository_url": "https://github.com/mysql/mysql-connector-j",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4vrv-ch96-6h42",
+                "advisory_summary": "Improper Privilege Management in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-4vrv-ch96-6h42"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jcq3-cprp-m333",
+                "advisory_summary": "Privilege escalation in mysql-connector-jav",
+                "advisory_url": "https://github.com/advisories/GHSA-jcq3-cprp-m333"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g76j-4cxx-23h9",
+                "advisory_summary": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-g76j-4cxx-23h9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.12",
+        "package_url": "pkg:maven/junit/junit@4.12",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.baomidou:mybatis-plus-boot-starter",
+        "version": "3.1.2",
+        "package_url": "pkg:maven/com.baomidou/mybatis-plus-boot-starter@3.1.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/lukw510903926/mybatis-plus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.h2database:h2",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/h2database/h2database",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.11",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.11",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-surefire-plugin",
+        "version": "2.17",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@2.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-surefire",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.projectlombok:lombok",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/projectlombok/lombok",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-maven-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

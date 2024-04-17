@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ios_android.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-java",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-java@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-java",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

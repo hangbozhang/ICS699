@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/daily.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/daily.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/master.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/master.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "dlemstra/code-sign-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/dlemstra/code-sign-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/dlemstra/code-sign-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tenzir.yaml",
+        "ecosystem": "actions",
+        "name": "cachix/install-nix-action",
+        "version": "22",
+        "package_url": "pkg:githubactions/cachix/install-nix-action@22",
+        "license": null,
+        "source_repository_url": "https://github.com/cachix/install-nix-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tenzir.yaml",
+        "ecosystem": "actions",
+        "name": "mikepenz/action-junit-report",
+        "version": "4",
+        "package_url": "pkg:githubactions/mikepenz/action-junit-report@4",
+        "license": null,
+        "source_repository_url": "https://github.com/mikepenz/action-junit-report",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

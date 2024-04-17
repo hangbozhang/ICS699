@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-button",
+        "version": "^1.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ide/react-native-button",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

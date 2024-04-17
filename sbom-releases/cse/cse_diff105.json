@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "doc/package.json",
+        "ecosystem": "npm",
+        "name": "cssnano-cli",
+        "version": "^1.0.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/zaygraveyard/cssnano-cli",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "doc/package.json",
+        "ecosystem": "npm",
+        "name": "html-minifier",
+        "version": "^3.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/kangax/html-minifier",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

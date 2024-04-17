@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "mschilde/auto-label-merge-conflicts",
+        "version": "master",
+        "package_url": "pkg:githubactions/mschilde/auto-label-merge-conflicts@master",
+        "license": null,
+        "source_repository_url": "https://github.com/mschilde/auto-label-merge-conflicts",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

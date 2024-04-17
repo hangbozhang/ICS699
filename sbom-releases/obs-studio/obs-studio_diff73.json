@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "apple-actions/import-codesign-certs",
+        "version": "253ddeeac23f2bdad1646faac5c8c2832e800071",
+        "package_url": "pkg:githubactions/apple-actions/import-codesign-certs@253ddeeac23f2bdad1646faac5c8c2832e800071",
+        "license": null,
+        "source_repository_url": "https://github.com/Apple-Actions/import-codesign-certs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

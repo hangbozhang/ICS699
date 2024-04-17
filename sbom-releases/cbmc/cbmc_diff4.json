@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/pull-request-checks.yaml",
+        "ecosystem": "actions",
+        "name": "nuget/setup-nuget",
+        "version": "1",
+        "package_url": "pkg:githubactions/nuget/setup-nuget@1",
+        "license": null,
+        "source_repository_url": "https://github.com/NuGet/setup-nuget",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "nuget/setup-nuget",
+        "version": "1",
+        "package_url": "pkg:githubactions/nuget/setup-nuget@1",
+        "license": null,
+        "source_repository_url": "https://github.com/NuGet/setup-nuget",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

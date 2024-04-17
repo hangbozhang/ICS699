@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/desktop/package.json",
+        "ecosystem": "npm",
+        "name": "backend-bundle",
+        "version": "^0.19.4-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/desktop/package.json",
+        "ecosystem": "npm",
+        "name": "backend-bundle",
+        "version": "^0.19.3-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

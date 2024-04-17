@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "setup.py",
+        "ecosystem": "pip",
+        "name": "jarowinkler",
+        "version": ">= 1.2.2,< 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/maxbachmann/JaroWinkler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

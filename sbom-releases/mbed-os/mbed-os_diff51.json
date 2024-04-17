@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "idna",
+        "version": ">= 2,< 2.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/kjd/idna",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-host-tests",
+        "version": ">= 1.4.4,<= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-host-tests",
+        "version": ">= 1.1.2,<= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

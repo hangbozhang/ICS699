@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/build-push-action",
+        "version": "4",
+        "package_url": "pkg:githubactions/docker/build-push-action@4",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/build-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/login-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-buildx-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-buildx-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-buildx-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "main",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@main",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

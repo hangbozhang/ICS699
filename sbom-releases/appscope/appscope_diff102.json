@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/download-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/login-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/c9s/goprocinfo",
+        "version": "0.0.0-20210130143923-c95fcf8c64a8",
+        "package_url": "pkg:golang/github.com/c9s/goprocinfo@0.0.0-20210130143923-c95fcf8c64a8",
+        "license": null,
+        "source_repository_url": "https://github.com/c9s/goprocinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/mitchellh/go-ps",
+        "version": "1.0.0",
+        "package_url": "pkg:golang/github.com/mitchellh/go-ps@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/mitchellh/go-ps",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

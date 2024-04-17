@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2.2.0",
+        "package_url": "pkg:githubactions/actions/checkout@2.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "1.4.2",
+        "package_url": "pkg:githubactions/actions/setup-node@1.4.2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish.yml",
+        "ecosystem": "actions",
+        "name": "textbook/git-checkout-submodule-action",
+        "version": "2.1.1",
+        "package_url": "pkg:githubactions/textbook/git-checkout-submodule-action@2.1.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/react-native",
+        "version": "./node_modules/@babylonjs/react-native",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/BabylonJS/BabylonReactNative",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-babylon",
+        "version": "./node_modules/react-native-babylon",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babylonjs/react-native",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/%40babylonjs/react-native@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/BabylonJS/BabylonReactNative",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/yarn.lock",
+        "ecosystem": "npm",
+        "name": "react-native-babylon",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/react-native-babylon@1.0.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

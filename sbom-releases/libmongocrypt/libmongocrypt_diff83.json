@@ -1,0 +1,210 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "^2.2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/setup.py",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.0,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/setup.py",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.0,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/test-requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2,< 2.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/test-requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/test-requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "1.14.3",
+        "package_url": "pkg:pypi/cffi@1.14.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/test-requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": ">= 1.12.0,< 2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/test-requirements.txt",
+        "ecosystem": "pip",
+        "name": "pymongo",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mongodb/mongo-python-driver",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

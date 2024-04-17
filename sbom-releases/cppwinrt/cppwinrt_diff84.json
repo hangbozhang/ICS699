@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/nuget/TestRuntimeComponentCSharp/TestRuntimeComponentCSharp.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.NETCore.UniversalWindowsPlatform",
+        "version": "5.4.7",
+        "package_url": "pkg:nuget/Microsoft.NETCore.UniversalWindowsPlatform@5.4.7",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/nuget/TestRuntimeComponentNamespaceUnderscore/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.CppWinRT",
+        "version": "2.0.191202.6",
+        "package_url": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.191202.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/cppwinrt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

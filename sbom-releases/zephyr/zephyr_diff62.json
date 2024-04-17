@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "west",
+        "version": ">= 0.6.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/west",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "west",
+        "version": ">= 0.6.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/west",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

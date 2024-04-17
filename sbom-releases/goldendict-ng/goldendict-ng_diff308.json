@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/AutoTag.yml",
+        "ecosystem": "actions",
+        "name": "mathieudutour/github-tag-action",
+        "version": "6.0",
+        "package_url": "pkg:githubactions/mathieudutour/github-tag-action@6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/mathieudutour/github-tag-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/AutoTag.yml",
+        "ecosystem": "actions",
+        "name": "Klemensas/action-autotag",
+        "version": "stable",
+        "package_url": "pkg:githubactions/Klemensas/action-autotag@stable",
+        "license": null,
+        "source_repository_url": "https://github.com/Klemensas/action-autotag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/macos-m1.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/macos-m1.yml",
+        "ecosystem": "actions",
+        "name": "jurplel/install-qt-action",
+        "version": "3",
+        "package_url": "pkg:githubactions/jurplel/install-qt-action@3",
+        "license": null,
+        "source_repository_url": "https://github.com/jurplel/install-qt-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/macos copy.yml",
+        "ecosystem": "actions",
+        "name": "Klemensas/action-autotag",
+        "version": "stable",
+        "package_url": "pkg:githubactions/Klemensas/action-autotag@stable",
+        "license": null,
+        "source_repository_url": "https://github.com/Klemensas/action-autotag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/macos copy.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/macos copy.yml",
+        "ecosystem": "actions",
+        "name": "jurplel/install-qt-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/jurplel/install-qt-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/jurplel/install-qt-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/macos copy.yml",
+        "ecosystem": "actions",
+        "name": "svenstaro/upload-release-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/svenstaro/upload-release-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/svenstaro/upload-release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

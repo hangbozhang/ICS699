@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cffi/setup.py",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": ">= 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "bindgen",
+        "version": ">= 0.56.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/rust-bindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "rand",
+        "version": ">= 0.7.3, < 0.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-random/rand",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "bindgen",
+        "version": ">= 0.55.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/rust-bindgen",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/setup.py",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": ">= 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

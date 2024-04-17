@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/benchmarks.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/runner/instance_deleter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "flask",
+        "version": ">= 2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/flask",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/runner/instance_deleter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "functions-framework",
+        "version": ">= 3.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/GoogleCloudPlatform/functions-framework-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/runner/instance_deleter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-auth",
+        "version": ">= 2.15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/googleapis/google-auth-library-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/runner/instance_deleter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-cloud-compute",
+        "version": ">= 1.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/QPC-WORLDWIDE/python-compute",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/runner/instance_deleter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "google-cloud-error-reporting",
+        "version": ">= 1.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/googleapis/python-error-reporting",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/github_actions/runner/instance_deleter/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": ">= 2.27",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

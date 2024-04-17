@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/issue_closer.yml",
+        "ecosystem": "actions",
+        "name": "desktop-app/action_issue_closer",
+        "version": "master",
+        "package_url": "pkg:githubactions/desktop-app/action_issue_closer@master",
+        "license": null,
+        "source_repository_url": "https://github.com/desktop-app/action_issue_closer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/issue_closer.yml",
+        "ecosystem": "actions",
+        "name": "actions/github-script",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/actions/github-script@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/github-script",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/linux.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

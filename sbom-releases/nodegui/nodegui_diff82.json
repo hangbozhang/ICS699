@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/artifact-installer",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/%40nodegui/artifact-installer@1.1.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/nodegui/artifact-installer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/artifact-installer",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/%40nodegui/artifact-installer@1.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/nodegui/artifact-installer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "empty-dir",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/empty-dir@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/gulpjs/empty-dir",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/artifact-installer",
+        "version": "^1.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nodegui/artifact-installer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/artifact-installer",
+        "version": "^1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nodegui/artifact-installer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

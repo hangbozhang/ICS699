@@ -1,0 +1,1007 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:43:49Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ],
+            "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
+        },
+        "name": "com.github.opencv/opencv",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.opencv-opencv"
+        ],
+        "documentNamespace": "https://github.com/opencv/opencv/dependency_graph/sbom-f4bf11faffcdcd0d",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.opencv-opencv",
+                "name": "com.github.opencv/opencv",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/opencv/opencv",
+                "licenseDeclared": "Apache-2.0",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/opencv/opencv"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-npm-benchmark",
+                "name": "npm:benchmark",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-npm-ansi-colors",
+                "name": "npm:ansi-colors",
+                "versionInfo": "^ 4.1.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-npm-cli-table-0.3.6",
+                "name": "npm:cli-table",
+                "versionInfo": "0.3.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:npm/cli-table@0.3.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-npm-eslint",
+                "name": "npm:eslint",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-npm-eslint-config-google",
+                "name": "npm:eslint-config-google",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-npm-minimist",
+                "name": "npm:minimist",
+                "versionInfo": "^ 1.2.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-npm-node-qunit",
+                "name": "npm:node-qunit",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-reportlab",
+                "name": "pip:reportlab",
+                "versionInfo": ">= 4.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-svglib",
+                "name": "pip:svglib",
+                "versionInfo": ">= 1.5.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-numpy",
+                "name": "pip:numpy",
+                "versionInfo": ">= 1.19.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-onnx",
+                "name": "pip:onnx",
+                "versionInfo": ">= 1.7.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-paddle2onnx",
+                "name": "pip:paddle2onnx",
+                "versionInfo": ">= 0.5.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-paddlehub",
+                "name": "pip:paddlehub",
+                "versionInfo": ">= 2.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-paddlepaddle",
+                "name": "pip:paddlepaddle",
+                "versionInfo": ">= 2.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-paddlepaddle-gpu",
+                "name": "pip:paddlepaddle-gpu",
+                "versionInfo": ">= 2.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-paddleseg",
+                "name": "pip:paddleseg",
+                "versionInfo": ">= 2.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tensorflow",
+                "name": "pip:tensorflow",
+                "versionInfo": ">= 2.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tensorflow-gpu",
+                "name": "pip:tensorflow-gpu",
+                "versionInfo": ">= 2.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-torch",
+                "name": "pip:torch",
+                "versionInfo": ">= 1.5.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-torchvision",
+                "name": "pip:torchvision",
+                "versionInfo": ">= 0.6.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.googlecode.cmake-maven-project-cmake-maven-plugin-3.4.1-b2",
+                "name": "maven:com.googlecode.cmake-maven-project:cmake-maven-plugin",
+                "versionInfo": "3.4.1-b2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.googlecode.cmake-maven-project/cmake-maven-plugin@3.4.1-b2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-2.3.7",
+                "name": "maven:org.apache.felix:maven-bundle-plugin",
+                "versionInfo": "2.3.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.felix/maven-bundle-plugin@2.3.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-clean-plugin-3.0.0",
+                "name": "maven:org.apache.maven.plugins:maven-clean-plugin",
+                "versionInfo": "3.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-clean-plugin@3.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-1.4.1",
+                "name": "maven:org.apache.maven.plugins:maven-enforcer-plugin",
+                "versionInfo": "1.4.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin@1.4.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-2.15",
+                "name": "maven:org.apache.maven.plugins:maven-surefire-plugin",
+                "versionInfo": "2.15",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@2.15",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-exec-maven-plugin-1.4.0",
+                "name": "maven:org.codehaus.mojo:exec-maven-plugin",
+                "versionInfo": "1.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.codehaus.mojo/exec-maven-plugin@1.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-properties-maven-plugin-1.0.0",
+                "name": "maven:org.codehaus.mojo:properties-maven-plugin",
+                "versionInfo": "1.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.codehaus.mojo/properties-maven-plugin@1.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-junit-junit-4.8.1",
+                "name": "maven:junit:junit",
+                "versionInfo": "4.8.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/junit/junit@4.8.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.geronimo.specs-geronimo-atinject-1.0-spec-1.0",
+                "name": "maven:org.apache.geronimo.specs:geronimo-atinject_1.0_spec",
+                "versionInfo": "1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.karaf.log-org.apache.karaf.log.core-4.0.6",
+                "name": "maven:org.apache.karaf.log:org.apache.karaf.log.core",
+                "versionInfo": "4.0.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.karaf.log/org.apache.karaf.log.core@4.0.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.servicemix.tooling-depends-maven-plugin-1.4.0",
+                "name": "maven:org.apache.servicemix.tooling:depends-maven-plugin",
+                "versionInfo": "1.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.servicemix.tooling/depends-maven-plugin@1.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.ops4j.pax.exam-pax-exam-container-karaf",
+                "name": "maven:org.ops4j.pax.exam:pax-exam-container-karaf",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.ops4j.pax.exam-pax-exam-junit4",
+                "name": "maven:org.ops4j.pax.exam:pax-exam-junit4",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.ops4j.pax.logging-pax-logging-api-1.8.0",
+                "name": "maven:org.ops4j.pax.logging:pax-logging-api",
+                "versionInfo": "1.8.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.ops4j.pax.logging/pax-logging-api@1.8.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.ops4j.pax.url-pax-url-aether-1.6.0",
+                "name": "maven:org.ops4j.pax.url:pax-url-aether",
+                "versionInfo": "1.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.6.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.osgi-org.osgi.compendium-4.3.0",
+                "name": "maven:org.osgi:org.osgi.compendium",
+                "versionInfo": "4.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.osgi/org.osgi.compendium@4.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.osgi-org.osgi.core-4.3.1",
+                "name": "maven:org.osgi:org.osgi.core",
+                "versionInfo": "4.3.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.osgi/org.osgi.core@4.3.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-1.7.24",
+                "name": "maven:org.slf4j:slf4j-api",
+                "versionInfo": "1.7.24",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.24",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-simple-1.7.24",
+                "name": "maven:org.slf4j:slf4j-simple",
+                "versionInfo": "1.7.24",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.slf4j/slf4j-simple@1.7.24",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-2",
+                "name": "actions:actions/checkout",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-python-2",
+                "name": "actions:actions/setup-python",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-python@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-Android.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-Android.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-android.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-ARM64-Debug.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-arm64-debug.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-ARM64.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-arm64.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-docs.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-docs.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-docs.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-iOS.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-iOS.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-ios.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-macOS-ARM64-Vulkan.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-macos-arm64-vulkan.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-macOS-ARM64.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-macos-arm64.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-macOS-x86-64.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-macos-x86_64.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-U20-Cuda.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-Cuda.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-u20-cuda.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-U20.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-u20.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-U22.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U22.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-u22.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-W10-Vulkan.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-w10-vulkan.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-W10.yaml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10.yaml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-pr-4.x-w10.yaml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-timvx-backend-tests-4.x.yml-main",
+                "name": "actions:opencv/ci-gha-workflow/.github/workflows/OCV-timvx-backend-tests-4.x.yml",
+                "versionInfo": "main",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/opencv/ci-gha-workflow/.github/workflows/ocv-timvx-backend-tests-4.x.yml@main",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-benchmark"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-ansi-colors"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-cli-table-0.3.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-eslint"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-eslint-config-google"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-minimist"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-npm-node-qunit"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-reportlab"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-svglib"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-numpy"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-onnx"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-paddle2onnx"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-paddlehub"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-paddlepaddle"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-paddlepaddle-gpu"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-paddleseg"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-tensorflow"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-tensorflow-gpu"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-torch"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-pip-torchvision"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-com.googlecode.cmake-maven-project-cmake-maven-plugin-3.4.1-b2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-2.3.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-clean-plugin-3.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-1.4.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-2.15"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-exec-maven-plugin-1.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-properties-maven-plugin-1.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.8.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.geronimo.specs-geronimo-atinject-1.0-spec-1.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.karaf.log-org.apache.karaf.log.core-4.0.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.servicemix.tooling-depends-maven-plugin-1.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.ops4j.pax.exam-pax-exam-container-karaf"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.ops4j.pax.exam-pax-exam-junit4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.ops4j.pax.logging-pax-logging-api-1.8.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.ops4j.pax.url-pax-url-aether-1.6.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.osgi-org.osgi.compendium-4.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.osgi-org.osgi.core-4.3.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-1.7.24"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-simple-1.7.24"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-python-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-Android.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-ARM64-Debug.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-ARM64.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-docs.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-iOS.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-macOS-ARM64-Vulkan.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-macOS-ARM64.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-macOS-x86-64.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-U20-Cuda.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-U20.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-U22.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-W10-Vulkan.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-PR-4.x-W10.yaml-main"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.opencv-opencv",
+                "relatedSpdxElement": "SPDXRef-actions-opencv-ci-gha-workflow-.github-workflows-OCV-timvx-backend-tests-4.x.yml-main"
+            }
+        ]
+    }
+}

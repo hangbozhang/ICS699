@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/proof-alarm.yml",
+        "ecosystem": "actions",
+        "name": "thomas-moulard/action-amazon-chime",
+        "version": "master",
+        "package_url": "pkg:githubactions/thomas-moulard/action-amazon-chime@master",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

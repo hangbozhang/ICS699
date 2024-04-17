@@ -1,0 +1,251 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yaml",
+        "ecosystem": "actions",
+        "name": "aws-actions/amazon-ecr-login",
+        "version": "2",
+        "package_url": "pkg:githubactions/aws-actions/amazon-ecr-login@2",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/amazon-ecr-login",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/docker.yaml",
+        "ecosystem": "actions",
+        "name": "aws-actions/amazon-ecr-login",
+        "version": "1",
+        "package_url": "pkg:githubactions/aws-actions/amazon-ecr-login@1",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/amazon-ecr-login",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nix.yaml",
+        "ecosystem": "actions",
+        "name": "aws-actions/amazon-ecr-login",
+        "version": "2",
+        "package_url": "pkg:githubactions/aws-actions/amazon-ecr-login@2",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/amazon-ecr-login",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/nix.yaml",
+        "ecosystem": "actions",
+        "name": "aws-actions/amazon-ecr-login",
+        "version": "1",
+        "package_url": "pkg:githubactions/aws-actions/amazon-ecr-login@1",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/amazon-ecr-login",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tenzir.yaml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-node@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/tenzir.yaml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-node@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/tenzir.yaml",
+        "ecosystem": "actions",
+        "name": "cachix/install-nix-action",
+        "version": "22",
+        "package_url": "pkg:githubactions/cachix/install-nix-action@22",
+        "license": null,
+        "source_repository_url": "https://github.com/cachix/install-nix-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "aiohttp",
+        "version": "3.8.6",
+        "package_url": "pkg:pypi/aiohttp@3.8.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q3qx-c6g2-7pw2",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "advisory_url": "https://github.com/advisories/GHSA-q3qx-c6g2-7pw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qvrw-v9rv-5rjx",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "advisory_url": "https://github.com/advisories/GHSA-qvrw-v9rv-5rjx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "aiohttp",
+        "version": "3.8.5",
+        "package_url": "pkg:pypi/aiohttp@3.8.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q3qx-c6g2-7pw2",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "advisory_url": "https://github.com/advisories/GHSA-q3qx-c6g2-7pw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gfw2-4jvh-wgfg",
+                "advisory_summary": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "advisory_url": "https://github.com/advisories/GHSA-gfw2-4jvh-wgfg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pjjw-qhg8-p2p9",
+                "advisory_summary": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-pjjw-qhg8-p2p9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qvrw-v9rv-5rjx",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "advisory_url": "https://github.com/advisories/GHSA-qvrw-v9rv-5rjx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.2.3",
+        "package_url": "pkg:pypi/dynaconf@3.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.2.2",
+        "package_url": "pkg:pypi/dynaconf@3.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.9.2",
+        "package_url": "pkg:pypi/nbconvert@7.9.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.8.0",
+        "package_url": "pkg:pypi/nbconvert@7.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.9.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.21",
+        "package_url": "pkg:npm/postcss@8.4.21",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.31",
+        "package_url": "pkg:npm/postcss@8.4.31",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

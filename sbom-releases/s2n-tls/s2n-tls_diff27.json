@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "pin-project-lite",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/taiki-e/pin-project-lite",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

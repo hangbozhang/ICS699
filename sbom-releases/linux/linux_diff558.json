@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "six",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/benjaminp/six",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

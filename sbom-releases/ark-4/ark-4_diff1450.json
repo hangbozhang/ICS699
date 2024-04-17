@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "contrib/PC/ARKUpdater/requirements.txt",
+        "ecosystem": "pip",
+        "name": "python-nmap",
+        "version": "0.7.1",
+        "package_url": "pkg:pypi/python-nmap@0.7.1",
+        "license": "GPL-3.0-only AND GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/johanlundberg/python-nmap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

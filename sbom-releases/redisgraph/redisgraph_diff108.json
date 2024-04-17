@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "click",
+        "version": ">= 6.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redis",
+        "version": "2.10.6",
+        "package_url": "pkg:pypi/redis@2.10.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redis/redis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": ">= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "demo/social/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": ">= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/social/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": ">= 1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/flow/requirements.txt",
+        "ecosystem": "pip",
+        "name": "click",
+        "version": ">= 6.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/flow/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": ">= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/flow/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rmtest",
+        "version": ">= 0.7.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisLabs/rmtest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/flow/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph",
+        "version": ">= 1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/flow/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rmtest",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisLabs/rmtest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

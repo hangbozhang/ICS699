@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "0.18.1",
+        "package_url": "pkg:pypi/docutils@0.18.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

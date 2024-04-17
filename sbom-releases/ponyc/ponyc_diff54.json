@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/changelog-bot.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/changelog-bot-action",
+        "version": "0.1.2",
+        "package_url": "pkg:githubactions/ponylang/changelog-bot-action@0.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/changelog-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/changelog-bot.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/changelog-bot.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/changelog-bot-action",
+        "version": "0.0.1",
+        "package_url": "pkg:githubactions/ponylang/changelog-bot-action@0.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/changelog-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/handle-external-events.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish-stdlib-documentation.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/start-a-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/trigger-nightly.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/update-stdlib-builder.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/latest-docker-images.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

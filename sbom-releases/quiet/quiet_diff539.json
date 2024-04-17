@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/desktop/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.19.19-alpha.13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/desktop/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.19.19-alpha.12",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "integration-tests",
+        "version": "^0.19.19-alpha.13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joshmatz/supertest-example",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "integration-tests",
+        "version": "^0.19.19-alpha.12",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joshmatz/supertest-example",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.19.19-alpha.13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.19.19-alpha.12",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.19.19-alpha.13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^0.19.19-alpha.12",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/deploy-ios.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/cache@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

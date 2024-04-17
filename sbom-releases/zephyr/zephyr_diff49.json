@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.9.1,< 4.15.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 1.7.5,< 3.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.9.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 1.7.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

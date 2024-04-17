@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "lib/esp-epaper-29-ws-20171230-gemu-1.0/docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.7.3",
+        "package_url": "pkg:pypi/breathe@4.7.3",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/esp-epaper-29-ws-20171230-gemu-1.0/docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "1.6.5",
+        "package_url": "pkg:pypi/sphinx@1.6.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/esp-epaper-29-ws-20171230-gemu-1.0/docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx-rtd-theme",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx_rtd_theme",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

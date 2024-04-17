@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "integrations/tensorflow/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": "2.13.0.dev20230406",
+        "package_url": "pkg:pypi/tf-nightly@2.13.0.dev20230406",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "protobuf",
+        "version": ">= 3.20.1,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/protocolbuffers/protobuf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tensorflow",
+        "version": ">= 2.7.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tensorflow/tensorflow",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

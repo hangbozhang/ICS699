@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/process_opened_issues.yml",
+        "ecosystem": "actions",
+        "name": "actions/add-to-project",
+        "version": "a9f041ddd462ed185893ea1024cec954f50dbe42",
+        "package_url": "pkg:githubactions/actions/add-to-project@a9f041ddd462ed185893ea1024cec954f50dbe42",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/add-to-project",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/process_opened_issues.yml",
+        "ecosystem": "actions",
+        "name": "actions/add-to-project",
+        "version": "7a0820f97673dfefc999713a9a6d6b7ee128bba5",
+        "package_url": "pkg:githubactions/actions/add-to-project@7a0820f97673dfefc999713a9a6d6b7ee128bba5",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/add-to-project",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

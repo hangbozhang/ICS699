@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-standards",
+        "version": "0.2.0",
+        "package_url": "pkg:gem/openstudio-standards@0.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/openstudio-standards",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "tilt",
+        "version": "2.0.8",
+        "package_url": "pkg:gem/tilt@2.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rtomayko/tilt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-standards",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/openstudio-standards",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "tilt",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rtomayko/tilt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_git/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "xml-simple",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/maik/xml-simple",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_native/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "ffi",
+        "version": "1.9.25",
+        "package_url": "pkg:gem/ffi@1.9.25",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/ffi/ffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_native/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "rubyXL",
+        "version": "3.3.29",
+        "package_url": "pkg:gem/rubyxl@3.3.29",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/weshatheleopard/rubyXL",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_no_install/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "openstudio-standards",
+        "version": "0.2.2",
+        "package_url": "pkg:gem/openstudio-standards@0.2.2",
+        "license": null,
+        "source_repository_url": "https://github.com/NREL/openstudio-standards",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "openstudiocore/src/cli/test/bundle_no_install/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "tilt",
+        "version": "2.0.8",
+        "package_url": "pkg:gem/tilt@2.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rtomayko/tilt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

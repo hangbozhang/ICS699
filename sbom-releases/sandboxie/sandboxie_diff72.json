@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/winget.yml",
+        "ecosystem": "actions",
+        "name": "vedantmgoyal2009/vedantmgoyal2009/winget-pkgs-automation/releaser-action",
+        "version": "1.0.0",
+        "package_url": "pkg:githubactions/vedantmgoyal2009/vedantmgoyal2009/winget-pkgs-automation/releaser-action@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/vedantmgoyal2009/vedantmgoyal2009",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "SandboxiePlus/SbieShell/SbieShellExt/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.ImplementationLibrary",
+        "version": "1.0.201120.3",
+        "package_url": "pkg:nuget/Microsoft.Windows.ImplementationLibrary@1.0.201120.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/wil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

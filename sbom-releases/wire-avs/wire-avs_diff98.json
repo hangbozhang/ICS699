@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ua-parser-js",
+        "version": "0.7.32",
+        "package_url": "pkg:npm/ua-parser-js@0.7.32",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/faisalman/ua-parser-js",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fhg7-m89q-25r3",
+                "advisory_summary": "ReDoS Vulnerability in ua-parser-js version",
+                "advisory_url": "https://github.com/advisories/GHSA-fhg7-m89q-25r3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ua-parser-js",
+        "version": "0.7.33",
+        "package_url": "pkg:npm/ua-parser-js@0.7.33",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/faisalman/ua-parser-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

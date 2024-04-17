@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "examples/ipython/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": ">= 5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

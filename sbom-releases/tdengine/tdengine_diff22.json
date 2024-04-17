@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/examples/go/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/taosdata/driver-go/v3",
+        "version": "3.1.0",
+        "package_url": "pkg:golang/github.com/taosdata/driver-go/v3@3.1.0",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/driver-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/analyze",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/analyze@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/init",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/init@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "jurplel/install-qt-action",
+        "version": "3",
+        "package_url": "pkg:githubactions/jurplel/install-qt-action@3",
+        "license": null,
+        "source_repository_url": "https://github.com/jurplel/install-qt-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/codeql.yml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "jurplel/install-qt-action",
+        "version": "3",
+        "package_url": "pkg:githubactions/jurplel/install-qt-action@3",
+        "license": null,
+        "source_repository_url": "https://github.com/jurplel/install-qt-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

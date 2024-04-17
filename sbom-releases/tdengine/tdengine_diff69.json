@@ -1,0 +1,820 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "importSampleData/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/pelletier/go-toml",
+        "version": "1.9.0",
+        "package_url": "pkg:golang/github.com/pelletier/go-toml@1.9.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pelletier/go-toml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "importSampleData/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/taosdata/driver-go",
+        "version": "0.0.0-20210415143420-d99751356e28",
+        "package_url": "pkg:golang/github.com/taosdata/driver-go@0.0.0-20210415143420-d99751356e28",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/driver-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "black",
+        "version": "^ 21.7b0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/black",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "mypy",
+        "version": "^ 0.910",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python/mypy",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pdoc",
+        "version": "^ 7.1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mitmproxy/pdoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "python",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python/cpython",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "typing",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/akaihola/typing",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-io:commons-io",
+        "version": "2.4",
+        "package_url": "pkg:maven/commons-io/commons-io@2.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-io",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gwrp-pvrq-jmwv",
+                "advisory_summary": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "advisory_url": "https://github.com/advisories/GHSA-gwrp-pvrq-jmwv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.11",
+        "package_url": "pkg:maven/junit/junit@4.11",
+        "license": "CPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-io:commons-io",
+        "version": "2.7",
+        "package_url": "pkg:maven/commons-io/commons-io@2.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-io",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-classic",
+        "version": "1.0.13",
+        "package_url": "pkg:maven/ch.qos.logback/logback-classic@1.0.13",
+        "license": "EPL-1.0 OR LGPL-2.1-only",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-vmfg-rjjm-rjrj",
+                "advisory_summary": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfg-rjjm-rjrj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.0.13",
+        "package_url": "pkg:maven/ch.qos.logback/logback-core@1.0.13",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-vmfg-rjjm-rjrj",
+                "advisory_summary": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfg-rjjm-rjrj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-668q-qrv7-99fm",
+                "advisory_summary": "Deserialization of Untrusted Data in logback",
+                "advisory_url": "https://github.com/advisories/GHSA-668q-qrv7-99fm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-classic",
+        "version": "1.2.0",
+        "package_url": "pkg:maven/ch.qos.logback/logback-classic@1.2.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.2.0",
+        "package_url": "pkg:maven/ch.qos.logback/logback-core@1.2.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-668q-qrv7-99fm",
+                "advisory_summary": "Deserialization of Untrusted Data in logback",
+                "advisory_url": "https://github.com/advisories/GHSA-668q-qrv7-99fm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.google.guava:guava",
+        "version": "30.0-jre",
+        "package_url": "pkg:maven/com.google.guava/guava@30.0-jre",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/guava",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7g45-4rm6-3mm3",
+                "advisory_summary": "Guava vulnerable to insecure use of temporary directory",
+                "advisory_url": "https://github.com/advisories/GHSA-7g45-4rm6-3mm3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5mg8-w23w-74h3",
+                "advisory_summary": "Information Disclosure in Guava",
+                "advisory_url": "https://github.com/advisories/GHSA-5mg8-w23w-74h3"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.google.guava:guava",
+        "version": "29.0-jre",
+        "package_url": "pkg:maven/com.google.guava/guava@29.0-jre",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/guava",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7g45-4rm6-3mm3",
+                "advisory_summary": "Guava vulnerable to insecure use of temporary directory",
+                "advisory_url": "https://github.com/advisories/GHSA-7g45-4rm6-3mm3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5mg8-w23w-74h3",
+                "advisory_summary": "Information Disclosure in Guava",
+                "advisory_url": "https://github.com/advisories/GHSA-5mg8-w23w-74h3"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-io:commons-io",
+        "version": "2.4",
+        "package_url": "pkg:maven/commons-io/commons-io@2.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-io",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gwrp-pvrq-jmwv",
+                "advisory_summary": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "advisory_url": "https://github.com/advisories/GHSA-gwrp-pvrq-jmwv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.11",
+        "package_url": "pkg:maven/junit/junit@4.11",
+        "license": "CPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.httpcomponents:httpclient",
+        "version": "4.5.4",
+        "package_url": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/httpcomponents-client",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7r82-7xv7-xcpj",
+                "advisory_summary": "Cross-site scripting in Apache HttpClient",
+                "advisory_url": "https://github.com/advisories/GHSA-7r82-7xv7-xcpj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-io:commons-io",
+        "version": "2.7",
+        "package_url": "pkg:maven/commons-io/commons-io@2.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-io",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.httpcomponents:httpclient",
+        "version": "4.5.13",
+        "package_url": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/httpcomponents-client",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.22",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.22",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13",
+        "package_url": "pkg:maven/junit/junit@4.13",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-core",
+        "version": "2.14.1",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7rjr-3q55-vv33",
+                "advisory_summary": "Incomplete fix for Apache Log4j vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7rjr-3q55-vv33"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-jfh8-c2jp-5v3q",
+                "advisory_summary": "Remote code injection in Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p6xc-xr62-6r2g",
+                "advisory_summary": "Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion",
+                "advisory_url": "https://github.com/advisories/GHSA-p6xc-xr62-6r2g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8489-44mv-ggj8",
+                "advisory_summary": "Improper Input Validation and Injection in Apache Log4j2",
+                "advisory_url": "https://github.com/advisories/GHSA-8489-44mv-ggj8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "log4j:log4j",
+        "version": "1.2.17",
+        "package_url": "pkg:maven/log4j/log4j@1.2.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j1",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-65fg-84f6-3jq3",
+                "advisory_summary": "SQL Injection in Log4j 1.2.x",
+                "advisory_url": "https://github.com/advisories/GHSA-65fg-84f6-3jq3"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-f7vh-qwp3-x37m",
+                "advisory_summary": "Deserialization of Untrusted Data in Apache Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-f7vh-qwp3-x37m"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2qrg-x229-3v8q",
+                "advisory_summary": "Deserialization of Untrusted Data in Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-2qrg-x229-3v8q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fp5r-v3w9-4333",
+                "advisory_summary": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
+                "advisory_url": "https://github.com/advisories/GHSA-fp5r-v3w9-4333"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w9p3-5cr8-m3jj",
+                "advisory_summary": "Deserialization of Untrusted Data in Log4j 1.x",
+                "advisory_url": "https://github.com/advisories/GHSA-w9p3-5cr8-m3jj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.cloudhopper.proxool:proxool",
+        "version": "0.9.1",
+        "package_url": "pkg:maven/com.cloudhopper.proxool/proxool@0.9.1",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.12",
+        "package_url": "pkg:maven/junit/junit@4.12",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-aop",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-core",
+        "version": "2.14.1",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7rjr-3q55-vv33",
+                "advisory_summary": "Incomplete fix for Apache Log4j vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7rjr-3q55-vv33"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-jfh8-c2jp-5v3q",
+                "advisory_summary": "Remote code injection in Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p6xc-xr62-6r2g",
+                "advisory_summary": "Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion",
+                "advisory_url": "https://github.com/advisories/GHSA-p6xc-xr62-6r2g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8489-44mv-ggj8",
+                "advisory_summary": "Improper Input Validation and Injection in Apache Log4j2",
+                "advisory_url": "https://github.com/advisories/GHSA-8489-44mv-ggj8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "log4j:log4j",
+        "version": "1.2.17",
+        "package_url": "pkg:maven/log4j/log4j@1.2.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j1",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-65fg-84f6-3jq3",
+                "advisory_summary": "SQL Injection in Log4j 1.2.x",
+                "advisory_url": "https://github.com/advisories/GHSA-65fg-84f6-3jq3"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-f7vh-qwp3-x37m",
+                "advisory_summary": "Deserialization of Untrusted Data in Apache Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-f7vh-qwp3-x37m"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-2qrg-x229-3v8q",
+                "advisory_summary": "Deserialization of Untrusted Data in Log4j",
+                "advisory_url": "https://github.com/advisories/GHSA-2qrg-x229-3v8q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fp5r-v3w9-4333",
+                "advisory_summary": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
+                "advisory_url": "https://github.com/advisories/GHSA-fp5r-v3w9-4333"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w9p3-5cr8-m3jj",
+                "advisory_summary": "Deserialization of Untrusted Data in Log4j 1.x",
+                "advisory_url": "https://github.com/advisories/GHSA-w9p3-5cr8-m3jj"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "mysql:mysql-connector-java",
+        "version": "5.1.47",
+        "package_url": "pkg:maven/mysql/mysql-connector-java@5.1.47",
+        "license": "GPL-2.0",
+        "source_repository_url": "https://github.com/mysql/mysql-connector-j",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4vrv-ch96-6h42",
+                "advisory_summary": "Improper Privilege Management in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-4vrv-ch96-6h42"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jcq3-cprp-m333",
+                "advisory_summary": "Privilege escalation in mysql-connector-jav",
+                "advisory_url": "https://github.com/advisories/GHSA-jcq3-cprp-m333"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g76j-4cxx-23h9",
+                "advisory_summary": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-g76j-4cxx-23h9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "mysql:mysql-connector-java",
+        "version": "8.0.16",
+        "package_url": "pkg:maven/mysql/mysql-connector-java@8.0.16",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/mysql/mysql-connector-j",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g76j-4cxx-23h9",
+                "advisory_summary": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-g76j-4cxx-23h9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w6f2-8wx4-47r5",
+                "advisory_summary": "Incorrect Authorization in MySQL Connector Java",
+                "advisory_url": "https://github.com/advisories/GHSA-w6f2-8wx4-47r5"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.12",
+        "package_url": "pkg:maven/junit/junit@4.12",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

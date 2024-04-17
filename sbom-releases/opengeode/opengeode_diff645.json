@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CD.yml",
+        "ecosystem": "actions",
+        "name": "8398a7/action-slack",
+        "version": "2",
+        "package_url": "pkg:githubactions/8398a7/action-slack@2",
+        "license": null,
+        "source_repository_url": "https://github.com/8398a7/action-slack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

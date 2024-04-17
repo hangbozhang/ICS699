@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "web/package.json",
+        "ecosystem": "npm",
+        "name": "puppeteer",
+        "version": "^21.1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/puppeteer/puppeteer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/package.json",
+        "ecosystem": "npm",
+        "name": "puppeteer",
+        "version": "^20.5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/puppeteer/puppeteer",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

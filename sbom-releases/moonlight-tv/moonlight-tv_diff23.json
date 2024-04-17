@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-test.yml",
+        "ecosystem": "actions",
+        "name": "robinraju/release-downloader",
+        "version": "1.8",
+        "package_url": "pkg:githubactions/robinraju/release-downloader@1.8",
+        "license": null,
+        "source_repository_url": "https://github.com/robinraju/release-downloader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "robinraju/release-downloader",
+        "version": "1.8",
+        "package_url": "pkg:githubactions/robinraju/release-downloader@1.8",
+        "license": null,
+        "source_repository_url": "https://github.com/robinraju/release-downloader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

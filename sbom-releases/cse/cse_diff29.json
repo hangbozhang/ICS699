@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "r-lib/actions/setup-tinytex",
+        "version": "1",
+        "package_url": "pkg:githubactions/r-lib/actions/setup-tinytex@1",
+        "license": null,
+        "source_repository_url": "https://github.com/r-lib/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "r-lib/actions/setup-tinytex",
+        "version": "1",
+        "package_url": "pkg:githubactions/r-lib/actions/setup-tinytex@1",
+        "license": null,
+        "source_repository_url": "https://github.com/r-lib/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

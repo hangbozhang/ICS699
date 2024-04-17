@@ -1,0 +1,45 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.18.2",
+        "package_url": "pkg:pypi/future@0.18.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.18.3",
+        "package_url": "pkg:pypi/future@0.18.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "0.34.3",
+        "package_url": "pkg:pypi/pyocd@0.34.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/pyOCD",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

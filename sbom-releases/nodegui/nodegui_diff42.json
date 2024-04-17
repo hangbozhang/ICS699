@@ -1,0 +1,21 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^7.0.17",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "gopkg.in/yaml.v3",
+        "version": "3.0.0-20210107192922-496545a6307b",
+        "package_url": "pkg:golang/gopkg.in/yaml.v3@3.0.0-20210107192922-496545a6307b",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hp87-p4gw-j4gq",
+                "advisory_summary": "gopkg.in/yaml.v3 Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-hp87-p4gw-j4gq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/objx",
+        "version": "0.4.0",
+        "package_url": "pkg:golang/github.com/stretchr/objx@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/objx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/testify",
+        "version": "1.8.0",
+        "package_url": "pkg:golang/github.com/stretchr/testify@1.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/testify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "gopkg.in/yaml.v3",
+        "version": "3.0.1",
+        "package_url": "pkg:golang/gopkg.in/yaml.v3@3.0.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/objx",
+        "version": "0.2.0",
+        "package_url": "pkg:golang/github.com/stretchr/objx@0.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/objx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/testify",
+        "version": "1.7.0",
+        "package_url": "pkg:golang/github.com/stretchr/testify@1.7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/testify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

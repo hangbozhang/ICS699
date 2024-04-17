@@ -1,0 +1,492 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "4.3.9",
+        "package_url": "pkg:npm/vite@4.3.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c24v-8rfc-w8vw",
+                "advisory_summary": "Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive filesystem",
+                "advisory_url": "https://github.com/advisories/GHSA-c24v-8rfc-w8vw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "4.3.8",
+        "package_url": "pkg:npm/vite@4.3.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-353f-5xf4-qw67",
+                "advisory_summary": "Vite Server Options (server.fs.deny) can be bypassed using double forward-slash (//)",
+                "advisory_url": "https://github.com/advisories/GHSA-353f-5xf4-qw67"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c24v-8rfc-w8vw",
+                "advisory_summary": "Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive filesystem",
+                "advisory_url": "https://github.com/advisories/GHSA-c24v-8rfc-w8vw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.24",
+        "package_url": "pkg:npm/postcss@8.4.24",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.23",
+        "package_url": "pkg:npm/postcss@8.4.23",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@rollup/plugin-node-resolve",
+        "version": "15.1.0",
+        "package_url": "pkg:npm/%40rollup/plugin-node-resolve@15.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rollup/plugins",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "2.4.2",
+        "package_url": "pkg:npm/%40sveltejs/vite-plugin-svelte@2.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte-inspector",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/%40sveltejs/vite-plugin-svelte-inspector@1.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "concurrently",
+        "version": "8.2.0",
+        "package_url": "pkg:npm/concurrently@8.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/open-cli-tools/concurrently",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "3.23.1",
+        "package_url": "pkg:npm/rollup@3.23.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "rollup-plugin-svelte",
+        "version": "7.1.5",
+        "package_url": "pkg:npm/rollup-plugin-svelte@7.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/rollup-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "spawn-command",
+        "version": "0.0.2",
+        "package_url": "pkg:npm/spawn-command@0.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mmalecki/spawn-command",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "svelte-hmr",
+        "version": "0.15.2",
+        "package_url": "pkg:npm/svelte-hmr@0.15.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/sveltejs/svelte-hmr",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "svelte-preprocess",
+        "version": "5.0.4",
+        "package_url": "pkg:npm/svelte-preprocess@5.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/svelte-preprocess",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@rollup/plugin-node-resolve",
+        "version": "15.0.2",
+        "package_url": "pkg:npm/%40rollup/plugin-node-resolve@15.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rollup/plugins",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "2.3.0",
+        "package_url": "pkg:npm/%40sveltejs/vite-plugin-svelte@2.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte-inspector",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/%40sveltejs/vite-plugin-svelte-inspector@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "concurrently",
+        "version": "8.0.1",
+        "package_url": "pkg:npm/concurrently@8.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/open-cli-tools/concurrently",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "3.23.0",
+        "package_url": "pkg:npm/rollup@3.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "rollup-plugin-svelte",
+        "version": "7.1.4",
+        "package_url": "pkg:npm/rollup-plugin-svelte@7.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/rollup-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "spawn-command",
+        "version": "0.0.2-1",
+        "package_url": "pkg:npm/spawn-command@0.0.2-1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mmalecki/spawn-command",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "svelte-hmr",
+        "version": "0.15.1",
+        "package_url": "pkg:npm/svelte-hmr@0.15.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/sveltejs/svelte-hmr",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "svelte-preprocess",
+        "version": "5.0.3",
+        "package_url": "pkg:npm/svelte-preprocess@5.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/svelte-preprocess",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "@rollup/plugin-node-resolve",
+        "version": "^15.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rollup/plugins",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "^2.4.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "concurrently",
+        "version": "^8.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/open-cli-tools/concurrently",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^8.4.24",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "^3.23.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "rollup-plugin-svelte",
+        "version": "^7.1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/rollup-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "svelte-preprocess",
+        "version": "^5.0.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/svelte-preprocess",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^4.3.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "@rollup/plugin-node-resolve",
+        "version": "^15.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rollup/plugins",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "^2.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "concurrently",
+        "version": "^8.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/open-cli-tools/concurrently",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^8.4.23",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "^3.23.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "rollup-plugin-svelte",
+        "version": "^7.1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/rollup-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "svelte-preprocess",
+        "version": "^5.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/svelte-preprocess",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^4.3.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

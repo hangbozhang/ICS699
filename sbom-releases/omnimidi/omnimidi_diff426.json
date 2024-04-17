@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "KeppySynthConfigurator/KeppySynthConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "MetroModernUI",
+        "version": "1.4.0.0",
+        "package_url": "pkg:nuget/MetroModernUI@1.4.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/eternalklaus/EternalAntirootkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

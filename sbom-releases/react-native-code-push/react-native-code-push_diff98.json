@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.15.0",
+        "package_url": "pkg:npm/react-native@0.15.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.14.2",
+        "package_url": "pkg:npm/react-native@0.14.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.15.0",
+        "package_url": "pkg:npm/react-native@0.15.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "^5.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.14.2",
+        "package_url": "pkg:npm/react-native@0.14.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

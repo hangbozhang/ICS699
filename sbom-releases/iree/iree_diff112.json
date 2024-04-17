@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "experimental/distributed/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "iree-compiler",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "experimental/distributed/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "iree-runtime",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/openxla/iree",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "experimental/distributed/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "jax",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/google/jax",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "experimental/distributed/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "mpi4py",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mpi4py/mpi4py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "experimental/distributed/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

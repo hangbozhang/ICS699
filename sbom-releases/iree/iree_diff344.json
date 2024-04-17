@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/benchmark_execution.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "sarisia/actions-status-discord",
+        "version": "c193626e5ce172002b8161e116aa897de7ab5383",
+        "package_url": "pkg:githubactions/sarisia/actions-status-discord@c193626e5ce172002b8161e116aa897de7ab5383",
+        "license": null,
+        "source_repository_url": "https://github.com/sarisia/actions-status-discord",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/benchmarks.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

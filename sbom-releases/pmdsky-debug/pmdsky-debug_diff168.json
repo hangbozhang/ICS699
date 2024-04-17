@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "serde_json",
+        "version": ">= 1.0.79, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/serde-rs/json",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

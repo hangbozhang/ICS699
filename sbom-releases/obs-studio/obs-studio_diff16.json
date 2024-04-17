@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/services-json.yml",
+        "ecosystem": "actions",
+        "name": "peter-evans/create-pull-request",
+        "version": "36a56dac0739df8d3d8ebb9e6e41026ba248ec27",
+        "package_url": "pkg:githubactions/peter-evans/create-pull-request@36a56dac0739df8d3d8ebb9e6e41026ba248ec27",
+        "license": null,
+        "source_repository_url": "https://github.com/peter-evans/create-pull-request",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/services-json.yml",
+        "ecosystem": "actions",
+        "name": "peter-evans/create-pull-request",
+        "version": "f094b77505fb89581e68a1163fbd2fffece39da1",
+        "package_url": "pkg:githubactions/peter-evans/create-pull-request@f094b77505fb89581e68a1163fbd2fffece39da1",
+        "license": null,
+        "source_repository_url": "https://github.com/peter-evans/create-pull-request",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

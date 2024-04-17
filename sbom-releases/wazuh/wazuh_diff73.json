@@ -1,0 +1,162 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": "2.4.2",
+        "package_url": "pkg:pypi/cryptography@2.4.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "setuptools",
+        "version": "40.6.2",
+        "package_url": "pkg:pypi/setuptools@40.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/setuptools",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-r9hx-vwmv-q579",
+                "advisory_summary": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-r9hx-vwmv-q579"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheeL",
+        "version": "0.33.1",
+        "package_url": "pkg:pypi/wheel@0.33.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qwmp-2cf2-g9g6",
+                "advisory_summary": "pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-qwmp-2cf2-g9g6"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "2.21.0",
+        "package_url": "pkg:pypi/requests@2.21.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/kennethreitz/requests",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j8r2-6x86-q33q",
+                "advisory_summary": "Unintended leak of Proxy-Authorization header in requests",
+                "advisory_url": "https://github.com/advisories/GHSA-j8r2-6x86-q33q"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "azure-storage-blob",
+        "version": "1.4.0",
+        "package_url": "pkg:pypi/azure-storage-blob@1.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Azure/azure-storage-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "boto3",
+        "version": "1.9.82",
+        "package_url": "pkg:pypi/boto3@1.9.82",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/boto/boto3",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docker",
+        "version": "3.7.0",
+        "package_url": "pkg:pypi/docker@3.7.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/docker/docker-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytz",
+        "version": "2018.9",
+        "package_url": "pkg:pypi/pytz@2018.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/stub42/pytz",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "uvloop",
+        "version": "0.11.3",
+        "package_url": "pkg:pypi/uvloop@0.11.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/MagicStack/uvloop",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

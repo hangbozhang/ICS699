@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "ShaderBuilder/ShaderBuilder.csproj",
+        "ecosystem": "nuget",
+        "name": "SharpDX",
+        "version": "4.2.0",
+        "package_url": "pkg:nuget/SharpDX@4.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sharpdx/SharpDX",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ShaderBuilder/ShaderBuilder.csproj",
+        "ecosystem": "nuget",
+        "name": "SharpDX.D3DCompiler",
+        "version": "4.2.0",
+        "package_url": "pkg:nuget/SharpDX.D3DCompiler@4.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sharpdx/SharpDX",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

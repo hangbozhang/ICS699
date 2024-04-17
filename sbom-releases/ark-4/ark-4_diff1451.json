@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "contrib/PC/ARKUpdater/requirements.txt",
+        "ecosystem": "pip",
+        "name": "device-manager",
+        "version": "0.2.4",
+        "package_url": "pkg:pypi/device-manager@0.2.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zea2/DeviceManager",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

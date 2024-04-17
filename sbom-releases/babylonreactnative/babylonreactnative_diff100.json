@@ -1,0 +1,700 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "hermes-engine",
+        "version": "0.5.1",
+        "package_url": "pkg:npm/hermes-engine@0.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/hermes",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7mhc-prgv-r3q4",
+                "advisory_summary": "Access of Resource Using Incompatible Type in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-7mhc-prgv-r3q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-mph8-6787-r8hw",
+                "advisory_summary": "Use After Free in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-mph8-6787-r8hw"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-327c-qx3v-h673",
+                "advisory_summary": "Always-Incorrect Control Flow Implementation in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-327c-qx3v-h673"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4cf-6jr3-3qvp",
+                "advisory_summary": "Out-of-bounds Read in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-x4cf-6jr3-3qvp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "hermes-engine",
+        "version": "0.5.0",
+        "package_url": "pkg:npm/hermes-engine@0.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/hermes",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7mhc-prgv-r3q4",
+                "advisory_summary": "Access of Resource Using Incompatible Type in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-7mhc-prgv-r3q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-mph8-6787-r8hw",
+                "advisory_summary": "Use After Free in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-mph8-6787-r8hw"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-327c-qx3v-h673",
+                "advisory_summary": "Always-Incorrect Control Flow Implementation in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-327c-qx3v-h673"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4cf-6jr3-3qvp",
+                "advisory_summary": "Out-of-bounds Read in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-x4cf-6jr3-3qvp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-devtools-core",
+        "version": "4.8.2",
+        "package_url": "pkg:npm/react-devtools-core@4.8.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rxrc-rgv4-jpvx",
+                "advisory_summary": "React Developer Tools extension Improper Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rxrc-rgv4-jpvx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-devtools-core",
+        "version": "4.8.1",
+        "package_url": "pkg:npm/react-devtools-core@4.8.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rxrc-rgv4-jpvx",
+                "advisory_summary": "React Developer Tools extension Improper Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-rxrc-rgv4-jpvx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/%40types/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cli-spinners",
+        "version": "2.4.0",
+        "package_url": "pkg:npm/cli-spinners@2.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/cli-spinners",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "dayjs",
+        "version": "1.8.32",
+        "package_url": "pkg:npm/dayjs@1.8.32",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/iamkun/dayjs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "envinfo",
+        "version": "7.7.2",
+        "package_url": "pkg:npm/envinfo@7.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tabrindle/envinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "whatwg-fetch",
+        "version": "3.3.1",
+        "package_url": "pkg:npm/whatwg-fetch@3.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/JakeChampion/fetch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/%40types/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cli-spinners",
+        "version": "2.3.0",
+        "package_url": "pkg:npm/cli-spinners@2.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/cli-spinners",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "dayjs",
+        "version": "1.8.29",
+        "package_url": "pkg:npm/dayjs@1.8.29",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/iamkun/dayjs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "envinfo",
+        "version": "7.5.1",
+        "package_url": "pkg:npm/envinfo@7.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tabrindle/envinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package-lock.json",
+        "ecosystem": "npm",
+        "name": "whatwg-fetch",
+        "version": "3.2.0",
+        "package_url": "pkg:npm/whatwg-fetch@3.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/JakeChampion/fetch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/package.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/%40types/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/package.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/%40types/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "hermes-engine",
+        "version": "0.5.1",
+        "package_url": "pkg:npm/hermes-engine@0.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/hermes",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7mhc-prgv-r3q4",
+                "advisory_summary": "Access of Resource Using Incompatible Type in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-7mhc-prgv-r3q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-mph8-6787-r8hw",
+                "advisory_summary": "Use After Free in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-mph8-6787-r8hw"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-327c-qx3v-h673",
+                "advisory_summary": "Always-Incorrect Control Flow Implementation in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-327c-qx3v-h673"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4cf-6jr3-3qvp",
+                "advisory_summary": "Out-of-bounds Read in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-x4cf-6jr3-3qvp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "hermes-engine",
+        "version": "0.5.0",
+        "package_url": "pkg:npm/hermes-engine@0.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/hermes",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7mhc-prgv-r3q4",
+                "advisory_summary": "Access of Resource Using Incompatible Type in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-7mhc-prgv-r3q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-mph8-6787-r8hw",
+                "advisory_summary": "Use After Free in Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-mph8-6787-r8hw"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-327c-qx3v-h673",
+                "advisory_summary": "Always-Incorrect Control Flow Implementation in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-327c-qx3v-h673"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4cf-6jr3-3qvp",
+                "advisory_summary": "Out-of-bounds Read in Facebook Hermes",
+                "advisory_url": "https://github.com/advisories/GHSA-x4cf-6jr3-3qvp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/loaders",
+        "version": "4.2.0-alpha.30",
+        "package_url": "pkg:npm/%40babylonjs/loaders@4.2.0-alpha.30",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/%40types/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "babylonjs-gltf2interface",
+        "version": "4.2.0-alpha.30",
+        "package_url": "pkg:npm/babylonjs-gltf2interface@4.2.0-alpha.30",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "base-64",
+        "version": "0.1.0",
+        "package_url": "pkg:npm/base-64@0.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mathiasbynens/base64",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cli-spinners",
+        "version": "2.4.0",
+        "package_url": "pkg:npm/cli-spinners@2.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/cli-spinners",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "envinfo",
+        "version": "7.7.2",
+        "package_url": "pkg:npm/envinfo@7.7.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tabrindle/envinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "whatwg-fetch",
+        "version": "3.3.1",
+        "package_url": "pkg:npm/whatwg-fetch@3.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/JakeChampion/fetch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/%40types/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cli-spinners",
+        "version": "2.3.0",
+        "package_url": "pkg:npm/cli-spinners@2.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/cli-spinners",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "envinfo",
+        "version": "7.5.1",
+        "package_url": "pkg:npm/envinfo@7.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tabrindle/envinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package-lock.json",
+        "ecosystem": "npm",
+        "name": "whatwg-fetch",
+        "version": "3.2.0",
+        "package_url": "pkg:npm/whatwg-fetch@3.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/JakeChampion/fetch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7f53-fmmv-mfjv",
+                "advisory_summary": "Regular expression denial of service in react-native",
+                "advisory_url": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/loaders",
+        "version": "4.2.0-alpha.30",
+        "package_url": "pkg:npm/%40babylonjs/loaders@4.2.0-alpha.30",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/BabylonJS/Babylon.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.1",
+        "package_url": "pkg:npm/%40types/react-native@0.63.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "0.63.0",
+        "package_url": "pkg:npm/%40types/react-native@0.63.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Modules/@babylonjs/react-native/package.json",
+        "ecosystem": "npm",
+        "name": "@types/base-64",
+        "version": "^0.1.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Modules/@babylonjs/react-native/package.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "^0.63.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Modules/@babylonjs/react-native/package.json",
+        "ecosystem": "npm",
+        "name": "base-64",
+        "version": "^0.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mathiasbynens/base64",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Modules/@babylonjs/react-native/package.json",
+        "ecosystem": "npm",
+        "name": "@types/react-native",
+        "version": "^0.62.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

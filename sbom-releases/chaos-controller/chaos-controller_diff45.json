@@ -1,0 +1,46 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/distribution",
+        "version": "2.8.1+incompatible",
+        "package_url": "pkg:golang/github.com/docker/distribution@2.8.1%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/distribution/distribution",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hqxw-f8mx-cpmw",
+                "advisory_summary": "distribution catalog API endpoint can lead to OOM via malicious user input",
+                "advisory_url": "https://github.com/advisories/GHSA-hqxw-f8mx-cpmw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/distribution",
+        "version": "2.7.1+incompatible",
+        "package_url": "pkg:golang/github.com/docker/distribution@2.7.1%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/distribution/distribution",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hqxw-f8mx-cpmw",
+                "advisory_summary": "distribution catalog API endpoint can lead to OOM via malicious user input",
+                "advisory_url": "https://github.com/advisories/GHSA-hqxw-f8mx-cpmw"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-qq97-vm5h-rrhg",
+                "advisory_summary": "OCI Manifest Type Confusion Issue",
+                "advisory_url": "https://github.com/advisories/GHSA-qq97-vm5h-rrhg"
+            }
+        ]
+    }
+]

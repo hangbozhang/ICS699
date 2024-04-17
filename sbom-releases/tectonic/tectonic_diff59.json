@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_bundles",
+        "version": ">= 0.3.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_bundles",
+        "version": ">= 0.2.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/engine_xdvipdfmx/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_pdf_io",
+        "version": ">= 0.2.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/engine_xdvipdfmx/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_pdf_io",
+        "version": ">= 0.1.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/engine_xetex/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_pdf_io",
+        "version": ">= 0.2.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/engine_xetex/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_xetex_layout",
+        "version": ">= 0.2.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/engine_xetex/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_pdf_io",
+        "version": ">= 0.1.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "crates/engine_xetex/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_xetex_layout",
+        "version": ">= 0.1.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

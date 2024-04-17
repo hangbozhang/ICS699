@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish_website.yml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/auth",
+        "version": "1",
+        "package_url": "pkg:githubactions/google-github-actions/auth@1",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/auth",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/website/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-material",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/squidfunk/mkdocs-material",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/website/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-redirects",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mkdocs/mkdocs-redirects",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

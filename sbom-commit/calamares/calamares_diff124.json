@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/nightly-debian.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-build",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-build@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

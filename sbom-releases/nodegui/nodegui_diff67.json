@@ -1,0 +1,82 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.20",
+        "package_url": "pkg:npm/lodash@4.17.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.15",
+        "package_url": "pkg:npm/lodash@4.17.15",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p6mc-m468-83gw",
+                "advisory_summary": "Prototype Pollution in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-p6mc-m468-83gw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "26.0.10",
+        "package_url": "pkg:npm/%40types/jest@26.0.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "26.0.3",
+        "package_url": "pkg:npm/%40types/jest@26.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

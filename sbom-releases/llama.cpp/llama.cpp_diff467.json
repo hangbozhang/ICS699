@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "Jimver/cuda-toolkit",
+        "version": "0.2.11",
+        "package_url": "pkg:githubactions/Jimver/cuda-toolkit@0.2.11",
+        "license": null,
+        "source_repository_url": "https://github.com/Jimver/cuda-toolkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "cross-platform-actions/action",
+        "version": "0.19.0",
+        "package_url": "pkg:githubactions/cross-platform-actions/action@0.19.0",
+        "license": null,
+        "source_repository_url": "https://github.com/cross-platform-actions/action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "Jimver/cuda-toolkit",
+        "version": "0.2.10",
+        "package_url": "pkg:githubactions/Jimver/cuda-toolkit@0.2.10",
+        "license": null,
+        "source_repository_url": "https://github.com/Jimver/cuda-toolkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/gguf-publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/gguf-publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

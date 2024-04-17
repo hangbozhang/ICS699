@@ -1,0 +1,281 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/basic_checks.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/basic_checks.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-python@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/download-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "docker/build-push-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/build-push-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/build-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/login-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-buildx-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/setup-buildx-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-buildx-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.publish.yml",
+        "ecosystem": "actions",
+        "name": "filipstefansson/uuid-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/filipstefansson/uuid-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/filipstefansson/uuid-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.test.yml",
+        "ecosystem": "actions",
+        "name": "addnab/docker-run-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/addnab/docker-run-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/addnab/docker-run-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.test.yml",
+        "ecosystem": "actions",
+        "name": "docker/build-push-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/build-push-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/build-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker_management.test.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-buildx-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/setup-buildx-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-buildx-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.5,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.4.x,< 2.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.16.0",
+        "package_url": "pkg:pypi/future@0.16.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": ">= 0.18.0,< 1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

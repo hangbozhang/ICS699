@@ -1,0 +1,406 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/deno_loader/rust_deno/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": ">= 0.2.22, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/deno_loader/rust_deno/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "futures",
+        "version": ">= 0.3.5, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/futures-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/deno_loader/rust_deno_plugin/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "deno_core",
+        "version": ">= 0.51.0, < 0.52.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/denoland/deno_core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/deno_loader/rust_deno_plugin/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "futures",
+        "version": ">= 0.3.5, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/futures-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "3.9.7",
+        "package_url": "pkg:npm/typescript@3.9.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/ts_loader/bootstrap/lib/package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^3.9.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.19",
+        "package_url": "pkg:npm/lodash@4.17.19",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.15",
+        "package_url": "pkg:npm/lodash@4.17.15",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p6mc-m468-83gw",
+                "advisory_summary": "Prototype Pollution in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-p6mc-m468-83gw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "4.3.5",
+        "package_url": "pkg:gem/puma@4.3.5",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.2.3",
+        "package_url": "pkg:gem/rack@2.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-wq4h-7r42-5hrr",
+                "advisory_summary": "Possible shell escape sequence injection vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-wq4h-7r42-5hrr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hxqx-xwvh-44m2",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-hxqx-xwvh-44m2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "4.3.3",
+        "package_url": "pkg:gem/puma@4.3.3",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x7jg-6pwg-fx5h",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-x7jg-6pwg-fx5h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w64w-qqph-5gxm",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-w64w-qqph-5gxm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.0.8",
+        "package_url": "pkg:gem/rack@2.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-wq4h-7r42-5hrr",
+                "advisory_summary": "Possible shell escape sequence injection vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-wq4h-7r42-5hrr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j6w9-fv6q-3q52",
+                "advisory_summary": "Rack allows Percent-encoded cookies to overwrite existing prefixed cookie names",
+                "advisory_url": "https://github.com/advisories/GHSA-j6w9-fv6q-3q52"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5f9h-9pjv-v6j7",
+                "advisory_summary": "Directory traversal in Rack::Directory app bundled with Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-5f9h-9pjv-v6j7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hxqx-xwvh-44m2",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-hxqx-xwvh-44m2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "websocket-extensions",
+        "version": "0.1.4",
+        "package_url": "pkg:gem/websocket-extensions@0.1.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/faye/websocket-extensions-ruby",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g6wq-qcwm-j5g2",
+                "advisory_summary": "Regular Expression Denial of Service in websocket-extensions (RubyGem)",
+                "advisory_url": "https://github.com/advisories/GHSA-g6wq-qcwm-j5g2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "websocket-extensions",
+        "version": "0.1.5",
+        "package_url": "pkg:gem/websocket-extensions@0.1.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/faye/websocket-extensions-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

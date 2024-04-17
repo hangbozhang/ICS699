@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/closed-issue-message.yml",
+        "ecosystem": "actions",
+        "name": "aws-actions/closed-issue-message",
+        "version": "1",
+        "package_url": "pkg:githubactions/aws-actions/closed-issue-message@1",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/closed-issue-message",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/stale_issue.yml",
+        "ecosystem": "actions",
+        "name": "aws-actions/stale-issue-cleanup",
+        "version": "3",
+        "package_url": "pkg:githubactions/aws-actions/stale-issue-cleanup@3",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/stale-issue-cleanup",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

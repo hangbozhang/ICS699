@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "xcode",
+        "version": "0.9.2",
+        "package_url": "pkg:npm/xcode@0.9.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alunny/node-xcode",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "xcode",
+        "version": "0.9.1",
+        "package_url": "pkg:npm/xcode@0.9.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alunny/node-xcode",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

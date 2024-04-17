@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.35.0",
+        "package_url": "pkg:npm/react-native@0.35.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.32.0",
+        "package_url": "pkg:npm/react-native@0.32.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

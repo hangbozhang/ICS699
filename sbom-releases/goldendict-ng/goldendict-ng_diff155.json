@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ubuntu-6.2-xapian.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ubuntu-6.2.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ubuntu-PR-check.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-python@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

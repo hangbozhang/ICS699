@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "vscode-extension/server/package-lock.json",
+        "ecosystem": "npm",
+        "name": "vscode-uri",
+        "version": "2.1.2",
+        "package_url": "pkg:npm/vscode-uri@2.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/vscode-uri",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "vscode-extension/server/package.json",
+        "ecosystem": "npm",
+        "name": "vscode-uri",
+        "version": "^2.1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/vscode-uri",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

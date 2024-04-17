@@ -1,0 +1,196 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "elasticsearch",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/elastic/elasticsearch-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "kafka",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/duanhongyi/kafka",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "retrying",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/groodt/retrying",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "splunk-sdk",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/splunk/splunk-sdk-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tabulate",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/astanin/python-tabulate",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/integration/tls/rust/http_test/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/integration/tls/rust/http_test/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "reqwest",
+        "version": ">= 0.10.0, < 0.11.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/seanmonstar/reqwest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "elasticsearch",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/elastic/elasticsearch-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "kafka",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/duanhongyi/kafka",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "retrying",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/groodt/retrying",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "splunk-sdk",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/splunk/splunk-sdk-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tabulate",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/astanin/python-tabulate",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/tls/rust/http_test/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/testContainers/tls/rust/http_test/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "reqwest",
+        "version": ">= 0.10.0, < 0.11.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/seanmonstar/reqwest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

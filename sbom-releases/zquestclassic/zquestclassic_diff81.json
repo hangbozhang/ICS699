@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "ZQuestClassic/ZQuestClassic/.github/workflows/test.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ZQuestClassic/ZQuestClassic/.github/workflows/test.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/test.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/test.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/coverage.yml",
+        "ecosystem": "actions",
+        "name": "ZQuestClassic/ZQuestClassic/.github/workflows/test.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ZQuestClassic/ZQuestClassic/.github/workflows/test.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/coverage.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/test.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/test.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ZQuestClassic/ZQuestClassic/.github/workflows/build.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ZQuestClassic/ZQuestClassic/.github/workflows/build.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/build.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/build.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "ZQuestClassic/ZQuestClassic/.github/workflows/build.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ZQuestClassic/ZQuestClassic/.github/workflows/build.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/build.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/build.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

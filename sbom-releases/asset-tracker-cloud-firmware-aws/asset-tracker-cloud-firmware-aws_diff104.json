@@ -1,0 +1,126 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-release.yaml",
+        "ecosystem": "actions",
+        "name": "NordicSemiconductor/cloud-aws-firmware-ci-device-action",
+        "version": "saga",
+        "package_url": "pkg:githubactions/NordicSemiconductor/cloud-aws-firmware-ci-device-action@saga",
+        "license": null,
+        "source_repository_url": "https://github.com/NordicSemiconductor/cloud-aws-firmware-ci-device-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-release.yaml",
+        "ecosystem": "actions",
+        "name": "NordicSemiconductor/cloud-aws-firmware-ci-feature-runner-action",
+        "version": "saga",
+        "package_url": "pkg:githubactions/NordicSemiconductor/cloud-aws-firmware-ci-feature-runner-action@saga",
+        "license": null,
+        "source_repository_url": "https://github.com/NordicSemiconductor/cloud-aws-firmware-ci-feature-runner-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-release.yaml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-release.yaml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-node@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.4.4",
+        "package_url": "pkg:npm/semantic-release@17.4.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.4.3",
+        "package_url": "pkg:npm/semantic-release@17.4.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.4.4",
+        "package_url": "pkg:npm/semantic-release@17.4.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.4.3",
+        "package_url": "pkg:npm/semantic-release@17.4.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    }
+]

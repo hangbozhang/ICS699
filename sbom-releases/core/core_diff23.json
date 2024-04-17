@@ -1,0 +1,149 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "source/loaders/rs_loader/rust/metacall_registrator/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cargo_toml",
+        "version": ">= 0.8.1, < 0.9.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/java_port/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.11",
+        "package_url": "pkg:maven/junit/junit@4.11",
+        "license": "CPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-269g-pwp5-87pp",
+                "advisory_summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "advisory_url": "https://github.com/advisories/GHSA-269g-pwp5-87pp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/java_port/pom.xml",
+        "ecosystem": "maven",
+        "name": "net.java.dev.jna:jna",
+        "version": "5.9.0",
+        "package_url": "pkg:maven/net.java.dev.jna/jna@5.9.0",
+        "license": "Apache-2.0 OR LGPL-2.1-or-later",
+        "source_repository_url": "https://github.com/java-native-access/jna",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "4.3.9",
+        "package_url": "pkg:gem/puma@4.3.9",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "4.3.8",
+        "package_url": "pkg:gem/puma@4.3.8",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nio4r",
+        "version": "2.5.8",
+        "package_url": "pkg:gem/nio4r@2.5.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketry/nio4r",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nio4r",
+        "version": "2.5.7",
+        "package_url": "pkg:gem/nio4r@2.5.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketry/nio4r",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/remote/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "net-ping",
+        "version": ">= 0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eitoball/net-ping",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/remote/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "net-ping",
+        "version": "2.0.5",
+        "package_url": "pkg:gem/net-ping@2.0.5",
+        "license": null,
+        "source_repository_url": "https://github.com/eitoball/net-ping",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

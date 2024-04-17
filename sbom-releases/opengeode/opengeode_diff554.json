@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CD.yml",
+        "ecosystem": "actions",
+        "name": "pypa/gh-action-pypi-publish",
+        "version": "1",
+        "package_url": "pkg:githubactions/pypa/gh-action-pypi-publish@1",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/gh-action-pypi-publish",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

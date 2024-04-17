@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.25.1",
+        "package_url": "pkg:pypi/ipykernel@6.25.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.25.0",
+        "package_url": "pkg:pypi/ipykernel@6.25.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.25.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.25.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

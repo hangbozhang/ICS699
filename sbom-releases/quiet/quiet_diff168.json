@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native-gesture-handler",
+        "version": "2.12.0",
+        "package_url": "pkg:npm/react-native-gesture-handler@2.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/software-mansion/react-native-gesture-handler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package-lock.json",
+        "ecosystem": "npm",
+        "name": "react-native-gesture-handler",
+        "version": "2.8.0",
+        "package_url": "pkg:npm/react-native-gesture-handler@2.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/software-mansion/react-native-gesture-handler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^1.4.2-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-gesture-handler",
+        "version": "^2.12.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/software-mansion/react-native-gesture-handler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^1.4.1-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "react-native-gesture-handler",
+        "version": "^2.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/software-mansion/react-native-gesture-handler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

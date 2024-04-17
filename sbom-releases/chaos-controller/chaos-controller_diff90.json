@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/cenkalti/backoff",
+        "version": "2.2.1+incompatible",
+        "package_url": "pkg:golang/github.com/cenkalti/backoff@2.2.1%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/cenkalti/backoff",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/setup-node@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "timheuer/base64-to-file",
+        "version": "1.0.3",
+        "package_url": "pkg:githubactions/timheuer/base64-to-file@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/timheuer/base64-to-file",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "drivers/tests/TESTS/usb_device/hid/requirements.txt",
+        "ecosystem": "pip",
+        "name": "hidapi",
+        "version": ">= 0.7.99,< 0.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/trezor/cython-hidapi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "TESTS/usb_device/hid/requirements.txt",
+        "ecosystem": "pip",
+        "name": "hidapi",
+        "version": ">= 0.7.99,< 0.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/trezor/cython-hidapi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

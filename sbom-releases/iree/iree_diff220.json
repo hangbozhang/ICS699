@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/run_iree_dispatch_profiler.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "package_url": "pkg:githubactions/actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "experimental/dispatch_profiler/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

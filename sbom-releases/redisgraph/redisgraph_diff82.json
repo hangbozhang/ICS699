@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "backports.csv",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ryanhiebert/backports.csv",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "backports-csv",
+        "version": ">= 1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ryanhiebert/backports.csv",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "rmtest",
+        "version": ">= 0.7.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisLabs/rmtest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

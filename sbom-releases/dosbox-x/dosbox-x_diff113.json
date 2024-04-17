@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "vs2015/sdl2/VisualC-WinRT/SDL2main-WinRT-NonXAML.nuspec",
+        "ecosystem": "nuget",
+        "name": "SDL2-WinRT",
+        "version": "2.0.4",
+        "package_url": "pkg:nuget/SDL2-WinRT@2.0.4",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tsan.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

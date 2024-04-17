@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "hlae/hlae.csproj",
+        "ecosystem": "nuget",
+        "name": "NGettext",
+        "version": "0.6.7",
+        "package_url": "pkg:nuget/NGettext@0.6.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/VitaliiTsilnyk/NGettext",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "hlae/hlae.csproj",
+        "ecosystem": "nuget",
+        "name": "NGettext",
+        "version": "0.6.6",
+        "package_url": "pkg:nuget/NGettext@0.6.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/VitaliiTsilnyk/NGettext",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

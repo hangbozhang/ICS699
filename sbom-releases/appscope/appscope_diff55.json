@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/login-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-buildx-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-buildx-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-buildx-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/login-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-buildx-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/setup-buildx-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-buildx-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

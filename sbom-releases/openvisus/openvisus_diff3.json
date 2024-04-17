@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/BuildOpenVisus.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/BuildOpenVisus.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-python@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/BuildOpenVisus.yml",
+        "ecosystem": "actions",
+        "name": "crazy-max/ghaction-chocolatey",
+        "version": "1",
+        "package_url": "pkg:githubactions/crazy-max/ghaction-chocolatey@1",
+        "license": null,
+        "source_repository_url": "https://github.com/crazy-max/ghaction-chocolatey",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/BuildOpenVisus.yml",
+        "ecosystem": "actions",
+        "name": "goanpeca/setup-miniconda",
+        "version": "1",
+        "package_url": "pkg:githubactions/goanpeca/setup-miniconda@1",
+        "license": null,
+        "source_repository_url": "https://github.com/goanpeca/setup-miniconda",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/BuildOpenVisus.yml",
+        "ecosystem": "actions",
+        "name": "jurplel/install-qt-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/jurplel/install-qt-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/jurplel/install-qt-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/BuildOpenVisus.yml",
+        "ecosystem": "actions",
+        "name": "lukka/get-cmake",
+        "version": "latest",
+        "package_url": "pkg:githubactions/lukka/get-cmake@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/get-cmake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "CMake/setup.py",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/vishvananda/netlink",
+        "version": "1.2.1-beta.2.0.20220812183158-d44b87fd4d3f",
+        "package_url": "pkg:golang/github.com/vishvananda/netlink@1.2.1-beta.2.0.20220812183158-d44b87fd4d3f",
+        "license": null,
+        "source_repository_url": "https://github.com/vishvananda/netlink",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20220804214406-8e32c043e418",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20220804214406-8e32c043e418",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/vishvananda/netlink",
+        "version": "1.1.1-0.20201029203352-d40f9887b852",
+        "package_url": "pkg:golang/github.com/vishvananda/netlink@1.1.1-0.20201029203352-d40f9887b852",
+        "license": null,
+        "source_repository_url": "https://github.com/vishvananda/netlink",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20220412211240-33da011f77ad",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20220412211240-33da011f77ad",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

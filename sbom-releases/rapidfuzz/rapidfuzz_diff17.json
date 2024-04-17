@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jellyfish",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jamesturk/jellyfish",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "matplotlib",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/matplotlib/matplotlib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pandas",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pandas-dev/pandas",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyxdameraulevenshtein",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/lanl/pyxDamerauLevenshtein",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "thefuzz",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/seatgeek/thefuzz",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bench/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tqdm",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tqdm/tqdm",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "m2r2",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/CrossNox/m2r2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

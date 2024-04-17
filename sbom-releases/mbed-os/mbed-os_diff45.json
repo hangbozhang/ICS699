@@ -1,0 +1,106 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "TESTS/usb_device/hid/requirements.txt",
+        "ecosystem": "pip",
+        "name": "hidapi",
+        "version": ">= 0.7.99,< 0.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/trezor/cython-hidapi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": ">= 2.7.3,<= 2.10",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-462w-v97r-4m45",
+                "advisory_summary": "Jinja2 sandbox escape via string formatting",
+                "advisory_url": "https://github.com/advisories/GHSA-462w-v97r-4m45"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g3rq-g295-4j3m",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+                "advisory_url": "https://github.com/advisories/GHSA-g3rq-g295-4j3m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": ">= 2.10.1,< 2.11",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g3rq-g295-4j3m",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+                "advisory_url": "https://github.com/advisories/GHSA-g3rq-g295-4j3m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5c8-rqwp-cp95",
+                "advisory_summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "advisory_url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "hidapi",
+        "version": ">= 0.7.99,< 0.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/trezor/cython-hidapi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-cloud-sdk",
+        "version": ">= 2.0.6,< 2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/PelionIoT/mbed-cloud-sdk-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-cloud-sdk",
+        "version": "2.0.5",
+        "package_url": "pkg:pypi/mbed-cloud-sdk@2.0.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/PelionIoT/mbed-cloud-sdk-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

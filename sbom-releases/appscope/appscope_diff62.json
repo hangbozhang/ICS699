@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "elasticsearch",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/elastic/elasticsearch-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "test/integration/test_runner/requirements.txt",
+        "ecosystem": "pip",
+        "name": "elasticsearch",
+        "version": "7.17.0",
+        "package_url": "pkg:pypi/elasticsearch@7.17.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/elastic/elasticsearch-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

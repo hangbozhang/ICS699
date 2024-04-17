@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/windows-6.x.yml",
+        "ecosystem": "actions",
+        "name": "johnwason/vcpkg-action",
+        "version": "5",
+        "package_url": "pkg:githubactions/johnwason/vcpkg-action@5",
+        "license": null,
+        "source_repository_url": "https://github.com/johnwason/vcpkg-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

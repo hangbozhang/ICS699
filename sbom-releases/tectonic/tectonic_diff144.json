@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_bridge_graphite2",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_dep_support",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/bridge_graphite2/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_dep_support",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/dep_support/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "pkg-config",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/pkg-config-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/dep_support/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "vcpkg",
+        "version": ">= 0.2.11, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typeling1578/Thunderfox",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

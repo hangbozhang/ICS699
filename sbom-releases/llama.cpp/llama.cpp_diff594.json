@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "gguf-py/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": ">= 1.17",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "gguf-py/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "^ 5.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "gguf-py/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "python",
+        "version": ">= 3.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python/cpython",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "gguf",
+        "version": ">= 0.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

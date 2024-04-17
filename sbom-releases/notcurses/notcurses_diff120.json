@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "python/setup.py",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "codebuild/requirements.txt",
+        "ecosystem": "pip",
+        "name": "awacs",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ArbitraryCritter/awacs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "codebuild/requirements.txt",
+        "ecosystem": "pip",
+        "name": "black",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/black",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "codebuild/requirements.txt",
+        "ecosystem": "pip",
+        "name": "boto3",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/boto/boto3",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "codebuild/requirements.txt",
+        "ecosystem": "pip",
+        "name": "troposphere",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/fbenz/troposphere",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

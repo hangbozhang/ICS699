@@ -1,0 +1,282 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "4.4.8",
+        "package_url": "pkg:npm/vite@4.4.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c24v-8rfc-w8vw",
+                "advisory_summary": "Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive filesystem",
+                "advisory_url": "https://github.com/advisories/GHSA-c24v-8rfc-w8vw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-92r3-m2mg-pj97",
+                "advisory_summary": "Vite XSS vulnerability in `server.transformIndexHtml` via URL payload",
+                "advisory_url": "https://github.com/advisories/GHSA-92r3-m2mg-pj97"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "4.4.4",
+        "package_url": "pkg:npm/vite@4.4.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c24v-8rfc-w8vw",
+                "advisory_summary": "Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive filesystem",
+                "advisory_url": "https://github.com/advisories/GHSA-c24v-8rfc-w8vw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-92r3-m2mg-pj97",
+                "advisory_summary": "Vite XSS vulnerability in `server.transformIndexHtml` via URL payload",
+                "advisory_url": "https://github.com/advisories/GHSA-92r3-m2mg-pj97"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.27",
+        "package_url": "pkg:npm/postcss@8.4.27",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8.4.26",
+        "package_url": "pkg:npm/postcss@8.4.26",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7fh5-64p2-3v2j",
+                "advisory_summary": "PostCSS line return parsing error",
+                "advisory_url": "https://github.com/advisories/GHSA-7fh5-64p2-3v2j"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "2.4.3",
+        "package_url": "pkg:npm/%40sveltejs/vite-plugin-svelte@2.4.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "3.27.2",
+        "package_url": "pkg:npm/rollup@3.27.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "svelte",
+        "version": "4.1.2",
+        "package_url": "pkg:npm/svelte@4.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "2.4.2",
+        "package_url": "pkg:npm/%40sveltejs/vite-plugin-svelte@2.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "3.26.2",
+        "package_url": "pkg:npm/rollup@3.26.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "svelte",
+        "version": "4.0.5",
+        "package_url": "pkg:npm/svelte@4.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sveltejs/svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "^2.4.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^8.4.27",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "^3.27.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "svelte",
+        "version": "^4.1.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^4.4.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "@sveltejs/vite-plugin-svelte",
+        "version": "^2.4.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/vite-plugin-svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "^8.4.26",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/postcss/postcss",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "^3.26.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rollup/rollup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "svelte",
+        "version": "^4.0.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sveltejs/svelte",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "ui/package.json",
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^4.4.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/vitejs/vite",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "pypa/cibuildwheel",
+        "version": "2.12.1",
+        "package_url": "pkg:githubactions/pypa/cibuildwheel@2.12.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/cibuildwheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "pypa/cibuildwheel",
+        "version": "2.12.0",
+        "package_url": "pkg:githubactions/pypa/cibuildwheel@2.12.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/cibuildwheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

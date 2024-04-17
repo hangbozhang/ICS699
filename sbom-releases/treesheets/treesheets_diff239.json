@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "vimtor/action-zip",
+        "version": "1",
+        "package_url": "pkg:githubactions/vimtor/action-zip@1",
+        "license": null,
+        "source_repository_url": "https://github.com/vimtor/action-zip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

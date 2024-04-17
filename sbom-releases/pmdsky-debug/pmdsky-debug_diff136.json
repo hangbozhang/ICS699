@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/check-symbol-header-sync.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "UsernameFodder/pmdsky-debug/.github/workflows/check-symbol-header-sync.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/UsernameFodder/pmdsky-debug/.github/workflows/check-symbol-header-sync.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/UsernameFodder/pmdsky-debug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "UsernameFodder/pmdsky-debug/.github/workflows/check-function-sync.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/UsernameFodder/pmdsky-debug/.github/workflows/check-function-sync.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/UsernameFodder/pmdsky-debug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/check-function-sync.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

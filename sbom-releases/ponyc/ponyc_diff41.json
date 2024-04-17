@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/announce-a-release.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.5.0",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/announce-a-release.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.5.0",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/start-a-release.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.5.0",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/start-a-release.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

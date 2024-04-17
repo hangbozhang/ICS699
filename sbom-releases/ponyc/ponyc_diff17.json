@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "actions/configure-pages",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/configure-pages@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/configure-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "actions/deploy-pages",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/deploy-pages@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/deploy-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-pages-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-pages-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-pages-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "zulip/github-actions-zulip",
+        "version": "35d7ad8e98444f894dcfe1d4e17332581d28ebeb",
+        "package_url": "pkg:githubactions/zulip/github-actions-zulip@35d7ad8e98444f894dcfe1d4e17332581d28ebeb",
+        "license": null,
+        "source_repository_url": "https://github.com/zulip/github-actions-zulip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/generate-documentation.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/generate-documentation.yml",
+        "ecosystem": "actions",
+        "name": "actions/configure-pages",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/configure-pages@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/configure-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/generate-documentation.yml",
+        "ecosystem": "actions",
+        "name": "actions/deploy-pages",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/deploy-pages@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/deploy-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/generate-documentation.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-pages-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-pages-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-pages-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/generate-documentation.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

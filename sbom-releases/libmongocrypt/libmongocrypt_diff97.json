@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "^3.3.4-rc0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mongodb/node-mongodb-native",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "mongodb",
+        "version": "^3.2.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mongodb/node-mongodb-native",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

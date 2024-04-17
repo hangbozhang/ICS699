@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^2.0.0-alpha.19",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^2.0.0-alpha.18",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

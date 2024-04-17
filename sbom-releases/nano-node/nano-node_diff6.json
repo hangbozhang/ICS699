@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/coverage.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "package_url": "pkg:githubactions/actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/coverage.yml",
+        "ecosystem": "actions",
+        "name": "coverallsapp/github-action",
+        "version": "8cbef1dea373ebce56de0a14c68d6267baa10b44",
+        "package_url": "pkg:githubactions/coverallsapp/github-action@8cbef1dea373ebce56de0a14c68d6267baa10b44",
+        "license": null,
+        "source_repository_url": "https://github.com/coverallsapp/github-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release_tests.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "package_url": "pkg:githubactions/actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/rocksdb_release_tests.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "package_url": "pkg:githubactions/actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/rocksdb_tests.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "package_url": "pkg:githubactions/actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

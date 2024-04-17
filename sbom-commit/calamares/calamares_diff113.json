@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-neon-unstable.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "5",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@5",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

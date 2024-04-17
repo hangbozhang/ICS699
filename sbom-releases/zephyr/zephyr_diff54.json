@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/doc-publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/cache@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/doc-publish.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/doc-publish.yml",
+        "ecosystem": "actions",
+        "name": "aws-actions/configure-aws-credentials",
+        "version": "1",
+        "package_url": "pkg:githubactions/aws-actions/configure-aws-credentials@1",
+        "license": null,
+        "source_repository_url": "https://github.com/aws-actions/configure-aws-credentials",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/license_check.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/license_check.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/license_check.yml",
+        "ecosystem": "actions",
+        "name": "zephyrproject-rtos/action_scancode",
+        "version": "3",
+        "package_url": "pkg:githubactions/zephyrproject-rtos/action_scancode@3",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/action_scancode",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "git-spindle",
+        "version": ">= 2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/seveas/git-spindle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheel",
+        "version": ">= 0.30.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

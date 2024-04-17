@@ -1,0 +1,2374 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/errno.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements-base.txt",
+        "ecosystem": "pip",
+        "name": "west",
+        "version": ">= 0.10.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/west",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements-base.txt",
+        "ecosystem": "pip",
+        "name": "west",
+        "version": ">= 0.7.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/west",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "sphinx-notfound-page",
+        "version": ">= 0.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx-notfound-page",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "samples/modules/tensorflow/magic_wand/train/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tensorflow",
+        "version": "2.0.0-beta1",
+        "package_url": "pkg:pypi/tensorflow@2.0.0-beta1",
+        "license": null,
+        "source_repository_url": "https://github.com/tensorflow/tensorflow",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-r6jx-9g48-2r5r",
+                "advisory_summary": "Arbitrary code execution due to YAML deserialization",
+                "advisory_url": "https://github.com/advisories/GHSA-r6jx-9g48-2r5r"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-57wx-m983-2f88",
+                "advisory_summary": "Incomplete validation in boosted trees code",
+                "advisory_url": "https://github.com/advisories/GHSA-57wx-m983-2f88"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h6gw-r52c-724r",
+                "advisory_summary": "NULL Pointer Dereference and Access of Uninitialized Pointer in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-h6gw-r52c-724r"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-gw97-ff7c-9v96",
+                "advisory_summary": "TensorFlow has a heap out-of-buffer read vulnerability in the QuantizeAndDequantize operation",
+                "advisory_url": "https://github.com/advisories/GHSA-gw97-ff7c-9v96"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgfm-62j4-v4rf",
+                "advisory_summary": "Heap out of bounds access in sparse reduction operations",
+                "advisory_url": "https://github.com/advisories/GHSA-cgfm-62j4-v4rf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5xwc-mrhx-5g3m",
+                "advisory_summary": "Reference binding to nullptr in `MatrixDiagV*` ops",
+                "advisory_url": "https://github.com/advisories/GHSA-5xwc-mrhx-5g3m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6p5r-g9mq-ggh2",
+                "advisory_summary": "Reference binding to nullptr in `MatrixSetDiagV*` ops",
+                "advisory_url": "https://github.com/advisories/GHSA-6p5r-g9mq-ggh2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q3g3-h9r4-prrc",
+                "advisory_summary": "Reference binding to nullptr and heap OOB in binary cwise ops",
+                "advisory_url": "https://github.com/advisories/GHSA-q3g3-h9r4-prrc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f5cx-5wr3-5qrc",
+                "advisory_summary": "Reference binding to nullptr in boosted trees",
+                "advisory_url": "https://github.com/advisories/GHSA-f5cx-5wr3-5qrc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g25h-jr74-qp5j",
+                "advisory_summary": "Incomplete validation in `QuantizeV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-g25h-jr74-qp5j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-r4c4-5fpq-56wg",
+                "advisory_summary": "Heap OOB in boosted trees",
+                "advisory_url": "https://github.com/advisories/GHSA-r4c4-5fpq-56wg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v82p-hv3v-p6qp",
+                "advisory_summary": "Incomplete validation in MKL requantization",
+                "advisory_url": "https://github.com/advisories/GHSA-v82p-hv3v-p6qp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w4xf-2pqw-5mq7",
+                "advisory_summary": "Reference binding to nullptr in `RaggedTensorToVariant`",
+                "advisory_url": "https://github.com/advisories/GHSA-w4xf-2pqw-5mq7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-w74j-v8xh-3w5h",
+                "advisory_summary": "Reference binding to nullptr in unicode encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-w74j-v8xh-3w5h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qr82-2c78-4m8h",
+                "advisory_summary": "Reference binding to nullptr in map operations",
+                "advisory_url": "https://github.com/advisories/GHSA-qr82-2c78-4m8h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-75c9-jrh4-79mc",
+                "advisory_summary": "Code injection in `saved_model_cli` in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-75c9-jrh4-79mc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v768-w7m9-2vmm",
+                "advisory_summary": "Reference binding to nullptr in shape inference",
+                "advisory_url": "https://github.com/advisories/GHSA-v768-w7m9-2vmm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g8wg-cjwc-xhhp",
+                "advisory_summary": "Heap OOB in nested `tf.map_fn` with `RaggedTensor`s",
+                "advisory_url": "https://github.com/advisories/GHSA-g8wg-cjwc-xhhp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2r2f-g8mw-9gvr",
+                "advisory_summary": "Segfault and OOB write due to incomplete validation in `EditDistance` in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-2r2f-g8mw-9gvr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c9qf-r67m-p7cg",
+                "advisory_summary": "Null pointer dereference in `CompressElement`",
+                "advisory_url": "https://github.com/advisories/GHSA-c9qf-r67m-p7cg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hwr7-8gxx-fj5p",
+                "advisory_summary": "Null pointer dereference in `RaggedTensorToTensor`",
+                "advisory_url": "https://github.com/advisories/GHSA-hwr7-8gxx-fj5p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gh6x-4whr-2qv4",
+                "advisory_summary": "Null pointer dereference and heap OOB read in operations restoring tensors",
+                "advisory_url": "https://github.com/advisories/GHSA-gh6x-4whr-2qv4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9c8h-vvrj-w2p8",
+                "advisory_summary": "Heap OOB in `RaggedGather`",
+                "advisory_url": "https://github.com/advisories/GHSA-9c8h-vvrj-w2p8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fcwc-p4fc-c5cc",
+                "advisory_summary": "Null pointer dereference in `MatrixDiagPartOp`",
+                "advisory_url": "https://github.com/advisories/GHSA-fcwc-p4fc-c5cc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ffjm-4qwc-7cmf",
+                "advisory_summary": "TensorFlow vulnerable to OOB write in `scatter_nd` in TF Lite",
+                "advisory_url": "https://github.com/advisories/GHSA-ffjm-4qwc-7cmf"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pxrw-j2fv-hx3h",
+                "advisory_summary": "TensorFlow vulnerable to OOB read in `Gather_nd` in TF Lite",
+                "advisory_url": "https://github.com/advisories/GHSA-pxrw-j2fv-hx3h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c5x2-p679-95wc",
+                "advisory_summary": "Null pointer dereference in `SparseTensorSliceDataset`",
+                "advisory_url": "https://github.com/advisories/GHSA-c5x2-p679-95wc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wp77-4gmm-7cq8",
+                "advisory_summary": "Incorrect validation of `SaveV2` inputs",
+                "advisory_url": "https://github.com/advisories/GHSA-wp77-4gmm-7cq8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6gv8-p3vj-pxvr",
+                "advisory_summary": "Null pointer dereference in `UncompressElement`",
+                "advisory_url": "https://github.com/advisories/GHSA-6gv8-p3vj-pxvr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f8h4-7rgh-q2gm",
+                "advisory_summary": "Segfault and heap buffer overflow in `{Experimental,}DatasetToTFRecord`",
+                "advisory_url": "https://github.com/advisories/GHSA-f8h4-7rgh-q2gm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hpv4-7p9c-mvfr",
+                "advisory_summary": "Heap buffer overflow in `FractionalAvgPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-hpv4-7p9c-mvfr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m7fm-4jfh-jrg6",
+                "advisory_summary": "Use after free in boosted trees creation",
+                "advisory_url": "https://github.com/advisories/GHSA-m7fm-4jfh-jrg6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2r8p-fg3c-wcj4",
+                "advisory_summary": "Heap OOB and CHECK fail in `ResourceGather`",
+                "advisory_url": "https://github.com/advisories/GHSA-2r8p-fg3c-wcj4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7fvx-3jfc-2cpc",
+                "advisory_summary": "Heap OOB in `ResourceScatterUpdate`",
+                "advisory_url": "https://github.com/advisories/GHSA-7fvx-3jfc-2cpc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4xfp-4pfp-89wg",
+                "advisory_summary": "Reference binding to nullptr in `RaggedTensorToSparse`",
+                "advisory_url": "https://github.com/advisories/GHSA-4xfp-4pfp-89wg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wc4g-r73w-x8mm",
+                "advisory_summary": "Insecure temporary file in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-wc4g-r73w-x8mm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qx3f-p745-w4hr",
+                "advisory_summary": "Integer overflow in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-qx3f-p745-w4hr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9c78-vcq7-7vxq",
+                "advisory_summary": "Out of bounds write in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-9c78-vcq7-7vxq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4hvf-hxvg-f67v",
+                "advisory_summary": "Read and Write outside of bounds in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-4hvf-hxvg-f67v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-98p5-x8x4-c9m5",
+                "advisory_summary": "Integer overflow in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-98p5-x8x4-c9m5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9gwq-6cwj-47h3",
+                "advisory_summary": "Integer overflow in TFLite array creation",
+                "advisory_url": "https://github.com/advisories/GHSA-9gwq-6cwj-47h3"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5qw5-89mw-wcg2",
+                "advisory_summary": "Out of bounds write in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-5qw5-89mw-wcg2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-24x4-6qmh-88qg",
+                "advisory_summary": "Use after free in `DecodePng` kernel",
+                "advisory_url": "https://github.com/advisories/GHSA-24x4-6qmh-88qg"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-44qp-9wwf-734r",
+                "advisory_summary": "Heap overflow in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-44qp-9wwf-734r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-23hm-7w47-xw72",
+                "advisory_summary": "Out of bounds read in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-23hm-7w47-xw72"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c6fh-56w7-fvjw",
+                "advisory_summary": "Integer overflow in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-c6fh-56w7-fvjw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6gmv-pjp9-p8w8",
+                "advisory_summary": "Out of bounds read in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-6gmv-pjp9-p8w8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-43q8-3fv7-pr5x",
+                "advisory_summary": "Improper Validation of Integrity Check Value in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-43q8-3fv7-pr5x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vjg4-v33c-ggc4",
+                "advisory_summary": "Out of bounds read in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-vjg4-v33c-ggc4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pfjj-m3jj-9jc9",
+                "advisory_summary": "Undefined behavior in `SparseTensorSliceDataset`",
+                "advisory_url": "https://github.com/advisories/GHSA-pfjj-m3jj-9jc9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-77gp-3h4r-6428",
+                "advisory_summary": "Out of bounds read and write in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-77gp-3h4r-6428"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q85f-69q7-55h2",
+                "advisory_summary": "Uninitialized variable access in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-q85f-69q7-55h2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8jj7-5vxc-pg2q",
+                "advisory_summary": "Integer overflow in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-8jj7-5vxc-pg2q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-247x-2f9f-5wp7",
+                "advisory_summary": "Stack overflow in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-247x-2f9f-5wp7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j86v-p27c-73fm",
+                "advisory_summary": "Unitialized access in `EinsumHelper::ParseEquation`",
+                "advisory_url": "https://github.com/advisories/GHSA-j86v-p27c-73fm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7pxj-m4jf-r6h2",
+                "advisory_summary": "Missing validation during checkpoint loading",
+                "advisory_url": "https://github.com/advisories/GHSA-7pxj-m4jf-r6h2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-49rx-x2rw-pc6f",
+                "advisory_summary": "Heap OOB read in all `tf.raw_ops.QuantizeAndDequantizeV*` ops",
+                "advisory_url": "https://github.com/advisories/GHSA-49rx-x2rw-pc6f"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pgcq-h79j-2f69",
+                "advisory_summary": "Incomplete validation of shapes in multiple TF ops",
+                "advisory_url": "https://github.com/advisories/GHSA-pgcq-h79j-2f69"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m342-ff57-4jcc",
+                "advisory_summary": "Heap OOB read in `tf.raw_ops.SparseCountSparseOutput`",
+                "advisory_url": "https://github.com/advisories/GHSA-m342-ff57-4jcc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fr77-rrx3-cp7g",
+                "advisory_summary": "Heap OOB read in `tf.ragged.cross`",
+                "advisory_url": "https://github.com/advisories/GHSA-fr77-rrx3-cp7g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vwhq-49r4-gj9v",
+                "advisory_summary": "Reference binding to `nullptr` in `tf.ragged.cross`",
+                "advisory_url": "https://github.com/advisories/GHSA-vwhq-49r4-gj9v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4f99-p9c2-3j8x",
+                "advisory_summary": "Undefined behavior via `nullptr` reference binding in sparse matrix multiplication",
+                "advisory_url": "https://github.com/advisories/GHSA-4f99-p9c2-3j8x"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cqv6-3phm-hcwx",
+                "advisory_summary": "Access to invalid memory during shape inference in `Cudnn*` ops",
+                "advisory_url": "https://github.com/advisories/GHSA-cqv6-3phm-hcwx"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f54p-f6jp-4rhr",
+                "advisory_summary": "Heap OOB in `FusedBatchNorm` kernels",
+                "advisory_url": "https://github.com/advisories/GHSA-f54p-f6jp-4rhr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rg3m-hqc5-344v",
+                "advisory_summary": "`SparseFillEmptyRows` heap OOB",
+                "advisory_url": "https://github.com/advisories/GHSA-rg3m-hqc5-344v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-374m-jm66-3vj8",
+                "advisory_summary": "Heap OOB in `SparseBinCount`",
+                "advisory_url": "https://github.com/advisories/GHSA-374m-jm66-3vj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3rcw-9p9x-582v",
+                "advisory_summary": "Code injection in `saved_model_cli`",
+                "advisory_url": "https://github.com/advisories/GHSA-3rcw-9p9x-582v"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wf5p-c75w-w3wh",
+                "advisory_summary": "Null pointer dereference in TFLite MLIR optimizations",
+                "advisory_url": "https://github.com/advisories/GHSA-wf5p-c75w-w3wh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7x4v-9gxg-9hwj",
+                "advisory_summary": "TensorFlow has Segfault in Bincount with XLA",
+                "advisory_url": "https://github.com/advisories/GHSA-7x4v-9gxg-9hwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vcjj-9vg7-vf68",
+                "advisory_summary": "Null pointer dereference in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-vcjj-9vg7-vf68"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6wfh-89q8-44jq",
+                "advisory_summary": "TensorFlow has null dereference on ParallelConcat with XLA",
+                "advisory_url": "https://github.com/advisories/GHSA-6wfh-89q8-44jq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f49c-87jh-g47q",
+                "advisory_summary": "TensorFlow has double free in Fractional(Max/Avg)Pool",
+                "advisory_url": "https://github.com/advisories/GHSA-f49c-87jh-g47q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gf97-q72m-7579",
+                "advisory_summary": "TensorFlow has Null Pointer Error in RandomShuffle with XLA enable ",
+                "advisory_url": "https://github.com/advisories/GHSA-gf97-q72m-7579"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-647v-r7qq-24fh",
+                "advisory_summary": "TensorFlow has Floating Point Exception in TensorListSplit with XLA ",
+                "advisory_url": "https://github.com/advisories/GHSA-647v-r7qq-24fh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xvwp-h6jv-7472",
+                "advisory_summary": "FractionalMaxPool and FractionalAVGPool heap out-of-bounds acess",
+                "advisory_url": "https://github.com/advisories/GHSA-xvwp-h6jv-7472"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jf7h-7m85-w2v2",
+                "advisory_summary": "Integer overflow in TFLite memory allocation",
+                "advisory_url": "https://github.com/advisories/GHSA-jf7h-7m85-w2v2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h4pc-gx2w-f2xv",
+                "advisory_summary": "Heap OOB read in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-h4pc-gx2w-f2xv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5w96-866f-6rm8",
+                "advisory_summary": "TensorFlow has Floating Point Exception in TFLite in conv kernel",
+                "advisory_url": "https://github.com/advisories/GHSA-5w96-866f-6rm8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-68v3-g9cm-rmm6",
+                "advisory_summary": "TensorFlow vulnerable to Out-of-Bounds Read in GRUBlockCellGrad",
+                "advisory_url": "https://github.com/advisories/GHSA-68v3-g9cm-rmm6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7xwj-5r4v-429p",
+                "advisory_summary": "NPE in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-7xwj-5r4v-429p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-94mm-g2mv-8p7r",
+                "advisory_summary": "TensorFlow has Null Pointer Error in LookupTableImportV2",
+                "advisory_url": "https://github.com/advisories/GHSA-94mm-g2mv-8p7r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j5w9-hmfh-4cr6",
+                "advisory_summary": "TensorFlow has segmentation fault in tfg-translate ",
+                "advisory_url": "https://github.com/advisories/GHSA-j5w9-hmfh-4cr6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h6q3-vv32-2cq5",
+                "advisory_summary": "Buffer overflow in `CONV_3D_TRANSPOSE` on TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-h6q3-vv32-2cq5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cwv3-863g-39vx",
+                "advisory_summary": "Stack overflow due to looping TFLite subgraph",
+                "advisory_url": "https://github.com/advisories/GHSA-cwv3-863g-39vx"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-93vr-9q9m-pj8p",
+                "advisory_summary": "TensorFlow vulnerable to Out-of-Bounds Read in DynamicStitch",
+                "advisory_url": "https://github.com/advisories/GHSA-93vr-9q9m-pj8p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qjqc-vqcf-5qvj",
+                "advisory_summary": "TensorFlow vulnerable to seg fault in `tf.raw_ops.Print`",
+                "advisory_url": "https://github.com/advisories/GHSA-qjqc-vqcf-5qvj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7jvm-xxmr-v5cw",
+                "advisory_summary": "TensorFlow vulnerable to integer overflow in EditDistance",
+                "advisory_url": "https://github.com/advisories/GHSA-7jvm-xxmr-v5cw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-64jg-wjww-7c5w",
+                "advisory_summary": "TensorFlow has Null Pointer Error in TensorArrayConcatV2",
+                "advisory_url": "https://github.com/advisories/GHSA-64jg-wjww-7c5w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6hg6-5c2q-7rcr",
+                "advisory_summary": "TensorFlow has Heap-buffer-overflow in AvgPoolGrad ",
+                "advisory_url": "https://github.com/advisories/GHSA-6hg6-5c2q-7rcr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-8pmx-p244-g88h",
+                "advisory_summary": "Interpreter crash from `tf.io.decode_raw`",
+                "advisory_url": "https://github.com/advisories/GHSA-8pmx-p244-g88h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-558h-mq8x-7q9g",
+                "advisory_summary": "TensorFlow has Null Pointer Error in SparseSparseMaximum",
+                "advisory_url": "https://github.com/advisories/GHSA-558h-mq8x-7q9g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f637-vh3r-vfh2",
+                "advisory_summary": "TensorFlow has Floating Point Exception in AudioSpectrogram ",
+                "advisory_url": "https://github.com/advisories/GHSA-f637-vh3r-vfh2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rcf8-g8jv-vg6p",
+                "advisory_summary": "TensorFlow has Floating Point Exception in AvgPoolGrad with XLA",
+                "advisory_url": "https://github.com/advisories/GHSA-rcf8-g8jv-vg6p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cg88-rpvp-cjv5",
+                "advisory_summary": "Out of bounds write in grappler in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-cg88-rpvp-cjv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-49rq-hwc3-x77w",
+                "advisory_summary": "TensorFlow has Null Pointer Error in QuantizedMatMulWithBiasAndDequantize",
+                "advisory_url": "https://github.com/advisories/GHSA-49rq-hwc3-x77w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrg5-737c-2p56",
+                "advisory_summary": "Missing validation causes denial of service via `UnsortedSegmentJoin`",
+                "advisory_url": "https://github.com/advisories/GHSA-hrg5-737c-2p56"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p9rc-rmr5-529j",
+                "advisory_summary": "Missing validation causes denial of service via `LoadAndRemapMatrix`",
+                "advisory_url": "https://github.com/advisories/GHSA-p9rc-rmr5-529j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2vv3-56qg-g2cf",
+                "advisory_summary": "Missing validation causes denial of service via `LSTMBlockCell`",
+                "advisory_url": "https://github.com/advisories/GHSA-2vv3-56qg-g2cf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mg66-qvc5-rm93",
+                "advisory_summary": "Missing validation causes denial of service via `SparseTensorToCSRSparseMatrix`",
+                "advisory_url": "https://github.com/advisories/GHSA-mg66-qvc5-rm93"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jwf9-w5xm-f437",
+                "advisory_summary": "Heap OOB in TFLite's `Gather*` implementations",
+                "advisory_url": "https://github.com/advisories/GHSA-jwf9-w5xm-f437"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pqhm-4wvf-2jg8",
+                "advisory_summary": "Missing validation results in undefined behavior in `QuantizedConv2D`",
+                "advisory_url": "https://github.com/advisories/GHSA-pqhm-4wvf-2jg8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5v77-j66x-4c4g",
+                "advisory_summary": "Missing validation causes denial of service via `Conv3DBackpropFilterV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-5v77-j66x-4c4g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cfpj-3q4c-jhvr",
+                "advisory_summary": "Division by zero in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-cfpj-3q4c-jhvr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cwpm-f78v-7m5c",
+                "advisory_summary": "Denial of service in `tf.ragged.constant` due to lack of validation",
+                "advisory_url": "https://github.com/advisories/GHSA-cwpm-f78v-7m5c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4c4g-crqm-xrxw",
+                "advisory_summary": "Use of unitialized value in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-4c4g-crqm-xrxw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jjm6-4vf7-cjh4",
+                "advisory_summary": "Integer overflow in `SpaceToBatchND`",
+                "advisory_url": "https://github.com/advisories/GHSA-jjm6-4vf7-cjh4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8w5g-3wcv-9g2j",
+                "advisory_summary": "Tensorflow vulnerable to Out-of-Bounds Read",
+                "advisory_url": "https://github.com/advisories/GHSA-8w5g-3wcv-9g2j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hx9q-2mx4-m4pg",
+                "advisory_summary": "Missing validation causes denial of service via `Conv3DBackpropFilterV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-hx9q-2mx4-m4pg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-54ch-gjq5-4976",
+                "advisory_summary": "Segfault due to missing support for quantized types",
+                "advisory_url": "https://github.com/advisories/GHSA-54ch-gjq5-4976"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rc9w-5c64-9vqq",
+                "advisory_summary": "Missing validation results in undefined behavior in `SparseTensorDenseAdd",
+                "advisory_url": "https://github.com/advisories/GHSA-rc9w-5c64-9vqq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5wpj-c6f7-24x8",
+                "advisory_summary": "Undefined behavior when users supply invalid resource handles",
+                "advisory_url": "https://github.com/advisories/GHSA-5wpj-c6f7-24x8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pf36-r9c6-h97j",
+                "advisory_summary": "Invalid char to bool conversion when printing a tensor",
+                "advisory_url": "https://github.com/advisories/GHSA-pf36-r9c6-h97j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-frqp-wp83-qggv",
+                "advisory_summary": "Heap overflow in `QuantizeAndDequantizeV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-frqp-wp83-qggv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rjx6-v474-2ch9",
+                "advisory_summary": "Segfault in `CompositeTensorVariantToComponents`",
+                "advisory_url": "https://github.com/advisories/GHSA-rjx6-v474-2ch9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f4rr-5m7v-wxcw",
+                "advisory_summary": "Type confusion leading to `CHECK`-failure based denial of service in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-f4rr-5m7v-wxcw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mv77-9g28-cwg3",
+                "advisory_summary": "`CHECK` fail via inputs in `PyFunc`",
+                "advisory_url": "https://github.com/advisories/GHSA-mv77-9g28-cwg3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-q5jv-m6qw-5g37",
+                "advisory_summary": "TensorFlow vulnerable to floating point exception in `Conv2D`",
+                "advisory_url": "https://github.com/advisories/GHSA-q5jv-m6qw-5g37"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-whr9-vfh2-7hm6",
+                "advisory_summary": "Memory corruption in `DrawBoundingBoxesV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-whr9-vfh2-7hm6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fxgc-95xx-grvq",
+                "advisory_summary": "TensorFlow Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fxgc-95xx-grvq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v3f7-j968-4h5f",
+                "advisory_summary": "Division by zero in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-v3f7-j968-4h5f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fqm2-gh8w-gr68",
+                "advisory_summary": "TensorFlow vulnerable to segfault when opening multiframe gif",
+                "advisory_url": "https://github.com/advisories/GHSA-fqm2-gh8w-gr68"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-34f9-hjfq-rr8j",
+                "advisory_summary": "Overflow and uncaught divide by zero in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-34f9-hjfq-rr8j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-m4hf-j54p-p353",
+                "advisory_summary": "Type confusion leading to segfault in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-m4hf-j54p-p353"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c582-c96p-r5cq",
+                "advisory_summary": "Memory exhaustion in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-c582-c96p-r5cq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-98j8-c9q4-r38g",
+                "advisory_summary": "Memory exhaustion in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-98j8-c9q4-r38g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gcvh-66ff-4mwm",
+                "advisory_summary": "`CHECK`-failures in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-gcvh-66ff-4mwm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-87v6-crgm-2gfj",
+                "advisory_summary": "Division by zero in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-87v6-crgm-2gfj"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gjqc-q9g6-q2j3",
+                "advisory_summary": "`CHECK`-failures in binary ops in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-gjqc-q9g6-q2j3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4j82-5ccr-4r8v",
+                "advisory_summary": "`CHECK`-failures in `TensorByteSize` in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-4j82-5ccr-4r8v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fq86-3f29-px2c",
+                "advisory_summary": "`CHECK`-failures during Grappler's `IsSimplifiableReshape` in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-fq86-3f29-px2c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-627q-g293-49q7",
+                "advisory_summary": "Abort caused by allocating a vector that is too large in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-627q-g293-49q7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5f2r-qp73-37mr",
+                "advisory_summary": "`CHECK`-failures during Grappler's `SafeToRemoveIdentity` in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-5f2r-qp73-37mr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8r7c-3cm2-3h8f",
+                "advisory_summary": "Memory leak in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-8r7c-3cm2-3h8f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c94w-c95p-phf8",
+                "advisory_summary": "Integer overflow in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-c94w-c95p-phf8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wm93-f238-7v37",
+                "advisory_summary": "Integer overflow in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-wm93-f238-7v37"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8cxv-76p7-jxwr",
+                "advisory_summary": "Null-dereference in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-8cxv-76p7-jxwr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gv26-jpj9-c8gq",
+                "advisory_summary": "Incomplete validation in `SparseSparseMinimum`",
+                "advisory_url": "https://github.com/advisories/GHSA-gv26-jpj9-c8gq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2p9q-h29j-3f5v",
+                "advisory_summary": "Missing validation causes `TensorSummaryV2` to crash",
+                "advisory_url": "https://github.com/advisories/GHSA-2p9q-h29j-3f5v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fv25-wrff-wf86",
+                "advisory_summary": "Missing validation causes denial of service via `GetSessionTensor`",
+                "advisory_url": "https://github.com/advisories/GHSA-fv25-wrff-wf86"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h2wq-prv9-2f56",
+                "advisory_summary": "Missing validation crashes `QuantizeAndDequantizeV4Grad`",
+                "advisory_url": "https://github.com/advisories/GHSA-h2wq-prv9-2f56"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5g4-ppwx-48q2",
+                "advisory_summary": "Missing validation causes denial of service via `DeleteSessionTensor`",
+                "advisory_url": "https://github.com/advisories/GHSA-h5g4-ppwx-48q2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h48f-q7rw-hvr7",
+                "advisory_summary": "Missing validation causes denial of service via `StagePeek`",
+                "advisory_url": "https://github.com/advisories/GHSA-h48f-q7rw-hvr7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rhrq-64mq-hf9h",
+                "advisory_summary": "FPE in TFLite division operations",
+                "advisory_url": "https://github.com/advisories/GHSA-rhrq-64mq-hf9h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c545-c4f9-rf6v",
+                "advisory_summary": "Heap OOB in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-c545-c4f9-rf6v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wxjj-cgcx-r3vq",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failures in `AvgPool3DGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-wxjj-cgcx-r3vq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qhw4-wwr7-gjc5",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `EmptyTensorList`",
+                "advisory_url": "https://github.com/advisories/GHSA-qhw4-wwr7-gjc5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fqxc-pvf8-2w9v",
+                "advisory_summary": "TensorFlow vulnerable to null dereference on MLIR on empty function attributes",
+                "advisory_url": "https://github.com/advisories/GHSA-fqxc-pvf8-2w9v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jqm7-m5q7-3hm5",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `DrawBoundingBoxes`",
+                "advisory_url": "https://github.com/advisories/GHSA-jqm7-m5q7-3hm5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mh3m-62v7-68xg",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `Unbatch`",
+                "advisory_url": "https://github.com/advisories/GHSA-mh3m-62v7-68xg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-828c-5j5q-vrjq",
+                "advisory_summary": "TensorFlow vulnerable to null-dereference in `mlir::tfg::GraphDefImporter::ConvertNodeDef`",
+                "advisory_url": "https://github.com/advisories/GHSA-828c-5j5q-vrjq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fv43-93gv-vm8f",
+                "advisory_summary": "TensorFlow vulnerable to null dereference on MLIR on empty function attributes",
+                "advisory_url": "https://github.com/advisories/GHSA-fv43-93gv-vm8f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wqmc-pm8c-2jhc",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `Requantize`",
+                "advisory_url": "https://github.com/advisories/GHSA-wqmc-pm8c-2jhc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cv2p-32v3-vhwq",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `RandomPoissonV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-cv2p-32v3-vhwq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-r26c-679w-mrjm",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `FakeQuantWithMinMaxVarsGradient`",
+                "advisory_url": "https://github.com/advisories/GHSA-r26c-679w-mrjm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g9h5-vr8m-x2h4",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `AudioSummaryV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-g9h5-vr8m-x2h4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mv8m-8x97-937q",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `tf.random.gamma`",
+                "advisory_url": "https://github.com/advisories/GHSA-mv8m-8x97-937q"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7j3m-8g3c-9qqq",
+                "advisory_summary": "TensorFlow vulnerable to null-dereference in `mlir::tfg::TFOp::nameAttr`",
+                "advisory_url": "https://github.com/advisories/GHSA-7j3m-8g3c-9qqq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jvhc-5hhr-w3v5",
+                "advisory_summary": "TensorFlow vulnerable to assertion fail on MLIR empty edge names",
+                "advisory_url": "https://github.com/advisories/GHSA-jvhc-5hhr-w3v5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w62h-8xjm-fv49",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `DenseBincount`",
+                "advisory_url": "https://github.com/advisories/GHSA-w62h-8xjm-fv49"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mgmh-g2v6-mqw5",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failure in `AvgPoolOp`",
+                "advisory_url": "https://github.com/advisories/GHSA-mgmh-g2v6-mqw5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vgvh-2pf4-jr2x",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizeDownAndShrinkRange`",
+                "advisory_url": "https://github.com/advisories/GHSA-vgvh-2pf4-jr2x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxcj-rhqg-m46g",
+                "advisory_summary": "Segfault via invalid attributes in `pywrap_tfe_src.cc`",
+                "advisory_url": "https://github.com/advisories/GHSA-xxcj-rhqg-m46g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-689c-r7h2-fv9v",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizedMatMul`",
+                "advisory_url": "https://github.com/advisories/GHSA-689c-r7h2-fv9v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4pc4-m9mj-v2r9",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizedBiasAdd`",
+                "advisory_url": "https://github.com/advisories/GHSA-4pc4-m9mj-v2r9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9fpg-838v-wpv7",
+                "advisory_summary": " TensorFlow vulnerable to `CHECK` fail in `FakeQuantWithMinMaxVars`",
+                "advisory_url": "https://github.com/advisories/GHSA-9fpg-838v-wpv7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g35r-369w-3fqp",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizedInstanceNorm`",
+                "advisory_url": "https://github.com/advisories/GHSA-g35r-369w-3fqp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-q2c3-jpmc-gfjx",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `Conv2DBackpropInput`",
+                "advisory_url": "https://github.com/advisories/GHSA-q2c3-jpmc-gfjx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2475-53vw-vp25",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `AvgPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-2475-53vw-vp25"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v6h3-348g-6h5x",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizedAdd`",
+                "advisory_url": "https://github.com/advisories/GHSA-v6h3-348g-6h5x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4w68-4x85-mjj9",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizedAvgPool`",
+                "advisory_url": "https://github.com/advisories/GHSA-4w68-4x85-mjj9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h7ff-cfc9-wmmh",
+                "advisory_summary": " TensorFlow vulnerable to `CHECK` fail in `FakeQuantWithMinMaxVarsPerChannelGradient`",
+                "advisory_url": "https://github.com/advisories/GHSA-h7ff-cfc9-wmmh"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vm7x-4qhj-rrcq",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `TensorListScatter` and `TensorListScatterV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-vm7x-4qhj-rrcq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qxpx-j395-pw36",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `LowerBound` and `UpperBound`",
+                "advisory_url": "https://github.com/advisories/GHSA-qxpx-j395-pw36"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9v8w-xmr4-wgxp",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `TensorListFromTensor`",
+                "advisory_url": "https://github.com/advisories/GHSA-9v8w-xmr4-wgxp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wq6q-6m32-9rv9",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `SetSize`",
+                "advisory_url": "https://github.com/advisories/GHSA-wq6q-6m32-9rv9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f7r5-q7cx-h668",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `BlockLSTMGradV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-f7r5-q7cx-h668"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-84jm-4cf3-9jfm",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failures in `FractionalAvgPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-84jm-4cf3-9jfm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h5vq-gw2c-pq47",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failures in `UnbatchGradOp`",
+                "advisory_url": "https://github.com/advisories/GHSA-h5vq-gw2c-pq47"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x989-q2pq-4q5x",
+                "advisory_summary": "TensorFlow vulnerable to Int overflow in `RaggedRangeOp`",
+                "advisory_url": "https://github.com/advisories/GHSA-x989-q2pq-4q5x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fhfc-2q7x-929f",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `CollectiveGather`",
+                "advisory_url": "https://github.com/advisories/GHSA-fhfc-2q7x-929f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v5xg-3q2c-c2r4",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failure in `TensorListReserve` via missing validation",
+                "advisory_url": "https://github.com/advisories/GHSA-v5xg-3q2c-c2r4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h246-cgh4-7475",
+                "advisory_summary": "`CHECK` fail in `BCast` overflow",
+                "advisory_url": "https://github.com/advisories/GHSA-h246-cgh4-7475"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-66vq-54fq-6jvv",
+                "advisory_summary": "Segfault in `tf.raw_ops.TensorListConcat`",
+                "advisory_url": "https://github.com/advisories/GHSA-66vq-54fq-6jvv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-67pf-62xr-q35m",
+                "advisory_summary": "`CHECK_EQ` fail in `tf.raw_ops.TensorListResize`",
+                "advisory_url": "https://github.com/advisories/GHSA-67pf-62xr-q35m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gq2j-cr96-gvqx",
+                "advisory_summary": "`MirrorPadGrad` heap out of bounds read",
+                "advisory_url": "https://github.com/advisories/GHSA-gq2j-cr96-gvqx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-97p7-w86h-vcf9",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failure in `SobolSample` via missing validation",
+                "advisory_url": "https://github.com/advisories/GHSA-97p7-w86h-vcf9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7hr-f446-x6qf",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `tf.sparse.cross`",
+                "advisory_url": "https://github.com/advisories/GHSA-p7hr-f446-x6qf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rmg2-f698-wq35",
+                "advisory_summary": "`tf.raw_ops.Mfcc` crashes",
+                "advisory_url": "https://github.com/advisories/GHSA-rmg2-f698-wq35"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f2w8-jw48-fr7j",
+                "advisory_summary": "`FractionalMaxPoolGrad` Heap out of bounds read",
+                "advisory_url": "https://github.com/advisories/GHSA-f2w8-jw48-fr7j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hq7g-wwwp-q46h",
+                "advisory_summary": "`CHECK` fail via inputs in `SparseFillEmptyRowsGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-hq7g-wwwp-q46h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-27rc-728f-x5w2",
+                "advisory_summary": "`CHECK` fail via inputs in `SdcaOptimizer`",
+                "advisory_url": "https://github.com/advisories/GHSA-27rc-728f-x5w2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g9fm-r5mm-rf9f",
+                "advisory_summary": "`CHECK_EQ` fail via input in `SparseMatrixNNZ`",
+                "advisory_url": "https://github.com/advisories/GHSA-g9fm-r5mm-rf9f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-37jf-mjv6-xfqw",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `Conv2DBackpropInput`",
+                "advisory_url": "https://github.com/advisories/GHSA-37jf-mjv6-xfqw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pqrv-8r2f-7278",
+                "advisory_summary": "Crash due to erroneous `StatusOr` in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-pqrv-8r2f-7278"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mw6j-hh29-h379",
+                "advisory_summary": "`CHECK` failure in depthwise ops via overflows",
+                "advisory_url": "https://github.com/advisories/GHSA-mw6j-hh29-h379"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-368v-7v32-52fx",
+                "advisory_summary": "Overflow in `ResizeNearestNeighborGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-368v-7v32-52fx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5889-7v45-q28m",
+                "advisory_summary": "Incomplete validation in signal ops leads to crashes in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-5889-7v45-q28m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8wwm-6264-x792",
+                "advisory_summary": "Core dump when loading TFLite models with quantization in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-8wwm-6264-x792"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrp2-fhq4-4q3w",
+                "advisory_summary": "Segfault if `tf.histogram_fixed_width` is called with NaN values in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-xrp2-fhq4-4q3w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9cr2-8pwr-fhfq",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `QuantizeAndDequantizeV3`",
+                "advisory_url": "https://github.com/advisories/GHSA-9cr2-8pwr-fhfq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v7vw-577f-vp8x",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `QuantizedRelu` and `QuantizedRelu6`",
+                "advisory_url": "https://github.com/advisories/GHSA-v7vw-577f-vp8x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vxv8-r8q2-63xw",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `FractionalMaxPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-vxv8-r8q2-63xw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-397c-5g2j-qxpv",
+                "advisory_summary": "TensorFlow vulnerable to segfault in `SparseBincount`",
+                "advisory_url": "https://github.com/advisories/GHSA-397c-5g2j-qxpv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-m6cv-4fmf-66xf",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `RaggedTensorToVariant`",
+                "advisory_url": "https://github.com/advisories/GHSA-m6cv-4fmf-66xf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j43h-pgmg-5hjq",
+                "advisory_summary": " TensorFlow vulnerable to `CHECK` fail in `MaxPool`",
+                "advisory_url": "https://github.com/advisories/GHSA-j43h-pgmg-5hjq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9j4v-pp28-mxv7",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `FakeQuantWithMinMaxVarsPerChannel`",
+                "advisory_url": "https://github.com/advisories/GHSA-9j4v-pp28-mxv7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9vqj-64pv-w55c",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `tf.linalg.matrix_rank`",
+                "advisory_url": "https://github.com/advisories/GHSA-9vqj-64pv-w55c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-79h2-q768-fpxr",
+                "advisory_summary": " TensorFlow segfault TFLite converter on per-channel quantized transposed convolutions",
+                "advisory_url": "https://github.com/advisories/GHSA-79h2-q768-fpxr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wr9v-g9vf-c74v",
+                "advisory_summary": " TensorFlow vulnerable to segfault in `RaggedBincount`",
+                "advisory_url": "https://github.com/advisories/GHSA-wr9v-g9vf-c74v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9942-r22v-78cp",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `LRNGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-9942-r22v-78cp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p2xf-8hgm-hpw5",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `ParameterizedTruncatedNormal`",
+                "advisory_url": "https://github.com/advisories/GHSA-p2xf-8hgm-hpw5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-m6vp-8q9j-whx4",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` fail in `Save` and `SaveSlices`",
+                "advisory_url": "https://github.com/advisories/GHSA-m6vp-8q9j-whx4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jq6x-99hj-q636",
+                "advisory_summary": "Seg fault in `ndarray_tensor_bridge` due to zero and large inputs",
+                "advisory_url": "https://github.com/advisories/GHSA-jq6x-99hj-q636"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-762h-vpvw-3rcx",
+                "advisory_summary": "Overflow in `FusedResizeAndPadConv2D`",
+                "advisory_url": "https://github.com/advisories/GHSA-762h-vpvw-3rcx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-54pp-c6pp-7fpx",
+                "advisory_summary": "Overflow in `ImageProjectiveTransformV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-54pp-c6pp-7fpx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8fvv-46hw-vpg3",
+                "advisory_summary": "Overflow in `tf.keras.losses.poisson`",
+                "advisory_url": "https://github.com/advisories/GHSA-8fvv-46hw-vpg3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f4w6-h4f5-wx45",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK` failure in tf.reshape via overflows",
+                "advisory_url": "https://github.com/advisories/GHSA-f4w6-h4f5-wx45"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6x99-gv2v-q76v",
+                "advisory_summary": "FPE in `tf.image.generate_bounding_box_proposals`",
+                "advisory_url": "https://github.com/advisories/GHSA-6x99-gv2v-q76v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9697-98pf-4rw7",
+                "advisory_summary": "Heap OOB in `UpperBound` and `LowerBound`",
+                "advisory_url": "https://github.com/advisories/GHSA-9697-98pf-4rw7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5hj3-vjjf-f5m7",
+                "advisory_summary": "Heap OOB in `SdcaOptimizerV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-5hj3-vjjf-f5m7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-278g-rq84-9hmg",
+                "advisory_summary": "`CHECK`-fail in `MapStage`",
+                "advisory_url": "https://github.com/advisories/GHSA-278g-rq84-9hmg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7ghq-fvr3-pj2x",
+                "advisory_summary": "Incomplete validation in `MaxPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-7ghq-fvr3-pj2x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9c8h-2mv3-49ww",
+                "advisory_summary": "Division by 0 in most convolution operators",
+                "advisory_url": "https://github.com/advisories/GHSA-9c8h-2mv3-49ww"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qfpc-5pjr-mh26",
+                "advisory_summary": "Missing validation in shape inference for `Dequantize`",
+                "advisory_url": "https://github.com/advisories/GHSA-qfpc-5pjr-mh26"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-q7f7-544h-67h9",
+                "advisory_summary": "FPE in TFLite pooling operations",
+                "advisory_url": "https://github.com/advisories/GHSA-q7f7-544h-67h9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mhhc-q96p-mfm9",
+                "advisory_summary": "Infinite loop in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-mhhc-q96p-mfm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3hxh-8cp2-g4hg",
+                "advisory_summary": "Use after free and segfault in shape inference functions",
+                "advisory_url": "https://github.com/advisories/GHSA-3hxh-8cp2-g4hg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-27qf-jwm8-g7f3",
+                "advisory_summary": "FPE in LSH in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-27qf-jwm8-g7f3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cmgw-8vpc-rc59",
+                "advisory_summary": "Segfault on strings tensors with mistmatched dimensions, due to Go code",
+                "advisory_url": "https://github.com/advisories/GHSA-cmgw-8vpc-rc59"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j8c8-67vp-6mx7",
+                "advisory_summary": "Arbitrary memory read in `ImmutableConst`",
+                "advisory_url": "https://github.com/advisories/GHSA-j8c8-67vp-6mx7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7r94-xv9v-63jw",
+                "advisory_summary": "A use of uninitialized value vulnerability in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-7r94-xv9v-63jw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cpf4-wx82-gxp6",
+                "advisory_summary": "Segfault due to negative splits in `SplitV`",
+                "advisory_url": "https://github.com/advisories/GHSA-cpf4-wx82-gxp6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9crf-c6qr-r273",
+                "advisory_summary": "Integer division by 0 in `tf.raw_ops.AllToAll`",
+                "advisory_url": "https://github.com/advisories/GHSA-9crf-c6qr-r273"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x3v8-c8qx-3j3r",
+                "advisory_summary": "Null pointer exception in `DeserializeSparse`",
+                "advisory_url": "https://github.com/advisories/GHSA-x3v8-c8qx-3j3r"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jjr8-m8g8-p6wv",
+                "advisory_summary": "Null pointer dereference in TFLite's `Reshape` operator",
+                "advisory_url": "https://github.com/advisories/GHSA-jjr8-m8g8-p6wv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9c84-4hx6-xmm4",
+                "advisory_summary": "Integer overflow in TFLite concatentation",
+                "advisory_url": "https://github.com/advisories/GHSA-9c84-4hx6-xmm4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rgvq-pcvf-hx75",
+                "advisory_summary": "Heap OOB and null pointer dereference in `RaggedTensorToTensor`",
+                "advisory_url": "https://github.com/advisories/GHSA-rgvq-pcvf-hx75"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cjc7-49v2-jp64",
+                "advisory_summary": "Incomplete validation in `SparseAdd`",
+                "advisory_url": "https://github.com/advisories/GHSA-cjc7-49v2-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vvg4-vgrv-xfr7",
+                "advisory_summary": "Incomplete validation in `tf.raw_ops.CTCLoss`",
+                "advisory_url": "https://github.com/advisories/GHSA-vvg4-vgrv-xfr7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hp4c-x6r7-6555",
+                "advisory_summary": "Floating point exception in `SparseDenseCwiseDiv`",
+                "advisory_url": "https://github.com/advisories/GHSA-hp4c-x6r7-6555"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-95xm-g58g-3p88",
+                "advisory_summary": "Integer division by 0 in sparse reshaping",
+                "advisory_url": "https://github.com/advisories/GHSA-95xm-g58g-3p88"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-ch4f-829c-v5pw",
+                "advisory_summary": "Division by 0 in `ResourceScatterDiv`",
+                "advisory_url": "https://github.com/advisories/GHSA-ch4f-829c-v5pw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-27j5-4p9v-pp67",
+                "advisory_summary": "`std::abort` raised from `TensorListReserve`",
+                "advisory_url": "https://github.com/advisories/GHSA-27j5-4p9v-pp67"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9w2p-5mgw-p94c",
+                "advisory_summary": "Integer overflow due to conversion to unsigned",
+                "advisory_url": "https://github.com/advisories/GHSA-9w2p-5mgw-p94c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h6jh-7gv5-28vg",
+                "advisory_summary": "Bad alloc in `StringNGrams` caused by integer conversion",
+                "advisory_url": "https://github.com/advisories/GHSA-h6jh-7gv5-28vg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qjj8-32p7-h289",
+                "advisory_summary": "Division by 0 in `ResourceGather`",
+                "advisory_url": "https://github.com/advisories/GHSA-qjj8-32p7-h289"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cm5x-837x-jf3c",
+                "advisory_summary": "Division by 0 in inplace operations",
+                "advisory_url": "https://github.com/advisories/GHSA-cm5x-837x-jf3c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gf88-j2mg-cc82",
+                "advisory_summary": "Crash caused by integer conversion to unsigned",
+                "advisory_url": "https://github.com/advisories/GHSA-gf88-j2mg-cc82"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wmv-37vq-52g5",
+                "advisory_summary": "FPE in `tf.raw_ops.UnravelIndex`",
+                "advisory_url": "https://github.com/advisories/GHSA-2wmv-37vq-52g5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vmjw-c2vp-p33c",
+                "advisory_summary": "Crash in NMS ops caused by integer conversion to unsigned",
+                "advisory_url": "https://github.com/advisories/GHSA-vmjw-c2vp-p33c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fx5c-h9f6-rv7c",
+                "advisory_summary": "`CHECK`-fails due to attempting to build a reference tensor",
+                "advisory_url": "https://github.com/advisories/GHSA-fx5c-h9f6-rv7c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-43jf-985q-588j",
+                "advisory_summary": "Multiple `CHECK`-fails in `function.cc` in TensowFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-43jf-985q-588j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fq6p-6334-8gr4",
+                "advisory_summary": "Memory leak in decoding PNG images",
+                "advisory_url": "https://github.com/advisories/GHSA-fq6p-6334-8gr4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f2vv-v9cg-qhh7",
+                "advisory_summary": "Assertion failure based denial of service in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-f2vv-v9cg-qhh7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x4qx-4fjv-hmw6",
+                "advisory_summary": "Integer overflow leading to crash in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qx-4fjv-hmw6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rrx2-r989-2c43",
+                "advisory_summary": "Integer overflows in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-rrx2-r989-2c43"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6445-fm66-fvq2",
+                "advisory_summary": "Integer overflows in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-6445-fm66-fvq2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qj5r-f9mv-rffh",
+                "advisory_summary": "`CHECK`-fails when building invalid tensor shapes in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-qj5r-f9mv-rffh"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wcv5-vrvr-3rx2",
+                "advisory_summary": "Integer Overflow or Wraparound in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-wcv5-vrvr-3rx2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9p77-mmrw-69c7",
+                "advisory_summary": "Null-dereference in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-9p77-mmrw-69c7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-4v5p-v5h9-6xjx",
+                "advisory_summary": "`CHECK`-failures in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-4v5p-v5h9-6xjx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8rcj-c8pj-v3m3",
+                "advisory_summary": "Reachable Assertion in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-8rcj-c8pj-v3m3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fpcp-9h7m-ffpx",
+                "advisory_summary": "Null pointer dereference in TensorFlow ",
+                "advisory_url": "https://github.com/advisories/GHSA-fpcp-9h7m-ffpx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3mw4-6rj6-74g5",
+                "advisory_summary": "Null pointer dereference in TensorFlow",
+                "advisory_url": "https://github.com/advisories/GHSA-3mw4-6rj6-74g5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-428x-9xc2-m8mj",
+                "advisory_summary": "Division by zero in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-428x-9xc2-m8mj"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gf2j-f278-xh4v",
+                "advisory_summary": "Division by zero in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-gf2j-f278-xh4v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3ff2-r28g-w7h9",
+                "advisory_summary": "Heap buffer overflow in `Transpose`",
+                "advisory_url": "https://github.com/advisories/GHSA-3ff2-r28g-w7h9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h67m-xg8f-fxcf",
+                "advisory_summary": "Deadlock in mutually recursive `tf.function` objects",
+                "advisory_url": "https://github.com/advisories/GHSA-h67m-xg8f-fxcf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6hpv-v2rx-c5g6",
+                "advisory_summary": "FPE in convolutions with zero size filters",
+                "advisory_url": "https://github.com/advisories/GHSA-6hpv-v2rx-c5g6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7v94-64hj-m82h",
+                "advisory_summary": "FPE in `ParallelConcat`",
+                "advisory_url": "https://github.com/advisories/GHSA-7v94-64hj-m82h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5crj-c72x-m7gq",
+                "advisory_summary": "Null pointer exception when `Exit` node is not preceded by `Enter` op",
+                "advisory_url": "https://github.com/advisories/GHSA-5crj-c72x-m7gq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-786j-5qwq-r36x",
+                "advisory_summary": "Segfault while copying constant resource tensor",
+                "advisory_url": "https://github.com/advisories/GHSA-786j-5qwq-r36x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xrqm-fpgr-6hhx",
+                "advisory_summary": "Overflow/crash in `tf.range`",
+                "advisory_url": "https://github.com/advisories/GHSA-xrqm-fpgr-6hhx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gh8h-7j2j-qv4f",
+                "advisory_summary": "Incomplete validation in `tf.summary.create_file_writer`",
+                "advisory_url": "https://github.com/advisories/GHSA-gh8h-7j2j-qv4f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5hx2-qx8j-qjqm",
+                "advisory_summary": "Overflow/crash in `tf.image.resize` when size is large",
+                "advisory_url": "https://github.com/advisories/GHSA-5hx2-qx8j-qjqm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2p25-55c9-h58q",
+                "advisory_summary": "Overflow/crash in `tf.tile` when tiling tensor is large",
+                "advisory_url": "https://github.com/advisories/GHSA-2p25-55c9-h58q"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-prcg-wp5q-rv7p",
+                "advisory_summary": "Crashes due to overflow and `CHECK`-fail in ops with large tensor shapes",
+                "advisory_url": "https://github.com/advisories/GHSA-prcg-wp5q-rv7p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-m539-j985-hcr8",
+                "advisory_summary": "Crash in `max_pool3d` when size argument is 0 or negative",
+                "advisory_url": "https://github.com/advisories/GHSA-m539-j985-hcr8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cq76-mxrc-vchh",
+                "advisory_summary": "Crash in `tf.math.segment_*` operations",
+                "advisory_url": "https://github.com/advisories/GHSA-cq76-mxrc-vchh"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9px9-73fg-3fqp",
+                "advisory_summary": "Null pointer dereference in Grappler's `IsConstant`",
+                "advisory_url": "https://github.com/advisories/GHSA-9px9-73fg-3fqp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j3mj-fhpq-qqjj",
+                "advisory_summary": "Reachable Assertion in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-j3mj-fhpq-qqjj"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rww7-2gpw-fv6j",
+                "advisory_summary": "Crash when type cannot be specialized in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-rww7-2gpw-fv6j"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-79fv-9865-4qcv",
+                "advisory_summary": "Heap buffer overflow in `MaxPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-79fv-9865-4qcv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-x8h6-xgqx-jqgp",
+                "advisory_summary": "Undefined behavior and `CHECK`-fail in `FractionalMaxPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-x8h6-xgqx-jqgp"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-vq2r-5xvm-3hc3",
+                "advisory_summary": "Segfault in `CTCBeamSearchDecoder`",
+                "advisory_url": "https://github.com/advisories/GHSA-vq2r-5xvm-3hc3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c45w-2wxr-pp53",
+                "advisory_summary": "Heap OOB read in `tf.raw_ops.Dequantize`",
+                "advisory_url": "https://github.com/advisories/GHSA-c45w-2wxr-pp53"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-9xh4-23q4-v6wr",
+                "advisory_summary": "Heap buffer overflow and undefined behavior in `FusedBatchNorm`",
+                "advisory_url": "https://github.com/advisories/GHSA-9xh4-23q4-v6wr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xvjm-fvxx-q3hv",
+                "advisory_summary": "CHECK-fail due to integer overflow",
+                "advisory_url": "https://github.com/advisories/GHSA-xvjm-fvxx-q3hv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xf83-q765-xm6m",
+                "advisory_summary": "`CHECK` fail in `TensorListScatter` and `TensorListScatterV2` in eager mode",
+                "advisory_url": "https://github.com/advisories/GHSA-xf83-q765-xm6m"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-cqvq-fvhr-v6hc",
+                "advisory_summary": "`CHECK` failure in `SobolSample` via missing validation",
+                "advisory_url": "https://github.com/advisories/GHSA-cqvq-fvhr-v6hc"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-mv78-g7wq-mhp4",
+                "advisory_summary": "Division by zero in padding computation in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-mv78-g7wq-mhp4"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-26j7-6w8w-7922",
+                "advisory_summary": "Division by zero in optimized pooling implementations in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-26j7-6w8w-7922"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rrfp-j2mp-hq9c",
+                "advisory_summary": "Segfault in `tf.quantization.quantize_and_dequantize`",
+                "advisory_url": "https://github.com/advisories/GHSA-rrfp-j2mp-hq9c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-6f89-8j54-29xf",
+                "advisory_summary": "Heap buffer overflow in `FractionalAvgPoolGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-6f89-8j54-29xf"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v6r6-84gr-92rm",
+                "advisory_summary": "Heap buffer overflow in `AvgPool3DGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-v6r6-84gr-92rm"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-7cqx-92hp-x6wh",
+                "advisory_summary": "Heap buffer overflow in `MaxPool3DGradGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-7cqx-92hp-x6wh"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-6qgm-fv6v-rfpv",
+                "advisory_summary": "Overflow/denial of service in `tf.raw_ops.ReverseSequence`",
+                "advisory_url": "https://github.com/advisories/GHSA-6qgm-fv6v-rfpv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-828x-qc2p-wprq",
+                "advisory_summary": "Undefined behavior in `MaxPool3DGradGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-828x-qc2p-wprq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-9vpm-rcf4-9wqw",
+                "advisory_summary": "Division by 0 in `MaxPoolGradWithArgmax`",
+                "advisory_url": "https://github.com/advisories/GHSA-9vpm-rcf4-9wqw"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5gqf-456p-4836",
+                "advisory_summary": "Reference binding to nullptr in `SdcaOptimizer`",
+                "advisory_url": "https://github.com/advisories/GHSA-5gqf-456p-4836"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-545v-42p7-98fq",
+                "advisory_summary": "Heap out of bounds read in `MaxPoolGradWithArgmax`",
+                "advisory_url": "https://github.com/advisories/GHSA-545v-42p7-98fq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-3h8m-483j-7xxm",
+                "advisory_summary": "Heap out of bounds read in `RequantizationRange`",
+                "advisory_url": "https://github.com/advisories/GHSA-3h8m-483j-7xxm"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4p4p-www8-8fv9",
+                "advisory_summary": "Reference binding to null in `ParameterizedTruncatedNormal`",
+                "advisory_url": "https://github.com/advisories/GHSA-4p4p-www8-8fv9"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-wp3c-xw9g-gpcg",
+                "advisory_summary": "Lack of validation in `SparseDenseCwiseMul`",
+                "advisory_url": "https://github.com/advisories/GHSA-wp3c-xw9g-gpcg"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-j8qc-5fqr-52fp",
+                "advisory_summary": "Division by zero in `Conv2DBackpropFilter`",
+                "advisory_url": "https://github.com/advisories/GHSA-j8qc-5fqr-52fp"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xwhf-g6j5-j5gc",
+                "advisory_summary": "Float cast overflow undefined behavior",
+                "advisory_url": "https://github.com/advisories/GHSA-xwhf-g6j5-j5gc"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-wvjw-p9f5-vq28",
+                "advisory_summary": "Segfault in `tf.raw_ops.SparseCountSparseOutput`",
+                "advisory_url": "https://github.com/advisories/GHSA-wvjw-p9f5-vq28"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xqfj-cr6q-pc8w",
+                "advisory_summary": "Crash in `tf.transpose` with complex inputs",
+                "advisory_url": "https://github.com/advisories/GHSA-xqfj-cr6q-pc8w"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-mmq6-q8r3-48fm",
+                "advisory_summary": "Crash in `tf.strings.substr` due to `CHECK`-fail",
+                "advisory_url": "https://github.com/advisories/GHSA-mmq6-q8r3-48fm"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4hvv-7x94-7vq8",
+                "advisory_summary": "Null dereference in Grappler's `TrySimplify`",
+                "advisory_url": "https://github.com/advisories/GHSA-4hvv-7x94-7vq8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-qw5h-7f53-xrp6",
+                "advisory_summary": "Stack overflow in `ParseAttrValue` with nested tensors",
+                "advisory_url": "https://github.com/advisories/GHSA-qw5h-7f53-xrp6"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-2xgj-xhgf-ggjv",
+                "advisory_summary": "Heap buffer overflow in `BandedTriangularSolve`",
+                "advisory_url": "https://github.com/advisories/GHSA-2xgj-xhgf-ggjv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-mq5c-prh3-3f3h",
+                "advisory_summary": "Invalid validation in `QuantizeAndDequantizeV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-mq5c-prh3-3f3h"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-vf94-36g5-69v8",
+                "advisory_summary": "Division by zero in TFLite's implementation of `DepthToSpace`",
+                "advisory_url": "https://github.com/advisories/GHSA-vf94-36g5-69v8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-cfx7-2xpc-8w4h",
+                "advisory_summary": "Division by zero in TFLite's implementation of `BatchToSpaceNd`",
+                "advisory_url": "https://github.com/advisories/GHSA-cfx7-2xpc-8w4h"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-3qgw-p4fm-x7gf",
+                "advisory_summary": "Division by zero in TFLite's convolution code",
+                "advisory_url": "https://github.com/advisories/GHSA-3qgw-p4fm-x7gf"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-8rm6-75mf-7r7r",
+                "advisory_summary": "Division by zero in TFLite's implementation of hashtable lookup",
+                "advisory_url": "https://github.com/advisories/GHSA-8rm6-75mf-7r7r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-crch-j389-5f84",
+                "advisory_summary": "Heap OOB write in TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-crch-j389-5f84"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rf3h-xgv5-2q39",
+                "advisory_summary": "Division by zero in TFLite's implementation of `DepthwiseConv`",
+                "advisory_url": "https://github.com/advisories/GHSA-rf3h-xgv5-2q39"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-j8qh-3xrq-c825",
+                "advisory_summary": "Division by zero in TFLite's implementation of `OneHot`",
+                "advisory_url": "https://github.com/advisories/GHSA-j8qh-3xrq-c825"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-97wf-p777-86jq",
+                "advisory_summary": "Division by zero in TFLite's implementation of Split",
+                "advisory_url": "https://github.com/advisories/GHSA-97wf-p777-86jq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-pmpr-55fj-r229",
+                "advisory_summary": "Division by zero in TFLite's implementation of `SVDF`",
+                "advisory_url": "https://github.com/advisories/GHSA-pmpr-55fj-r229"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v52p-hfjf-wg88",
+                "advisory_summary": "Division by zero in TFLite's implementation of `SpaceToBatchNd`",
+                "advisory_url": "https://github.com/advisories/GHSA-v52p-hfjf-wg88"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4vrf-ff7v-hpgr",
+                "advisory_summary": "Division by zero in TFLite's implementation of `EmbeddingLookup`",
+                "advisory_url": "https://github.com/advisories/GHSA-4vrf-ff7v-hpgr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-24x6-8c7m-hv3f",
+                "advisory_summary": "Heap OOB read in TFLite's implementation of `Minimum` or `Maximum`",
+                "advisory_url": "https://github.com/advisories/GHSA-24x6-8c7m-hv3f"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-3w67-q784-6w7c",
+                "advisory_summary": "Division by zero in TFLite's implementation of `GatherNd`",
+                "advisory_url": "https://github.com/advisories/GHSA-3w67-q784-6w7c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-vfr4-x8j2-3rf9",
+                "advisory_summary": "Division by zero in TFLite's implementation of `TransposeConv`",
+                "advisory_url": "https://github.com/advisories/GHSA-vfr4-x8j2-3rf9"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-j7rm-8ww4-xx2g",
+                "advisory_summary": "Division by zero in TFLite's implementation of `SpaceToDepth`",
+                "advisory_url": "https://github.com/advisories/GHSA-j7rm-8ww4-xx2g"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-8c89-2vwr-chcq",
+                "advisory_summary": "Heap buffer overflow in `QuantizedResizeBilinear`",
+                "advisory_url": "https://github.com/advisories/GHSA-8c89-2vwr-chcq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-2gfx-95x2-5v3x",
+                "advisory_summary": "Heap buffer overflow in `QuantizedReshape`",
+                "advisory_url": "https://github.com/advisories/GHSA-2gfx-95x2-5v3x"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m3f9-w3p3-p669",
+                "advisory_summary": "Heap buffer overflow in `QuantizedMul`",
+                "advisory_url": "https://github.com/advisories/GHSA-m3f9-w3p3-p669"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-6j9c-grc6-5m6g",
+                "advisory_summary": "CHECK-fail in SparseConcat",
+                "advisory_url": "https://github.com/advisories/GHSA-6j9c-grc6-5m6g"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-393f-2jr3-cp69",
+                "advisory_summary": "CHECK-fail in DrawBoundingBoxes",
+                "advisory_url": "https://github.com/advisories/GHSA-393f-2jr3-cp69"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-j47f-4232-hvv8",
+                "advisory_summary": "Heap out of bounds read in `RaggedCross`",
+                "advisory_url": "https://github.com/advisories/GHSA-j47f-4232-hvv8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-3qxp-qjq7-w4hf",
+                "advisory_summary": "CHECK-fail in tf.raw_ops.EncodePng",
+                "advisory_url": "https://github.com/advisories/GHSA-3qxp-qjq7-w4hf"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xcwj-wfcm-m23c",
+                "advisory_summary": "Invalid validation in `SparseMatrixSparseCholesky`",
+                "advisory_url": "https://github.com/advisories/GHSA-xcwj-wfcm-m23c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jfp7-4j67-8r3q",
+                "advisory_summary": "Heap buffer overflow caused by rounding",
+                "advisory_url": "https://github.com/advisories/GHSA-jfp7-4j67-8r3q"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-6f84-42vf-ppwp",
+                "advisory_summary": "Division by 0 in `QuantizedMul`",
+                "advisory_url": "https://github.com/advisories/GHSA-6f84-42vf-ppwp"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-x4g7-fvjj-prg8",
+                "advisory_summary": "Division by 0 in `QuantizedConv2D`",
+                "advisory_url": "https://github.com/advisories/GHSA-x4g7-fvjj-prg8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4vf2-4xcg-65cx",
+                "advisory_summary": "Division by 0 in `Conv2D`",
+                "advisory_url": "https://github.com/advisories/GHSA-4vf2-4xcg-65cx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xm2v-8rrw-w9pm",
+                "advisory_summary": "Division by 0 in `Conv2DBackpropInput`",
+                "advisory_url": "https://github.com/advisories/GHSA-xm2v-8rrw-w9pm"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-r4pj-74mg-8868",
+                "advisory_summary": "Division by 0 in `Conv2DBackpropFilter`",
+                "advisory_url": "https://github.com/advisories/GHSA-r4pj-74mg-8868"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-2cpx-427x-q2c6",
+                "advisory_summary": "CHECK-fail in AddManySparseToTensorsMap",
+                "advisory_url": "https://github.com/advisories/GHSA-2cpx-427x-q2c6"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c968-pq7h-7fxv",
+                "advisory_summary": "Division by 0 in `Conv3DBackprop*`",
+                "advisory_url": "https://github.com/advisories/GHSA-c968-pq7h-7fxv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-wcv5-qrj6-9pfm",
+                "advisory_summary": "Heap buffer overflow in `Conv3DBackprop*`",
+                "advisory_url": "https://github.com/advisories/GHSA-wcv5-qrj6-9pfm"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-772j-h9xw-ffp5",
+                "advisory_summary": "CHECK-fail in SparseCross due to type confusion",
+                "advisory_url": "https://github.com/advisories/GHSA-772j-h9xw-ffp5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-62gx-355r-9fhg",
+                "advisory_summary": "Session operations in eager mode lead to null pointer dereferences",
+                "advisory_url": "https://github.com/advisories/GHSA-62gx-355r-9fhg"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-g468-qj8g-vcjc",
+                "advisory_summary": "TensorFlow vulnerable to `CHECK`-fail in `tensorflow::full_type::SubstituteFromAttrs`",
+                "advisory_url": "https://github.com/advisories/GHSA-g468-qj8g-vcjc"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-772p-x54p-hjrv",
+                "advisory_summary": "Division by zero in `Conv3D`",
+                "advisory_url": "https://github.com/advisories/GHSA-772p-x54p-hjrv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rh87-q4vg-m45j",
+                "advisory_summary": "TensorFlow vulnerable to integer overflow in math ops",
+                "advisory_url": "https://github.com/advisories/GHSA-rh87-q4vg-m45j"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-84mw-34w6-2q43",
+                "advisory_summary": "Null pointer dereference via invalid Ragged Tensors",
+                "advisory_url": "https://github.com/advisories/GHSA-84mw-34w6-2q43"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-hc6c-75p4-hmq4",
+                "advisory_summary": "Reference binding to null pointer in `MatrixDiag*` ops",
+                "advisory_url": "https://github.com/advisories/GHSA-hc6c-75p4-hmq4"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-452g-f7fp-9jf7",
+                "advisory_summary": "Type confusion during tensor casts lead to dereferencing null pointers",
+                "advisory_url": "https://github.com/advisories/GHSA-452g-f7fp-9jf7"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-pvrc-hg3f-58r6",
+                "advisory_summary": "Heap OOB access in `Dilation2DBackpropInput`",
+                "advisory_url": "https://github.com/advisories/GHSA-pvrc-hg3f-58r6"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-r6pg-pjwc-j585",
+                "advisory_summary": "Null pointer dereference in `SparseFillEmptyRows`",
+                "advisory_url": "https://github.com/advisories/GHSA-r6pg-pjwc-j585"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-75f6-78jr-4656",
+                "advisory_summary": "Null pointer dereference in `EditDistance`",
+                "advisory_url": "https://github.com/advisories/GHSA-75f6-78jr-4656"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-ph87-fvjr-v33w",
+                "advisory_summary": "CHECK-fail in `tf.raw_ops.RFFT`",
+                "advisory_url": "https://github.com/advisories/GHSA-ph87-fvjr-v33w"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-36vm-xw34-x4pj",
+                "advisory_summary": "CHECK-fail in `tf.raw_ops.IRFFT`",
+                "advisory_url": "https://github.com/advisories/GHSA-36vm-xw34-x4pj"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-gvm4-h8j3-rjrq",
+                "advisory_summary": "CHECK-fail in `LoadAndRemapMatrix`",
+                "advisory_url": "https://github.com/advisories/GHSA-gvm4-h8j3-rjrq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-8gv3-57p6-g35r",
+                "advisory_summary": "Heap buffer overflow in `RaggedTensorToTensor`",
+                "advisory_url": "https://github.com/advisories/GHSA-8gv3-57p6-g35r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-59q2-x2qc-4c97",
+                "advisory_summary": "Heap OOB access in unicode ops",
+                "advisory_url": "https://github.com/advisories/GHSA-59q2-x2qc-4c97"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-mqh2-9wrp-vx84",
+                "advisory_summary": "Heap buffer overflow in `SparseSplit`",
+                "advisory_url": "https://github.com/advisories/GHSA-mqh2-9wrp-vx84"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xw93-v57j-fcgh",
+                "advisory_summary": "Division by 0 in `SparseMatMul`",
+                "advisory_url": "https://github.com/advisories/GHSA-xw93-v57j-fcgh"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-fxqh-cfjm-fp93",
+                "advisory_summary": "Division by 0 in `Reverse`",
+                "advisory_url": "https://github.com/advisories/GHSA-fxqh-cfjm-fp93"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-r35g-4525-29fq",
+                "advisory_summary": "Division by 0 in `FusedBatchNorm`",
+                "advisory_url": "https://github.com/advisories/GHSA-r35g-4525-29fq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-h9px-9vqg-222h",
+                "advisory_summary": "Heap OOB in `QuantizeAndDequantizeV3`",
+                "advisory_url": "https://github.com/advisories/GHSA-h9px-9vqg-222h"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jhq9-wm9m-cf89",
+                "advisory_summary": "CHECK-failure in `UnsortedSegmentJoin`",
+                "advisory_url": "https://github.com/advisories/GHSA-jhq9-wm9m-cf89"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-vqw6-72r7-fgw7",
+                "advisory_summary": "OOB read in `MatrixTriangularSolve`",
+                "advisory_url": "https://github.com/advisories/GHSA-vqw6-72r7-fgw7"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-f78g-q7r4-9wcv",
+                "advisory_summary": "Division by 0 in `FractionalAvgPool`",
+                "advisory_url": "https://github.com/advisories/GHSA-f78g-q7r4-9wcv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-x83m-p7pv-ch8v",
+                "advisory_summary": "Division by 0 in `QuantizedAdd`",
+                "advisory_url": "https://github.com/advisories/GHSA-x83m-p7pv-ch8v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-p45v-v4pw-77jr",
+                "advisory_summary": "Division by 0 in `QuantizedBatchNormWithGlobalNormalization`",
+                "advisory_url": "https://github.com/advisories/GHSA-p45v-v4pw-77jr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4fg4-p75j-w5xj",
+                "advisory_summary": "Heap out of bounds in `QuantizedBatchNormWithGlobalNormalization`",
+                "advisory_url": "https://github.com/advisories/GHSA-4fg4-p75j-w5xj"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m34j-p8rj-wjxq",
+                "advisory_summary": "Division by 0 in `QuantizedBiasAdd`",
+                "advisory_url": "https://github.com/advisories/GHSA-m34j-p8rj-wjxq"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-hmg3-c7xj-6qwm",
+                "advisory_summary": "Heap buffer overflow in `SparseTensorToCSRSparseMatrix`",
+                "advisory_url": "https://github.com/advisories/GHSA-hmg3-c7xj-6qwm"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-fphq-gw9m-ghrv",
+                "advisory_summary": "CHECK-fail in `CTCGreedyDecoder`",
+                "advisory_url": "https://github.com/advisories/GHSA-fphq-gw9m-ghrv"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4hrh-9vmp-2jgg",
+                "advisory_summary": "Heap buffer overflow in `StringNGrams`",
+                "advisory_url": "https://github.com/advisories/GHSA-4hrh-9vmp-2jgg"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xqfj-35wv-m3cr",
+                "advisory_summary": "Null pointer dereference in `StringNGrams`",
+                "advisory_url": "https://github.com/advisories/GHSA-xqfj-35wv-m3cr"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xgc3-m89p-vr3x",
+                "advisory_summary": "Heap buffer overflow in `Conv2DBackpropFilter`",
+                "advisory_url": "https://github.com/advisories/GHSA-xgc3-m89p-vr3x"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-g4h2-gqm3-c9wq",
+                "advisory_summary": "Segfault in tf.raw_ops.ImmutableConst",
+                "advisory_url": "https://github.com/advisories/GHSA-g4h2-gqm3-c9wq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "samples/modules/tensorflow/magic_wand/train/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.16.2",
+        "package_url": "pkg:pypi/numpy@1.16.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5545-2q6w-2gh6",
+                "advisory_summary": "NumPy NULL Pointer Dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-5545-2q6w-2gh6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6p56-wp2h-9hxr",
+                "advisory_summary": "NumPy Buffer Overflow (Disputed)",
+                "advisory_url": "https://github.com/advisories/GHSA-6p56-wp2h-9hxr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f7c7-j99h-c22f",
+                "advisory_summary": "Buffer Copy without Checking Size of Input in NumPy",
+                "advisory_url": "https://github.com/advisories/GHSA-f7c7-j99h-c22f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fpfv-jqm9-f5jm",
+                "advisory_summary": "Incorrect Comparison in NumPy",
+                "advisory_url": "https://github.com/advisories/GHSA-fpfv-jqm9-f5jm"
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/latest.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/latest.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/setup-node@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/latest.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/latest.yml",
+        "ecosystem": "actions",
+        "name": "nodegui/create-release",
+        "version": "master",
+        "package_url": "pkg:githubactions/nodegui/create-release@master",
+        "license": null,
+        "source_repository_url": "https://github.com/nodegui/create-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

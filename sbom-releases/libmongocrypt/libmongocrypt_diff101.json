@@ -1,0 +1,444 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Example/MongoDB.Libmongocrypt.Example.csproj",
+        "ecosystem": "nuget",
+        "name": "MongoDB.Driver",
+        "version": "2.8.1",
+        "package_url": "pkg:nuget/MongoDB.Driver@2.8.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/mongo-csharp-driver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7j9m-j397-g4wx",
+                "advisory_summary": "MongoDB .NET/C# Driver vulnerable to Deserialization of Untrusted Data",
+                "advisory_url": "https://github.com/advisories/GHSA-7j9m-j397-g4wx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "FluentAssertions",
+        "version": "5.6.0",
+        "package_url": "pkg:nuget/FluentAssertions@5.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/fluentassertions/fluentassertions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "16.0.1",
+        "package_url": "pkg:nuget/Microsoft.NET.Test.Sdk@16.0.1",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/microsoft/vstest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "MongoDB.Bson",
+        "version": "2.8.0",
+        "package_url": "pkg:nuget/MongoDB.Bson@2.8.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/mongo-csharp-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "System.ValueTuple",
+        "version": "4.5.0",
+        "package_url": "pkg:nuget/System.ValueTuple@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit.runner.visualstudio",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit.runner.visualstudio@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "FluentAssertions",
+        "version": "5.6.0",
+        "package_url": "pkg:nuget/FluentAssertions@5.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/fluentassertions/fluentassertions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "16.0.1",
+        "package_url": "pkg:nuget/Microsoft.NET.Test.Sdk@16.0.1",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/microsoft/vstest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "MongoDB.Bson",
+        "version": "2.8.0",
+        "package_url": "pkg:nuget/MongoDB.Bson@2.8.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/mongo-csharp-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "System.ValueTuple",
+        "version": "4.5.0",
+        "package_url": "pkg:nuget/System.ValueTuple@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit.runner.visualstudio",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit.runner.visualstudio@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^4.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^6.1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/python/setup.py",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.0,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/setup.py",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.7,< 3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hggm-jpg3-v476",
+                "advisory_summary": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hggm-jpg3-v476"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Example/MongoDB.Crypt.Example.csproj",
+        "ecosystem": "nuget",
+        "name": "MongoDB.Driver",
+        "version": "2.8.1",
+        "package_url": "pkg:nuget/MongoDB.Driver@2.8.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/mongo-csharp-driver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7j9m-j397-g4wx",
+                "advisory_summary": "MongoDB .NET/C# Driver vulnerable to Deserialization of Untrusted Data",
+                "advisory_url": "https://github.com/advisories/GHSA-7j9m-j397-g4wx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test/MongoDB.Crypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "FluentAssertions",
+        "version": "5.6.0",
+        "package_url": "pkg:nuget/FluentAssertions@5.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/fluentassertions/fluentassertions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test/MongoDB.Crypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "16.0.1",
+        "package_url": "pkg:nuget/Microsoft.NET.Test.Sdk@16.0.1",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/microsoft/vstest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test/MongoDB.Crypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "MongoDB.Bson",
+        "version": "2.8.0",
+        "package_url": "pkg:nuget/MongoDB.Bson@2.8.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/mongo-csharp-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test/MongoDB.Crypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "System.ValueTuple",
+        "version": "4.5.0",
+        "package_url": "pkg:nuget/System.ValueTuple@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test/MongoDB.Crypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test/MongoDB.Crypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit.runner.visualstudio",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit.runner.visualstudio@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test32/MongoDB.Crypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "FluentAssertions",
+        "version": "5.6.0",
+        "package_url": "pkg:nuget/FluentAssertions@5.6.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/fluentassertions/fluentassertions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test32/MongoDB.Crypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "16.0.1",
+        "package_url": "pkg:nuget/Microsoft.NET.Test.Sdk@16.0.1",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/microsoft/vstest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test32/MongoDB.Crypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "MongoDB.Bson",
+        "version": "2.8.0",
+        "package_url": "pkg:nuget/MongoDB.Bson@2.8.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mongodb/mongo-csharp-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test32/MongoDB.Crypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "System.ValueTuple",
+        "version": "4.5.0",
+        "package_url": "pkg:nuget/System.ValueTuple@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test32/MongoDB.Crypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Crypt.Test32/MongoDB.Crypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "xunit.runner.visualstudio",
+        "version": "2.4.0",
+        "package_url": "pkg:nuget/xunit.runner.visualstudio@2.4.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/xunit/xunit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

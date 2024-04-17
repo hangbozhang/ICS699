@@ -1,0 +1,280 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "6.4.0",
+        "package_url": "pkg:npm/acorn@6.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6chw-6frg-f759",
+                "advisory_summary": "Regular Expression Denial of Service in Acorn",
+                "advisory_url": "https://github.com/advisories/GHSA-6chw-6frg-f759"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/json-schema",
+        "version": "7.0.4",
+        "package_url": "pkg:npm/%40types/json-schema@7.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "13.9.1",
+        "package_url": "pkg:npm/%40types/node@13.9.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/eslint-plugin@2.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/experimental-utils",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/experimental-utils@2.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/parser@2.23.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/typescript-estree",
+        "version": "2.23.0",
+        "package_url": "pkg:npm/%40typescript-eslint/typescript-estree@2.23.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "6.4.1",
+        "package_url": "pkg:npm/acorn@6.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/json-schema",
+        "version": "7.0.3",
+        "package_url": "pkg:npm/%40types/json-schema@7.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "13.9.0",
+        "package_url": "pkg:npm/%40types/node@13.9.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "2.22.0",
+        "package_url": "pkg:npm/%40typescript-eslint/eslint-plugin@2.22.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/experimental-utils",
+        "version": "2.22.0",
+        "package_url": "pkg:npm/%40typescript-eslint/experimental-utils@2.22.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "2.22.0",
+        "package_url": "pkg:npm/%40typescript-eslint/parser@2.22.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/typescript-estree",
+        "version": "2.22.0",
+        "package_url": "pkg:npm/%40typescript-eslint/typescript-estree@2.22.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^13.9.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^2.23.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^2.23.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^13.1.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^2.10.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^2.10.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "website/yarn.lock",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "6.4.0",
+        "package_url": "pkg:npm/acorn@6.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6chw-6frg-f759",
+                "advisory_summary": "Regular Expression Denial of Service in Acorn",
+                "advisory_url": "https://github.com/advisories/GHSA-6chw-6frg-f759"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "website/yarn.lock",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "6.4.1",
+        "package_url": "pkg:npm/acorn@6.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

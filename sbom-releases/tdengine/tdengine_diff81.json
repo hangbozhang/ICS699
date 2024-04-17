@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.31",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.31",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-aop",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.28",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.28",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

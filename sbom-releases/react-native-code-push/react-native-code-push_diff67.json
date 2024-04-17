@@ -1,0 +1,93 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "babel-preset-react-native-stage-0",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/babel-preset-react-native-stage-0@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/skevy/babel-preset-react-native-stage-0",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "15.2.1",
+        "package_url": "pkg:npm/react@15.2.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.30.0",
+        "package_url": "pkg:npm/react-native@0.30.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "assert",
+        "version": "^1.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/browserify/commonjs-assert",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.19.0",
+        "package_url": "pkg:npm/react-native@0.19.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "plist",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/plist@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/plist.js",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-4cpg-3vgw-4877",
+                "advisory_summary": "Prototype pollution in Plist before 3.0.5 can cause denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-4cpg-3vgw-4877"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "inquirer",
+        "version": "1.1.2",
+        "package_url": "pkg:npm/inquirer@1.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SBoudrias/Inquirer.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

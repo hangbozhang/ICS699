@@ -1,0 +1,129 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "terser",
+        "version": "5.14.1",
+        "package_url": "pkg:npm/terser@5.14.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/terser/terser",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4wf5-vphf-c2xc",
+                "advisory_summary": "Terser insecure use of regular expressions leads to ReDoS",
+                "advisory_url": "https://github.com/advisories/GHSA-4wf5-vphf-c2xc"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/gen-mapping",
+        "version": "0.3.2",
+        "package_url": "pkg:npm/%40jridgewell/gen-mapping@0.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/gen-mapping",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/resolve-uri",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/%40jridgewell/resolve-uri@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/resolve-uri",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/set-array",
+        "version": "1.1.2",
+        "package_url": "pkg:npm/%40jridgewell/set-array@1.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/set-array",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/sourcemap-codec",
+        "version": "1.4.14",
+        "package_url": "pkg:npm/%40jridgewell/sourcemap-codec@1.4.14",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/sourcemap-codec",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/trace-mapping",
+        "version": "0.3.14",
+        "package_url": "pkg:npm/%40jridgewell/trace-mapping@0.3.14",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/trace-mapping",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "terser",
+        "version": "5.14.2",
+        "package_url": "pkg:npm/terser@5.14.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/terser/terser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/gen-mapping",
+        "version": "0.3.1",
+        "package_url": "pkg:npm/%40jridgewell/gen-mapping@0.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/gen-mapping",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/resolve-uri",
+        "version": "3.0.7",
+        "package_url": "pkg:npm/%40jridgewell/resolve-uri@3.0.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/resolve-uri",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@jridgewell/sourcemap-codec",
+        "version": "1.4.13",
+        "package_url": "pkg:npm/%40jridgewell/sourcemap-codec@1.4.13",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jridgewell/sourcemap-codec",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

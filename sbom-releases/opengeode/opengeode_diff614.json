@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CD.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "1.0.3",
+        "package_url": "pkg:githubactions/actions/cache@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "1.0.3",
+        "package_url": "pkg:githubactions/actions/cache@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

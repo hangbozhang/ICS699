@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1.3.0",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1.3.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "lukka/run-vcpkg",
+        "version": "10",
+        "package_url": "pkg:githubactions/lukka/run-vcpkg@10",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/run-vcpkg",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

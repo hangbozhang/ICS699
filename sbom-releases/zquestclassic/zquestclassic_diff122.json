@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "lukka/run-vcpkg",
+        "version": "11",
+        "package_url": "pkg:githubactions/lukka/run-vcpkg@11",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/run-vcpkg",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

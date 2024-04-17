@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "andstor/file-reader-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/andstor/file-reader-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/andstor/file-reader-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/create-release.yml",
+        "ecosystem": "actions",
+        "name": "haya14busa/action-cond",
+        "version": "1",
+        "package_url": "pkg:githubactions/haya14busa/action-cond@1",
+        "license": null,
+        "source_repository_url": "https://github.com/haya14busa/action-cond",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

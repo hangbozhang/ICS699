@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "8BitJonny/gh-get-current-pr",
+        "version": "2.2.0",
+        "package_url": "pkg:githubactions/8BitJonny/gh-get-current-pr@2.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/8BitJonny/gh-get-current-pr",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

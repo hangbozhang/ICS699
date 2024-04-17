@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/mitchellh/mapstructure",
+        "version": "1.4.1",
+        "package_url": "pkg:golang/github.com/mitchellh/mapstructure@1.4.1",
+        "license": null,
+        "source_repository_url": "https://github.com/mitchellh/mapstructure",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "robinraju/release-downloader",
+        "version": "1.3",
+        "package_url": "pkg:githubactions/robinraju/release-downloader@1.3",
+        "license": null,
+        "source_repository_url": "https://github.com/robinraju/release-downloader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

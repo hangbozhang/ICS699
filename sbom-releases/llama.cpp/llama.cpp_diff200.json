@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "transformers",
+        "version": ">= 4.34.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/huggingface/transformers",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

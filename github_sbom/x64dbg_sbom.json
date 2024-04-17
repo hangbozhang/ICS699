@@ -1,0 +1,36 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:58:55Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ]
+        },
+        "name": "com.github.x64dbg/x64dbg",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.x64dbg-x64dbg"
+        ],
+        "documentNamespace": "https://github.com/x64dbg/x64dbg/dependency_graph/sbom-5338f3b22e34146c",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.x64dbg-x64dbg",
+                "name": "com.github.x64dbg/x64dbg",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/x64dbg/x64dbg",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/x64dbg/x64dbg"
+                    }
+                ]
+            }
+        ],
+        "relationships": []
+    }
+}

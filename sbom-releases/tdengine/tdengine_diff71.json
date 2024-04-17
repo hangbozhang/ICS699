@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-logging:commons-logging",
+        "version": "1.2",
+        "package_url": "pkg:maven/commons-logging/commons-logging@1.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-logging",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-source-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.35",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.35",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "black",
+        "version": "^ 21.7b0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/black",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

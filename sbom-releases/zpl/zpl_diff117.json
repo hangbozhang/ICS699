@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tester.yml",
+        "ecosystem": "actions",
+        "name": "inlife/actiord-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/inlife/actiord-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/inlife/actiord-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/tester.yml",
+        "ecosystem": "actions",
+        "name": "sarisia/actions-status-discord",
+        "version": "1",
+        "package_url": "pkg:githubactions/sarisia/actions-status-discord@1",
+        "license": null,
+        "source_repository_url": "https://github.com/sarisia/actions-status-discord",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

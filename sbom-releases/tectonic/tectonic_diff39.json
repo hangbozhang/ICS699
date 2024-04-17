@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "html-escape",
+        "version": "0.2.11",
+        "package_url": "pkg:cargo/html-escape@0.2.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/magiclen/html-escape",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "crates/engine_spx2html/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "html-escape",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/magiclen/html-escape",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

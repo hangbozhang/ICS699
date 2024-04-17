@@ -1,0 +1,69 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.14.2",
+        "package_url": "pkg:npm/react-native@0.14.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Examples/CodePushDemoApp/package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.11.4",
+        "package_url": "pkg:npm/react-native@0.11.4",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "extend",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/extend@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/justmoon/node-extend",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qrmc-fj45-qfc2",
+                "advisory_summary": "Prototype Pollution in extend",
+                "advisory_url": "https://github.com/advisories/GHSA-qrmc-fj45-qfc2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.14.2",
+        "package_url": "pkg:npm/react-native@0.14.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.11.4",
+        "package_url": "pkg:npm/react-native@0.11.4",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

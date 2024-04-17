@@ -1,0 +1,2453 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "examples/C#/C#checker/C#checker.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/C#/TDengineTest/TDengineTest.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/C#/schemaless/schemaless.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/C#/stmt/stmt.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/C#/taosdemo/taosdemo.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.36",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.36",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-context",
+        "version": "5.2.8",
+        "package_url": "pkg:maven/org.springframework/spring-context@5.2.8",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-jdbc",
+        "version": "5.1.9",
+        "package_url": "pkg:maven/org.springframework/spring-jdbc@5.1.9",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-test",
+        "version": "5.1.9",
+        "package_url": "pkg:maven/org.springframework/spring-test@5.1.9",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-core",
+        "version": "2.17.0",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8489-44mv-ggj8",
+                "advisory_summary": "Improper Input Validation and Injection in Apache Log4j2",
+                "advisory_url": "https://github.com/advisories/GHSA-8489-44mv-ggj8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.cloudhopper.proxool:proxool",
+        "version": "0.9.1",
+        "package_url": "pkg:maven/com.cloudhopper.proxool/proxool@0.9.1",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.mchange:c3p0",
+        "version": "0.9.5.4",
+        "package_url": "pkg:maven/com.mchange/c3p0@0.9.5.4",
+        "license": "LGPL-2.1-only OR EPL-1.0",
+        "source_repository_url": "https://github.com/swaldman/c3p0",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.zaxxer:HikariCP",
+        "version": "3.2.0",
+        "package_url": "pkg:maven/com.zaxxer/hikaricp@3.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/brettwooldridge/HikariCP",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-dbcp:commons-dbcp",
+        "version": "1.4",
+        "package_url": "pkg:maven/commons-dbcp/commons-dbcp@1.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-dbcp",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-pool:commons-pool",
+        "version": "1.5.4",
+        "package_url": "pkg:maven/commons-pool/commons-pool@1.5.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mariusae/commons-pool",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.baomidou:mybatis-plus-boot-starter",
+        "version": "3.1.2",
+        "package_url": "pkg:maven/com.baomidou/mybatis-plus-boot-starter@3.1.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/lukw510903926/mybatis-plus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.h2database:h2",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/h2database/h2database",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-surefire-plugin",
+        "version": "2.17",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@2.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-surefire",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.projectlombok:lombok",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/projectlombok/lombok",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-maven-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid-spring-boot-starter",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid-spring-boot-starter@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.mybatis.spring.boot:mybatis-spring-boot-starter",
+        "version": "2.1.1",
+        "package_url": "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-starter@2.1.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mybatis/spring-boot-starter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-configuration-processor",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-maven-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-aop",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-data-jdbc",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-beans",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-beans@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-36p3-wjmg-h94x",
+                "advisory_summary": "Remote Code Execution in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-36p3-wjmg-h94x"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:fastjson",
+        "version": "1.2.75",
+        "package_url": "pkg:maven/com.alibaba/fastjson@1.2.75",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/fastjson2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pv7h-hx5h-mgfj",
+                "advisory_summary": "Unsafe deserialization in com.alibaba:fastjson",
+                "advisory_url": "https://github.com/advisories/GHSA-pv7h-hx5h-mgfj"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-core",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-core@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g5mm-vmx4-3rg7",
+                "advisory_summary": "Improper handling of case sensitivity in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-g5mm-vmx4-3rg7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hh26-6xwr-ggv7",
+                "advisory_summary": "Denial of service in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-hh26-6xwr-ggv7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wxqc-pxw9-g2p8",
+                "advisory_summary": "Spring Framework vulnerable to denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-wxqc-pxw9-g2p8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6gf2-pvqw-37ph",
+                "advisory_summary": "Log entry injection in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-6gf2-pvqw-37ph"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rqph-vqwm-22vc",
+                "advisory_summary": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-rqph-vqwm-22vc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rfmp-97jj-h8m6",
+                "advisory_summary": "Improper Output Neutralization for Logs in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-rfmp-97jj-h8m6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-564r-hj7v-mcr5",
+                "advisory_summary": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                "advisory_url": "https://github.com/advisories/GHSA-564r-hj7v-mcr5"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "mysql:mysql-connector-java",
+        "version": "8.0.16",
+        "package_url": "pkg:maven/mysql/mysql-connector-java@8.0.16",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/mysql/mysql-connector-j",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g76j-4cxx-23h9",
+                "advisory_summary": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-g76j-4cxx-23h9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w6f2-8wx4-47r5",
+                "advisory_summary": "Incorrect Authorization in MySQL Connector Java",
+                "advisory_url": "https://github.com/advisories/GHSA-w6f2-8wx4-47r5"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-core",
+        "version": "2.17.0",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8489-44mv-ggj8",
+                "advisory_summary": "Improper Input Validation and Injection in Apache Log4j2",
+                "advisory_url": "https://github.com/advisories/GHSA-8489-44mv-ggj8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-expression",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-expression@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-558x-2xjg-6232",
+                "advisory_summary": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-558x-2xjg-6232"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.zaxxer:HikariCP",
+        "version": "3.4.5",
+        "package_url": "pkg:maven/com.zaxxer/hikaricp@3.4.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/brettwooldridge/HikariCP",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.projectlombok:lombok",
+        "version": "1.18.16",
+        "package_url": "pkg:maven/org.projectlombok/lombok@1.18.16",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/projectlombok/lombok",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aop",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-aop@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aspects",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-aspects@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-context",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-context@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-jdbc",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-jdbc@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-test",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-test@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/python/taosdemo/requirements.txt",
+        "ecosystem": "pip",
+        "name": "multipledispatch",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mrocklin/multipledispatch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/python/taosdemo/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/C#/C#checker/C#checker.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/C#/TDengineTest/TDengineTest.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/C#/schemaless/schemaless.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/C#/stmt/stmt.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/C#/taosdemo/taosdemo.csproj",
+        "ecosystem": "nuget",
+        "name": "TDengine.Connector",
+        "version": "1.0.2",
+        "package_url": "pkg:nuget/TDengine.Connector@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-dotnet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.36",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.36",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-context",
+        "version": "5.2.8",
+        "package_url": "pkg:maven/org.springframework/spring-context@5.2.8",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-jdbc",
+        "version": "5.1.9",
+        "package_url": "pkg:maven/org.springframework/spring-jdbc@5.1.9",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/SpringJdbcTemplate/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-test",
+        "version": "5.1.9",
+        "package_url": "pkg:maven/org.springframework/spring-test@5.1.9",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-core",
+        "version": "2.17.0",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8489-44mv-ggj8",
+                "advisory_summary": "Improper Input Validation and Injection in Apache Log4j2",
+                "advisory_url": "https://github.com/advisories/GHSA-8489-44mv-ggj8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.cloudhopper.proxool:proxool",
+        "version": "0.9.1",
+        "package_url": "pkg:maven/com.cloudhopper.proxool/proxool@0.9.1",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.mchange:c3p0",
+        "version": "0.9.5.4",
+        "package_url": "pkg:maven/com.mchange/c3p0@0.9.5.4",
+        "license": "LGPL-2.1-only OR EPL-1.0",
+        "source_repository_url": "https://github.com/swaldman/c3p0",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.zaxxer:HikariCP",
+        "version": "3.2.0",
+        "package_url": "pkg:maven/com.zaxxer/hikaricp@3.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/brettwooldridge/HikariCP",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-dbcp:commons-dbcp",
+        "version": "1.4",
+        "package_url": "pkg:maven/commons-dbcp/commons-dbcp@1.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-dbcp",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-pool:commons-pool",
+        "version": "1.5.4",
+        "package_url": "pkg:maven/commons-pool/commons-pool@1.5.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mariusae/commons-pool",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/connectionPools/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.baomidou:mybatis-plus-boot-starter",
+        "version": "3.1.2",
+        "package_url": "pkg:maven/com.baomidou/mybatis-plus-boot-starter@3.1.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/lukw510903926/mybatis-plus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.h2database:h2",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/h2database/h2database",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-surefire-plugin",
+        "version": "2.17",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@2.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-surefire",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.projectlombok:lombok",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/projectlombok/lombok",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-maven-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/mybatisplus-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:druid-spring-boot-starter",
+        "version": "1.1.17",
+        "package_url": "pkg:maven/com.alibaba/druid-spring-boot-starter@1.1.17",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/druid",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.34",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.34",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.mybatis.spring.boot:mybatis-spring-boot-starter",
+        "version": "2.1.1",
+        "package_url": "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-starter@2.1.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/mybatis/spring-boot-starter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-configuration-processor",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-maven-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-aop",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-data-jdbc",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/spring-projects/spring-boot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-beans",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-beans@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-36p3-wjmg-h94x",
+                "advisory_summary": "Remote Code Execution in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-36p3-wjmg-h94x"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.alibaba:fastjson",
+        "version": "1.2.75",
+        "package_url": "pkg:maven/com.alibaba/fastjson@1.2.75",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/alibaba/fastjson2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pv7h-hx5h-mgfj",
+                "advisory_summary": "Unsafe deserialization in com.alibaba:fastjson",
+                "advisory_url": "https://github.com/advisories/GHSA-pv7h-hx5h-mgfj"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-core",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-core@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-g5mm-vmx4-3rg7",
+                "advisory_summary": "Improper handling of case sensitivity in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-g5mm-vmx4-3rg7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hh26-6xwr-ggv7",
+                "advisory_summary": "Denial of service in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-hh26-6xwr-ggv7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wxqc-pxw9-g2p8",
+                "advisory_summary": "Spring Framework vulnerable to denial of service",
+                "advisory_url": "https://github.com/advisories/GHSA-wxqc-pxw9-g2p8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6gf2-pvqw-37ph",
+                "advisory_summary": "Log entry injection in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-6gf2-pvqw-37ph"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rqph-vqwm-22vc",
+                "advisory_summary": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-rqph-vqwm-22vc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rfmp-97jj-h8m6",
+                "advisory_summary": "Improper Output Neutralization for Logs in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-rfmp-97jj-h8m6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-564r-hj7v-mcr5",
+                "advisory_summary": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                "advisory_url": "https://github.com/advisories/GHSA-564r-hj7v-mcr5"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "mysql:mysql-connector-java",
+        "version": "8.0.16",
+        "package_url": "pkg:maven/mysql/mysql-connector-java@8.0.16",
+        "license": "OTHER",
+        "source_repository_url": "https://github.com/mysql/mysql-connector-j",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g76j-4cxx-23h9",
+                "advisory_summary": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "advisory_url": "https://github.com/advisories/GHSA-g76j-4cxx-23h9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w6f2-8wx4-47r5",
+                "advisory_summary": "Incorrect Authorization in MySQL Connector Java",
+                "advisory_url": "https://github.com/advisories/GHSA-w6f2-8wx4-47r5"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-core",
+        "version": "2.17.0",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8489-44mv-ggj8",
+                "advisory_summary": "Improper Input Validation and Injection in Apache Log4j2",
+                "advisory_url": "https://github.com/advisories/GHSA-8489-44mv-ggj8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-expression",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-expression@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-558x-2xjg-6232",
+                "advisory_summary": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "advisory_url": "https://github.com/advisories/GHSA-558x-2xjg-6232"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.zaxxer:HikariCP",
+        "version": "3.4.5",
+        "package_url": "pkg:maven/com.zaxxer/hikaricp@3.4.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/brettwooldridge/HikariCP",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.projectlombok:lombok",
+        "version": "1.18.16",
+        "package_url": "pkg:maven/org.projectlombok/lombok@1.18.16",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/projectlombok/lombok",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aop",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-aop@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-aspects",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-aspects@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-context",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-context@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-jdbc",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-jdbc@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.springframework:spring-test",
+        "version": "5.3.2",
+        "package_url": "pkg:maven/org.springframework/spring-test@5.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/spring-projects/spring-framework",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/python/taosdemo/requirements.txt",
+        "ecosystem": "pip",
+        "name": "multipledispatch",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mrocklin/multipledispatch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/python/taosdemo/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.datastax.oss:java-driver-core",
+        "version": "4.1.0",
+        "package_url": "pkg:maven/com.datastax.oss/java-driver-core@4.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gripson/java-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.datastax.oss:java-driver-mapper-runtime",
+        "version": "4.1.0",
+        "package_url": "pkg:maven/com.datastax.oss/java-driver-mapper-runtime@4.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gripson/java-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.datastax.oss:java-driver-query-builder",
+        "version": "4.1.0",
+        "package_url": "pkg:maven/com.datastax.oss/java-driver-query-builder@4.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gripson/java-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-io:commons-io",
+        "version": "2.7",
+        "package_url": "pkg:maven/commons-io/commons-io@2.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-io",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-lang3",
+        "version": "3.7",
+        "package_url": "pkg:maven/org.apache.commons/commons-lang3@3.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-lang",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-1.2-api",
+        "version": "2.8.2",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.8.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.0.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "2.3.2",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@2.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-plugins",
+        "version": "30",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-plugins@30",
+        "license": null,
+        "source_repository_url": "https://github.com/jdcasey/maven-plugins-fixes",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.slf4j:slf4j-api",
+        "version": "1.7.5",
+        "package_url": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/qos-ch/slf4j",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/cassandra/cassandratest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.slf4j:slf4j-log4j12",
+        "version": "1.7.5",
+        "package_url": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/qos-ch/slf4j",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "io.netty:netty",
+        "version": "3.10.6",
+        "package_url": "pkg:maven/io.netty/netty@3.10.6",
+        "license": null,
+        "source_repository_url": "https://github.com/nyankosama/simple-netty-source",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-cqqj-4p63-rrmm",
+                "advisory_summary": "HTTP Request Smuggling in Netty",
+                "advisory_url": "https://github.com/advisories/GHSA-cqqj-4p63-rrmm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-grg4-wf29-r9vv",
+                "advisory_summary": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "advisory_url": "https://github.com/advisories/GHSA-grg4-wf29-r9vv"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9vjp-v76f-g363",
+                "advisory_summary": " SnappyFrameDecoder doesn't restrict chunk length any may buffer skippable chunks in an unnecessary way",
+                "advisory_url": "https://github.com/advisories/GHSA-9vjp-v76f-g363"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p2v9-g2qv-p635",
+                "advisory_summary": "HTTP Request Smuggling in Netty",
+                "advisory_url": "https://github.com/advisories/GHSA-p2v9-g2qv-p635"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5mcr-gq6c-3hq2",
+                "advisory_summary": "Local Information Disclosure Vulnerability in Netty on Unix-Like systems",
+                "advisory_url": "https://github.com/advisories/GHSA-5mcr-gq6c-3hq2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f256-j965-7f32",
+                "advisory_summary": "Possible request smuggling in HTTP/2 due missing validation of content-length",
+                "advisory_url": "https://github.com/advisories/GHSA-f256-j965-7f32"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wx5j-54mm-rqqq",
+                "advisory_summary": "HTTP request smuggling in netty",
+                "advisory_url": "https://github.com/advisories/GHSA-wx5j-54mm-rqqq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-wm47-8v5p-wjpj",
+                "advisory_summary": "Possible request smuggling in HTTP/2 due missing validation",
+                "advisory_url": "https://github.com/advisories/GHSA-wm47-8v5p-wjpj"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "net.opentsdb:opentsdb",
+        "version": "2.4.0",
+        "package_url": "pkg:maven/net.opentsdb/opentsdb@2.4.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/kuake/myopentsdb",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-hv53-q76c-7f8c",
+                "advisory_summary": "OS Command Injection in OpenTSDB",
+                "advisory_url": "https://github.com/advisories/GHSA-hv53-q76c-7f8c"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h475-7v3c-26q7",
+                "advisory_summary": "Command injection in OpenTSDB",
+                "advisory_url": "https://github.com/advisories/GHSA-h475-7v3c-26q7"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-76f7-9v52-v2fw",
+                "advisory_summary": "Remote Code Execution for 2.4.1 and earlier",
+                "advisory_url": "https://github.com/advisories/GHSA-76f7-9v52-v2fw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9chv-3w6c-jq9w",
+                "advisory_summary": "Cross Site Scripting in OpenTSDB",
+                "advisory_url": "https://github.com/advisories/GHSA-9chv-3w6c-jq9w"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.zookeeper:zookeeper",
+        "version": "3.4.14",
+        "package_url": "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/zookeeper",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-7286-pgfv-vxvh",
+                "advisory_summary": "Authorization Bypass Through User-Controlled Key vulnerability in Apache ZooKeeper",
+                "advisory_url": "https://github.com/advisories/GHSA-7286-pgfv-vxvh"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-classic",
+        "version": "1.2.0",
+        "package_url": "pkg:maven/ch.qos.logback/logback-classic@1.2.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.2.0",
+        "package_url": "pkg:maven/ch.qos.logback/logback-core@1.2.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": "https://github.com/qos-ch/logback",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmq6-5m68-f53m",
+                "advisory_summary": "logback serialization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vmq6-5m68-f53m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-668q-qrv7-99fm",
+                "advisory_summary": "Deserialization of Untrusted Data in logback",
+                "advisory_url": "https://github.com/advisories/GHSA-668q-qrv7-99fm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.fasterxml.jackson.core:jackson-databind",
+        "version": "2.10.0.pr1",
+        "package_url": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0.pr1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/FasterXML/jackson",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-57j2-w4cx-62h2",
+                "advisory_summary": "Deeply nested json in jackson-databind",
+                "advisory_url": "https://github.com/advisories/GHSA-57j2-w4cx-62h2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rgv9-q543-rqg4",
+                "advisory_summary": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "advisory_url": "https://github.com/advisories/GHSA-rgv9-q543-rqg4"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jjjh-jjxp-wpff",
+                "advisory_summary": "Uncontrolled Resource Consumption in Jackson-databind",
+                "advisory_url": "https://github.com/advisories/GHSA-jjjh-jjxp-wpff"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.google.guava:guava",
+        "version": "30.0-jre",
+        "package_url": "pkg:maven/com.google.guava/guava@30.0-jre",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/guava",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7g45-4rm6-3mm3",
+                "advisory_summary": "Guava vulnerable to insecure use of temporary directory",
+                "advisory_url": "https://github.com/advisories/GHSA-7g45-4rm6-3mm3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5mg8-w23w-74h3",
+                "advisory_summary": "Information Disclosure in Guava",
+                "advisory_url": "https://github.com/advisories/GHSA-5mg8-w23w-74h3"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.datastax.oss:java-driver-core",
+        "version": "4.1.0",
+        "package_url": "pkg:maven/com.datastax.oss/java-driver-core@4.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gripson/java-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.datastax.oss:java-driver-mapper-runtime",
+        "version": "4.1.0",
+        "package_url": "pkg:maven/com.datastax.oss/java-driver-mapper-runtime@4.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gripson/java-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.datastax.oss:java-driver-query-builder",
+        "version": "4.1.0",
+        "package_url": "pkg:maven/com.datastax.oss/java-driver-query-builder@4.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gripson/java-driver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.esotericsoftware.kryo:kryo",
+        "version": "2.21.1",
+        "package_url": "pkg:maven/com.esotericsoftware.kryo/kryo@2.21.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/svn2github/kryo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.fasterxml.jackson.core:jackson-annotations",
+        "version": "2.9.10",
+        "package_url": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/FasterXML/jackson",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.fasterxml.jackson.core:jackson-core",
+        "version": "2.9.10",
+        "package_url": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/FasterXML/jackson-core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.github.eulery:opentsdb-java-sdk",
+        "version": "1.1.4",
+        "package_url": "pkg:maven/com.github.eulery/opentsdb-java-sdk@1.1.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/eulery/opentsdb-java-sdk",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.google.gwt:gwt-user",
+        "version": "2.6.0",
+        "package_url": "pkg:maven/com.google.gwt/gwt-user@2.6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/jnorthrup/gwt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.stumbleupon:async",
+        "version": "1.4.0",
+        "package_url": "pkg:maven/com.stumbleupon/async@1.4.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-io:commons-io",
+        "version": "2.7",
+        "package_url": "pkg:maven/commons-io/commons-io@2.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-io",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "junit:junit",
+        "version": "4.13.1",
+        "package_url": "pkg:maven/junit/junit@4.13.1",
+        "license": "EPL-1.0",
+        "source_repository_url": "https://github.com/junit-team/junit4",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "net.opentsdb:opentsdb_gwt_theme",
+        "version": "1.0.0",
+        "package_url": "pkg:maven/net.opentsdb/opentsdb_gwt_theme@1.0.0",
+        "license": "LGPL-2.1",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-collections4",
+        "version": "4.3",
+        "package_url": "pkg:maven/org.apache.commons/commons-collections4@4.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-collections",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-jexl",
+        "version": "2.1.1",
+        "package_url": "pkg:maven/org.apache.commons/commons-jexl@2.1.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/deepin-community/libcommons-jexl2-java",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-lang3",
+        "version": "3.7",
+        "package_url": "pkg:maven/org.apache.commons/commons-lang3@3.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-lang",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-math3",
+        "version": "3.4.1",
+        "package_url": "pkg:maven/org.apache.commons/commons-math3@3.4.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/haidaros/defects4j-math",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.httpcomponents:httpasyncclient",
+        "version": "4.1.3",
+        "package_url": "pkg:maven/org.apache.httpcomponents/httpasyncclient@4.1.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/logkcal/httpasyncclient",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.httpcomponents:httpclient",
+        "version": "4.5.13",
+        "package_url": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/httpcomponents-client",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.logging.log4j:log4j-1.2-api",
+        "version": "2.8.2",
+        "package_url": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.8.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/logging-log4j2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.0.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "2.3.2",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@2.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-plugins",
+        "version": "30",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-plugins@30",
+        "license": null,
+        "source_repository_url": "https://github.com/jdcasey/maven-plugins-fixes",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.hbase:asynchbase",
+        "version": "1.8.2",
+        "package_url": "pkg:maven/org.hbase/asynchbase@1.8.2",
+        "license": "BSD-3-Clause",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.jgrapht:jgrapht-core",
+        "version": "0.9.1",
+        "package_url": "pkg:maven/org.jgrapht/jgrapht-core@0.9.1",
+        "license": null,
+        "source_repository_url": "https://github.com/jgrapht/jgrapht",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.projectlombok:lombok",
+        "version": "1.18.0",
+        "package_url": "pkg:maven/org.projectlombok/lombok@1.18.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/projectlombok/lombok",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/comparisonTest/opentsdb/opentsdbtest/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.slf4j:slf4j-api",
+        "version": "1.7.25",
+        "package_url": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/qos-ch/slf4j",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/stress/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/taosdata/driver-go",
+        "version": "0.0.0-20200606095205-b786bac1857f",
+        "package_url": "pkg:golang/github.com/taosdata/driver-go@0.0.0-20200606095205-b786bac1857f",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/driver-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

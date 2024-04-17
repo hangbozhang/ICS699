@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "snapcore/action-publish",
+        "version": "1",
+        "package_url": "pkg:githubactions/snapcore/action-publish@1",
+        "license": null,
+        "source_repository_url": "https://github.com/snapcore/action-publish",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

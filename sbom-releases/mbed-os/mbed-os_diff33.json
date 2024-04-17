@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycryptodome",
+        "version": ">= 3.7.2,<= 3.7.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Legrandin/pycryptodome",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j225-cvw7-qrx7",
+                "advisory_summary": "PyCryptodome and pycryptodomex side-channel leakage for OAEP decryption",
+                "advisory_url": "https://github.com/advisories/GHSA-j225-cvw7-qrx7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycryptodome",
+        "version": ">= 3.9.3,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Legrandin/pycryptodome",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

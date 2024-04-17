@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "pkg-config",
+        "version": "0.3.19",
+        "package_url": "pkg:cargo/pkg-config@0.3.19",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/pkg-config-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "serde",
+        "version": "1.0.117",
+        "package_url": "pkg:cargo/serde@1.0.117",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/serde-rs/serde",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "serde_derive",
+        "version": "1.0.117",
+        "package_url": "pkg:cargo/serde_derive@1.0.117",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/serde-rs/serde",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "structopt",
+        "version": "0.3.20",
+        "package_url": "pkg:cargo/structopt@0.3.20",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/TeXitoi/structopt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "structopt-derive",
+        "version": "0.4.13",
+        "package_url": "pkg:cargo/structopt-derive@0.4.13",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/TeXitoi/structopt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "pkg-config",
+        "version": "0.3.18",
+        "package_url": "pkg:cargo/pkg-config@0.3.18",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/pkg-config-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "serde",
+        "version": "1.0.116",
+        "package_url": "pkg:cargo/serde@1.0.116",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/serde-rs/serde",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "serde_derive",
+        "version": "1.0.116",
+        "package_url": "pkg:cargo/serde_derive@1.0.116",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/serde-rs/serde",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "structopt",
+        "version": "0.3.19",
+        "package_url": "pkg:cargo/structopt@0.3.19",
+        "license": "Apache-2.0 OR MIT",
+        "source_repository_url": "https://github.com/TeXitoi/structopt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "structopt-derive",
+        "version": "0.4.12",
+        "package_url": "pkg:cargo/structopt-derive@0.4.12",
+        "license": "Apache-2.0/MIT",
+        "source_repository_url": "https://github.com/TeXitoi/structopt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

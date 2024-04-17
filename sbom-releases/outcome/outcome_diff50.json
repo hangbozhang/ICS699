@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/documentation.yml",
+        "ecosystem": "actions",
+        "name": "jwlawson/actions-setup-cmake",
+        "version": "1.12",
+        "package_url": "pkg:githubactions/jwlawson/actions-setup-cmake@1.12",
+        "license": null,
+        "source_repository_url": "https://github.com/jwlawson/actions-setup-cmake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

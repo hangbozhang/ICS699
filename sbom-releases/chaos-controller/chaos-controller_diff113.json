@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-go",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/setup-go@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ad-m/github-push-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/ad-m/github-push-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/ad-m/github-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "charmixer/auto-changelog-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/charmixer/auto-changelog-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/charmixer/auto-changelog-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "goreleaser/goreleaser-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/goreleaser/goreleaser-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/goreleaser/goreleaser-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "vsoch/pull-request-action",
+        "version": "1.0.2",
+        "package_url": "pkg:githubactions/vsoch/pull-request-action@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/vsoch/pull-request-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

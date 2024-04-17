@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "dot-case",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/dot-case@3.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/blakeembrey/change-case",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lower-case",
+        "version": "2.0.2",
+        "package_url": "pkg:npm/lower-case@2.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/blakeembrey/change-case",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "no-case",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/no-case@3.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/blakeembrey/change-case",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "snake-case",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/snake-case@3.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/blakeembrey/change-case",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "tslib",
+        "version": "2.4.0",
+        "package_url": "pkg:npm/tslib@2.4.0",
+        "license": "0BSD",
+        "source_repository_url": "https://github.com/microsoft/tslib",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "snake-case",
+        "version": "^3.0.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blakeembrey/change-case",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

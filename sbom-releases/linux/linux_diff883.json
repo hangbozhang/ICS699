@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Sphinx",
+        "version": "1.7.9",
+        "package_url": "pkg:pypi/sphinx@1.7.9",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Sphinx",
+        "version": "1.4.9",
+        "package_url": "pkg:pypi/sphinx@1.4.9",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Documentation/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "0.12",
+        "package_url": "pkg:pypi/docutils@0.12",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

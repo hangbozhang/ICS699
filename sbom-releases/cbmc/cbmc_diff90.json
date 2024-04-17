@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pull-request-checks.yaml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pull-request-checks.yaml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1.4.1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1.4.1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pull-request-checks.yaml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.0.2",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/pull-request-checks.yaml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.0.1",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.0.2",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.0.1",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

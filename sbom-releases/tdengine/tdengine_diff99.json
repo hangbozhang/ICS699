@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/python/taosdemo/requirements.txt",
+        "ecosystem": "pip",
+        "name": "multipledispatch",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mrocklin/multipledispatch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/python/taosdemo/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

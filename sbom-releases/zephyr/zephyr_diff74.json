@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-svg2pdfconverter",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/missinglinkelectronics/sphinxcontrib-svg2pdfconverter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

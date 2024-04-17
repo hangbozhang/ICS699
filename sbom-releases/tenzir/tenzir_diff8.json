@@ -1,0 +1,311 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "13.0.0",
+        "package_url": "pkg:pypi/pyarrow@13.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.2.4",
+        "package_url": "pkg:pypi/dynaconf@3.2.4",
+        "license": null,
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "14.0.1",
+        "package_url": "pkg:pypi/pyarrow@14.0.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.2.3",
+        "package_url": "pkg:pypi/dynaconf@3.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 11,< 14",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 11,< 15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.11.0",
+        "package_url": "pkg:pypi/nbconvert@7.11.0",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.9.2",
+        "package_url": "pkg:pypi/nbconvert@7.9.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.11.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.9.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/traverse",
+        "version": "7.21.4",
+        "package_url": "pkg:npm/%40babel/traverse@7.21.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-67hx-6x53-jw92",
+                "advisory_summary": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "advisory_url": "https://github.com/advisories/GHSA-67hx-6x53-jw92"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/code-frame",
+        "version": "7.22.13",
+        "package_url": "pkg:npm/%40babel/code-frame@7.22.13",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/generator",
+        "version": "7.23.0",
+        "package_url": "pkg:npm/%40babel/generator@7.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/helper-environment-visitor",
+        "version": "7.22.20",
+        "package_url": "pkg:npm/%40babel/helper-environment-visitor@7.22.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/helper-function-name",
+        "version": "7.23.0",
+        "package_url": "pkg:npm/%40babel/helper-function-name@7.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/helper-hoist-variables",
+        "version": "7.22.5",
+        "package_url": "pkg:npm/%40babel/helper-hoist-variables@7.22.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/helper-split-export-declaration",
+        "version": "7.22.6",
+        "package_url": "pkg:npm/%40babel/helper-split-export-declaration@7.22.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/helper-string-parser",
+        "version": "7.22.5",
+        "package_url": "pkg:npm/%40babel/helper-string-parser@7.22.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/helper-validator-identifier",
+        "version": "7.22.20",
+        "package_url": "pkg:npm/%40babel/helper-validator-identifier@7.22.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/highlight",
+        "version": "7.22.20",
+        "package_url": "pkg:npm/%40babel/highlight@7.22.20",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/parser",
+        "version": "7.23.0",
+        "package_url": "pkg:npm/%40babel/parser@7.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/template",
+        "version": "7.22.15",
+        "package_url": "pkg:npm/%40babel/template@7.22.15",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/traverse",
+        "version": "7.23.2",
+        "package_url": "pkg:npm/%40babel/traverse@7.23.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/yarn.lock",
+        "ecosystem": "npm",
+        "name": "@babel/types",
+        "version": "7.23.0",
+        "package_url": "pkg:npm/%40babel/types@7.23.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

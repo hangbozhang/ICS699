@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "jsonschema",
+        "version": ">= 2.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-jsonschema/jsonschema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyelftools",
+        "version": ">= 0.24",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eliben/pyelftools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

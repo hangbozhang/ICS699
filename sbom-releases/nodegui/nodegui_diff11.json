@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "18.12.1",
+        "package_url": "pkg:npm/%40nodegui/qode@18.12.1",
+        "license": "MIT",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "18.12.1-rc1",
+        "package_url": "pkg:npm/%40nodegui/qode@18.12.1-rc1",
+        "license": "MIT",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "^18.12.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "^18.12.1-rc1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

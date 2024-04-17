@@ -1,0 +1,279 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release_zips.yml",
+        "ecosystem": "actions",
+        "name": "espressif/github-actions/release_zips",
+        "version": "master",
+        "package_url": "pkg:githubactions/espressif/github-actions/release_zips@master",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.14.1",
+        "package_url": "pkg:pypi/breathe@4.14.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "nwdiag",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/nwdiag@2.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/blockdiag/nwdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "2.3.1",
+        "package_url": "pkg:pypi/sphinx@2.3.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_idf_theme",
+        "version": "0.2",
+        "package_url": "pkg:pypi/sphinx-idf-theme@0.2",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-actdiag",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/sphinxcontrib-actdiag@2.0.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-actdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-blockdiag",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/sphinxcontrib-blockdiag@2.0.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-blockdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-nwdiag",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/sphinxcontrib-nwdiag@2.0.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-nwdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-seqdiag",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/sphinxcontrib-seqdiag@2.0.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-seqdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-wavedrom",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/sphinxcontrib-wavedrom@2.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/bavovanachte/sphinx-wavedrom",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.11.1",
+        "package_url": "pkg:pypi/breathe@4.11.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 1.8.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx-rtd-theme",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx_rtd_theme",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-actdiag",
+        "version": ">= 0.8.5,< 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-actdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-blockdiag",
+        "version": ">= 1.5.5,< 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-blockdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-nwdiag",
+        "version": ">= 0.9.5,< 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-nwdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-seqdiag",
+        "version": ">= 0.8.5,< 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/blockdiag/sphinxcontrib-seqdiag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.1.4,< 35",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "< 1.15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "idf-component-manager",
+        "version": "~> 1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/idf-component-manager",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

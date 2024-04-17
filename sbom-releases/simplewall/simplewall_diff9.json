@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.CppWinRT",
+        "version": "2.0.220912.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.220912.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/cppwinrt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.CppWinRT",
+        "version": "2.0.220608.4",
+        "package_url": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.220608.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/cppwinrt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

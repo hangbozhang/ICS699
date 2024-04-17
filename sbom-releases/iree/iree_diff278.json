@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/benchmark_trigger.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+        "package_url": "pkg:githubactions/actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/run_shark_tank.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/benchmarks/reporting/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jinja2",
+        "version": "2.11.3",
+        "package_url": "pkg:pypi/jinja2@2.11.3",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "build_tools/benchmarks/reporting/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pandas",
+        "version": "1.5.0",
+        "package_url": "pkg:pypi/pandas@1.5.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/pandas-dev/pandas",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

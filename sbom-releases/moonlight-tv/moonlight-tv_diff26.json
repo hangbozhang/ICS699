@@ -1,0 +1,221 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-node@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-node@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "xmldom",
+        "version": "0.5.0",
+        "package_url": "pkg:npm/xmldom@0.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/xmldom/xmldom",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-crh6-fp67-6883",
+                "advisory_summary": "xmldom allows multiple root nodes in a DOM",
+                "advisory_url": "https://github.com/advisories/GHSA-crh6-fp67-6883"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5fg8-2547-mr8q",
+                "advisory_summary": "Misinterpretation of malicious XML input",
+                "advisory_url": "https://github.com/advisories/GHSA-5fg8-2547-mr8q"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "http-cache-semantics",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/http-cache-semantics@4.1.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/kornelski/http-cache-semantics",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rc47-6667-2j5j",
+                "advisory_summary": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-rc47-6667-2j5j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/minimatch@3.0.4",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/minimatch",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f8q6-p94x-37v3",
+                "advisory_summary": "minimatch ReDoS vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-f8q6-p94x-37v3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@xmldom/xmldom",
+        "version": "0.8.6",
+        "package_url": "pkg:npm/%40xmldom/xmldom@0.8.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/xmldom/xmldom",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "fonteditor-core",
+        "version": "2.1.11",
+        "package_url": "pkg:npm/fonteditor-core@2.1.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/kekee000/fonteditor-core",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "http-cache-semantics",
+        "version": "4.1.1",
+        "package_url": "pkg:npm/http-cache-semantics@4.1.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/kornelski/http-cache-semantics",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "3.1.2",
+        "package_url": "pkg:npm/minimatch@3.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/minimatch",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "fonteditor-core",
+        "version": "2.1.8",
+        "package_url": "pkg:npm/fonteditor-core@2.1.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/kekee000/fonteditor-core",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/lint.yml",
+        "ecosystem": "actions",
+        "name": "ibiqlik/action-yamllint",
+        "version": "1",
+        "package_url": "pkg:githubactions/ibiqlik/action-yamllint@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ibiqlik/action-yamllint",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

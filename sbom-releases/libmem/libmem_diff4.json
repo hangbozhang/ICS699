@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/libmem-linux-x86.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/libmem-linux-x86.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ncipollo/release-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/ncipollo/release-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ncipollo/release-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "libmem",
+        "version": "4.1.0",
+        "package_url": "pkg:cargo/libmem@4.1.0",
+        "license": "AGPL-3.0",
+        "source_repository_url": "https://github.com/rdbo/libmem",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "libmem",
+        "version": ">= 4.1.0, < 5.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rdbo/libmem",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/examples/rust/Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "libmem",
+        "version": "4.1.0",
+        "package_url": "pkg:cargo/libmem@4.1.0",
+        "license": "AGPL-3.0",
+        "source_repository_url": "https://github.com/rdbo/libmem",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/examples/rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "libmem",
+        "version": ">= 4.1.0, < 5.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rdbo/libmem",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

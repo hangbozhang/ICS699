@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-neon-qt6.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-neon-qt6.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-build",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-build@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-neon-qt6.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/generic-checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/generic-checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nightly-neon-qt6.yml",
+        "ecosystem": "actions",
+        "name": "calamares/actions/prepare-neon",
+        "version": "4",
+        "package_url": "pkg:githubactions/calamares/actions/prepare-neon@4",
+        "license": null,
+        "source_repository_url": "https://github.com/calamares/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

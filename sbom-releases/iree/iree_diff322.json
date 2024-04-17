@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache/restore",
+        "version": "58c146cc91c5b9e778e71775dfe9bf1442ad9a12",
+        "package_url": "pkg:githubactions/actions/cache/restore@58c146cc91c5b9e778e71775dfe9bf1442ad9a12",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache/save",
+        "version": "58c146cc91c5b9e778e71775dfe9bf1442ad9a12",
+        "package_url": "pkg:githubactions/actions/cache/save@58c146cc91c5b9e778e71775dfe9bf1442ad9a12",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

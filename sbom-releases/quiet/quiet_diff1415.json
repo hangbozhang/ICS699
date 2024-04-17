@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron-rebuild",
+        "version": "3.2.7",
+        "package_url": "pkg:npm/electron-rebuild@3.2.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/rebuild",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

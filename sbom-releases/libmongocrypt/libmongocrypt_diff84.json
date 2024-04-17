@@ -1,0 +1,126 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "4.0.2",
+        "package_url": "pkg:npm/bl@4.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pp7h-53gx-mx7r",
+                "advisory_summary": "Remote Memory Exposure in bl",
+                "advisory_url": "https://github.com/advisories/GHSA-pp7h-53gx-mx7r"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/bl@2.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pp7h-53gx-mx7r",
+                "advisory_summary": "Remote Memory Exposure in bl",
+                "advisory_url": "https://github.com/advisories/GHSA-pp7h-53gx-mx7r"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/bl@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pp7h-53gx-mx7r",
+                "advisory_summary": "Remote Memory Exposure in bl",
+                "advisory_url": "https://github.com/advisories/GHSA-pp7h-53gx-mx7r"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "1.2.2",
+        "package_url": "pkg:npm/bl@1.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pp7h-53gx-mx7r",
+                "advisory_summary": "Remote Memory Exposure in bl",
+                "advisory_url": "https://github.com/advisories/GHSA-pp7h-53gx-mx7r"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "4.0.3",
+        "package_url": "pkg:npm/bl@4.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "2.2.1",
+        "package_url": "pkg:npm/bl@2.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "3.0.1",
+        "package_url": "pkg:npm/bl@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bl",
+        "version": "1.2.3",
+        "package_url": "pkg:npm/bl@1.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/bl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

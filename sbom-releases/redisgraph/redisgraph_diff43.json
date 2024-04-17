@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs",
+        "version": "1.1.2",
+        "package_url": "pkg:pypi/mkdocs@1.1.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/mkdocs/mkdocs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-material",
+        "version": "6.2.2",
+        "package_url": "pkg:pypi/mkdocs-material@6.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/squidfunk/mkdocs-material",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs",
+        "version": "1.0.4",
+        "package_url": "pkg:pypi/mkdocs@1.0.4",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/mkdocs/mkdocs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-material",
+        "version": "4.6.3",
+        "package_url": "pkg:pypi/mkdocs-material@4.6.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/squidfunk/mkdocs-material",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/benchmarks/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisbench_admin",
+        "version": "0.1.49",
+        "package_url": "pkg:pypi/redisbench-admin@0.1.49",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redisgraph-bulk-loader",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisGraph/redisgraph-bulk-loader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "click",
+        "version": ">= 6.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redis",
+        "version": "2.10.6",
+        "package_url": "pkg:pypi/redis@2.10.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redis/redis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

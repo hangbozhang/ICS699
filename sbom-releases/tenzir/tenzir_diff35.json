@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.1.12",
+        "package_url": "pkg:pypi/dynaconf@3.1.12",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "7.2.2",
+        "package_url": "pkg:pypi/pytest@7.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.1.11",
+        "package_url": "pkg:pypi/dynaconf@3.1.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "7.2.1",
+        "package_url": "pkg:pypi/pytest@7.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.21.3",
+        "package_url": "pkg:pypi/ipykernel@6.21.3",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.21.2",
+        "package_url": "pkg:pypi/ipykernel@6.21.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.21.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.21.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

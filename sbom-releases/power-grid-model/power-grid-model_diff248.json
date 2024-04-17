@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/sonar.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "pyproject.toml",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": ">= 1.21.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "dev-requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "dev-requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytest-cov",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest-cov",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": ">= 1.21.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

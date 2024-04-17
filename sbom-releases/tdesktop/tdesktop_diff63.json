@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/winget.yml",
+        "ecosystem": "actions",
+        "name": "vedantmgoyal2009/winget-releaser",
+        "version": "latest",
+        "package_url": "pkg:githubactions/vedantmgoyal2009/winget-releaser@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/vedantmgoyal2009/winget-releaser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Telegram/build/docker/centos_env/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jinja2",
+        "version": "3.1.2",
+        "package_url": "pkg:pypi/jinja2@3.1.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Telegram/build/docker/centos_env/poetry.lock",
+        "ecosystem": "pip",
+        "name": "markupsafe",
+        "version": "2.1.1",
+        "package_url": "pkg:pypi/markupsafe@2.1.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/markupsafe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Telegram/build/docker/centos_env/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "^ 3.1.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Telegram/build/docker/centos_env/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "python",
+        "version": "^ 3.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mathspp/building-a-python-compiler-and-interpreter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "test/remote/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "chroma",
+        "version": "~> 0.2.x",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jfairbank/chroma",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "test/remote/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "chroma",
+        "version": "0.2.0",
+        "package_url": "pkg:gem/chroma@0.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jfairbank/chroma",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

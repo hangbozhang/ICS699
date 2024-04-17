@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/download-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "r-lib/actions/setup-tinytex",
+        "version": "1",
+        "package_url": "pkg:githubactions/r-lib/actions/setup-tinytex@1",
+        "license": null,
+        "source_repository_url": "https://github.com/r-lib/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "AButler/upload-release-assets",
+        "version": "2.0",
+        "package_url": "pkg:githubactions/AButler/upload-release-assets@2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/AButler/upload-release-assets",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "peaceiris/actions-gh-pages",
+        "version": "3",
+        "package_url": "pkg:githubactions/peaceiris/actions-gh-pages@3",
+        "license": null,
+        "source_repository_url": "https://github.com/peaceiris/actions-gh-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "r-lib/actions/setup-tinytex",
+        "version": "1",
+        "package_url": "pkg:githubactions/r-lib/actions/setup-tinytex@1",
+        "license": null,
+        "source_repository_url": "https://github.com/r-lib/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

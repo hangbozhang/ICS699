@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Costura.Fody",
+        "version": "3.0.0",
+        "package_url": "pkg:nuget/Costura.Fody@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Costura",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Fody",
+        "version": "3.0.4",
+        "package_url": "pkg:nuget/Fody@3.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Fody",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Costura.Fody",
+        "version": "2.0.1",
+        "package_url": "pkg:nuget/Costura.Fody@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Costura",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Fody",
+        "version": "3.0.3",
+        "package_url": "pkg:nuget/Fody@3.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Fody",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

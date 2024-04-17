@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.24",
+        "package_url": "pkg:pypi/numpy@1.24",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "sentencepiece",
+        "version": "0.1.98",
+        "package_url": "pkg:pypi/sentencepiece@0.1.98",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/sentencepiece",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

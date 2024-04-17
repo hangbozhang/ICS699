@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "filetime",
+        "version": "0.2.12",
+        "package_url": "pkg:cargo/filetime@0.2.12",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/alexcrichton/filetime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "libc",
+        "version": "0.2.80",
+        "package_url": "pkg:cargo/libc@0.2.80",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/libc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "libc",
+        "version": "0.2.79",
+        "package_url": "pkg:cargo/libc@0.2.79",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/libc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "filetime",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/alexcrichton/filetime",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

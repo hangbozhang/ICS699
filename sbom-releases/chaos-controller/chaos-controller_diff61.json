@@ -1,0 +1,252 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.0.0-20210520170846-37e1c6afe023",
+        "package_url": "pkg:golang/golang.org/x/net@0.0.0-20210520170846-37e1c6afe023",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvpx-j8f3-3w6h",
+                "advisory_summary": "Uncontrolled Resource Consumption",
+                "advisory_url": "https://github.com/advisories/GHSA-vvpx-j8f3-3w6h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-69cg-p879-7622",
+                "advisory_summary": "golang.org/x/net/http2 Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-69cg-p879-7622"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxg5-wq6x-vr4w",
+                "advisory_summary": "golang.org/x/net/http2/h2c vulnerable to request smuggling attack",
+                "advisory_url": "https://github.com/advisories/GHSA-fxg5-wq6x-vr4w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.0.0-20210428140749-89ef3d95e781",
+        "package_url": "pkg:golang/golang.org/x/net@0.0.0-20210428140749-89ef3d95e781",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvpx-j8f3-3w6h",
+                "advisory_summary": "Uncontrolled Resource Consumption",
+                "advisory_url": "https://github.com/advisories/GHSA-vvpx-j8f3-3w6h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-69cg-p879-7622",
+                "advisory_summary": "golang.org/x/net/http2 Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-69cg-p879-7622"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-83g2-8m93-v3w7",
+                "advisory_summary": "golang.org/x/net/html Infinite Loop vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-83g2-8m93-v3w7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxg5-wq6x-vr4w",
+                "advisory_summary": "golang.org/x/net/http2/h2c vulnerable to request smuggling attack",
+                "advisory_url": "https://github.com/advisories/GHSA-fxg5-wq6x-vr4w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20210817190340-bfb29a6856f2",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20210817190340-bfb29a6856f2",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p782-xgp4-8hr8",
+                "advisory_summary": "golang.org/x/sys/unix has Incorrect privilege reporting in syscall",
+                "advisory_url": "https://github.com/advisories/GHSA-p782-xgp4-8hr8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20210510120138-977fb7262007",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20210510120138-977fb7262007",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p782-xgp4-8hr8",
+                "advisory_summary": "golang.org/x/sys/unix has Incorrect privilege reporting in syscall",
+                "advisory_url": "https://github.com/advisories/GHSA-p782-xgp4-8hr8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/markbates/pkger",
+        "version": "0.17.1",
+        "package_url": "pkg:golang/github.com/markbates/pkger@0.17.1",
+        "license": null,
+        "source_repository_url": "https://github.com/markbates/pkger",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/onsi/gomega",
+        "version": "1.15.0",
+        "package_url": "pkg:golang/github.com/onsi/gomega@1.15.0",
+        "license": null,
+        "source_repository_url": "https://github.com/onsi/gomega",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "go.uber.org/zap",
+        "version": "1.19.0",
+        "package_url": "pkg:golang/go.uber.org/zap@1.19.0",
+        "license": null,
+        "source_repository_url": "https://github.com/uber-go/zap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "k8s.io/client-go",
+        "version": "0.22.2",
+        "package_url": "pkg:golang/k8s.io/client-go@0.22.2",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes/client-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "sigs.k8s.io/controller-runtime",
+        "version": "0.10.3",
+        "package_url": "pkg:golang/sigs.k8s.io/controller-runtime@0.10.3",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes-sigs/controller-runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/onsi/gomega",
+        "version": "1.14.0",
+        "package_url": "pkg:golang/github.com/onsi/gomega@1.14.0",
+        "license": null,
+        "source_repository_url": "https://github.com/onsi/gomega",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "go.uber.org/zap",
+        "version": "1.17.0",
+        "package_url": "pkg:golang/go.uber.org/zap@1.17.0",
+        "license": null,
+        "source_repository_url": "https://github.com/uber-go/zap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "k8s.io/client-go",
+        "version": "0.20.6",
+        "package_url": "pkg:golang/k8s.io/client-go@0.20.6",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes/client-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "sigs.k8s.io/controller-runtime",
+        "version": "0.8.3",
+        "package_url": "pkg:golang/sigs.k8s.io/controller-runtime@0.8.3",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes-sigs/controller-runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

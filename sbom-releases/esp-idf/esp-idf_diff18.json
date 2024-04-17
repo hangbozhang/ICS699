@@ -1,0 +1,231 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/build-push-action",
+        "version": "3",
+        "package_url": "pkg:githubactions/docker/build-push-action@3",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/build-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/login-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-buildx-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-buildx-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-buildx-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release_zips.yml",
+        "ecosystem": "actions",
+        "name": "espressif/github-actions/release_zips",
+        "version": "master",
+        "package_url": "pkg:githubactions/espressif/github-actions/release_zips@master",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_idf_theme",
+        "version": "0.3.0",
+        "package_url": "pkg:pypi/sphinx-idf-theme@0.3.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_idf_theme",
+        "version": "0.2",
+        "package_url": "pkg:pypi/sphinx-idf-theme@0.2",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.1.4,< 35",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "bitstring",
+        "version": ">= 3.1.6,< 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scott-griffiths/bitstring",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "< 1.15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "idf-component-manager",
+        "version": "~> 1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/idf-component-manager",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "itsdangerous",
+        "version": "< 2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/itsdangerous",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "bitstring",
+        "version": ">= 3.1.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scott-griffiths/bitstring",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": ">= 2.1.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/esp_prov/requirements.txt",
+        "ecosystem": "pip",
+        "name": "protobuf",
+        "version": "<= 3.20.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/protocolbuffers/protobuf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/esp_prov/requirements.txt",
+        "ecosystem": "pip",
+        "name": "protobuf",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/protocolbuffers/protobuf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

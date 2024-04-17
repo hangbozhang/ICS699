@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/schedule_candidate_release.yml",
+        "ecosystem": "actions",
+        "name": "talentpair/last-green-commit-action",
+        "version": "8b4b3bcd4ab5d9ab16875ce20ae012c4ce47ae68",
+        "package_url": "pkg:githubactions/talentpair/last-green-commit-action@8b4b3bcd4ab5d9ab16875ce20ae012c4ce47ae68",
+        "license": null,
+        "source_repository_url": "https://github.com/talentpair/last-green-commit-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

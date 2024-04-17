@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "kittaakos/upload-artifact-as-is",
+        "version": "0",
+        "package_url": "pkg:githubactions/kittaakos/upload-artifact-as-is@0",
+        "license": null,
+        "source_repository_url": "https://github.com/kittaakos/upload-artifact-as-is",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

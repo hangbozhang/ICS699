@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "lib/mbedtls-2.28.0/scripts/ci.requirements.txt",
+        "ecosystem": "pip",
+        "name": "mypy",
+        "version": ">= 0.780",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python/mypy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/mbedtls-2.28.0/scripts/ci.requirements.txt",
+        "ecosystem": "pip",
+        "name": "pylint",
+        "version": "2.4.4",
+        "package_url": "pkg:pypi/pylint@2.4.4",
+        "license": "GPL-2.0-only",
+        "source_repository_url": "https://github.com/pylint-dev/pylint",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/mbedtls-2.28.0/scripts/maintainer.requirements.txt",
+        "ecosystem": "pip",
+        "name": "clang",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ethanhs/clang",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/mbedtls-2.28.0/scripts/maintainer.requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycryptodome-test-vectors",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/mbedtls-2.28.0/scripts/maintainer.requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycryptodomex",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/merge-bot.yaml",
+        "ecosystem": "actions",
+        "name": "squalrus/merge-bot",
+        "version": "0.4.3",
+        "package_url": "pkg:githubactions/squalrus/merge-bot@0.4.3",
+        "license": null,
+        "source_repository_url": "https://github.com/squalrus/merge-bot",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

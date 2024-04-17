@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "git-spindle",
+        "version": "2.0",
+        "package_url": "pkg:pypi/git-spindle@2.0",
+        "license": "GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/seveas/git-spindle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "hub",
+        "version": "2.0",
+        "package_url": "pkg:pypi/hub@2.0",
+        "license": "GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/seveas/git-spindle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

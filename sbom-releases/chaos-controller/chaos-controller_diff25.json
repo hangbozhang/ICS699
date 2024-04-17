@@ -1,0 +1,131 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/docker",
+        "version": "17.12.0-ce-rc1.0.20200916142827-bd33bbf0497b+incompatible",
+        "package_url": "pkg:golang/github.com/docker/docker@17.12.0-ce-rc1.0.20200916142827-bd33bbf0497b%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/moby/moby",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-232p-vwff-86mp",
+                "advisory_summary": "Docker Swarm encrypted overlay network may be unauthenticated",
+                "advisory_url": "https://github.com/advisories/GHSA-232p-vwff-86mp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j249-ghv5-7mxv",
+                "advisory_summary": "Secret insertion into debug log in Docker",
+                "advisory_url": "https://github.com/advisories/GHSA-j249-ghv5-7mxv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6wrf-mxfj-pf5p",
+                "advisory_summary": "Docker Swarm encrypted overlay network with a single endpoint is unauthenticated",
+                "advisory_url": "https://github.com/advisories/GHSA-6wrf-mxfj-pf5p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-33pg-m6jh-5237",
+                "advisory_summary": "Docker Swarm encrypted overlay network traffic may be unencrypted",
+                "advisory_url": "https://github.com/advisories/GHSA-33pg-m6jh-5237"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jq35-85cj-fj4p",
+                "advisory_summary": "/sys/devices/virtual/powercap accessible by default to containers",
+                "advisory_url": "https://github.com/advisories/GHSA-jq35-85cj-fj4p"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/runc",
+        "version": "1.1.2",
+        "package_url": "pkg:golang/github.com/opencontainers/runc@1.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/runc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpvm-3wq2-2wvm",
+                "advisory_summary": "Opencontainers runc Incorrect Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vpvm-3wq2-2wvm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g2j6-57v7-gm8c",
+                "advisory_summary": "runc AppArmor bypass with symlinked /proc",
+                "advisory_url": "https://github.com/advisories/GHSA-g2j6-57v7-gm8c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m8cg-xc2p-r3fc",
+                "advisory_summary": "rootless: `/sys/fs/cgroup` is writable when cgroupns isn't unshared in runc",
+                "advisory_url": "https://github.com/advisories/GHSA-m8cg-xc2p-r3fc"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/docker",
+        "version": "20.10.24+incompatible",
+        "package_url": "pkg:golang/github.com/docker/docker@20.10.24%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/moby/moby",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jq35-85cj-fj4p",
+                "advisory_summary": "/sys/devices/virtual/powercap accessible by default to containers",
+                "advisory_url": "https://github.com/advisories/GHSA-jq35-85cj-fj4p"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/runc",
+        "version": "1.1.5",
+        "package_url": "pkg:golang/github.com/opencontainers/runc@1.1.5",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/runc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/gorilla/mux",
+        "version": "1.8.0",
+        "package_url": "pkg:golang/github.com/gorilla/mux@1.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/gorilla/mux",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "gotest.tools",
+        "version": "2.2.0+incompatible",
+        "package_url": "pkg:golang/gotest.tools@2.2.0%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/gotestyourself/gotest.tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20200323222414-85ca7c5b95cd",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20200323222414-85ca7c5b95cd",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p782-xgp4-8hr8",
+                "advisory_summary": "golang.org/x/sys/unix has Incorrect privilege reporting in syscall",
+                "advisory_url": "https://github.com/advisories/GHSA-p782-xgp4-8hr8"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/no-response.yml",
+        "ecosystem": "actions",
+        "name": "lee-dohm/no-response",
+        "version": "0.5.0",
+        "package_url": "pkg:githubactions/lee-dohm/no-response@0.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/lee-dohm/no-response",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

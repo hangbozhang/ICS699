@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pull-request-check-rust-api.yaml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/cache@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pull-request-check-rust-api.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/syntax-checks.yaml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

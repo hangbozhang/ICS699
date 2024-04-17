@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "click",
+        "version": ">= 6.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/click",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "demo/bulk_insert/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redis",
+        "version": "2.10.6",
+        "package_url": "pkg:pypi/redis@2.10.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redis/redis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

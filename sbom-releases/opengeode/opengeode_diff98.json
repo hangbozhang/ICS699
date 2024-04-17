@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/prepare_pr.yml",
+        "ecosystem": "actions",
+        "name": "Geode-solutions/actions/.github/workflows/prepare-pr.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/Geode-solutions/actions/.github/workflows/prepare-pr.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/Geode-solutions/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

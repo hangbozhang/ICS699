@@ -1,0 +1,292 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/test.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/setup-node@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "normalize-url",
+        "version": "4.5.0",
+        "package_url": "pkg:npm/normalize-url@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/normalize-url",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-px4h-xg32-q955",
+                "advisory_summary": "ReDoS in normalize-url",
+                "advisory_url": "https://github.com/advisories/GHSA-px4h-xg32-q955"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "normalize-url",
+        "version": "4.3.0",
+        "package_url": "pkg:npm/normalize-url@4.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/normalize-url",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-px4h-xg32-q955",
+                "advisory_summary": "ReDoS in normalize-url",
+                "advisory_url": "https://github.com/advisories/GHSA-px4h-xg32-q955"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "1.0.6",
+        "package_url": "pkg:npm/%40nodegui/qode@1.0.6",
+        "license": "MIT",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "12.12.12",
+        "package_url": "pkg:npm/%40types/node@12.12.12",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/experimental-utils",
+        "version": "2.8.0",
+        "package_url": "pkg:npm/%40typescript-eslint/experimental-utils@2.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "2.8.0",
+        "package_url": "pkg:npm/%40typescript-eslint/parser@2.8.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/typescript-estree",
+        "version": "2.8.0",
+        "package_url": "pkg:npm/%40typescript-eslint/typescript-estree@2.8.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "defer-to-connect",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/defer-to-connect@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/szmarczak/defer-to-connect",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "6.7.0",
+        "package_url": "pkg:npm/eslint-config-prettier@6.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/eslint-config-prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "7.1.6",
+        "package_url": "pkg:npm/glob@7.1.6",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/husky@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typicode/husky",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ts-jest",
+        "version": "24.2.0",
+        "package_url": "pkg:npm/ts-jest@24.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/kulshekhar/ts-jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/%40nodegui/qode@1.0.5",
+        "license": "MIT",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "12.12.8",
+        "package_url": "pkg:npm/%40types/node@12.12.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "2.7.0",
+        "package_url": "pkg:npm/%40typescript-eslint/parser@2.7.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "defer-to-connect",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/defer-to-connect@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/szmarczak/defer-to-connect",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "6.6.0",
+        "package_url": "pkg:npm/eslint-config-prettier@6.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/eslint-config-prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "3.0.9",
+        "package_url": "pkg:npm/husky@3.0.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/typicode/husky",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "ts-jest",
+        "version": "24.1.0",
+        "package_url": "pkg:npm/ts-jest@24.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/kulshekhar/ts-jest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "^1.0.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nodegui/qode",
+        "version": "^1.0.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

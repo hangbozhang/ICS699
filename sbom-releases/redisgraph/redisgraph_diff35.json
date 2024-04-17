@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pathos",
+        "version": ">= 0.2.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/uqfoundation/pathos",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

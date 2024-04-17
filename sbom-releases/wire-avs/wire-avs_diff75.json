@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socket.io-parser",
+        "version": "4.2.1",
+        "package_url": "pkg:npm/socket.io-parser@4.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/socket.io-parser",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cqmj-92xf-r6r9",
+                "advisory_summary": "Insufficient validation when decoding a Socket.IO packet",
+                "advisory_url": "https://github.com/advisories/GHSA-cqmj-92xf-r6r9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "socket.io-parser",
+        "version": "4.2.3",
+        "package_url": "pkg:npm/socket.io-parser@4.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/socketio/socket.io-parser",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

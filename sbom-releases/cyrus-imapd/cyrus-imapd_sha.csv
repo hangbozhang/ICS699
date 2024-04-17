@@ -1,0 +1,7 @@
+Base,Head,Filename,Base Tag,Base Date,Head Tag,Head Date
+81e82b76f33965e1d6219d30d34a2b62b8d74e3f,70261cff2bf1479b9a4e810e18d841d12e816f79,cyrus-imapd_diff0.json,cyrus-imapd-3.10.0-beta1,2024-01-12T02:09:23Z,cyrus-imapd-2.0.17,2018-09-14T05:03:25Z
+cb5bb5cbf61b72b0411aec187b98512c166066cf,81e82b76f33965e1d6219d30d34a2b62b8d74e3f,cyrus-imapd_diff1.json,cyrus-imapd-3.4.6,2023-09-25T00:34:25Z,cyrus-imapd-3.10.0-beta1,2024-01-12T02:09:23Z
+140a225d31ae79a4a4985c9c4f671a9e27d3bae8,cb5bb5cbf61b72b0411aec187b98512c166066cf,cyrus-imapd_diff2.json,cyrus-imapd-3.8.1,2023-09-11T02:31:47Z,cyrus-imapd-3.4.6,2023-09-25T00:34:25Z
+996d8b9ea783bf628c339f09e2d1e75b95d369b5,140a225d31ae79a4a4985c9c4f671a9e27d3bae8,cyrus-imapd_diff3.json,cyrus-imapd-3.6.3,2023-09-11T01:03:14Z,cyrus-imapd-3.8.1,2023-09-11T02:31:47Z
+6582d6cd25aa1deb148d20ae2a6b1b6abee3ad31,02b614b6bf5e9053e479e54566f04910b81f0110,cyrus-imapd_diff5.json,cyrus-imapd-3.8.0,2023-05-22T00:36:00Z,cyrus-imapd-3.6.2,2023-06-02T00:57:38Z
+6309cd0f35e0875ebbcca7fe07ec032610d5dd24,48d8b4ecb76d26c1c60b95456c0bd2e82ae50cfc,cyrus-imapd_diff9.json,cyrus-imapd-3.6.1,2023-02-12T22:34:18Z,cyrus-imapd-3.8.0-beta1,2023-03-01T03:08:51Z

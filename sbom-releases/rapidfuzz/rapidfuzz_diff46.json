@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "setup.py",
+        "ecosystem": "pip",
+        "name": "jarowinkler",
+        "version": ">= 1.1.0,< 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/maxbachmann/JaroWinkler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "setup.py",
+        "ecosystem": "pip",
+        "name": "jarowinkler",
+        "version": ">= 1.0.3,< 1.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/maxbachmann/JaroWinkler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

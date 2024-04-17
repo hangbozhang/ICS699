@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "Geode-solutions/actions/.github/workflows/ci-windows-python.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/Geode-solutions/actions/.github/workflows/ci-windows-python.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/Geode-solutions/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

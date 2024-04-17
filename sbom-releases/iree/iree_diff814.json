@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "commonmark",
+        "version": "0.9.1",
+        "package_url": "pkg:pypi/commonmark@0.9.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/readthedocs/commonmark.py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "enum_tools",
+        "version": "0.6.4",
+        "package_url": "pkg:pypi/enum-tools@0.6.4",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "myst-parser",
+        "version": "0.15.2",
+        "package_url": "pkg:pypi/myst-parser@0.15.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/executablebooks/MyST-Parser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "4.2.0",
+        "package_url": "pkg:pypi/sphinx@4.2.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_material",
+        "version": "0.0.34",
+        "package_url": "pkg:pypi/sphinx-material@0.0.34",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_rtd_theme",
+        "version": "1.0.0",
+        "package_url": "pkg:pypi/sphinx-rtd-theme@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx_rtd_theme",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_toolbox",
+        "version": "2.14.1",
+        "package_url": "pkg:pypi/sphinx-toolbox@2.14.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

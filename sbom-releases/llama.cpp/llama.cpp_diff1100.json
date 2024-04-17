@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "sentencepiece",
+        "version": "0.1.98",
+        "package_url": "pkg:pypi/sentencepiece@0.1.98",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/sentencepiece",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "sentencepiece",
+        "version": "0.1.97",
+        "package_url": "pkg:pypi/sentencepiece@0.1.97",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/sentencepiece",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

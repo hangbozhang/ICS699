@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "web/package.json",
+        "ecosystem": "npm",
+        "name": "gulp",
+        "version": "^4.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/gulpjs/gulp",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/package.json",
+        "ecosystem": "npm",
+        "name": "gulp",
+        "version": "^3.9.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/gulpjs/gulp",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

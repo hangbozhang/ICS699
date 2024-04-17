@@ -1,0 +1,94 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "loofah",
+        "version": "2.18.0",
+        "package_url": "pkg:gem/loofah@2.18.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/loofah",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-486f-hjj9-9vhh",
+                "advisory_summary": "Inefficient Regular Expression Complexity in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-486f-hjj9-9vhh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3x8r-x6xp-q4vm",
+                "advisory_summary": "Uncontrolled Recursion in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-3x8r-x6xp-q4vm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-228g-948r-83gx",
+                "advisory_summary": "Improper neutralization of data URIs may allow XSS in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-228g-948r-83gx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails-html-sanitizer",
+        "version": "1.4.3",
+        "package_url": "pkg:gem/rails-html-sanitizer@1.4.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails-html-sanitizer",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5x79-w82f-gw8w",
+                "advisory_summary": "Inefficient Regular Expression Complexity in rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-5x79-w82f-gw8w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mcvf-2q2m-x72m",
+                "advisory_summary": "Improper neutralization of data URIs may allow XSS in rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-mcvf-2q2m-x72m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9h9g-93gc-623h",
+                "advisory_summary": "Possible XSS vulnerability with certain configurations of rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-9h9g-93gc-623h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rrfc-7g8p-99q8",
+                "advisory_summary": "Possible XSS vulnerability with certain configurations of rails-html-sanitizer",
+                "advisory_url": "https://github.com/advisories/GHSA-rrfc-7g8p-99q8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "loofah",
+        "version": "2.19.1",
+        "package_url": "pkg:gem/loofah@2.19.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/loofah",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails-html-sanitizer",
+        "version": "1.4.4",
+        "package_url": "pkg:gem/rails-html-sanitizer@1.4.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails-html-sanitizer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

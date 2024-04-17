@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cd.yml",
+        "ecosystem": "actions",
+        "name": "GeekyEggo/delete-artifact",
+        "version": "2.0.0",
+        "package_url": "pkg:githubactions/GeekyEggo/delete-artifact@2.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/GeekyEggo/delete-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cd.yml",
+        "ecosystem": "actions",
+        "name": "GeekyEggo/delete-artifact",
+        "version": "1.0.0",
+        "package_url": "pkg:githubactions/GeekyEggo/delete-artifact@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/GeekyEggo/delete-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

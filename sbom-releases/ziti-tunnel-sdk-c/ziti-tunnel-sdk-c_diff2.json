@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/linters.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/linters.yml",
+        "ecosystem": "actions",
+        "name": "codespell-project/actions-codespell",
+        "version": "2",
+        "package_url": "pkg:githubactions/codespell-project/actions-codespell@2",
+        "license": null,
+        "source_repository_url": "https://github.com/codespell-project/actions-codespell",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

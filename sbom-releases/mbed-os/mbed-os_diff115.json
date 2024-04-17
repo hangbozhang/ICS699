@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycurl",
+        "version": ">= 4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pycurl/pycurl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

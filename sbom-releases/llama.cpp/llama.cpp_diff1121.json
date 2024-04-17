@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/editorconfig.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/editorconfig.yml",
+        "ecosystem": "actions",
+        "name": "editorconfig-checker/action-editorconfig-checker",
+        "version": "main",
+        "package_url": "pkg:githubactions/editorconfig-checker/action-editorconfig-checker@main",
+        "license": null,
+        "source_repository_url": "https://github.com/editorconfig-checker/action-editorconfig-checker",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

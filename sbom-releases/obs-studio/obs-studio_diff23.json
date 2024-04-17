@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 1.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/sphinx/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinxcontrib-napoleon",
+        "version": ">= 0.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-contrib/napoleon",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

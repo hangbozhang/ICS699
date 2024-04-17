@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "icetea",
+        "version": ">= 1.0.2,< 2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/icetea",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-cloud-sdk",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/mbed-cloud-sdk@2.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/PelionIoT/mbed-cloud-sdk-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-ls",
+        "version": ">= 1.5.1,= 1.*",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-ls",
+        "version": ">= 0.2.13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

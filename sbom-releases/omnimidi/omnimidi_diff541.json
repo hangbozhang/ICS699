@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "KeppySynthConfigurator/KeppySynthConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "HtmlAgilityPack",
+        "version": "1.4.9.5",
+        "package_url": "pkg:nuget/HtmlAgilityPack@1.4.9.5",
+        "license": "MS-PL",
+        "source_repository_url": "https://github.com/zzzprojects/html-agility-pack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

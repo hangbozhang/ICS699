@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "release-it",
+        "version": "^12.4.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/release-it/release-it",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

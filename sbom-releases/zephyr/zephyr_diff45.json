@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/backport.yml",
+        "ecosystem": "actions",
+        "name": "zephyrproject-rtos/action-backport",
+        "version": "1.1.99",
+        "package_url": "pkg:githubactions/zephyrproject-rtos/action-backport@1.1.99",
+        "license": null,
+        "source_repository_url": "https://github.com/zephyrproject-rtos/action-backport",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/labeler.yml",
+        "ecosystem": "actions",
+        "name": "actions/labeler",
+        "version": "2.1.1",
+        "package_url": "pkg:githubactions/actions/labeler@2.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/labeler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.21.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.20.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/periodic_labeler.yml",
+        "ecosystem": "actions",
+        "name": "paulfantom/periodic-labeler",
+        "version": "master",
+        "package_url": "pkg:githubactions/paulfantom/periodic-labeler@master",
+        "license": null,
+        "source_repository_url": "https://github.com/paulfantom/periodic-labeler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

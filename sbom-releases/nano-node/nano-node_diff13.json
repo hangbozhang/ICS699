@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/analyzers.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "50fbc62",
+        "package_url": "pkg:githubactions/actions/checkout@50fbc62",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/beta_artifacts.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "722adc6",
+        "package_url": "pkg:githubactions/actions/checkout@722adc6",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/beta_artifacts.yml",
+        "ecosystem": "actions",
+        "name": "chrislennon/action-aws-cli",
+        "version": "f0f8671",
+        "package_url": "pkg:githubactions/chrislennon/action-aws-cli@f0f8671",
+        "license": null,
+        "source_repository_url": "https://github.com/chrislennon/action-aws-cli",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/develop.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "722adc6",
+        "package_url": "pkg:githubactions/actions/checkout@722adc6",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/live_artifacts.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "722adc6",
+        "package_url": "pkg:githubactions/actions/checkout@722adc6",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/live_artifacts.yml",
+        "ecosystem": "actions",
+        "name": "chrislennon/action-aws-cli",
+        "version": "f0f8671",
+        "package_url": "pkg:githubactions/chrislennon/action-aws-cli@f0f8671",
+        "license": null,
+        "source_repository_url": "https://github.com/chrislennon/action-aws-cli",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release_test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "722adc6",
+        "package_url": "pkg:githubactions/actions/checkout@722adc6",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tests.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "722adc6",
+        "package_url": "pkg:githubactions/actions/checkout@722adc6",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

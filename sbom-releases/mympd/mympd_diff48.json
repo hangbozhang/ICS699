@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pages.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pages.yml",
+        "ecosystem": "actions",
+        "name": "actions/configure-pages",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/configure-pages@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/configure-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pages.yml",
+        "ecosystem": "actions",
+        "name": "actions/deploy-pages",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/deploy-pages@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/deploy-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pages.yml",
+        "ecosystem": "actions",
+        "name": "actions/jekyll-build-pages",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/jekyll-build-pages@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/jekyll-build-pages",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pages.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-pages-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-pages-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-pages-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

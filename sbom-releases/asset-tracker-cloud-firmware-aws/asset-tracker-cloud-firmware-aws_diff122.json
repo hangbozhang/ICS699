@@ -1,0 +1,198 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.3.9",
+        "package_url": "pkg:npm/semantic-release@17.3.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.3.8",
+        "package_url": "pkg:npm/semantic-release@17.3.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/openapi-types",
+        "version": "4.0.3",
+        "package_url": "pkg:npm/%40octokit/openapi-types@4.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/openapi-types.ts",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/plugin-rest-endpoint-methods",
+        "version": "4.10.3",
+        "package_url": "pkg:npm/%40octokit/plugin-rest-endpoint-methods@4.10.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/plugin-rest-endpoint-methods.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/rest",
+        "version": "18.1.1",
+        "package_url": "pkg:npm/%40octokit/rest@18.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/rest.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/types",
+        "version": "6.8.4",
+        "package_url": "pkg:npm/%40octokit/types@6.8.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/types.ts",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "14.14.27",
+        "package_url": "pkg:npm/%40types/node@14.14.27",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/openapi-types",
+        "version": "4.0.2",
+        "package_url": "pkg:npm/%40octokit/openapi-types@4.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/openapi-types.ts",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/plugin-rest-endpoint-methods",
+        "version": "4.10.1",
+        "package_url": "pkg:npm/%40octokit/plugin-rest-endpoint-methods@4.10.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/plugin-rest-endpoint-methods.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/rest",
+        "version": "18.1.0",
+        "package_url": "pkg:npm/%40octokit/rest@18.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/rest.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@octokit/types",
+        "version": "6.8.3",
+        "package_url": "pkg:npm/%40octokit/types@6.8.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/octokit/types.ts",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "14.14.25",
+        "package_url": "pkg:npm/%40types/node@14.14.25",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.3.9",
+        "package_url": "pkg:npm/semantic-release@17.3.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semantic-release",
+        "version": "17.3.8",
+        "package_url": "pkg:npm/semantic-release@17.3.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/semantic-release/semantic-release",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x2pg-mjhr-2m5x",
+                "advisory_summary": "Exposure of Sensitive Information to an Unauthorized Actor in semantic-release",
+                "advisory_url": "https://github.com/advisories/GHSA-x2pg-mjhr-2m5x"
+            }
+        ]
+    }
+]

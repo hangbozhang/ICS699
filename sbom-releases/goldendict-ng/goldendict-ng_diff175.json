@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/issue-translator.yml",
+        "ecosystem": "actions",
+        "name": "a631807682/issues-translator",
+        "version": "1.2.1",
+        "package_url": "pkg:githubactions/a631807682/issues-translator@1.2.1",
+        "license": null,
+        "source_repository_url": "https://github.com/a631807682/issues-translator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/issue-translator.yml",
+        "ecosystem": "actions",
+        "name": "usthe/issues-translate-action",
+        "version": "2.7",
+        "package_url": "pkg:githubactions/usthe/issues-translate-action@2.7",
+        "license": null,
+        "source_repository_url": "https://github.com/dromara/issues-translate-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

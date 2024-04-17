@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish.yml",
+        "ecosystem": "actions",
+        "name": "actions-ecosystem/action-regex-match",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions-ecosystem/action-regex-match@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-ecosystem/action-regex-match",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/0.64/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babylonjs/playground-shared",
+        "version": "file:../playground-shared",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

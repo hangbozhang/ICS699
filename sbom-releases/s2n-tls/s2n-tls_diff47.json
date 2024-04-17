@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_rust.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/cargo",
+        "version": "1.0.3",
+        "package_url": "pkg:githubactions/actions-rs/cargo@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/cargo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_rust.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_rust.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1.0.7",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1.0.7",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_rust.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_rust.yml",
+        "ecosystem": "actions",
+        "name": "camshaft/rust-cache",
+        "version": "1",
+        "package_url": "pkg:githubactions/camshaft/rust-cache@1",
+        "license": null,
+        "source_repository_url": "https://github.com/camshaft/rust-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.5",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.4",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/bindings.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/bindings.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/bindings.yml",
+        "ecosystem": "actions",
+        "name": "camshaft/rust-cache",
+        "version": "1",
+        "package_url": "pkg:githubactions/camshaft/rust-cache@1",
+        "license": null,
+        "source_repository_url": "https://github.com/camshaft/rust-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

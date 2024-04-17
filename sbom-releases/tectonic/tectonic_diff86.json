@@ -1,0 +1,258 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl",
+        "version": "0.10.35",
+        "package_url": "pkg:cargo/openssl@0.10.35",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6hcf-g6gr-hhcr",
+                "advisory_summary": "`openssl` `X509Extension::new` and `X509Extension::new_nid` null pointer dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-6hcf-g6gr-hhcr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qwg-crg9-m2vc",
+                "advisory_summary": "`openssl` `SubjectAlternativeName` and `ExtendedKeyUsage::other` allow arbitrary file read",
+                "advisory_url": "https://github.com/advisories/GHSA-9qwg-crg9-m2vc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3gxf-9r58-2ghg",
+                "advisory_summary": "`openssl` `X509NameBuilder::build` returned object is not thread safe",
+                "advisory_url": "https://github.com/advisories/GHSA-3gxf-9r58-2ghg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xcf7-rvmh-g6q4",
+                "advisory_summary": "`openssl` `X509VerifyParamRef::set_host` buffer over-read",
+                "advisory_url": "https://github.com/advisories/GHSA-xcf7-rvmh-g6q4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xphf-cx8h-7q9g",
+                "advisory_summary": "`openssl` `X509StoreRef::objects` is unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-xphf-cx8h-7q9g"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": "1.7.1",
+        "package_url": "pkg:cargo/tokio@1.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2grh-hm3w-w7hv",
+                "advisory_summary": "Race condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-2grh-hm3w-w7hv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrj-xr53-82p7",
+                "advisory_summary": "Tokio reject_remote_clients configuration may get dropped when creating a Windows named pipe",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrj-xr53-82p7"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl",
+        "version": "0.10.34",
+        "package_url": "pkg:cargo/openssl@0.10.34",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6hcf-g6gr-hhcr",
+                "advisory_summary": "`openssl` `X509Extension::new` and `X509Extension::new_nid` null pointer dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-6hcf-g6gr-hhcr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-9qwg-crg9-m2vc",
+                "advisory_summary": "`openssl` `SubjectAlternativeName` and `ExtendedKeyUsage::other` allow arbitrary file read",
+                "advisory_url": "https://github.com/advisories/GHSA-9qwg-crg9-m2vc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-3gxf-9r58-2ghg",
+                "advisory_summary": "`openssl` `X509NameBuilder::build` returned object is not thread safe",
+                "advisory_url": "https://github.com/advisories/GHSA-3gxf-9r58-2ghg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xcf7-rvmh-g6q4",
+                "advisory_summary": "`openssl` `X509VerifyParamRef::set_host` buffer over-read",
+                "advisory_url": "https://github.com/advisories/GHSA-xcf7-rvmh-g6q4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xphf-cx8h-7q9g",
+                "advisory_summary": "`openssl` `X509StoreRef::objects` is unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-xphf-cx8h-7q9g"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": "1.7.0",
+        "package_url": "pkg:cargo/tokio@1.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2grh-hm3w-w7hv",
+                "advisory_summary": "Race condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-2grh-hm3w-w7hv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrj-xr53-82p7",
+                "advisory_summary": "Tokio reject_remote_clients configuration may get dropped when creating a Windows named pipe",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrj-xr53-82p7"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "globset",
+        "version": "0.4.8",
+        "package_url": "pkg:cargo/globset@0.4.8",
+        "license": "MIT OR (MIT AND Unlicense)",
+        "source_repository_url": "https://github.com/BurntSushi/ripgrep",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": "0.9.64",
+        "package_url": "pkg:cargo/openssl-sys@0.9.64",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "rustc-demangle",
+        "version": "0.1.20",
+        "package_url": "pkg:cargo/rustc-demangle@0.1.20",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/rustc-demangle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "vcpkg",
+        "version": "0.2.14",
+        "package_url": "pkg:cargo/vcpkg@0.2.14",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/mcgoo/vcpkg-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "globset",
+        "version": "0.4.7",
+        "package_url": "pkg:cargo/globset@0.4.7",
+        "license": "MIT OR (MIT AND Unlicense)",
+        "source_repository_url": "https://github.com/BurntSushi/ripgrep",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": "0.9.63",
+        "package_url": "pkg:cargo/openssl-sys@0.9.63",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "rustc-demangle",
+        "version": "0.1.19",
+        "package_url": "pkg:cargo/rustc-demangle@0.1.19",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/rustc-demangle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "vcpkg",
+        "version": "0.2.13",
+        "package_url": "pkg:cargo/vcpkg@0.2.13",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/mcgoo/vcpkg-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

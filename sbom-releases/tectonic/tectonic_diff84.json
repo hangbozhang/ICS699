@@ -1,0 +1,292 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": "1.8.0",
+        "package_url": "pkg:cargo/tokio@1.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2grh-hm3w-w7hv",
+                "advisory_summary": "Race condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-2grh-hm3w-w7hv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrj-xr53-82p7",
+                "advisory_summary": "Tokio reject_remote_clients configuration may get dropped when creating a Windows named pipe",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrj-xr53-82p7"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "tokio",
+        "version": "1.7.1",
+        "package_url": "pkg:cargo/tokio@1.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tokio-rs/tokio",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fg7r-2g4j-5cgr",
+                "advisory_summary": "Race Condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-fg7r-2g4j-5cgr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2grh-hm3w-w7hv",
+                "advisory_summary": "Race condition in tokio",
+                "advisory_url": "https://github.com/advisories/GHSA-2grh-hm3w-w7hv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrj-xr53-82p7",
+                "advisory_summary": "Tokio reject_remote_clients configuration may get dropped when creating a Windows named pipe",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrj-xr53-82p7"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-4q83-7cq4-p6wg",
+                "advisory_summary": "`tokio::io::ReadHalf<T>::unsplit` is Unsound",
+                "advisory_url": "https://github.com/advisories/GHSA-4q83-7cq4-p6wg"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "cpufeatures",
+        "version": "0.1.5",
+        "package_url": "pkg:cargo/cpufeatures@0.1.5",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/RustCrypto/utils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hashbrown",
+        "version": "0.11.2",
+        "package_url": "pkg:cargo/hashbrown@0.11.2",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/hashbrown",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hermit-abi",
+        "version": "0.1.19",
+        "package_url": "pkg:cargo/hermit-abi@0.1.19",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/hermit-os/hermit-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "indexmap",
+        "version": "1.7.0",
+        "package_url": "pkg:cargo/indexmap@1.7.0",
+        "license": "Apache-2.0 OR MIT",
+        "source_repository_url": "https://github.com/indexmap-rs/indexmap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": "0.9.65",
+        "package_url": "pkg:cargo/openssl-sys@0.9.65",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "pin-project-lite",
+        "version": "0.2.7",
+        "package_url": "pkg:cargo/pin-project-lite@0.2.7",
+        "license": "Apache-2.0 OR MIT",
+        "source_repository_url": "https://github.com/taiki-e/pin-project-lite",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "reqwest",
+        "version": "0.11.4",
+        "package_url": "pkg:cargo/reqwest@0.11.4",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/seanmonstar/reqwest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-segmentation",
+        "version": "1.8.0",
+        "package_url": "pkg:cargo/unicode-segmentation@1.8.0",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/unicode-rs/unicode-segmentation",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "vcpkg",
+        "version": "0.2.15",
+        "package_url": "pkg:cargo/vcpkg@0.2.15",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/mcgoo/vcpkg-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "cpufeatures",
+        "version": "0.1.4",
+        "package_url": "pkg:cargo/cpufeatures@0.1.4",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/RustCrypto/utils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hashbrown",
+        "version": "0.9.1",
+        "package_url": "pkg:cargo/hashbrown@0.9.1",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/rust-lang/hashbrown",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "hermit-abi",
+        "version": "0.1.18",
+        "package_url": "pkg:cargo/hermit-abi@0.1.18",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/hermit-os/hermit-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "indexmap",
+        "version": "1.6.2",
+        "package_url": "pkg:cargo/indexmap@1.6.2",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/indexmap-rs/indexmap",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "openssl-sys",
+        "version": "0.9.64",
+        "package_url": "pkg:cargo/openssl-sys@0.9.64",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sfackler/rust-openssl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "pin-project-lite",
+        "version": "0.2.6",
+        "package_url": "pkg:cargo/pin-project-lite@0.2.6",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/taiki-e/pin-project-lite",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "reqwest",
+        "version": "0.11.3",
+        "package_url": "pkg:cargo/reqwest@0.11.3",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/seanmonstar/reqwest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "unicode-segmentation",
+        "version": "1.7.1",
+        "package_url": "pkg:cargo/unicode-segmentation@1.7.1",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/unicode-rs/unicode-segmentation",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.lock",
+        "ecosystem": "cargo",
+        "name": "vcpkg",
+        "version": "0.2.14",
+        "package_url": "pkg:cargo/vcpkg@0.2.14",
+        "license": "Apache-2.0 AND MIT",
+        "source_repository_url": "https://github.com/mcgoo/vcpkg-rs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

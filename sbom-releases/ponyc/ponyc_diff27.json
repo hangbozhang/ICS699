@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/add-discuss-during-sync.yml",
+        "ecosystem": "actions",
+        "name": "andymckay/labeler",
+        "version": "467347716a3bdbca7f277cb6cd5fa9c5205c5412",
+        "package_url": "pkg:githubactions/andymckay/labeler@467347716a3bdbca7f277cb6cd5fa9c5205c5412",
+        "license": null,
+        "source_repository_url": "https://github.com/andymckay/labeler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/remove-discuss-during-sync.yml",
+        "ecosystem": "actions",
+        "name": "andymckay/labeler",
+        "version": "467347716a3bdbca7f277cb6cd5fa9c5205c5412",
+        "package_url": "pkg:githubactions/andymckay/labeler@467347716a3bdbca7f277cb6cd5fa9c5205c5412",
+        "license": null,
+        "source_repository_url": "https://github.com/andymckay/labeler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "msvs/packages.config",
+        "ecosystem": "nuget",
+        "name": "Allegro",
+        "version": "5.2.2.0",
+        "package_url": "pkg:nuget/Allegro@5.2.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ShinjiMC/RECOMMENDATION_SYSTEM_FOR_TOURIST_ROUTES_USING_FUZZY_LOGIC_IN_THE_AREQUIPA_CITY",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "msvs/packages.config",
+        "ecosystem": "nuget",
+        "name": "AllegroDeps",
+        "version": "1.5.0.0",
+        "package_url": "pkg:nuget/AllegroDeps@1.5.0.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "msvs/packages.config",
+        "ecosystem": "nuget",
+        "name": "Allegro",
+        "version": "5.2.1.1",
+        "package_url": "pkg:nuget/Allegro@5.2.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/ShinjiMC/RECOMMENDATION_SYSTEM_FOR_TOURIST_ROUTES_USING_FUZZY_LOGIC_IN_THE_AREQUIPA_CITY",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "msvs/packages.config",
+        "ecosystem": "nuget",
+        "name": "AllegroDeps",
+        "version": "1.4.0.0",
+        "package_url": "pkg:nuget/AllegroDeps@1.4.0.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

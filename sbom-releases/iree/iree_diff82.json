@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "experimental/regression_suite/setup.py",
+        "ecosystem": "pip",
+        "name": "tqdm",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tqdm/tqdm",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

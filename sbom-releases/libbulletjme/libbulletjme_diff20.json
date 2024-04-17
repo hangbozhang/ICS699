@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/push-master.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-node@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

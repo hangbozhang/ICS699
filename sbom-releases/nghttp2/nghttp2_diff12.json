@@ -1,0 +1,118 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.0.0-20220421235706-1d1ef9303861",
+        "package_url": "pkg:golang/golang.org/x/net@0.0.0-20220421235706-1d1ef9303861",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vvpx-j8f3-3w6h",
+                "advisory_summary": "Uncontrolled Resource Consumption",
+                "advisory_url": "https://github.com/advisories/GHSA-vvpx-j8f3-3w6h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-69cg-p879-7622",
+                "advisory_summary": "golang.org/x/net/http2 Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-69cg-p879-7622"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fxg5-wq6x-vr4w",
+                "advisory_summary": "golang.org/x/net/http2/h2c vulnerable to request smuggling attack",
+                "advisory_url": "https://github.com/advisories/GHSA-fxg5-wq6x-vr4w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "swift-nio-http2 vulnerable to HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/text",
+        "version": "0.3.7",
+        "package_url": "pkg:golang/golang.org/x/text@0.3.7",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-69ch-w2m2-3vjp",
+                "advisory_summary": "golang.org/x/text/language Denial of service via crafted Accept-Language header",
+                "advisory_url": "https://github.com/advisories/GHSA-69ch-w2m2-3vjp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/bradfitz/gomemcache",
+        "version": "0.0.0-20220106215444-fb4bf637b56d",
+        "package_url": "pkg:golang/github.com/bradfitz/gomemcache@0.0.0-20220106215444-fb4bf637b56d",
+        "license": null,
+        "source_repository_url": "https://github.com/bradfitz/gomemcache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/tatsuhiro-t/go-nghttp2",
+        "version": "0.0.0-20150408091349-4742878d9c90",
+        "package_url": "pkg:golang/github.com/tatsuhiro-t/go-nghttp2@0.0.0-20150408091349-4742878d9c90",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

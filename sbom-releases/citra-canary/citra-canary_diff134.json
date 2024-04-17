@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "al-cheb/configure-pagefile-action",
+        "version": "1.2",
+        "package_url": "pkg:githubactions/al-cheb/configure-pagefile-action@1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/al-cheb/configure-pagefile-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

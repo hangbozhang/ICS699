@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci-build.yml",
+        "ecosystem": "actions",
+        "name": "OpenTTD/actions/annotation-check",
+        "version": "2",
+        "package_url": "pkg:githubactions/OpenTTD/actions/annotation-check@2",
+        "license": null,
+        "source_repository_url": "https://github.com/OpenTTD/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci-build.yml",
+        "ecosystem": "actions",
+        "name": "msys2/setup-msys2",
+        "version": "2",
+        "package_url": "pkg:githubactions/msys2/setup-msys2@2",
+        "license": null,
+        "source_repository_url": "https://github.com/msys2/setup-msys2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/unused-strings.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-deploy.yml",
+        "ecosystem": "actions",
+        "name": "geekyeggo/delete-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/geekyeggo/delete-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/GeekyEggo/delete-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

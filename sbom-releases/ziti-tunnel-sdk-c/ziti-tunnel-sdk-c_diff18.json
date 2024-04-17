@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "lukka/get-cmake",
+        "version": "latest",
+        "package_url": "pkg:githubactions/lukka/get-cmake@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/get-cmake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "lukka/run-cmake",
+        "version": "10",
+        "package_url": "pkg:githubactions/lukka/run-cmake@10",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/run-cmake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "lukka/run-vcpkg",
+        "version": "10",
+        "package_url": "pkg:githubactions/lukka/run-vcpkg@10",
+        "license": null,
+        "source_repository_url": "https://github.com/lukka/run-vcpkg",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

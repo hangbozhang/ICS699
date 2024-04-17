@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "mintsuki-org/debian-i386",
+        "version": "0.3",
+        "package_url": "pkg:githubactions/mintsuki-org/debian-i386@0.3",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "mintsuki-org/debian-x86_64",
+        "version": "0.3",
+        "package_url": "pkg:githubactions/mintsuki-org/debian-x86_64@0.3",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "softprops/action-gh-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/softprops/action-gh-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/softprops/action-gh-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

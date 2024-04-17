@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/stale.yml",
+        "ecosystem": "actions",
+        "name": "actions/stale",
+        "version": "6.0.1",
+        "package_url": "pkg:githubactions/actions/stale@6.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/stale",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/stale.yml",
+        "ecosystem": "actions",
+        "name": "actions/stale",
+        "version": "5.1.1",
+        "package_url": "pkg:githubactions/actions/stale@5.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/stale",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

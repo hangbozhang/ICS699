@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "cross-platform-actions/action",
+        "version": "0.19.0",
+        "package_url": "pkg:githubactions/cross-platform-actions/action@0.19.0",
+        "license": null,
+        "source_repository_url": "https://github.com/cross-platform-actions/action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

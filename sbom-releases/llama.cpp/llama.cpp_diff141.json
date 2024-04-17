@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "awq-py/requirements.txt",
+        "ecosystem": "pip",
+        "name": "torch",
+        "version": ">= 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytorch/pytorch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "awq-py/requirements.txt",
+        "ecosystem": "pip",
+        "name": "transformers",
+        "version": ">= 4.32.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/huggingface/transformers",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

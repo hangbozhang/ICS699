@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cc",
+        "version": ">= 1.0.0, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/cc-rs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "rust/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "rand",
+        "version": ">= 0.7.3, < 0.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-random/rand",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/copyright_year_updater.yml",
+        "ecosystem": "actions",
+        "name": "desktop-app/action_code_updater",
+        "version": "master",
+        "package_url": "pkg:githubactions/desktop-app/action_code_updater@master",
+        "license": null,
+        "source_repository_url": "https://github.com/desktop-app/action_code_updater",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/user_agent_updater.yml",
+        "ecosystem": "actions",
+        "name": "desktop-app/action_code_updater",
+        "version": "master",
+        "package_url": "pkg:githubactions/desktop-app/action_code_updater@master",
+        "license": null,
+        "source_repository_url": "https://github.com/desktop-app/action_code_updater",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/user_agent_updater.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/user_agent_updater.yml",
+        "ecosystem": "actions",
+        "name": "actions/github-script",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/actions/github-script@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/github-script",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

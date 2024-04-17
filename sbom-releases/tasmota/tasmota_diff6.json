@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build_all_the_things.yml",
+        "ecosystem": "actions",
+        "name": "jakejarvis/wait-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/jakejarvis/wait-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/jakejarvis/wait-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

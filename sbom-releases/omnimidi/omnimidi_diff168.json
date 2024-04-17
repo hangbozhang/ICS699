@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "HtmlAgilityPack",
+        "version": "1.11.2",
+        "package_url": "pkg:nuget/HtmlAgilityPack@1.11.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zzzprojects/html-agility-pack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "HtmlAgilityPack",
+        "version": "1.8.9",
+        "package_url": "pkg:nuget/HtmlAgilityPack@1.8.9",
+        "license": null,
+        "source_repository_url": "https://github.com/zzzprojects/html-agility-pack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

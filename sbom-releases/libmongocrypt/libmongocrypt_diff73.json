@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test/MongoDB.Libmongocrypt.Test.csproj",
+        "ecosystem": "nuget",
+        "name": "System.ValueTuple",
+        "version": "4.5.0",
+        "package_url": "pkg:nuget/System.ValueTuple@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/cs/MongoDB.Libmongocrypt.Test32/MongoDB.Libmongocrypt.Test32.csproj",
+        "ecosystem": "nuget",
+        "name": "System.ValueTuple",
+        "version": "4.5.0",
+        "package_url": "pkg:nuget/System.ValueTuple@4.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dotnet/runtime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

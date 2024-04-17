@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_freebsd.yml",
+        "ecosystem": "actions",
+        "name": "vmactions/freebsd-vm",
+        "version": "1",
+        "package_url": "pkg:githubactions/vmactions/freebsd-vm@1",
+        "license": null,
+        "source_repository_url": "https://github.com/vmactions/freebsd-vm",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci_freebsd.yml",
+        "ecosystem": "actions",
+        "name": "cross-platform-actions/action",
+        "version": "0.21.1",
+        "package_url": "pkg:githubactions/cross-platform-actions/action@0.21.1",
+        "license": null,
+        "source_repository_url": "https://github.com/cross-platform-actions/action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci_linting.yml",
+        "ecosystem": "actions",
+        "name": "peter-evans/autopep8",
+        "version": "2",
+        "package_url": "pkg:githubactions/peter-evans/autopep8@2",
+        "license": null,
+        "source_repository_url": "https://github.com/peter-evans/autopep8",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci_linting.yml",
+        "ecosystem": "actions",
+        "name": "harrisonkaiser/autopep8_action",
+        "version": "python-latest",
+        "package_url": "pkg:githubactions/harrisonkaiser/autopep8_action@python-latest",
+        "license": null,
+        "source_repository_url": "https://github.com/harrisonkaiser/autopep8_action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/generate/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "home",
+        "version": "0.5.5",
+        "package_url": "pkg:cargo/home@0.5.5",
+        "license": "MIT OR Apache-2.0",
+        "source_repository_url": "https://github.com/rust-lang/cargo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": "0.1.0",
+        "package_url": "pkg:cargo/s2n-tls@0.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": "0.0.41",
+        "package_url": "pkg:cargo/s2n-tls@0.0.41",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.1.0",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.41",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.41",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

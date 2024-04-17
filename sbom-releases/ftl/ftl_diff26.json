@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "appleboy/scp-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/appleboy/scp-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/appleboy/scp-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "skx/github-action-publish-binaries",
+        "version": "master",
+        "package_url": "pkg:githubactions/skx/github-action-publish-binaries@master",
+        "license": null,
+        "source_repository_url": "https://github.com/skx/github-action-publish-binaries",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

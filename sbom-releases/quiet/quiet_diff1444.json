@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron-store",
+        "version": "^5.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sindresorhus/electron-store",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron-store-webpack-wrapper",
+        "version": "^0.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psperber/electron-store-webpack-wrapper",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

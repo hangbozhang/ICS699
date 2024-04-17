@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "cbor",
+        "version": ">= 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/brianolson/cbor_py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

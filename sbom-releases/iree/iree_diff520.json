@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "pybind11",
+        "version": ">= 2.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dialkforkaushik/decagt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "pybind11",
+        "version": ">= 2.6.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dialkforkaushik/decagt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

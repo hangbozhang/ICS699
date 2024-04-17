@@ -1,0 +1,165 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "3.12",
+        "package_url": "pkg:pypi/pyyaml@3.12",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8q59-q68h-6hv4",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6757-jp84-gxfx",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-6757-jp84-gxfx"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-rprw-h62v-c2w7",
+                "advisory_summary": "PyYAML insecurely deserializes YAML strings leading to arbitrary code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-rprw-h62v-c2w7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.6.0",
+        "package_url": "pkg:pypi/breathe@4.6.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "0.13.1",
+        "package_url": "pkg:pypi/docutils@0.13.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "gitlint",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jorisroovers/gitlint",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "hub",
+        "version": "2.0",
+        "package_url": "pkg:pypi/hub@2.0",
+        "license": "GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/seveas/git-spindle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "junit2html",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/inorton/junit2html",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ply",
+        "version": "3.10",
+        "package_url": "pkg:pypi/ply@3.10",
+        "license": null,
+        "source_repository_url": "https://github.com/alex/ply",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyelftools",
+        "version": "0.24",
+        "package_url": "pkg:pypi/pyelftools@0.24",
+        "license": null,
+        "source_repository_url": "https://github.com/eliben/pyelftools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pykwalify",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Grokzen/pykwalify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/parisk/pyocd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "1.5.5",
+        "package_url": "pkg:pypi/sphinx@1.5.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_rtd_theme",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx_rtd_theme",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

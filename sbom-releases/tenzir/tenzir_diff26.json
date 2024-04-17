@@ -1,0 +1,174 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "12.0.0",
+        "package_url": "pkg:pypi/pyarrow@12.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "11.0.0",
+        "package_url": "pkg:pypi/pyarrow@11.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": ">= 11,< 13",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "^ 11.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.23.0",
+        "package_url": "pkg:pypi/ipykernel@6.23.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.4.0",
+        "package_url": "pkg:pypi/nbconvert@7.4.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.22.0",
+        "package_url": "pkg:pypi/ipykernel@6.22.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.3.1",
+        "package_url": "pkg:pypi/nbconvert@7.3.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.23.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.22.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.3.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

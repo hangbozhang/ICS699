@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "package_url": "pkg:githubactions/actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3cea5372237819ed00197afe530f5a7ea3e805c8",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build_runtime_cmake.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build_runtime_cmake.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3cea5372237819ed00197afe530f5a7ea3e805c8",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/riscv32.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/riscv32.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "package_url": "pkg:githubactions/actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/test_runtime_cmake.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/test_runtime_cmake.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "package_url": "pkg:githubactions/actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/tsan.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "package_url": "pkg:githubactions/actions/checkout@7884fcad6b5d53d10323aee724dc68d8b9096a2e",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

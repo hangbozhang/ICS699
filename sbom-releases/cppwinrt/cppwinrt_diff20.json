@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "vsix/Dev16/vsix.Dev16.csproj",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VisualStudio.SDK",
+        "version": "16.10.31321.278",
+        "package_url": "pkg:nuget/Microsoft.VisualStudio.SDK@16.10.31321.278",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

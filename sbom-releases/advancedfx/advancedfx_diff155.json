@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "hlae/packages.config",
+        "ecosystem": "nuget",
+        "name": "NGettext",
+        "version": "0.6.5",
+        "package_url": "pkg:nuget/NGettext@0.6.5",
+        "license": null,
+        "source_repository_url": "https://github.com/VitaliiTsilnyk/NGettext",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

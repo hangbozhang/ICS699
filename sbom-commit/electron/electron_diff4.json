@@ -1,0 +1,102 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "3.2.6",
+        "package_url": "pkg:npm/debug@3.2.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxpj-cx7g-858c",
+                "advisory_summary": "Regular Expression Denial of Service in debug",
+                "advisory_url": "https://github.com/advisories/GHSA-gxpj-cx7g-858c"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "4.1.1",
+        "package_url": "pkg:npm/debug@4.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxpj-cx7g-858c",
+                "advisory_summary": "Regular Expression Denial of Service in debug",
+                "advisory_url": "https://github.com/advisories/GHSA-gxpj-cx7g-858c"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "5.7.1",
+        "package_url": "pkg:npm/semver@5.7.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "6.3.0",
+        "package_url": "pkg:npm/semver@6.3.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "5.7.2",
+        "package_url": "pkg:npm/semver@5.7.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "6.3.1",
+        "package_url": "pkg:npm/semver@6.3.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

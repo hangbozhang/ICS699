@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package-lock.json",
+        "ecosystem": "npm",
+        "name": "argparse",
+        "version": "1.0.10",
+        "package_url": "pkg:npm/argparse@1.0.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/argparse",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "3.14.1",
+        "package_url": "pkg:npm/js-yaml@3.14.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "3.14.1",
+        "package_url": "pkg:npm/js-yaml@3.14.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package-lock.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "3.13.1",
+        "package_url": "pkg:npm/js-yaml@3.13.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.0-alpha.10",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/js-yaml@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodeca/js-yaml",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.0-alpha.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.0-alpha.10",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.0-alpha.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

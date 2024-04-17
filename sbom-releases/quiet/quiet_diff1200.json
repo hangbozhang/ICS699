@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-release-asset",
+        "version": "1.0.2",
+        "package_url": "pkg:githubactions/actions/upload-release-asset@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-release-asset",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "dwenegar/upload-release-assets",
+        "version": "1",
+        "package_url": "pkg:githubactions/dwenegar/upload-release-assets@1",
+        "license": null,
+        "source_repository_url": "https://github.com/dwenegar/upload-release-assets",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

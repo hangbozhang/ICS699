@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "integration-tests",
+        "version": "^0.4.5-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joshmatz/supertest-example",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/e2e-tests/package.json",
+        "ecosystem": "npm",
+        "name": "integration-tests",
+        "version": "^0.4.4-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joshmatz/supertest-example",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.5-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.4-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.5-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/waggle",
+        "version": "^0.4.4-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/login-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/bench/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "crabgrind",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/2dav/crabgrind",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/bench/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "plotters",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/plotters-rs/plotters",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/bench/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "rand",
+        "version": ">= 0.8.0, < 0.9.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-random/rand",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/bench/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "rand_distr",
+        "version": ">= 0.4.0, < 0.5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-random/rand",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/bench/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "semver",
+        "version": ">= 1.0.0, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dtolnay/semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/bench/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "serde_json",
+        "version": ">= 1.0.0, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/serde-rs/json",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": "0.0.34",
+        "package_url": "pkg:cargo/s2n-tls@0.0.34",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls-tokio/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": "0.0.33",
+        "package_url": "pkg:cargo/s2n-tls@0.0.33",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.34",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.34",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.33",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.33",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

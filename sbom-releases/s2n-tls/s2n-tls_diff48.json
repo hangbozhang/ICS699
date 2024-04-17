@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/dashboard.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/dashboard.yml",
+        "ecosystem": "actions",
+        "name": "ethomson/issue-dashboard",
+        "version": "1",
+        "package_url": "pkg:githubactions/ethomson/issue-dashboard@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ethomson/issue-dashboard",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/team_label.yml",
+        "ecosystem": "actions",
+        "name": "JulienKode/team-labeler-action",
+        "version": "0.1.1",
+        "package_url": "pkg:githubactions/JulienKode/team-labeler-action@0.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/JulienKode/team-labeler-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "futures-test",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/futures-rs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": "0.0.4",
+        "package_url": "pkg:cargo/s2n-tls-sys@0.0.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/s2n-tls/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": ">= 0.0.2, < 0.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/integration/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls",
+        "version": ">= 0.0.2, < 0.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/integration/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": ">= 0.0.2, < 0.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

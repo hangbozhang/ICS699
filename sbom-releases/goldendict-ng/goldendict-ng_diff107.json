@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/auto format.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3.5.2",
+        "package_url": "pkg:githubactions/actions/checkout@3.5.2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/auto format.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/auto format.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-node@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/auto format.yml",
+        "ecosystem": "actions",
+        "name": "autofix-ci/action",
+        "version": "89762f9c25dd85f6b78cd40e521232e403357ec0",
+        "package_url": "pkg:githubactions/autofix-ci/action@89762f9c25dd85f6b78cd40e521232e403357ec0",
+        "license": null,
+        "source_repository_url": "https://github.com/autofix-ci/action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/prettier@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/prettier@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/auto clang format.yml",
+        "ecosystem": "actions",
+        "name": "EndBug/add-and-commit",
+        "version": "9",
+        "package_url": "pkg:githubactions/EndBug/add-and-commit@9",
+        "license": null,
+        "source_repository_url": "https://github.com/EndBug/add-and-commit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/auto clang format.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3.5.2",
+        "package_url": "pkg:githubactions/actions/checkout@3.5.2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-go",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-go@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-go",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-go@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/fuzz.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/fuzz.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-artifact@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.15.0",
+        "package_url": "pkg:golang/golang.org/x/net@0.15.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "swift-nio-http2 vulnerable to HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/net",
+        "version": "0.10.0",
+        "package_url": "pkg:golang/golang.org/x/net@0.10.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4374-p667-p6c8",
+                "advisory_summary": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "advisory_url": "https://github.com/advisories/GHSA-4374-p667-p6c8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2wrh-6pvc-2jm9",
+                "advisory_summary": "Improper rendering of text nodes in golang.org/x/net/html",
+                "advisory_url": "https://github.com/advisories/GHSA-2wrh-6pvc-2jm9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qppj-fm5r-hxr3",
+                "advisory_summary": "swift-nio-http2 vulnerable to HTTP/2 Stream Cancellation Attack",
+                "advisory_url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/crypto",
+        "version": "0.13.0",
+        "package_url": "pkg:golang/golang.org/x/crypto@0.13.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.12.0",
+        "package_url": "pkg:golang/golang.org/x/sys@0.12.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/text",
+        "version": "0.13.0",
+        "package_url": "pkg:golang/golang.org/x/text@0.13.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/crypto",
+        "version": "0.4.0",
+        "package_url": "pkg:golang/golang.org/x/crypto@0.4.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.8.0",
+        "package_url": "pkg:golang/golang.org/x/sys@0.8.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/text",
+        "version": "0.9.0",
+        "package_url": "pkg:golang/golang.org/x/text@0.9.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/advance_upstream_forks.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "package_url": "pkg:githubactions/actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/advance_upstream_forks.yml",
+        "ecosystem": "actions",
+        "name": "ad-m/github-push-action",
+        "version": "40bf560936a8022e68a3c00e7d2abefaf01305a6",
+        "package_url": "pkg:githubactions/ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6",
+        "license": null,
+        "source_repository_url": "https://github.com/ad-m/github-push-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

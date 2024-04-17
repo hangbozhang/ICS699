@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/cyphar/filepath-securejoin",
+        "version": "0.2.3",
+        "package_url": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.3",
+        "license": null,
+        "source_repository_url": "https://github.com/cyphar/filepath-securejoin",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6xv5-86q9-7xr8",
+                "advisory_summary": "SecureJoin: on windows, paths outside of the rootfs could be inadvertently produced",
+                "advisory_url": "https://github.com/advisories/GHSA-6xv5-86q9-7xr8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/cyphar/filepath-securejoin",
+        "version": "0.2.4",
+        "package_url": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.4",
+        "license": null,
+        "source_repository_url": "https://github.com/cyphar/filepath-securejoin",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

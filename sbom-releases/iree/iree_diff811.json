@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "iree-compiler-snapshot",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "iree-runtime-snapshot",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_toolbox",
+        "version": "2.15.0",
+        "package_url": "pkg:pypi/sphinx-toolbox@2.15.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_material",
+        "version": "0.0.34",
+        "package_url": "pkg:pypi/sphinx-material@0.0.34",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/api_docs/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_toolbox",
+        "version": "2.14.1",
+        "package_url": "pkg:pypi/sphinx-toolbox@2.14.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

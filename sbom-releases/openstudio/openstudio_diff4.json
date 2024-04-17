@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "developer/conan/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "developer/conan/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytest-xdist",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest-xdist",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "developer/conan/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "developer/conan/requirements.txt",
+        "ecosystem": "pip",
+        "name": "setuptools",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/setuptools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "developer/conan/requirements.txt",
+        "ecosystem": "pip",
+        "name": "twine",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/twine",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "developer/conan/requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheel",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

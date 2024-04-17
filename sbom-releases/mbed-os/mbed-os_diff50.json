@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-greentea",
+        "version": ">= 0.2.24,< 1.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-host-tests",
+        "version": ">= 1.4.4,< 1.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-ls",
+        "version": ">= 1.5.1,< 1.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-greentea",
+        "version": ">= 0.2.24,<= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-host-tests",
+        "version": ">= 1.4.4,<= 1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "mbed-ls",
+        "version": ">= 1.5.1,< 1.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ARMmbed/mbed-os-tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

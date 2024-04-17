@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "user/tests/integration/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@particle/device-constants",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/%40particle/device-constants@2.1.0",
+        "license": "UNLICENSED",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/integration/package-lock.json",
+        "ecosystem": "npm",
+        "name": "binary-version-reader",
+        "version": "1.3.0",
+        "package_url": "pkg:npm/binary-version-reader@1.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/particle-iot/binary-version-reader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "user/tests/integration/package-lock.json",
+        "ecosystem": "npm",
+        "name": "binary-version-reader",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/binary-version-reader@1.0.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/particle-iot/binary-version-reader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/integration/package.json",
+        "ecosystem": "npm",
+        "name": "@particle/device-constants",
+        "version": "^2.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/integration/package.json",
+        "ecosystem": "npm",
+        "name": "binary-version-reader",
+        "version": "^1.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/particle-iot/binary-version-reader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "user/tests/integration/package.json",
+        "ecosystem": "npm",
+        "name": "binary-version-reader",
+        "version": "^1.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/particle-iot/binary-version-reader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

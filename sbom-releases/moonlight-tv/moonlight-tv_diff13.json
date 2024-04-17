@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "olegtarasov/get-tag",
+        "version": "2.1.2",
+        "package_url": "pkg:githubactions/olegtarasov/get-tag@2.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/olegtarasov/get-tag",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.30,< 4.33",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements-doc.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": ">= 4.30",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

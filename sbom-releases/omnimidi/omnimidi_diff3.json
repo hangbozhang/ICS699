@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIv2/packages.config",
+        "ecosystem": "nuget",
+        "name": "VC-LTL",
+        "version": "5.0.8",
+        "package_url": "pkg:nuget/VC-LTL@5.0.8",
+        "license": null,
+        "source_repository_url": "https://github.com/Chuyu-Team/VC-LTL5",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIv2/packages.config",
+        "ecosystem": "nuget",
+        "name": "YY.NuGet.Import.Helper",
+        "version": "1.0.0.4",
+        "package_url": "pkg:nuget/YY.NuGet.Import.Helper@1.0.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mingkuang-Chuyu/YY.NuGet.Import.Helper",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

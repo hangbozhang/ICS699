@@ -1,0 +1,1000 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.8.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.7.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/call-test-images.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.8.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/call-test-images.yaml",
+        "ecosystem": "actions",
+        "name": "helm/kind-action",
+        "version": "1.7.0",
+        "package_url": "pkg:githubactions/helm/kind-action@1.7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/helm/kind-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cron-scorecards-analysis.yaml",
+        "ecosystem": "actions",
+        "name": "ossf/scorecard-action",
+        "version": "08b4669551908b1024bb425080c797723083c031",
+        "package_url": "pkg:githubactions/ossf/scorecard-action@08b4669551908b1024bb425080c797723083c031",
+        "license": null,
+        "source_repository_url": "https://github.com/ossf/scorecard-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cron-scorecards-analysis.yaml",
+        "ecosystem": "actions",
+        "name": "ossf/scorecard-action",
+        "version": "80e868c13c90f172d68d1f4501dee99e2479f7af",
+        "package_url": "pkg:githubactions/ossf/scorecard-action@80e868c13c90f172d68d1f4501dee99e2479f7af",
+        "license": null,
+        "source_repository_url": "https://github.com/ossf/scorecard-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pr-fuzz.yaml",
+        "ecosystem": "actions",
+        "name": "github/codeql-action/upload-sarif",
+        "version": "2",
+        "package_url": "pkg:githubactions/github/codeql-action/upload-sarif@2",
+        "license": null,
+        "source_repository_url": "https://github.com/github/codeql-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/assembly-script/package-lock.json",
+        "ecosystem": "npm",
+        "name": "assemblyscript",
+        "version": "0.17.4",
+        "package_url": "pkg:npm/assemblyscript@0.17.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/AssemblyScript/assemblyscript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/assembly-script/package-lock.json",
+        "ecosystem": "npm",
+        "name": "binaryen",
+        "version": "98.0.0-nightly.20201109",
+        "package_url": "pkg:npm/binaryen@98.0.0-nightly.20201109",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/AssemblyScript/binaryen.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/assembly-script/package-lock.json",
+        "ecosystem": "npm",
+        "name": "long",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/long@4.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/dcodeIO/long.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/assembly-script/package.json",
+        "ecosystem": "npm",
+        "name": "assemblyscript",
+        "version": "^0.18.15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/AssemblyScript/assemblyscript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/build-scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "2.28.2",
+        "package_url": "pkg:pypi/requests@2.28.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j8r2-6x86-q33q",
+                "advisory_summary": "Unintended leak of Proxy-Authorization header in requests",
+                "advisory_url": "https://github.com/advisories/GHSA-j8r2-6x86-q33q"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/core/iwasm/libraries/wasi-nn/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tensorflow",
+        "version": "2.11.1",
+        "package_url": "pkg:pypi/tensorflow@2.11.1",
+        "license": null,
+        "source_repository_url": "https://github.com/tensorflow/tensorflow",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/language-bindings/go/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/testify",
+        "version": "1.7.0",
+        "package_url": "pkg:golang/github.com/stretchr/testify@1.7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/testify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/language-bindings/python/wamr-api/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ctypesgen",
+        "version": "1.1.1",
+        "package_url": "pkg:pypi/ctypesgen@1.1.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/ctypesgen/ctypesgen",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/language-bindings/python/wasm-c-api/requirements.txt",
+        "ecosystem": "pip",
+        "name": "black",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/black",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/language-bindings/python/wasm-c-api/requirements.txt",
+        "ecosystem": "pip",
+        "name": "nose",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nose-devs/nose",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/language-bindings/python/wasm-c-api/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycparser",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eliben/pycparser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/language-bindings/python/wasm-c-api/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pylint",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pylint-dev/pylint",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/glob",
+        "version": "^7.1.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^8.2.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "~> 14.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/request",
+        "version": "^2.48.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/vscode",
+        "version": "^1.54.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/yauzl",
+        "version": "^2.10.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^4.26.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^4.26.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@vscode/webview-ui-toolkit",
+        "version": "^0.8.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/vscode-webview-ui-toolkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^7.32.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "^7.1.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^8.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.5.1",
+        "package_url": "pkg:npm/prettier@2.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "request",
+        "version": "^2.88.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/request/request",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^4.3.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "vscode-test",
+        "version": "^1.5.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/vscode-test",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.2.2/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "yauzl",
+        "version": "^2.10.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/thejoshwolfe/yauzl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/core/iwasm/libraries/wasi-nn/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tensorflow",
+        "version": "2.10.0",
+        "package_url": "pkg:pypi/tensorflow@2.10.0",
+        "license": null,
+        "source_repository_url": "https://github.com/tensorflow/tensorflow",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-gw97-ff7c-9v96",
+                "advisory_summary": "TensorFlow has a heap out-of-buffer read vulnerability in the QuantizeAndDequantize operation",
+                "advisory_url": "https://github.com/advisories/GHSA-gw97-ff7c-9v96"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-68v3-g9cm-rmm6",
+                "advisory_summary": "TensorFlow vulnerable to Out-of-Bounds Read in GRUBlockCellGrad",
+                "advisory_url": "https://github.com/advisories/GHSA-68v3-g9cm-rmm6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5w96-866f-6rm8",
+                "advisory_summary": "TensorFlow has Floating Point Exception in TFLite in conv kernel",
+                "advisory_url": "https://github.com/advisories/GHSA-5w96-866f-6rm8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f49c-87jh-g47q",
+                "advisory_summary": "TensorFlow has double free in Fractional(Max/Avg)Pool",
+                "advisory_url": "https://github.com/advisories/GHSA-f49c-87jh-g47q"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6wfh-89q8-44jq",
+                "advisory_summary": "TensorFlow has null dereference on ParallelConcat with XLA",
+                "advisory_url": "https://github.com/advisories/GHSA-6wfh-89q8-44jq"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7x4v-9gxg-9hwj",
+                "advisory_summary": "TensorFlow has Segfault in Bincount with XLA",
+                "advisory_url": "https://github.com/advisories/GHSA-7x4v-9gxg-9hwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gf97-q72m-7579",
+                "advisory_summary": "TensorFlow has Null Pointer Error in RandomShuffle with XLA enable ",
+                "advisory_url": "https://github.com/advisories/GHSA-gf97-q72m-7579"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-647v-r7qq-24fh",
+                "advisory_summary": "TensorFlow has Floating Point Exception in TensorListSplit with XLA ",
+                "advisory_url": "https://github.com/advisories/GHSA-647v-r7qq-24fh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cg88-rpvp-cjv5",
+                "advisory_summary": "Out of bounds write in grappler in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-cg88-rpvp-cjv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-94mm-g2mv-8p7r",
+                "advisory_summary": "TensorFlow has Null Pointer Error in LookupTableImportV2",
+                "advisory_url": "https://github.com/advisories/GHSA-94mm-g2mv-8p7r"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xvwp-h6jv-7472",
+                "advisory_summary": "FractionalMaxPool and FractionalAVGPool heap out-of-bounds acess",
+                "advisory_url": "https://github.com/advisories/GHSA-xvwp-h6jv-7472"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j5w9-hmfh-4cr6",
+                "advisory_summary": "TensorFlow has segmentation fault in tfg-translate ",
+                "advisory_url": "https://github.com/advisories/GHSA-j5w9-hmfh-4cr6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-49rq-hwc3-x77w",
+                "advisory_summary": "TensorFlow has Null Pointer Error in QuantizedMatMulWithBiasAndDequantize",
+                "advisory_url": "https://github.com/advisories/GHSA-49rq-hwc3-x77w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rcf8-g8jv-vg6p",
+                "advisory_summary": "TensorFlow has Floating Point Exception in AvgPoolGrad with XLA",
+                "advisory_url": "https://github.com/advisories/GHSA-rcf8-g8jv-vg6p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f637-vh3r-vfh2",
+                "advisory_summary": "TensorFlow has Floating Point Exception in AudioSpectrogram ",
+                "advisory_url": "https://github.com/advisories/GHSA-f637-vh3r-vfh2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-558h-mq8x-7q9g",
+                "advisory_summary": "TensorFlow has Null Pointer Error in SparseSparseMaximum",
+                "advisory_url": "https://github.com/advisories/GHSA-558h-mq8x-7q9g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-6hg6-5c2q-7rcr",
+                "advisory_summary": "TensorFlow has Heap-buffer-overflow in AvgPoolGrad ",
+                "advisory_url": "https://github.com/advisories/GHSA-6hg6-5c2q-7rcr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-64jg-wjww-7c5w",
+                "advisory_summary": "TensorFlow has Null Pointer Error in TensorArrayConcatV2",
+                "advisory_url": "https://github.com/advisories/GHSA-64jg-wjww-7c5w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7jvm-xxmr-v5cw",
+                "advisory_summary": "TensorFlow vulnerable to integer overflow in EditDistance",
+                "advisory_url": "https://github.com/advisories/GHSA-7jvm-xxmr-v5cw"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qjqc-vqcf-5qvj",
+                "advisory_summary": "TensorFlow vulnerable to seg fault in `tf.raw_ops.Print`",
+                "advisory_url": "https://github.com/advisories/GHSA-qjqc-vqcf-5qvj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-93vr-9q9m-pj8p",
+                "advisory_summary": "TensorFlow vulnerable to Out-of-Bounds Read in DynamicStitch",
+                "advisory_url": "https://github.com/advisories/GHSA-93vr-9q9m-pj8p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-h6q3-vv32-2cq5",
+                "advisory_summary": "Buffer overflow in `CONV_3D_TRANSPOSE` on TFLite",
+                "advisory_url": "https://github.com/advisories/GHSA-h6q3-vv32-2cq5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fqm2-gh8w-gr68",
+                "advisory_summary": "TensorFlow vulnerable to segfault when opening multiframe gif",
+                "advisory_url": "https://github.com/advisories/GHSA-fqm2-gh8w-gr68"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fxgc-95xx-grvq",
+                "advisory_summary": "TensorFlow Denial of Service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-fxgc-95xx-grvq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w58w-79xv-6vcj",
+                "advisory_summary": "Out of bounds segmentation fault due to unequal op inputs in Tensorflow",
+                "advisory_url": "https://github.com/advisories/GHSA-w58w-79xv-6vcj"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jq6x-99hj-q636",
+                "advisory_summary": "Seg fault in `ndarray_tensor_bridge` due to zero and large inputs",
+                "advisory_url": "https://github.com/advisories/GHSA-jq6x-99hj-q636"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-54pp-c6pp-7fpx",
+                "advisory_summary": "Overflow in `ImageProjectiveTransformV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-54pp-c6pp-7fpx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8fvv-46hw-vpg3",
+                "advisory_summary": "Overflow in `tf.keras.losses.poisson`",
+                "advisory_url": "https://github.com/advisories/GHSA-8fvv-46hw-vpg3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6x99-gv2v-q76v",
+                "advisory_summary": "FPE in `tf.image.generate_bounding_box_proposals`",
+                "advisory_url": "https://github.com/advisories/GHSA-6x99-gv2v-q76v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxcj-rhqg-m46g",
+                "advisory_summary": "Segfault via invalid attributes in `pywrap_tfe_src.cc`",
+                "advisory_url": "https://github.com/advisories/GHSA-xxcj-rhqg-m46g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h246-cgh4-7475",
+                "advisory_summary": "`CHECK` fail in `BCast` overflow",
+                "advisory_url": "https://github.com/advisories/GHSA-h246-cgh4-7475"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-66vq-54fq-6jvv",
+                "advisory_summary": "Segfault in `tf.raw_ops.TensorListConcat`",
+                "advisory_url": "https://github.com/advisories/GHSA-66vq-54fq-6jvv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-67pf-62xr-q35m",
+                "advisory_summary": "`CHECK_EQ` fail in `tf.raw_ops.TensorListResize`",
+                "advisory_url": "https://github.com/advisories/GHSA-67pf-62xr-q35m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gq2j-cr96-gvqx",
+                "advisory_summary": "`MirrorPadGrad` heap out of bounds read",
+                "advisory_url": "https://github.com/advisories/GHSA-gq2j-cr96-gvqx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rmg2-f698-wq35",
+                "advisory_summary": "`tf.raw_ops.Mfcc` crashes",
+                "advisory_url": "https://github.com/advisories/GHSA-rmg2-f698-wq35"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f2w8-jw48-fr7j",
+                "advisory_summary": "`FractionalMaxPoolGrad` Heap out of bounds read",
+                "advisory_url": "https://github.com/advisories/GHSA-f2w8-jw48-fr7j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hq7g-wwwp-q46h",
+                "advisory_summary": "`CHECK` fail via inputs in `SparseFillEmptyRowsGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-hq7g-wwwp-q46h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-27rc-728f-x5w2",
+                "advisory_summary": "`CHECK` fail via inputs in `SdcaOptimizer`",
+                "advisory_url": "https://github.com/advisories/GHSA-27rc-728f-x5w2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g9fm-r5mm-rf9f",
+                "advisory_summary": "`CHECK_EQ` fail via input in `SparseMatrixNNZ`",
+                "advisory_url": "https://github.com/advisories/GHSA-g9fm-r5mm-rf9f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-368v-7v32-52fx",
+                "advisory_summary": "Overflow in `ResizeNearestNeighborGrad`",
+                "advisory_url": "https://github.com/advisories/GHSA-368v-7v32-52fx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mv77-9g28-cwg3",
+                "advisory_summary": "`CHECK` fail via inputs in `PyFunc`",
+                "advisory_url": "https://github.com/advisories/GHSA-mv77-9g28-cwg3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rjx6-v474-2ch9",
+                "advisory_summary": "Segfault in `CompositeTensorVariantToComponents`",
+                "advisory_url": "https://github.com/advisories/GHSA-rjx6-v474-2ch9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-frqp-wp83-qggv",
+                "advisory_summary": "Heap overflow in `QuantizeAndDequantizeV2`",
+                "advisory_url": "https://github.com/advisories/GHSA-frqp-wp83-qggv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pf36-r9c6-h97j",
+                "advisory_summary": "Invalid char to bool conversion when printing a tensor",
+                "advisory_url": "https://github.com/advisories/GHSA-pf36-r9c6-h97j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8w5g-3wcv-9g2j",
+                "advisory_summary": "Tensorflow vulnerable to Out-of-Bounds Read",
+                "advisory_url": "https://github.com/advisories/GHSA-8w5g-3wcv-9g2j"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xf83-q765-xm6m",
+                "advisory_summary": "`CHECK` fail in `TensorListScatter` and `TensorListScatterV2` in eager mode",
+                "advisory_url": "https://github.com/advisories/GHSA-xf83-q765-xm6m"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-cqvq-fvhr-v6hc",
+                "advisory_summary": "`CHECK` failure in `SobolSample` via missing validation",
+                "advisory_url": "https://github.com/advisories/GHSA-cqvq-fvhr-v6hc"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/assembly-script/package-lock.json",
+        "ecosystem": "npm",
+        "name": "assemblyscript",
+        "version": "0.17.4",
+        "package_url": "pkg:npm/assemblyscript@0.17.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/AssemblyScript/assemblyscript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/assembly-script/package-lock.json",
+        "ecosystem": "npm",
+        "name": "binaryen",
+        "version": "98.0.0-nightly.20201109",
+        "package_url": "pkg:npm/binaryen@98.0.0-nightly.20201109",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/AssemblyScript/binaryen.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/assembly-script/package-lock.json",
+        "ecosystem": "npm",
+        "name": "long",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/long@4.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/dcodeIO/long.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/assembly-script/package.json",
+        "ecosystem": "npm",
+        "name": "assemblyscript",
+        "version": "^0.18.15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/AssemblyScript/assemblyscript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/language-bindings/go/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/stretchr/testify",
+        "version": "1.7.0",
+        "package_url": "pkg:golang/github.com/stretchr/testify@1.7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/stretchr/testify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/language-bindings/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "black",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/psf/black",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/language-bindings/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "nose",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nose-devs/nose",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/language-bindings/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pycparser",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eliben/pycparser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/language-bindings/python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pylint",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pylint-dev/pylint",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/glob",
+        "version": "^7.1.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/mocha",
+        "version": "^8.2.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "~> 14.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@types/vscode",
+        "version": "^1.54.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^4.26.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^4.26.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/typescript-eslint/typescript-eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "@vscode/webview-ui-toolkit",
+        "version": "^0.8.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/vscode-webview-ui-toolkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^7.32.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "glob",
+        "version": "^7.1.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/isaacs/node-glob",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^8.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.5.1",
+        "package_url": "pkg:npm/prettier@2.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^4.3.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "lib/wasm-micro-runtime-WAMR-1.1.1/test-tools/wamr-ide/VSCode-Extension/package.json",
+        "ecosystem": "npm",
+        "name": "vscode-test",
+        "version": "^1.5.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/vscode-test",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

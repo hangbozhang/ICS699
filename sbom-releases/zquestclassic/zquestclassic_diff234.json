@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/setup-python@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "mathieu-bour/setup-sentry-cli",
+        "version": "1.2.0",
+        "package_url": "pkg:githubactions/mathieu-bour/setup-sentry-cli@1.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/mathieu-bour/setup-sentry-cli",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-cron.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/release.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/release.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-cron.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/build.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/build.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "crazy-max/ghaction-chocolatey",
+        "version": "1",
+        "package_url": "pkg:githubactions/crazy-max/ghaction-chocolatey@1",
+        "license": null,
+        "source_repository_url": "https://github.com/crazy-max/ghaction-chocolatey",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "1",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@1",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "josStorer/get-current-time",
+        "version": "2",
+        "package_url": "pkg:githubactions/josStorer/get-current-time@2",
+        "license": null,
+        "source_repository_url": "https://github.com/josStorer/get-current-time",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

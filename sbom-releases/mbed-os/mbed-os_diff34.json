@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "six",
+        "version": "1.12.0",
+        "package_url": "pkg:pypi/six@1.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/benjaminp/six",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "six",
+        "version": "1.11.0",
+        "package_url": "pkg:pypi/six@1.11.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/benjaminp/six",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

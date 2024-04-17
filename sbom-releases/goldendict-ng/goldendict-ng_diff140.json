@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/auto clang format.yml",
+        "ecosystem": "actions",
+        "name": "EndBug/add-and-commit",
+        "version": "9",
+        "package_url": "pkg:githubactions/EndBug/add-and-commit@9",
+        "license": null,
+        "source_repository_url": "https://github.com/EndBug/add-and-commit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/auto clang format.yml",
+        "ecosystem": "actions",
+        "name": "stefanzweifel/git-auto-commit-action",
+        "version": "4.1.2",
+        "package_url": "pkg:githubactions/stefanzweifel/git-auto-commit-action@4.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/stefanzweifel/git-auto-commit-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

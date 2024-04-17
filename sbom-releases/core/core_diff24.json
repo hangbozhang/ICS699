@@ -1,0 +1,773 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob-parent",
+        "version": "5.1.1",
+        "package_url": "pkg:npm/glob-parent@5.1.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/gulpjs/glob-parent",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-ww39-953v-wcq6",
+                "advisory_summary": "glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex",
+                "advisory_url": "https://github.com/advisories/GHSA-ww39-953v-wcq6"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "glob-parent",
+        "version": "5.1.2",
+        "package_url": "pkg:npm/glob-parent@5.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/gulpjs/glob-parent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@cryptography/aes",
+        "version": "0.1.1",
+        "package_url": "pkg:npm/%40cryptography/aes@0.1.1",
+        "license": "GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/spalt08/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "async-mutex",
+        "version": "0.3.1",
+        "package_url": "pkg:npm/async-mutex@0.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DirtyHairy/async-mutex",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "base64-js",
+        "version": "1.5.1",
+        "package_url": "pkg:npm/base64-js@1.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/beatgammit/base64-js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "big-integer",
+        "version": "1.6.48",
+        "package_url": "pkg:npm/big-integer@1.6.48",
+        "license": "Unlicense",
+        "source_repository_url": "https://github.com/peterolson/BigInteger.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "browser-or-node",
+        "version": "1.3.0",
+        "package_url": "pkg:npm/browser-or-node@1.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flexdinesh/browser-or-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "buffer",
+        "version": "6.0.3",
+        "package_url": "pkg:npm/buffer@6.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/feross/buffer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bufferutil",
+        "version": "4.0.3",
+        "package_url": "pkg:npm/bufferutil@4.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/websockets/bufferutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "d",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/d@1.0.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/medikoo/d",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "2.6.9",
+        "package_url": "pkg:npm/debug@2.6.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "dom-serializer",
+        "version": "1.3.2",
+        "package_url": "pkg:npm/dom-serializer@1.3.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/cheeriojs/dom-serializer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "domelementtype",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/domelementtype@2.2.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/fb55/domelementtype",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "domhandler",
+        "version": "4.2.0",
+        "package_url": "pkg:npm/domhandler@4.2.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/fb55/domhandler",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "domutils",
+        "version": "2.7.0",
+        "package_url": "pkg:npm/domutils@2.7.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/fb55/domutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "entities",
+        "version": "2.2.0",
+        "package_url": "pkg:npm/entities@2.2.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/fb55/entities",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "es5-ext",
+        "version": "0.10.53",
+        "package_url": "pkg:npm/es5-ext@0.10.53",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/medikoo/es5-ext",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "es6-iterator",
+        "version": "2.0.3",
+        "package_url": "pkg:npm/es6-iterator@2.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/medikoo/es6-iterator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "es6-symbol",
+        "version": "3.1.3",
+        "package_url": "pkg:npm/es6-symbol@3.1.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/medikoo/es6-symbol",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ext",
+        "version": "1.4.0",
+        "package_url": "pkg:npm/ext@1.4.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/medikoo/es5-ext",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "graceful-fs",
+        "version": "4.2.6",
+        "package_url": "pkg:npm/graceful-fs@4.2.6",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/node-graceful-fs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "htmlparser2",
+        "version": "6.1.0",
+        "package_url": "pkg:npm/htmlparser2@6.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/fb55/htmlparser2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ieee754",
+        "version": "1.2.1",
+        "package_url": "pkg:npm/ieee754@1.2.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/feross/ieee754",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "imurmurhash",
+        "version": "0.1.4",
+        "package_url": "pkg:npm/imurmurhash@0.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jensyt/imurmurhash-js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-typedarray",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/is-typedarray@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/hughsk/is-typedarray",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mime-db",
+        "version": "1.48.0",
+        "package_url": "pkg:npm/mime-db@1.48.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jshttp/mime-db",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mime-types",
+        "version": "2.1.31",
+        "package_url": "pkg:npm/mime-types@2.1.31",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jshttp/mime-types",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ms",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/ms@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/vercel/ms",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "next-tick",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/next-tick@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/medikoo/next-tick",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "node-gyp-build",
+        "version": "4.2.3",
+        "package_url": "pkg:npm/node-gyp-build@4.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/node-gyp-build",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "node-localstorage",
+        "version": "2.2.1",
+        "package_url": "pkg:npm/node-localstorage@2.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lmaccherone/node-localstorage",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "os-browserify",
+        "version": "0.3.0",
+        "package_url": "pkg:npm/os-browserify@0.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/CoderPuppy/os-browserify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "pako",
+        "version": "2.0.3",
+        "package_url": "pkg:npm/pako@2.0.3",
+        "license": "MIT AND Zlib",
+        "source_repository_url": "https://github.com/nodeca/pako",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-browserify",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/path-browserify@1.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/browserify/path-browserify",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "process",
+        "version": "0.11.10",
+        "package_url": "pkg:npm/process@0.11.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/defunctzombie/node-process",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "slide",
+        "version": "1.1.6",
+        "package_url": "pkg:npm/slide@1.1.6",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/slide-flow-control",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "store2",
+        "version": "2.12.0",
+        "package_url": "pkg:npm/store2@2.12.0",
+        "license": "GPL-3.0 OR MIT OR (GPL-3.0 AND MIT)",
+        "source_repository_url": "https://github.com/nbubna/store",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "telegram",
+        "version": "1.7.19",
+        "package_url": "pkg:npm/telegram@1.7.19",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/gram-js/gramjs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ts-mixer",
+        "version": "5.4.1",
+        "package_url": "pkg:npm/ts-mixer@5.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tannerntannern/ts-mixer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "tslib",
+        "version": "2.3.0",
+        "package_url": "pkg:npm/tslib@2.3.0",
+        "license": "0BSD",
+        "source_repository_url": "https://github.com/microsoft/tslib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "type",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/type@1.2.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/medikoo/type",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "type",
+        "version": "2.5.0",
+        "package_url": "pkg:npm/type@2.5.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/medikoo/type",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedarray-to-buffer",
+        "version": "3.1.5",
+        "package_url": "pkg:npm/typedarray-to-buffer@3.1.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/feross/typedarray-to-buffer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "utf-8-validate",
+        "version": "5.0.5",
+        "package_url": "pkg:npm/utf-8-validate@5.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/websockets/utf-8-validate",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "websocket",
+        "version": "1.0.34",
+        "package_url": "pkg:npm/websocket@1.0.34",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/theturtle32/WebSocket-Node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "write-file-atomic",
+        "version": "1.3.4",
+        "package_url": "pkg:npm/write-file-atomic@1.3.4",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/write-file-atomic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yaeti",
+        "version": "0.0.6",
+        "package_url": "pkg:npm/yaeti@0.0.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ibc/yaeti",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/node/gram/source/gram/package.json",
+        "ecosystem": "npm",
+        "name": "telegram",
+        "version": "^1.7.19",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/gram-js/gramjs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.12.5",
+        "package_url": "pkg:gem/nokogiri@1.12.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.11.4",
+        "package_url": "pkg:gem/nokogiri@1.11.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_portile2",
+        "version": "2.6.1",
+        "package_url": "pkg:gem/mini_portile2@2.6.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/mini_portile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_portile2",
+        "version": "2.5.1",
+        "package_url": "pkg:gem/mini_portile2@2.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/mini_portile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

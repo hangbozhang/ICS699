@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/examples/rust/nativeexample/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "taos",
+        "version": ">= 0.4.8, < 0.5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-rust",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/examples/rust/nativeexample/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "taos",
+        "version": ">= 0.0.0, < 1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-rust",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/deploy-docs.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/deploy-docs.yaml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/setup-python@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/deploy-docs.yaml",
+        "ecosystem": "actions",
+        "name": "jakejarvis/s3-sync-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/jakejarvis/s3-sync-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/jakejarvis/s3-sync-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redis",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/redis/redis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "redis",
+        "version": "2.10.5",
+        "package_url": "pkg:pypi/redis@2.10.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/redis/redis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

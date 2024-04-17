@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "scripts/py2-requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/parisk/pyocd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.7.3",
+        "package_url": "pkg:pypi/breathe@4.7.3",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "0.14",
+        "package_url": "pkg:pypi/docutils@0.14",
+        "license": null,
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "1.6.5",
+        "package_url": "pkg:pypi/sphinx@1.6.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "breathe",
+        "version": "4.6.0",
+        "package_url": "pkg:pypi/breathe@4.6.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/breathe-doc/breathe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "docutils",
+        "version": "0.13.1",
+        "package_url": "pkg:pypi/docutils@0.13.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jwilk-mirrors/docutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/parisk/pyocd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "scripts/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": "1.5.5",
+        "package_url": "pkg:pypi/sphinx@1.5.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/backend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/backend/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/desktop/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/desktop/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/integration-tests/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^1.1.0-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/backend",
+        "version": "^1.1.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/mobile/package.json",
+        "ecosystem": "npm",
+        "name": "@quiet/state-manager",
+        "version": "^1.1.0-alpha.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "Saionaro/extract-package-version",
+        "version": "1.1.1",
+        "package_url": "pkg:githubactions/Saionaro/extract-package-version@1.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/Saionaro/extract-package-version",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "TryQuiet/base64-to-file",
+        "version": "main",
+        "package_url": "pkg:githubactions/TryQuiet/base64-to-file@main",
+        "license": null,
+        "source_repository_url": "https://github.com/TryQuiet/base64-to-file",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/components-nightly",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/components-nightly@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/components-nightly",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "actions-rs/toolchain",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-rs/toolchain@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-rs/toolchain",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/e2e-mac.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/e2e-mac.yml",
+        "ecosystem": "actions",
+        "name": "nick-fields/retry",
+        "version": "2",
+        "package_url": "pkg:githubactions/nick-fields/retry@2",
+        "license": null,
+        "source_repository_url": "https://github.com/nick-fields/retry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/e2e-win.yml",
+        "ecosystem": "actions",
+        "name": "Saionaro/extract-package-version",
+        "version": "1.1.1",
+        "package_url": "pkg:githubactions/Saionaro/extract-package-version@1.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/Saionaro/extract-package-version",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/e2e-win.yml",
+        "ecosystem": "actions",
+        "name": "TryQuiet/base64-to-file",
+        "version": "main",
+        "package_url": "pkg:githubactions/TryQuiet/base64-to-file@main",
+        "license": null,
+        "source_repository_url": "https://github.com/TryQuiet/base64-to-file",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/e2e-win.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/e2e-win.yml",
+        "ecosystem": "actions",
+        "name": "nick-fields/retry",
+        "version": "2",
+        "package_url": "pkg:githubactions/nick-fields/retry@2",
+        "license": null,
+        "source_repository_url": "https://github.com/nick-fields/retry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

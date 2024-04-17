@@ -1,0 +1,112 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "setuptools",
+        "version": "59.6.0",
+        "package_url": "pkg:pypi/setuptools@59.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/setuptools",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-r9hx-vwmv-q579",
+                "advisory_summary": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-r9hx-vwmv-q579"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "pygments",
+        "version": "2.9.0",
+        "package_url": "pkg:pypi/pygments@2.9.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pygments/pygments",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mrwq-x4v8-fh7p",
+                "advisory_summary": "Pygments vulnerable to ReDoS",
+                "advisory_url": "https://github.com/advisories/GHSA-mrwq-x4v8-fh7p"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "avocado-framework",
+        "version": "90.0",
+        "package_url": "pkg:pypi/avocado-framework@90.0",
+        "license": "GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/avocado-framework/avocado",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "mypy",
+        "version": "0.780",
+        "package_url": "pkg:pypi/mypy@0.780",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python/mypy",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "urwid",
+        "version": "2.1.2",
+        "package_url": "pkg:pypi/urwid@2.1.2",
+        "license": "LGPL-2.1-or-later",
+        "source_repository_url": "https://github.com/urwid/urwid",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "urwid-readline",
+        "version": "0.13",
+        "package_url": "pkg:pypi/urwid-readline@0.13",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rr-/urwid_readline",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "avocado-framework",
+        "version": "87.0",
+        "package_url": "pkg:pypi/avocado-framework@87.0",
+        "license": "GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/avocado-framework/avocado",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/Pipfile.lock",
+        "ecosystem": "pip",
+        "name": "mypy",
+        "version": "0.770",
+        "package_url": "pkg:pypi/mypy@0.770",
+        "license": "MIT AND NOASSERTION AND Python-2.0",
+        "source_repository_url": "https://github.com/python/mypy",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

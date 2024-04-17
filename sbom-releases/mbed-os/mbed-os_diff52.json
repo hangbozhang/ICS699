@@ -1,0 +1,70 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyyaml",
+        "version": "4.2b1",
+        "package_url": "pkg:pypi/pyyaml@4.2b1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8q59-q68h-6hv4",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6757-jp84-gxfx",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-6757-jp84-gxfx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyYAML",
+        "version": "3.13",
+        "package_url": "pkg:pypi/pyyaml@3.13",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8q59-q68h-6hv4",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6757-jp84-gxfx",
+                "advisory_summary": "Improper Input Validation in PyYAML",
+                "advisory_url": "https://github.com/advisories/GHSA-6757-jp84-gxfx"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-rprw-h62v-c2w7",
+                "advisory_summary": "PyYAML insecurely deserializes YAML strings leading to arbitrary code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-rprw-h62v-c2w7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": ">= 0.14,< 0.15",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/parisk/pyocd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

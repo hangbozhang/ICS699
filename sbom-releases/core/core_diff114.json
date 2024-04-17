@@ -1,0 +1,861 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "joblib",
+        "version": "0.13.2",
+        "package_url": "pkg:pypi/joblib@0.13.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/joblib/joblib",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-6hrg-qmvc-2xh8",
+                "advisory_summary": "joblib vulnerable to arbitrary code execution",
+                "advisory_url": "https://github.com/advisories/GHSA-6hrg-qmvc-2xh8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.16.1",
+        "package_url": "pkg:pypi/numpy@1.16.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5545-2q6w-2gh6",
+                "advisory_summary": "NumPy NULL Pointer Dereference",
+                "advisory_url": "https://github.com/advisories/GHSA-5545-2q6w-2gh6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6p56-wp2h-9hxr",
+                "advisory_summary": "NumPy Buffer Overflow (Disputed)",
+                "advisory_url": "https://github.com/advisories/GHSA-6p56-wp2h-9hxr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f7c7-j99h-c22f",
+                "advisory_summary": "Buffer Copy without Checking Size of Input in NumPy",
+                "advisory_url": "https://github.com/advisories/GHSA-f7c7-j99h-c22f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-fpfv-jqm9-f5jm",
+                "advisory_summary": "Incorrect Comparison in NumPy",
+                "advisory_url": "https://github.com/advisories/GHSA-fpfv-jqm9-f5jm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "scipy",
+        "version": "1.2.1",
+        "package_url": "pkg:pypi/scipy@1.2.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/scipy/scipy",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-9jx5-6pgf-crrp",
+                "advisory_summary": "scipy memory leak vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-9jx5-6pgf-crrp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "joblib",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/joblib/joblib",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "scikit-learn",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scikit-learn/scikit-learn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "scipy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/scipy/scipy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/python/model/requirements.txt",
+        "ecosystem": "pip",
+        "name": "scikit-learn",
+        "version": "0.19.1",
+        "package_url": "pkg:pypi/scikit-learn@0.19.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/scikit-learn/scikit-learn",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "~> 4.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "~> 3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "4.3.1",
+        "package_url": "pkg:gem/puma@4.3.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x7jg-6pwg-fx5h",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-x7jg-6pwg-fx5h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-84j7-475p-hp8v",
+                "advisory_summary": "HTTP Response Splitting in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-84j7-475p-hp8v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-33vf-4xgg-9r58",
+                "advisory_summary": "HTTP Response Splitting (Early Hints) in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-33vf-4xgg-9r58"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w64w-qqph-5gxm",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-w64w-qqph-5gxm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.0.8",
+        "package_url": "pkg:gem/rack@2.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-wq4h-7r42-5hrr",
+                "advisory_summary": "Possible shell escape sequence injection vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-wq4h-7r42-5hrr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j6w9-fv6q-3q52",
+                "advisory_summary": "Rack allows Percent-encoded cookies to overwrite existing prefixed cookie names",
+                "advisory_url": "https://github.com/advisories/GHSA-j6w9-fv6q-3q52"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5f9h-9pjv-v6j7",
+                "advisory_summary": "Directory traversal in Rack::Directory app bundled with Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-5f9h-9pjv-v6j7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hxqx-xwvh-44m2",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-hxqx-xwvh-44m2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "puma",
+        "version": "3.12.1",
+        "package_url": "pkg:gem/puma@3.12.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/puma/puma",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-h99w-9q5r-gjq9",
+                "advisory_summary": "Puma vulnerable to HTTP Request Smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-h99w-9q5r-gjq9"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-68xg-gqqm-vgj8",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-68xg-gqqm-vgj8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x7jg-6pwg-fx5h",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-x7jg-6pwg-fx5h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q28m-8xjw-8vr5",
+                "advisory_summary": "Puma's Keepalive Connections Causing Denial Of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-q28m-8xjw-8vr5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-rmj8-8hhh-gv5h",
+                "advisory_summary": "Puma used with Rails may lead to Information Exposure",
+                "advisory_url": "https://github.com/advisories/GHSA-rmj8-8hhh-gv5h"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7xx3-m584-x994",
+                "advisory_summary": "A poorly-behaved client could use keepalive requests to monopolize Puma's reactor and create a denial of service attack",
+                "advisory_url": "https://github.com/advisories/GHSA-7xx3-m584-x994"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-84j7-475p-hp8v",
+                "advisory_summary": "HTTP Response Splitting in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-84j7-475p-hp8v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-33vf-4xgg-9r58",
+                "advisory_summary": "HTTP Response Splitting (Early Hints) in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-33vf-4xgg-9r58"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w64w-qqph-5gxm",
+                "advisory_summary": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "advisory_url": "https://github.com/advisories/GHSA-w64w-qqph-5gxm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2f4-cvqm-65w2",
+                "advisory_summary": "Puma HTTP Request/Response Smuggling vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-c2f4-cvqm-65w2"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-48w2-rm65-62xx",
+                "advisory_summary": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-48w2-rm65-62xx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.0.7",
+        "package_url": "pkg:gem/rack@2.0.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-wq4h-7r42-5hrr",
+                "advisory_summary": "Possible shell escape sequence injection vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-wq4h-7r42-5hrr"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-j6w9-fv6q-3q52",
+                "advisory_summary": "Rack allows Percent-encoded cookies to overwrite existing prefixed cookie names",
+                "advisory_url": "https://github.com/advisories/GHSA-j6w9-fv6q-3q52"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-5f9h-9pjv-v6j7",
+                "advisory_summary": "Directory traversal in Rack::Directory app bundled with Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-5f9h-9pjv-v6j7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hxqx-xwvh-44m2",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-hxqx-xwvh-44m2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-65f5-mfpf-vfhj",
+                "advisory_summary": "Denial of service via header parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-65f5-mfpf-vfhj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrqr-hxpp-chr3",
+                "advisory_summary": "Possible Information Leak / Session Hijack Vulnerability in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-hrqr-hxpp-chr3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-rqv2-275x-2jq5",
+                "advisory_summary": "Denial of service via multipart parsing in Rack",
+                "advisory_url": "https://github.com/advisories/GHSA-rqv2-275x-2jq5"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-93pm-5p5f-3ghx",
+                "advisory_summary": "Denial of Service Vulnerability in Rack Content-Disposition parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-93pm-5p5f-3ghx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "loofah",
+        "version": "2.3.1",
+        "package_url": "pkg:gem/loofah@2.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/loofah",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-486f-hjj9-9vhh",
+                "advisory_summary": "Inefficient Regular Expression Complexity in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-486f-hjj9-9vhh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3x8r-x6xp-q4vm",
+                "advisory_summary": "Uncontrolled Recursion in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-3x8r-x6xp-q4vm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-228g-948r-83gx",
+                "advisory_summary": "Improper neutralization of data URIs may allow XSS in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-228g-948r-83gx"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.10.5",
+        "package_url": "pkg:gem/nokogiri@1.10.5",
+        "license": "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND MIT AND NOASSERTION AND X11 AND Zlib",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v4f8-2847-rwm7",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "advisory_url": "https://github.com/advisories/GHSA-v4f8-2847-rwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jw9f-hh49-cvp9",
+                "advisory_summary": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jw9f-hh49-cvp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7553-jr98-vx47",
+                "advisory_summary": "libxml as used in Nokogiri has an infinite loop in a certain end-of-file situation",
+                "advisory_url": "https://github.com/advisories/GHSA-7553-jr98-vx47"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrm-v45f-jp64",
+                "advisory_summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vr8q-g5c7-m54m",
+                "advisory_summary": "Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vr8q-g5c7-m54m"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-286v-pcf5-25rc",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "advisory_url": "https://github.com/advisories/GHSA-286v-pcf5-25rc"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "loofah",
+        "version": "2.2.3",
+        "package_url": "pkg:gem/loofah@2.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/loofah",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-486f-hjj9-9vhh",
+                "advisory_summary": "Inefficient Regular Expression Complexity in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-486f-hjj9-9vhh"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3x8r-x6xp-q4vm",
+                "advisory_summary": "Uncontrolled Recursion in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-3x8r-x6xp-q4vm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c3gv-9cxf-6f57",
+                "advisory_summary": "Loofah Allows Cross-site Scripting",
+                "advisory_url": "https://github.com/advisories/GHSA-c3gv-9cxf-6f57"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-228g-948r-83gx",
+                "advisory_summary": "Improper neutralization of data URIs may allow XSS in Loofah",
+                "advisory_url": "https://github.com/advisories/GHSA-228g-948r-83gx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.10.4",
+        "package_url": "pkg:gem/nokogiri@1.10.4",
+        "license": "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND MIT AND NOASSERTION AND X11 AND Zlib",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vmfx-gcfq-wvm2",
+                "advisory_summary": "Nokogiri implementation of libxslt vulnerable to heap corruption",
+                "advisory_url": "https://github.com/advisories/GHSA-vmfx-gcfq-wvm2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-242x-7cm6-4w8j",
+                "advisory_summary": "Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-242x-7cm6-4w8j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v4f8-2847-rwm7",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "advisory_url": "https://github.com/advisories/GHSA-v4f8-2847-rwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-59gp-qqm7-cw4j",
+                "advisory_summary": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "advisory_url": "https://github.com/advisories/GHSA-59gp-qqm7-cw4j"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jc36-42cf-vqwj",
+                "advisory_summary": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jc36-42cf-vqwj"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-4hm9-844j-jmxp",
+                "advisory_summary": "Uninitialized read in Nokogiri gem",
+                "advisory_url": "https://github.com/advisories/GHSA-4hm9-844j-jmxp"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-jw9f-hh49-cvp9",
+                "advisory_summary": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-jw9f-hh49-cvp9"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cf46-6xxh-pc75",
+                "advisory_summary": "libxslt Type Confusion vulnerability that affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cf46-6xxh-pc75"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xh29-r2w5-wx8m",
+                "advisory_summary": "Nokogiri Improperly Handles Unexpected Data Type",
+                "advisory_url": "https://github.com/advisories/GHSA-xh29-r2w5-wx8m"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-cgx6-hpwq-fhv5",
+                "advisory_summary": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-cgx6-hpwq-fhv5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-gx8x-g87m-h5q6",
+                "advisory_summary": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-gx8x-g87m-h5q6"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v6gp-9mmm-c6p5",
+                "advisory_summary": "Out-of-bounds Write in zlib affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-v6gp-9mmm-c6p5"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-crjr-9rc5-ghw8",
+                "advisory_summary": "Nokogiri Inefficient Regular Expression Complexity",
+                "advisory_url": "https://github.com/advisories/GHSA-crjr-9rc5-ghw8"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-fq42-c5rg-92c2",
+                "advisory_summary": "Vulnerable dependencies in Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-fq42-c5rg-92c2"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-2rr5-8q37-2w7h",
+                "advisory_summary": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "advisory_url": "https://github.com/advisories/GHSA-2rr5-8q37-2w7h"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7553-jr98-vx47",
+                "advisory_summary": "libxml as used in Nokogiri has an infinite loop in a certain end-of-file situation",
+                "advisory_url": "https://github.com/advisories/GHSA-7553-jr98-vx47"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qc6-mcvw-92cw",
+                "advisory_summary": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-2qc6-mcvw-92cw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xxx9-3xcr-gjj3",
+                "advisory_summary": "XML Injection in Xerces Java affects Nokogiri",
+                "advisory_url": "https://github.com/advisories/GHSA-xxx9-3xcr-gjj3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-286v-pcf5-25rc",
+                "advisory_summary": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "advisory_url": "https://github.com/advisories/GHSA-286v-pcf5-25rc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7rrm-v45f-jp64",
+                "advisory_summary": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "advisory_url": "https://github.com/advisories/GHSA-7rrm-v45f-jp64"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vr8q-g5c7-m54m",
+                "advisory_summary": "Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vr8q-g5c7-m54m"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "crass",
+        "version": "1.0.5",
+        "package_url": "pkg:gem/crass@1.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rgrove/crass",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "crass",
+        "version": "1.0.4",
+        "package_url": "pkg:gem/crass@1.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rgrove/crass",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

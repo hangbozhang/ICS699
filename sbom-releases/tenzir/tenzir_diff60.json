@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/terraform.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "cachix/install-nix-action",
+        "version": "17",
+        "package_url": "pkg:githubactions/cachix/install-nix-action@17",
+        "license": null,
+        "source_repository_url": "https://github.com/cachix/install-nix-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "pat-s/always-upload-cache",
+        "version": "3.0.1",
+        "package_url": "pkg:githubactions/pat-s/always-upload-cache@3.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pat-s/always-upload-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/download-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2.3.1",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2.3.1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "cachix/install-nix-action",
+        "version": "16",
+        "package_url": "pkg:githubactions/cachix/install-nix-action@16",
+        "license": null,
+        "source_repository_url": "https://github.com/cachix/install-nix-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "pat-s/always-upload-cache",
+        "version": "2",
+        "package_url": "pkg:githubactions/pat-s/always-upload-cache@2",
+        "license": null,
+        "source_repository_url": "https://github.com/pat-s/always-upload-cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

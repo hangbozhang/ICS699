@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build_package.yml",
+        "ecosystem": "actions",
+        "name": "ilammy/msvc-dev-cmd",
+        "version": "7315a94840631165970262a99c72cfb48a65d25d",
+        "package_url": "pkg:githubactions/ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+        "license": null,
+        "source_repository_url": "https://github.com/ilammy/msvc-dev-cmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

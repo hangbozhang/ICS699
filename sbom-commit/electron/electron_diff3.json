@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@electron/docs-parser",
+        "version": "^1.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/docs-parser",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@electron/typescript-definitions",
+        "version": "^8.15.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/typescript-definitions",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@electron/docs-parser",
+        "version": "^1.1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/docs-parser",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@electron/typescript-definitions",
+        "version": "^8.14.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/electron/typescript-definitions",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "@electron/docs-parser",
+        "version": "1.2.0",
+        "package_url": "pkg:npm/%40electron/docs-parser@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/docs-parser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "@electron/typescript-definitions",
+        "version": "8.15.1",
+        "package_url": "pkg:npm/%40electron/typescript-definitions@8.15.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/typescript-definitions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "@electron/docs-parser",
+        "version": "1.1.1",
+        "package_url": "pkg:npm/%40electron/docs-parser@1.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/docs-parser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "yarn.lock",
+        "ecosystem": "npm",
+        "name": "@electron/typescript-definitions",
+        "version": "8.14.7",
+        "package_url": "pkg:npm/%40electron/typescript-definitions@8.14.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/typescript-definitions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

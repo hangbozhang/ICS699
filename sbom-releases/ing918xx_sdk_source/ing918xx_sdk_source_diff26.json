@@ -1,0 +1,117 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.18.2",
+        "package_url": "pkg:pypi/future@0.18.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-v3c5-jqr6-7qm8",
+                "advisory_summary": "Python Charmers Future denial of service vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-v3c5-jqr6-7qm8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "DateTime",
+        "version": "5.0",
+        "package_url": "pkg:pypi/datetime@5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/zopefoundation/DateTime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "6.0",
+        "package_url": "pkg:pypi/pyyaml@6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "iso8601",
+        "version": "1.0.2",
+        "package_url": "pkg:pypi/iso8601@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/micktwomey/pyiso8601",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "libusb-package",
+        "version": "1.0.26.1",
+        "package_url": "pkg:pypi/libusb-package@1.0.26.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/libusb-package",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyserial",
+        "version": "3.5",
+        "package_url": "pkg:pypi/pyserial@3.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pyserial/pyserial",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytz",
+        "version": "2022.7.1",
+        "package_url": "pkg:pypi/pytz@2022.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/stub42/pytz",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyusb",
+        "version": "1.2.1",
+        "package_url": "pkg:pypi/pyusb@1.2.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/pyusb/pyusb",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "zope.interface",
+        "version": "5.5.2",
+        "package_url": "pkg:pypi/zope.interface@5.5.2",
+        "license": null,
+        "source_repository_url": "https://github.com/zopefoundation/zope.interface",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

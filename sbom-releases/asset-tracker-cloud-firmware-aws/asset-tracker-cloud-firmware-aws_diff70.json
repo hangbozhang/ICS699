@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "10.0.5",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@10.0.5",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "8.7.0",
+        "package_url": "pkg:npm/acorn@8.7.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.6.0",
+        "package_url": "pkg:npm/eslint@8.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "espree",
+        "version": "9.3.0",
+        "package_url": "pkg:npm/espree@9.3.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/eslint/espree",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "10.0.4",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@10.0.4",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "8.6.0",
+        "package_url": "pkg:npm/acorn@8.6.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/acornjs/acorn",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.5.0",
+        "package_url": "pkg:npm/eslint@8.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/eslint/eslint",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "espree",
+        "version": "9.2.0",
+        "package_url": "pkg:npm/espree@9.2.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/eslint/espree",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "10.0.5",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@10.0.5",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
+        "version": "10.0.4",
+        "package_url": "pkg:npm/%40nordicsemiconductor/asset-tracker-cloud-code-style@10.0.4",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

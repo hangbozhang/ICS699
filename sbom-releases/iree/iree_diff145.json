@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/e2e/collectives/run_requirements.txt",
+        "ecosystem": "pip",
+        "name": "mpi4py",
+        "version": "3.1.4",
+        "package_url": "pkg:pypi/mpi4py@3.1.4",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/mpi4py/mpi4py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/e2e/collectives/run_requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/codespell.yml",
+        "ecosystem": "actions",
+        "name": "codespell-project/actions-codespell",
+        "version": "master",
+        "package_url": "pkg:githubactions/codespell-project/actions-codespell@master",
+        "license": null,
+        "source_repository_url": "https://github.com/codespell-project/actions-codespell",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

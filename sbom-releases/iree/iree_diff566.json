@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "runtime/setup.py",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "runtime/setup.py",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build_package.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-python@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

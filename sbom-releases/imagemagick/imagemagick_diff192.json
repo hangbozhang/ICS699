@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/daily.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/master.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

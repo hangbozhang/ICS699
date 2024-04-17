@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-project.yaml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "1283416d7c0462e052ab0685d9444a7a48bfff3b",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@1283416d7c0462e052ab0685d9444a7a48bfff3b",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-project.yaml",
+        "ecosystem": "actions",
+        "name": "yuzutech/annotations-action",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/yuzutech/annotations-action@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/yuzutech/annotations-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-project.yaml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "6.1",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@6.1",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish.yaml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flat-manager",
+        "version": "1283416d7c0462e052ab0685d9444a7a48bfff3b",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flat-manager@1283416d7c0462e052ab0685d9444a7a48bfff3b",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/publish.yaml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "1283416d7c0462e052ab0685d9444a7a48bfff3b",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@1283416d7c0462e052ab0685d9444a7a48bfff3b",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/publish.yaml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flat-manager",
+        "version": "6.1",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flat-manager@6.1",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/publish.yaml",
+        "ecosystem": "actions",
+        "name": "flatpak/flatpak-github-actions/flatpak-builder",
+        "version": "6.1",
+        "package_url": "pkg:githubactions/flatpak/flatpak-github-actions/flatpak-builder@6.1",
+        "license": null,
+        "source_repository_url": "https://github.com/flatpak/flatpak-github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/scheduled.yaml",
+        "ecosystem": "actions",
+        "name": "obsproject/obs-crowdin-sync/upload",
+        "version": "30b5446e3b5eb19595aa68a81ddf896a857302cf",
+        "package_url": "pkg:githubactions/obsproject/obs-crowdin-sync/upload@30b5446e3b5eb19595aa68a81ddf896a857302cf",
+        "license": null,
+        "source_repository_url": "https://github.com/obsproject/obs-crowdin-sync",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/push.yaml",
+        "ecosystem": "actions",
+        "name": "obsproject/obs-crowdin-sync/upload",
+        "version": "30b5446e3b5eb19595aa68a81ddf896a857302cf",
+        "package_url": "pkg:githubactions/obsproject/obs-crowdin-sync/upload@30b5446e3b5eb19595aa68a81ddf896a857302cf",
+        "license": null,
+        "source_repository_url": "https://github.com/obsproject/obs-crowdin-sync",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

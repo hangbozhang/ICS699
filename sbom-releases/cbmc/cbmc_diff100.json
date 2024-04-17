@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/regular-release.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/regular-release.yaml",
+        "ecosystem": "actions",
+        "name": "actions/create-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/create-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/create-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "actions/upload-release-asset",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/upload-release-asset@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-release-asset",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-packages.yaml",
+        "ecosystem": "actions",
+        "name": "bruceadams/get-release",
+        "version": "1.2.0",
+        "package_url": "pkg:githubactions/bruceadams/get-release@1.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/bruceadams/get-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "wasm/package-lock.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "2.8.0",
+        "package_url": "pkg:npm/prettier@2.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "karma",
+        "version": "^4.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/karma-runner/karma",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x7c-qm48-pq9c",
+                "advisory_summary": "Cross-site Scripting in karma",
+                "advisory_url": "https://github.com/advisories/GHSA-7x7c-qm48-pq9c"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-rc3x-jf5g-xvc5",
+                "advisory_summary": "Open redirect in karma",
+                "advisory_url": "https://github.com/advisories/GHSA-rc3x-jf5g-xvc5"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "@types/jasmine",
+        "version": "^3.3.16",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "jasmine",
+        "version": "^3.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jasmine/jasmine-npm",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "karma-chrome-launcher",
+        "version": "^3.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/karma-runner/karma-chrome-launcher",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "karma-commonjs",
+        "version": "^1.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/karma-runner/karma-commonjs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "karma-jasmine",
+        "version": "^2.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/karma-runner/karma-jasmine",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "karma-typescript-preprocessor",
+        "version": "^0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sergeyt/karma-typescript-preprocessor",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^2.8.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/prettier/prettier",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "wasm/package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^3.4.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

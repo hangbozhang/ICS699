@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "actions/setup-go",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/setup-go@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "azure/setup-helm",
+        "version": "1",
+        "package_url": "pkg:githubactions/azure/setup-helm@1",
+        "license": null,
+        "source_repository_url": "https://github.com/Azure/setup-helm",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "docker/login-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/docker/login-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/login-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "frabert/replace-string-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/frabert/replace-string-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/frabert/replace-string-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/get-gke-credentials",
+        "version": "main",
+        "package_url": "pkg:githubactions/google-github-actions/get-gke-credentials@main",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/get-gke-credentials",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/setup-gcloud",
+        "version": "master",
+        "package_url": "pkg:githubactions/google-github-actions/setup-gcloud@master",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/setup-gcloud",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/3398.yaml",
+        "ecosystem": "actions",
+        "name": "hashicorp/setup-terraform",
+        "version": "1",
+        "package_url": "pkg:githubactions/hashicorp/setup-terraform@1",
+        "license": null,
+        "source_repository_url": "https://github.com/hashicorp/setup-terraform",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

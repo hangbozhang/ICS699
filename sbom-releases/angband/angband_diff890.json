@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx",
+        "version": ">= 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx-better-theme",
+        "version": "0.1.5",
+        "package_url": "pkg:pypi/sphinx-better-theme@0.1.5",
+        "license": null,
+        "source_repository_url": "https://github.com/irskep/sphinx-better-theme",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

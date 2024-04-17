@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release-cron.yml",
+        "ecosystem": "actions",
+        "name": "ArmageddonGames/ZQuestClassic/.github/workflows/release.yml",
+        "version": "main",
+        "package_url": "pkg:githubactions/ArmageddonGames/ZQuestClassic/.github/workflows/release.yml@main",
+        "license": null,
+        "source_repository_url": "https://github.com/ZQuestClassic/ZQuestClassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release-cron.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

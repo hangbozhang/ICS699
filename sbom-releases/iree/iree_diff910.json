@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

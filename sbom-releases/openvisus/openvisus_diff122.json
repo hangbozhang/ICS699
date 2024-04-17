@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "CMake/setup.py",
+        "ecosystem": "pip",
+        "name": "PyQt5",
+        "version": "5.11.2",
+        "package_url": "pkg:pypi/pyqt5@5.11.2",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

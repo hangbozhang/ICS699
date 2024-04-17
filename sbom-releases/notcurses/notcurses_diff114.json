@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "rust/libnotcurses-sys/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "cc",
+        "version": ">= 1.0.0, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/cc-rs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "rust/libnotcurses-sys/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "libc",
+        "version": ">= 0.2.66, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/rust-lang/libc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

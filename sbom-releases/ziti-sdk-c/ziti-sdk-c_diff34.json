@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "awalsh128/cache-apt-pkgs-action",
+        "version": "latest",
+        "package_url": "pkg:githubactions/awalsh128/cache-apt-pkgs-action@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/awalsh128/cache-apt-pkgs-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.1",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "awalsh128/cache-apt-pkgs-action",
+        "version": "latest",
+        "package_url": "pkg:githubactions/awalsh128/cache-apt-pkgs-action@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/awalsh128/cache-apt-pkgs-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.1",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

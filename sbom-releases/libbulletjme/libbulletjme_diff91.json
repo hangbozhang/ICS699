@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/push.yml",
+        "ecosystem": "actions",
+        "name": "gradle/wrapper-validation-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/gradle/wrapper-validation-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/gradle/wrapper-validation-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

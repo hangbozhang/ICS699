@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/JDBCDemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/springbootdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.20",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.20",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tests/examples/JDBC/taosdemo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "2.0.18",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@2.0.18",
+        "license": null,
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "commons-logging:commons-logging",
+        "version": "1.1.2",
+        "package_url": "pkg:maven/commons-logging/commons-logging@1.1.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-logging",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-dbcp2",
+        "version": "2.7.0",
+        "package_url": "pkg:maven/org.apache.commons/commons-dbcp2@2.7.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-dbcp",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "src/connector/jdbc/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.commons:commons-lang3",
+        "version": "3.9",
+        "package_url": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/commons-lang",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

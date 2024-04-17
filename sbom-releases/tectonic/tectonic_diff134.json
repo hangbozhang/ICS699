@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_geturl",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "tectonic_geturl",
+        "version": ">= 0.0.0, < 0.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tectonic-typesetting/tectonic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

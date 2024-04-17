@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/deploy-android.yaml",
+        "ecosystem": "actions",
+        "name": "nttld/setup-ndk",
+        "version": "1",
+        "package_url": "pkg:githubactions/nttld/setup-ndk@1",
+        "license": null,
+        "source_repository_url": "https://github.com/nttld/setup-ndk",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

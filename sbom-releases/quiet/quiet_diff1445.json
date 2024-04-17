@@ -1,0 +1,112 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron",
+        "version": "16.0.8",
+        "package_url": "pkg:npm/electron@16.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/electron",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qqvq-6xgj-jw8g",
+                "advisory_summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-qqvq-6xgj-jw8g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-77xc-hjv8-ww97",
+                "advisory_summary": "AutoUpdater module fails to validate certain nested components of the bundle",
+                "advisory_url": "https://github.com/advisories/GHSA-77xc-hjv8-ww97"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p2jh-44qj-pf2v",
+                "advisory_summary": "Exfiltration of hashed SMB credentials on Windows via file:// redirect",
+                "advisory_url": "https://github.com/advisories/GHSA-p2jh-44qj-pf2v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7v2-p9m8-qqg7",
+                "advisory_summary": "Electron context isolation bypass via nested unserializable return value",
+                "advisory_url": "https://github.com/advisories/GHSA-p7v2-p9m8-qqg7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x97-j373-85x5",
+                "advisory_summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+                "advisory_url": "https://github.com/advisories/GHSA-7x97-j373-85x5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7m48-wc93-9g85",
+                "advisory_summary": "ASAR Integrity bypass via filetype confusion in electron",
+                "advisory_url": "https://github.com/advisories/GHSA-7m48-wc93-9g85"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-mq8j-3h7h-p8g7",
+                "advisory_summary": "Compromised child renderer processes could obtain IPC access without nodeIntegrationInSubFrames being enabled",
+                "advisory_url": "https://github.com/advisories/GHSA-mq8j-3h7h-p8g7"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "packages/frontend/package.json",
+        "ecosystem": "npm",
+        "name": "electron",
+        "version": "17.0.0",
+        "package_url": "pkg:npm/electron@17.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electron/electron",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qqvq-6xgj-jw8g",
+                "advisory_summary": "Electron affected by libvpx's heap buffer overflow in vp8 encoding",
+                "advisory_url": "https://github.com/advisories/GHSA-qqvq-6xgj-jw8g"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-77xc-hjv8-ww97",
+                "advisory_summary": "AutoUpdater module fails to validate certain nested components of the bundle",
+                "advisory_url": "https://github.com/advisories/GHSA-77xc-hjv8-ww97"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p2jh-44qj-pf2v",
+                "advisory_summary": "Exfiltration of hashed SMB credentials on Windows via file:// redirect",
+                "advisory_url": "https://github.com/advisories/GHSA-p2jh-44qj-pf2v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p7v2-p9m8-qqg7",
+                "advisory_summary": "Electron context isolation bypass via nested unserializable return value",
+                "advisory_url": "https://github.com/advisories/GHSA-p7v2-p9m8-qqg7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7x97-j373-85x5",
+                "advisory_summary": "Electron vulnerable to out-of-package code execution when launched with arbitrary cwd",
+                "advisory_url": "https://github.com/advisories/GHSA-7x97-j373-85x5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7m48-wc93-9g85",
+                "advisory_summary": "ASAR Integrity bypass via filetype confusion in electron",
+                "advisory_url": "https://github.com/advisories/GHSA-7m48-wc93-9g85"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-mq8j-3h7h-p8g7",
+                "advisory_summary": "Compromised child renderer processes could obtain IPC access without nodeIntegrationInSubFrames being enabled",
+                "advisory_url": "https://github.com/advisories/GHSA-mq8j-3h7h-p8g7"
+            }
+        ]
+    }
+]

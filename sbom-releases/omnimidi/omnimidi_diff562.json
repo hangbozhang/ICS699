@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "KeppySynthConfigurator/KeppySynthConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Fody",
+        "version": "1.29.4",
+        "package_url": "pkg:nuget/Fody@1.29.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Fody",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "KeppySynthConfigurator/KeppySynthConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Fody",
+        "version": "1.28.3",
+        "package_url": "pkg:nuget/Fody@1.28.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Fody",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

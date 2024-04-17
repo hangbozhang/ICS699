@@ -1,0 +1,250 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "3.0.11",
+        "package_url": "pkg:githubactions/actions/cache@3.0.11",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/cache",
+        "version": "3.0.8",
+        "package_url": "pkg:githubactions/actions/cache@3.0.8",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/cache",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/distribution",
+        "version": "2.8.1+incompatible",
+        "package_url": "pkg:golang/github.com/docker/distribution@2.8.1%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/distribution/distribution",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hqxw-f8mx-cpmw",
+                "advisory_summary": "distribution catalog API endpoint can lead to OOM via malicious user input",
+                "advisory_url": "https://github.com/advisories/GHSA-hqxw-f8mx-cpmw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/docker",
+        "version": "20.10.17+incompatible",
+        "package_url": "pkg:golang/github.com/docker/docker@20.10.17%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/moby/moby",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-232p-vwff-86mp",
+                "advisory_summary": "Docker Swarm encrypted overlay network may be unauthenticated",
+                "advisory_url": "https://github.com/advisories/GHSA-232p-vwff-86mp"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6wrf-mxfj-pf5p",
+                "advisory_summary": "Docker Swarm encrypted overlay network with a single endpoint is unauthenticated",
+                "advisory_url": "https://github.com/advisories/GHSA-6wrf-mxfj-pf5p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-33pg-m6jh-5237",
+                "advisory_summary": "Docker Swarm encrypted overlay network traffic may be unencrypted",
+                "advisory_url": "https://github.com/advisories/GHSA-33pg-m6jh-5237"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jq35-85cj-fj4p",
+                "advisory_summary": "/sys/devices/virtual/powercap accessible by default to containers",
+                "advisory_url": "https://github.com/advisories/GHSA-jq35-85cj-fj4p"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/Microsoft/go-winio",
+        "version": "0.5.2",
+        "package_url": "pkg:golang/github.com/Microsoft/go-winio@0.5.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/go-winio",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/go-connections",
+        "version": "0.4.0",
+        "package_url": "pkg:golang/github.com/docker/go-connections@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/go-connections",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/docker/go-units",
+        "version": "0.4.0",
+        "package_url": "pkg:golang/github.com/docker/go-units@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/go-units",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/imdario/mergo",
+        "version": "0.3.11",
+        "package_url": "pkg:golang/github.com/imdario/mergo@0.3.11",
+        "license": null,
+        "source_repository_url": "https://github.com/darccio/mergo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/moby/term",
+        "version": "0.0.0-20220808134915-39b0c02b01ae",
+        "package_url": "pkg:golang/github.com/moby/term@0.0.0-20220808134915-39b0c02b01ae",
+        "license": null,
+        "source_repository_url": "https://github.com/moby/term",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/morikuni/aec",
+        "version": "1.0.0",
+        "package_url": "pkg:golang/github.com/morikuni/aec@1.0.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/olekukonko/tablewriter",
+        "version": "0.0.4",
+        "package_url": "pkg:golang/github.com/olekukonko/tablewriter@0.0.4",
+        "license": null,
+        "source_repository_url": "https://github.com/olekukonko/tablewriter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/go-digest",
+        "version": "1.0.0",
+        "package_url": "pkg:golang/github.com/opencontainers/go-digest@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/go-digest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/image-spec",
+        "version": "1.0.2",
+        "package_url": "pkg:golang/github.com/opencontainers/image-spec@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/image-spec",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/pkg/errors",
+        "version": "0.9.1",
+        "package_url": "pkg:golang/github.com/pkg/errors@0.9.1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/sirupsen/logrus",
+        "version": "1.7.0",
+        "package_url": "pkg:golang/github.com/sirupsen/logrus@1.7.0",
+        "license": null,
+        "source_repository_url": "https://github.com/sirupsen/logrus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "gotest.tools/v3",
+        "version": "3.3.0",
+        "package_url": "pkg:golang/gotest.tools/v3@3.3.0",
+        "license": null,
+        "source_repository_url": "https://github.com/gotestyourself/gotest.tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/imdario/mergo",
+        "version": "0.3.5",
+        "package_url": "pkg:golang/github.com/imdario/mergo@0.3.5",
+        "license": null,
+        "source_repository_url": "https://github.com/darccio/mergo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/olekukonko/tablewriter",
+        "version": "0.0.0-00010101000000-000000000000",
+        "package_url": "pkg:golang/github.com/olekukonko/tablewriter@0.0.0-00010101000000-000000000000",
+        "license": null,
+        "source_repository_url": "https://github.com/olekukonko/tablewriter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

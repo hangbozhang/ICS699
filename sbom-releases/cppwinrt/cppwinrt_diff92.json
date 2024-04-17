@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cppwinrt/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.191006.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.191006.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.Debugger.VSDConfigTool",
+        "version": "16.0.2012201-preview",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.Debugger.VSDConfigTool@16.0.2012201-preview",
+        "license": "OTHER",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.Debugger.VSDebugEng",
+        "version": "16.0.2012201-preview",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.Debugger.VSDebugEng@16.0.2012201-preview",
+        "license": "OTHER",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.191006.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.191006.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "vsix/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.BuildTools",
+        "version": "16.0.2258",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.BuildTools@16.0.2258",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

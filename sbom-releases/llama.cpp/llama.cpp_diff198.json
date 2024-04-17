@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "protobuf",
+        "version": ">= 4.21.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/protocolbuffers/protobuf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

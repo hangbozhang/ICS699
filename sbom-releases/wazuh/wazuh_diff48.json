@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "secure",
+        "version": "0.2.1",
+        "package_url": "pkg:pypi/secure@0.2.1",
+        "license": null,
+        "source_repository_url": "https://github.com/TypeError/secure",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

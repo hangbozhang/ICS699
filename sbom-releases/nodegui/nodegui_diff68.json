@@ -1,0 +1,316 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "highlight.js",
+        "version": "10.1.1",
+        "package_url": "pkg:npm/highlight.js@10.1.1",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/highlightjs/highlight.js",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vfrc-7r7c-w9mx",
+                "advisory_summary": "Prototype Pollution in highlight.js",
+                "advisory_url": "https://github.com/advisories/GHSA-vfrc-7r7c-w9mx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7wwv-vh3v-89cq",
+                "advisory_summary": "ReDOS vulnerabities: multiple grammars",
+                "advisory_url": "https://github.com/advisories/GHSA-7wwv-vh3v-89cq"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "highlight.js",
+        "version": "10.0.3",
+        "package_url": "pkg:npm/highlight.js@10.0.3",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/highlightjs/highlight.js",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-vfrc-7r7c-w9mx",
+                "advisory_summary": "Prototype Pollution in highlight.js",
+                "advisory_url": "https://github.com/advisories/GHSA-vfrc-7r7c-w9mx"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7wwv-vh3v-89cq",
+                "advisory_summary": "ReDOS vulnerabities: multiple grammars",
+                "advisory_url": "https://github.com/advisories/GHSA-7wwv-vh3v-89cq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "26.0.3",
+        "package_url": "pkg:npm/%40types/jest@26.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "14.0.14",
+        "package_url": "pkg:npm/%40types/node@14.0.14",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "5.3.5",
+        "package_url": "pkg:npm/prebuild-install@5.3.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "0.17.8",
+        "package_url": "pkg:npm/typedoc@0.17.8",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc-default-themes",
+        "version": "0.10.2",
+        "package_url": "pkg:npm/typedoc-default-themes@0.10.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc-default-themes",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "3.9.6",
+        "package_url": "pkg:npm/typescript@3.9.6",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "26.0.0",
+        "package_url": "pkg:npm/%40types/jest@26.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "14.0.13",
+        "package_url": "pkg:npm/%40types/node@14.0.13",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "5.3.4",
+        "package_url": "pkg:npm/prebuild-install@5.3.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "0.17.7",
+        "package_url": "pkg:npm/typedoc@0.17.7",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typedoc-default-themes",
+        "version": "0.10.1",
+        "package_url": "pkg:npm/typedoc-default-themes@0.10.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/TypeStrong/typedoc-default-themes",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "3.9.5",
+        "package_url": "pkg:npm/typescript@3.9.5",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "^26.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^14.0.14",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "^5.3.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "^0.17.8",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TypeStrong/typedoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^3.9.6",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "^26.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^14.0.12",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "^5.3.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "^0.17.7",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TypeStrong/typedoc",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^3.9.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/TypeScript",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

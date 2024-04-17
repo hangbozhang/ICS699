@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/website/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-material",
+        "version": "9.2.0b1",
+        "package_url": "pkg:pypi/mkdocs-material@9.2.0b1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/squidfunk/mkdocs-material",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "docs/website/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-redirects",
+        "version": "1.2.1",
+        "package_url": "pkg:pypi/mkdocs-redirects@1.2.1",
+        "license": null,
+        "source_repository_url": "https://github.com/mkdocs/mkdocs-redirects",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/website/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-material",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/squidfunk/mkdocs-material",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/website/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-redirects",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mkdocs/mkdocs-redirects",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "user/tests/app/softap_http/client/package.json",
+        "ecosystem": "npm",
+        "name": "bluebird",
+        "version": "^3.5.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/petkaantonov/bluebird",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/app/softap_http/client/package.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.17.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "user/tests/app/softap_http/client/package.json",
+        "ecosystem": "npm",
+        "name": "randomstring",
+        "version": "^1.1.5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/klughammer/node-randomstring",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "styfle/cancel-workflow-action",
+        "version": "0.8.0",
+        "package_url": "pkg:githubactions/styfle/cancel-workflow-action@0.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/styfle/cancel-workflow-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

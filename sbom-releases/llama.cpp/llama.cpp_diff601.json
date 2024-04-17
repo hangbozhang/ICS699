@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "pr-mpt/actions-commit-hash",
+        "version": "2",
+        "package_url": "pkg:githubactions/pr-mpt/actions-commit-hash@2",
+        "license": null,
+        "source_repository_url": "https://github.com/prompt/actions-commit-hash",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

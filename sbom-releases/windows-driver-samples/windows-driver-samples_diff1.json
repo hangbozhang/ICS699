@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "avstream/sampledevicemft/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.ImplementationLibrary",
+        "version": "1.0.210204.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.ImplementationLibrary@1.0.210204.1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/wil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

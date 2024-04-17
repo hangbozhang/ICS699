@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/hxdos.yml",
+        "ecosystem": "actions",
+        "name": "robinraju/release-downloader",
+        "version": "1.4",
+        "package_url": "pkg:githubactions/robinraju/release-downloader@1.4",
+        "license": null,
+        "source_repository_url": "https://github.com/robinraju/release-downloader",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/macos.yml",
+        "ecosystem": "actions",
+        "name": "softprops/action-gh-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/softprops/action-gh-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/softprops/action-gh-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/ahmetb/govvv",
+        "version": "0.3.0",
+        "package_url": "pkg:golang/github.com/ahmetb/govvv@0.3.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ahmetb/govvv",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "cli/go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/go-bindata/go-bindata",
+        "version": "3.1.2+incompatible",
+        "package_url": "pkg:golang/github.com/go-bindata/go-bindata@3.1.2%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/go-bindata/go-bindata",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

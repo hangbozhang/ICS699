@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@webosbrew/pub-utils",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/%40webosbrew/pub-utils@1.0.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/webosbrew/pub-utils",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "@webosbrew/pub-utils",
+        "version": "1.0.2",
+        "package_url": "pkg:npm/%40webosbrew/pub-utils@1.0.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/webosbrew/pub-utils",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@webosbrew/pub-utils",
+        "version": "^1.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/webosbrew/pub-utils",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "@webosbrew/pub-utils",
+        "version": "^1.0.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/webosbrew/pub-utils",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

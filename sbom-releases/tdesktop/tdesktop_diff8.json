@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "f68fdb76e2ea636224182cfb7377ff9a1708f9b8",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@f68fdb76e2ea636224182cfb7377ff9a1708f9b8",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/docker.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "76866dbe54312617f00798d1762df7f43def6e5c",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@76866dbe54312617f00798d1762df7f43def6e5c",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/snap.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "f68fdb76e2ea636224182cfb7377ff9a1708f9b8",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@f68fdb76e2ea636224182cfb7377ff9a1708f9b8",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/snap.yml",
+        "ecosystem": "actions",
+        "name": "jlumbroso/free-disk-space",
+        "version": "76866dbe54312617f00798d1762df7f43def6e5c",
+        "package_url": "pkg:githubactions/jlumbroso/free-disk-space@76866dbe54312617f00798d1762df7f43def6e5c",
+        "license": null,
+        "source_repository_url": "https://github.com/jlumbroso/free-disk-space",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

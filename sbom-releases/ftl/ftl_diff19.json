@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/sync-back-to-dev.yml",
+        "ecosystem": "actions",
+        "name": "actions-ecosystem/action-add-labels",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions-ecosystem/action-add-labels@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions-ecosystem/action-add-labels",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/sync-back-to-dev.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/sync-back-to-dev.yml",
+        "ecosystem": "actions",
+        "name": "tretuna/sync-branches",
+        "version": "1.4.0",
+        "package_url": "pkg:githubactions/tretuna/sync-branches@1.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/TreTuna/sync-branches",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

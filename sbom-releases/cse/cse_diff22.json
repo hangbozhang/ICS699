@@ -1,0 +1,76 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "tj-actions/branch-names",
+        "version": "5",
+        "package_url": "pkg:githubactions/tj-actions/branch-names@5",
+        "license": null,
+        "source_repository_url": "https://github.com/tj-actions/branch-names",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8v8w-v8xg-79rf",
+                "advisory_summary": "tj-actions/branch-names's Improper Sanitization of Branch Name Leads to Arbitrary Code Injection",
+                "advisory_url": "https://github.com/advisories/GHSA-8v8w-v8xg-79rf"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "GuillaumeFalourd/setup-windows10-sdk-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/GuillaumeFalourd/setup-windows10-sdk-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/GuillaumeFalourd/setup-windows10-sdk-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build-and-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2.2.4",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2.2.4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "tj-actions/branch-names",
+        "version": "5",
+        "package_url": "pkg:githubactions/tj-actions/branch-names@5",
+        "license": null,
+        "source_repository_url": "https://github.com/tj-actions/branch-names",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-8v8w-v8xg-79rf",
+                "advisory_summary": "tj-actions/branch-names's Improper Sanitization of Branch Name Leads to Arbitrary Code Injection",
+                "advisory_url": "https://github.com/advisories/GHSA-8v8w-v8xg-79rf"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "GuillaumeFalourd/setup-windows10-sdk-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/GuillaumeFalourd/setup-windows10-sdk-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/GuillaumeFalourd/setup-windows10-sdk-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

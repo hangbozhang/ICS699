@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "ZbayApp/monorepo/.github/workflows/e2e-tests-reusable.yml",
+        "version": "ff1fbf8d1853f23ba97c2c00116ef2312ae8977f",
+        "package_url": "pkg:githubactions/ZbayApp/monorepo/.github/workflows/e2e-tests-reusable.yml@ff1fbf8d1853f23ba97c2c00116ef2312ae8977f",
+        "license": null,
+        "source_repository_url": "https://github.com/TryQuiet/quiet",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

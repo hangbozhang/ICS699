@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/winget.yml",
+        "ecosystem": "actions",
+        "name": "vedantmgoyal2009/winget-releaser",
+        "version": "1",
+        "package_url": "pkg:githubactions/vedantmgoyal2009/winget-releaser@1",
+        "license": null,
+        "source_repository_url": "https://github.com/vedantmgoyal2009/winget-releaser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/winget.yml",
+        "ecosystem": "actions",
+        "name": "vedantmgoyal2009/winget-releaser",
+        "version": "latest",
+        "package_url": "pkg:githubactions/vedantmgoyal2009/winget-releaser@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/vedantmgoyal2009/winget-releaser",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

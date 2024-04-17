@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/community-notify.yml",
+        "ecosystem": "actions",
+        "name": "fjogeleit/http-request-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/fjogeleit/http-request-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/fjogeleit/http-request-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

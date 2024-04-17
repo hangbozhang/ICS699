@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pull-request-checks.yaml",
+        "ecosystem": "actions",
+        "name": "codecov/codecov-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/codecov/codecov-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/codecov/codecov-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

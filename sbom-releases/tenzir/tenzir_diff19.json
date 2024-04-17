@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "mknejp/delete-release-assets",
+        "version": "1",
+        "package_url": "pkg:githubactions/mknejp/delete-release-assets@1",
+        "license": null,
+        "source_repository_url": "https://github.com/mknejp/delete-release-assets",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "ponylang-main/repository-dispatch",
+        "version": "ce5485de42c9b2622d2ed064be479e8ed65e76f4",
+        "package_url": "pkg:githubactions/ponylang-main/repository-dispatch@ce5485de42c9b2622d2ed064be479e8ed65e76f4",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang-main/repository-dispatch",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "ponylang-main/ssh-action",
+        "version": "ffff33f8fe0318345a4f00f0e847325954b2a3ed",
+        "package_url": "pkg:githubactions/ponylang-main/ssh-action@ffff33f8fe0318345a4f00f0e847325954b2a3ed",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang-main/ssh-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.3.3",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.3.3",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/handle-external-events.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/handle-external-events.yml",
+        "ecosystem": "actions",
+        "name": "appleboy/ssh-action",
+        "version": "ffff33f8fe0318345a4f00f0e847325954b2a3ed",
+        "package_url": "pkg:githubactions/appleboy/ssh-action@ffff33f8fe0318345a4f00f0e847325954b2a3ed",
+        "license": null,
+        "source_repository_url": "https://github.com/appleboy/ssh-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/handle-external-events.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.3.3",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.3.3",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

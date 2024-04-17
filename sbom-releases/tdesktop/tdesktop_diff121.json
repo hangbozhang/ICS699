@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/lock.yml",
+        "ecosystem": "actions",
+        "name": "dessant/lock-threads",
+        "version": "2",
+        "package_url": "pkg:githubactions/dessant/lock-threads@2",
+        "license": null,
+        "source_repository_url": "https://github.com/dessant/lock-threads",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

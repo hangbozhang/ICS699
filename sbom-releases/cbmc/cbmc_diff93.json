@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/regular-release.yaml",
+        "ecosystem": "actions",
+        "name": "jungwinter/split",
+        "version": "1",
+        "package_url": "pkg:githubactions/jungwinter/split@1",
+        "license": null,
+        "source_repository_url": "https://github.com/winterjung/split",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

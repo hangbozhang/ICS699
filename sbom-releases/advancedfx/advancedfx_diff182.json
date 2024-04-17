@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "misc/mirv_pgl_test/package.json",
+        "ecosystem": "npm",
+        "name": "big-integer",
+        "version": "^1.6.43",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/peterolson/BigInteger.js",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "misc/mirv_pgl_test/package.json",
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "^7.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/websockets/ws",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

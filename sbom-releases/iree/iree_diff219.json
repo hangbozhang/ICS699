@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "integrations/tensorflow/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": "2.14.0.dev20230519",
+        "package_url": "pkg:pypi/tf-nightly@2.14.0.dev20230519",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/test/requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": "2.13.0.dev20230501",
+        "package_url": "pkg:pypi/tf-nightly@2.13.0.dev20230501",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

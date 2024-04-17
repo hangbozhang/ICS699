@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/prepare_deploy.yml",
+        "ecosystem": "actions",
+        "name": "Geode-solutions/actions/.github/workflows/prepare-deploy.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/Geode-solutions/actions/.github/workflows/prepare-deploy.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/Geode-solutions/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/prepare.yml",
+        "ecosystem": "actions",
+        "name": "Geode-solutions/actions/.github/workflows/prepare.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/Geode-solutions/actions/.github/workflows/prepare.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/Geode-solutions/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

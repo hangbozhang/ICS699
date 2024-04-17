@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "nan",
+        "version": "2.14.2",
+        "package_url": "pkg:npm/nan@2.14.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodejs/nan",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "node-addon-api",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/node-addon-api@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodejs/node-addon-api",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "nan",
+        "version": "2.14.2",
+        "package_url": "pkg:npm/nan@2.14.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodejs/nan",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "node-addon-api",
+        "version": "^4.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nodejs/node-addon-api",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "nan",
+        "version": "^2.14.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nodejs/nan",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

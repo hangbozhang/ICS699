@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nix-flakestry.yml",
+        "ecosystem": "actions",
+        "name": "flakestry/flakestry-publish",
+        "version": "main",
+        "package_url": "pkg:githubactions/flakestry/flakestry-publish@main",
+        "license": null,
+        "source_repository_url": "https://github.com/flakestry/flakestry-publish",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

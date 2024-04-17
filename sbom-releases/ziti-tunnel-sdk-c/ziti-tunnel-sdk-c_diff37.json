@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cpack.yml",
+        "ecosystem": "actions",
+        "name": "jfrog/setup-jfrog-cli",
+        "version": "3",
+        "package_url": "pkg:githubactions/jfrog/setup-jfrog-cli@3",
+        "license": null,
+        "source_repository_url": "https://github.com/jfrog/setup-jfrog-cli",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cpack.yml",
+        "ecosystem": "actions",
+        "name": "jfrog/setup-jfrog-cli",
+        "version": "2",
+        "package_url": "pkg:githubactions/jfrog/setup-jfrog-cli@2",
+        "license": null,
+        "source_repository_url": "https://github.com/jfrog/setup-jfrog-cli",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

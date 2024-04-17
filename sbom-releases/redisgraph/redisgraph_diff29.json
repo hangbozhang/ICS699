@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "RLTest",
+        "version": "~> 0.4.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "tests/requirements.txt",
+        "ecosystem": "pip",
+        "name": "ramp-packer",
+        "version": "~> 2.2.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/RedisLabsModules/RAMP",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

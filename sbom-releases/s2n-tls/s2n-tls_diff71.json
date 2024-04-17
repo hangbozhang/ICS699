@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/rust/integration/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "s2n-tls-sys",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/aws/s2n-tls",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/rust/generate/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "heck",
+        "version": ">= 0.3.0, < 0.4.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/withoutboats/heck",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

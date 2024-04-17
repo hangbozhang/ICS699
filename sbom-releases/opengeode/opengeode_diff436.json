@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "Geode-solutions/actions/.github/workflows/release.yml",
+        "version": "master",
+        "package_url": "pkg:githubactions/Geode-solutions/actions/.github/workflows/release.yml@master",
+        "license": null,
+        "source_repository_url": "https://github.com/Geode-solutions/actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

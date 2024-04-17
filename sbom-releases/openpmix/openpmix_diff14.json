@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/pr-target.yaml",
+        "ecosystem": "actions",
+        "name": "open-mpi/pr-git-commit-checker",
+        "version": "1.0.0",
+        "package_url": "pkg:githubactions/open-mpi/pr-git-commit-checker@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/open-mpi/pr-git-commit-checker",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

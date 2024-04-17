@@ -1,0 +1,87 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "docs/examples/java/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "3.2.1",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@3.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/examples/java/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "3.1.0",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/consumer-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.google.guava:guava",
+        "version": "30.1.1-jre",
+        "package_url": "pkg:maven/com.google.guava/guava@30.1.1-jre",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/google/guava",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7g45-4rm6-3mm3",
+                "advisory_summary": "Guava vulnerable to insecure use of temporary directory",
+                "advisory_url": "https://github.com/advisories/GHSA-7g45-4rm6-3mm3"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5mg8-w23w-74h3",
+                "advisory_summary": "Information Disclosure in Guava",
+                "advisory_url": "https://github.com/advisories/GHSA-5mg8-w23w-74h3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/consumer-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "com.taosdata.jdbc:taos-jdbcdriver",
+        "version": "3.2.1",
+        "package_url": "pkg:maven/com.taosdata.jdbc/taos-jdbcdriver@3.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/taosdata/taos-connector-jdbc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/consumer-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-assembly-plugin",
+        "version": "3.3.0",
+        "package_url": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/JDBC/consumer-demo/pom.xml",
+        "ecosystem": "maven",
+        "name": "org.apache.maven.plugins:maven-compiler-plugin",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/apache/maven-plugins",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.25.2",
+        "package_url": "pkg:pypi/numpy@1.25.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.25.1",
+        "package_url": "pkg:pypi/numpy@1.25.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.25.0",
+        "package_url": "pkg:pypi/ipykernel@6.25.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.7.3",
+        "package_url": "pkg:pypi/nbconvert@7.7.3",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.24.0",
+        "package_url": "pkg:pypi/ipykernel@6.24.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "7.7.1",
+        "package_url": "pkg:pypi/nbconvert@7.7.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.25.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.7.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.24.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "nbconvert",
+        "version": "^ 7.7.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/jupyter/nbconvert",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

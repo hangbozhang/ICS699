@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "softprops/action-gh-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/softprops/action-gh-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/softprops/action-gh-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "marvinpinto/action-automatic-releases",
+        "version": "latest",
+        "package_url": "pkg:githubactions/marvinpinto/action-automatic-releases@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/marvinpinto/action-automatic-releases",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

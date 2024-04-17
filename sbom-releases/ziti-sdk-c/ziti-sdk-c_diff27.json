@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "awalsh128/cache-apt-pkgs-action",
+        "version": "latest",
+        "package_url": "pkg:githubactions/awalsh128/cache-apt-pkgs-action@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/awalsh128/cache-apt-pkgs-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/cmake.yml",
+        "ecosystem": "actions",
+        "name": "awalsh128/cache-apt-pkgs-action",
+        "version": "latest",
+        "package_url": "pkg:githubactions/awalsh128/cache-apt-pkgs-action@latest",
+        "license": null,
+        "source_repository_url": "https://github.com/awalsh128/cache-apt-pkgs-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

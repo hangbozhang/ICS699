@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "msvc/packages.config",
+        "ecosystem": "nuget",
+        "name": "VisualCppTools",
+        "version": "14.0.24203-Pre",
+        "package_url": "pkg:nuget/VisualCppTools@14.0.24203-Pre",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

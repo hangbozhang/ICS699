@@ -1,0 +1,179 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": "3.2.1",
+        "package_url": "pkg:pypi/cryptography@3.2.1",
+        "license": "Apache-2.0 AND BSD-3-Clause AND Python-2.0",
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-rhm9-p9w5-fwm7",
+                "advisory_summary": "PyCA Cryptography symmetrically encrypting large values can lead to integer overflow",
+                "advisory_url": "https://github.com/advisories/GHSA-rhm9-p9w5-fwm7"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jfhm-5ghh-2f97",
+                "advisory_summary": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+                "advisory_url": "https://github.com/advisories/GHSA-jfhm-5ghh-2f97"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cryptography",
+        "version": "3.3.2",
+        "package_url": "pkg:pypi/cryptography@3.3.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyca/cryptography",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-x4qr-2fvf-3mr5",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-w7pp-m8wf-vj6r",
+                "advisory_summary": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "advisory_url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jfhm-5ghh-2f97",
+                "advisory_summary": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+                "advisory_url": "https://github.com/advisories/GHSA-jfhm-5ghh-2f97"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-jm77-qphf-c4w8",
+                "advisory_summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "advisory_url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-v8gr-m533-ghj9",
+                "advisory_summary": "Vulnerable OpenSSL included in cryptography wheels",
+                "advisory_url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pip",
+        "version": "20.3.3",
+        "package_url": "pkg:pypi/pip@20.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/pip",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5xp3-jfq3-5q8x",
+                "advisory_summary": "Improper Input Validation in pip",
+                "advisory_url": "https://github.com/advisories/GHSA-5xp3-jfq3-5q8x"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mq26-g339-26xf",
+                "advisory_summary": "Command Injection in pip when used with Mercurial",
+                "advisory_url": "https://github.com/advisories/GHSA-mq26-g339-26xf"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "1.14.4",
+        "package_url": "pkg:pypi/cffi@1.14.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cython",
+        "version": "0.29.21",
+        "package_url": "pkg:pypi/cython@0.29.21",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/cython/cython",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "xmltodict",
+        "version": "0.12.0",
+        "package_url": "pkg:pypi/xmltodict@0.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/martinblech/xmltodict",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "1.14.0",
+        "package_url": "pkg:pypi/cffi@1.14.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

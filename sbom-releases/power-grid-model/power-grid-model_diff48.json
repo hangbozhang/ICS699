@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "3",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@3",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "docker/setup-qemu-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/docker/setup-qemu-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/docker/setup-qemu-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

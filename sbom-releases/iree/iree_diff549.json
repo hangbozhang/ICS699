@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": ">= 1.19.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "pybind11",
+        "version": ">= 2.6.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dialkforkaushik/decagt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "runtime/bindings/python/iree/runtime/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheel",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": ">= 1.19.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "pybind11",
+        "version": ">= 2.6.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dialkforkaushik/decagt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheel",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

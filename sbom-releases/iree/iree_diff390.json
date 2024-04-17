@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "package_url": "pkg:githubactions/actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3cea5372237819ed00197afe530f5a7ea3e805c8",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

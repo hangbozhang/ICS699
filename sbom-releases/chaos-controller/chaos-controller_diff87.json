@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/go-logr/logr",
+        "version": "0.1.0",
+        "package_url": "pkg:golang/github.com/go-logr/logr@0.1.0",
+        "license": null,
+        "source_repository_url": "https://github.com/go-logr/logr",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

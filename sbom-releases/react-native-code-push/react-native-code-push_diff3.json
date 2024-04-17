@@ -1,0 +1,64 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "vm2",
+        "version": "3.9.19",
+        "package_url": "pkg:npm/vm2@3.9.19",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/patriksimek/vm2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-g644-9gfx-q4q4",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g644-9gfx-q4q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-cchq-frgv-rjh5",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-cchq-frgv-rjh5"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "vm2",
+        "version": "3.9.17",
+        "package_url": "pkg:npm/vm2@3.9.17",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/patriksimek/vm2",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-whpj-8f3w-67p5",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-whpj-8f3w-67p5"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-g644-9gfx-q4q4",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-g644-9gfx-q4q4"
+            },
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-cchq-frgv-rjh5",
+                "advisory_summary": "vm2 Sandbox Escape vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-cchq-frgv-rjh5"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p5gc-c584-jj6v",
+                "advisory_summary": "vm2 vulnerable to Inspect Manipulation",
+                "advisory_url": "https://github.com/advisories/GHSA-p5gc-c584-jj6v"
+            }
+        ]
+    }
+]

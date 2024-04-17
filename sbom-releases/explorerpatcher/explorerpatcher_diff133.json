@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "nuget/setup-nuget",
+        "version": "1",
+        "package_url": "pkg:githubactions/nuget/setup-nuget@1",
+        "license": null,
+        "source_repository_url": "https://github.com/NuGet/setup-nuget",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ep_weather_host/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Web.WebView2",
+        "version": "1.0.1072.54",
+        "package_url": "pkg:nuget/Microsoft.Web.WebView2@1.0.1072.54",
+        "license": null,
+        "source_repository_url": "https://github.com/arturo-lang/arturo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

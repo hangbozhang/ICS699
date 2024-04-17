@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/announce-a-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/announce-a-release.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.6.1",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.6.1",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/announce-a-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cirrus-failures.yml",
+        "ecosystem": "actions",
+        "name": "zulip/github-actions-zulip",
+        "version": "35d7ad8e98444f894dcfe1d4e17332581d28ebeb",
+        "package_url": "pkg:githubactions/zulip/github-actions-zulip@35d7ad8e98444f894dcfe1d4e17332581d28ebeb",
+        "license": null,
+        "source_repository_url": "https://github.com/zulip/github-actions-zulip",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/cloudsmith-package-sychronised.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.6.1",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.6.1",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/prepare-for-a-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/prepare-for-a-release.yml",
+        "ecosystem": "actions",
+        "name": "ponylang/release-bot-action",
+        "version": "0.6.1",
+        "package_url": "pkg:githubactions/ponylang/release-bot-action@0.6.1",
+        "license": null,
+        "source_repository_url": "https://github.com/ponylang/release-bot-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/start-a-release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "1",
+        "package_url": "pkg:githubactions/actions/checkout@1",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tidy-post.yml",
+        "ecosystem": "actions",
+        "name": "ZedThree/clang-tidy-review/post",
+        "version": "0.13.0",
+        "package_url": "pkg:githubactions/ZedThree/clang-tidy-review/post@0.13.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ZedThree/clang-tidy-review",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tidy-review.yml",
+        "ecosystem": "actions",
+        "name": "ZedThree/clang-tidy-review",
+        "version": "0.13.0",
+        "package_url": "pkg:githubactions/ZedThree/clang-tidy-review@0.13.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ZedThree/clang-tidy-review",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tidy-review.yml",
+        "ecosystem": "actions",
+        "name": "ZedThree/clang-tidy-review/upload",
+        "version": "0.13.0",
+        "package_url": "pkg:githubactions/ZedThree/clang-tidy-review/upload@0.13.0",
+        "license": null,
+        "source_repository_url": "https://github.com/ZedThree/clang-tidy-review",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/tidy-review.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

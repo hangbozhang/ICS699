@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/remove-old-artifacts.yml",
+        "ecosystem": "actions",
+        "name": "c-hive/gha-remove-artifacts",
+        "version": "1",
+        "package_url": "pkg:githubactions/c-hive/gha-remove-artifacts@1",
+        "license": null,
+        "source_repository_url": "https://github.com/c-hive/gha-remove-artifacts",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

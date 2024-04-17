@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jinja2",
+        "version": "3.1.2",
+        "package_url": "pkg:pypi/jinja2@3.1.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.24.4",
+        "package_url": "pkg:pypi/numpy@1.24.4",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pandas",
+        "version": "2.0.3",
+        "package_url": "pkg:pypi/pandas@2.0.3",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/pandas-dev/pandas",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "7.4.2",
+        "package_url": "pkg:pypi/pytest@7.4.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

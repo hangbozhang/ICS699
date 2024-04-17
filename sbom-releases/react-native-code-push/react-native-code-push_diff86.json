@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "^5.1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

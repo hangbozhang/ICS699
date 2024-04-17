@@ -1,0 +1,1813 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:36:49Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ],
+            "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
+        },
+        "name": "com.github.tensorflow/tensorflow",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.tensorflow-tensorflow"
+        ],
+        "documentNamespace": "https://github.com/tensorflow/tensorflow/dependency_graph/sbom-a2864a41713dc39e",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.tensorflow-tensorflow",
+                "name": "com.github.tensorflow/tensorflow",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/tensorflow/tensorflow",
+                "licenseDeclared": "Apache-2.0",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/tensorflow/tensorflow"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-absl-py-1.4.0",
+                "name": "pip:absl-py",
+                "versionInfo": "1.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/absl-py@1.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-astor-0.7.1",
+                "name": "pip:astor",
+                "versionInfo": "0.7.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/astor@0.7.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-astunparse-1.6.3",
+                "name": "pip:astunparse",
+                "versionInfo": "1.6.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause AND Python-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/astunparse@1.6.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-cachetools-5.3.1",
+                "name": "pip:cachetools",
+                "versionInfo": "5.3.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/cachetools@5.3.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-certifi-2023.7.22",
+                "name": "pip:certifi",
+                "versionInfo": "2023.7.22",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MPL-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/certifi@2023.7.22",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-charset-normalizer-3.2.0",
+                "name": "pip:charset-normalizer",
+                "versionInfo": "3.2.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/charset-normalizer@3.2.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-dill-0.3.6",
+                "name": "pip:dill",
+                "versionInfo": "0.3.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/dill@0.3.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-gast-0.4.0",
+                "name": "pip:gast",
+                "versionInfo": "0.4.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/gast@0.4.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-google-auth-2.22.0",
+                "name": "pip:google-auth",
+                "versionInfo": "2.22.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/google-auth@2.22.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-google-auth-oauthlib-1.0.0",
+                "name": "pip:google-auth-oauthlib",
+                "versionInfo": "1.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/google-auth-oauthlib@1.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-grpcio-1.58.0",
+                "name": "pip:grpcio",
+                "versionInfo": "1.58.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/grpcio@1.58.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-h5py-3.9.0",
+                "name": "pip:h5py",
+                "versionInfo": "3.9.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/h5py@3.9.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-idna-3.4",
+                "name": "pip:idna",
+                "versionInfo": "3.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/idna@3.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-jax-0.4.7",
+                "name": "pip:jax",
+                "versionInfo": "0.4.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/jax@0.4.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-keras-nightly-2.15.0.dev2023090707",
+                "name": "pip:keras-nightly",
+                "versionInfo": "2.15.0.dev2023090707",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/keras-nightly@2.15.0.dev2023090707",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-lit-16.0.6",
+                "name": "pip:lit",
+                "versionInfo": "16.0.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 WITH LLVM-exception",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/lit@16.0.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-markdown-3.4.4",
+                "name": "pip:markdown",
+                "versionInfo": "3.4.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/markdown@3.4.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-markupsafe-2.1.3",
+                "name": "pip:markupsafe",
+                "versionInfo": "2.1.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/markupsafe@2.1.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-ml-dtypes-0.2.0",
+                "name": "pip:ml-dtypes",
+                "versionInfo": "0.2.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/ml-dtypes@0.2.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-numpy-1.23.5",
+                "name": "pip:numpy",
+                "versionInfo": "1.23.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/numpy@1.23.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-oauthlib-3.2.2",
+                "name": "pip:oauthlib",
+                "versionInfo": "3.2.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/oauthlib@3.2.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-opt-einsum-3.3.0",
+                "name": "pip:opt-einsum",
+                "versionInfo": "3.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/opt-einsum@3.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-packaging-23.1",
+                "name": "pip:packaging",
+                "versionInfo": "23.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0 OR (Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause)",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/packaging@23.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-portpicker-1.5.2",
+                "name": "pip:portpicker",
+                "versionInfo": "1.5.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/portpicker@1.5.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-protobuf-4.23.4",
+                "name": "pip:protobuf",
+                "versionInfo": "4.23.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/protobuf@4.23.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-psutil-5.9.5",
+                "name": "pip:psutil",
+                "versionInfo": "5.9.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/psutil@5.9.5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-pyasn1-0.5.0",
+                "name": "pip:pyasn1",
+                "versionInfo": "0.5.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/pyasn1@0.5.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-pyasn1-modules-0.3.0",
+                "name": "pip:pyasn1-modules",
+                "versionInfo": "0.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/pyasn1-modules@0.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-requests-2.31.0",
+                "name": "pip:requests",
+                "versionInfo": "2.31.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/requests@2.31.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-requests-oauthlib-1.3.1",
+                "name": "pip:requests-oauthlib",
+                "versionInfo": "1.3.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND ISC",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/requests-oauthlib@1.3.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-rsa-4.9",
+                "name": "pip:rsa",
+                "versionInfo": "4.9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/rsa@4.9",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-scipy-1.10.1",
+                "name": "pip:scipy",
+                "versionInfo": "1.10.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/scipy@1.10.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-setuptools-67.6.1",
+                "name": "pip:setuptools",
+                "versionInfo": "67.6.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/setuptools@67.6.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-six-1.16.0",
+                "name": "pip:six",
+                "versionInfo": "1.16.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/six@1.16.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tb-nightly-2.15.0a20230907",
+                "name": "pip:tb-nightly",
+                "versionInfo": "2.15.0a20230907",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/tb-nightly@2.15.0a20230907",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tblib-1.7.0",
+                "name": "pip:tblib",
+                "versionInfo": "1.7.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/tblib@1.7.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tensorboard-data-server-0.7.1",
+                "name": "pip:tensorboard-data-server",
+                "versionInfo": "0.7.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/tensorboard-data-server@0.7.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-termcolor-2.3.0",
+                "name": "pip:termcolor",
+                "versionInfo": "2.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/termcolor@2.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tf-estimator-nightly-2.15.0.dev2023090708",
+                "name": "pip:tf-estimator-nightly",
+                "versionInfo": "2.15.0.dev2023090708",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/tf-estimator-nightly@2.15.0.dev2023090708",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-typing-extensions-4.2.0",
+                "name": "pip:typing-extensions",
+                "versionInfo": "4.2.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Python-2.0.1",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/typing-extensions@4.2.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-urllib3-1.26.16",
+                "name": "pip:urllib3",
+                "versionInfo": "1.26.16",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/urllib3@1.26.16",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-werkzeug-2.3.7",
+                "name": "pip:werkzeug",
+                "versionInfo": "2.3.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/werkzeug@2.3.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-wheel-0.38.4",
+                "name": "pip:wheel",
+                "versionInfo": "0.38.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/wheel@0.38.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-wrapt-1.14.1",
+                "name": "pip:wrapt",
+                "versionInfo": "1.14.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/wrapt@1.14.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-importlib-metadata-6.8.0",
+                "name": "pip:importlib-metadata",
+                "versionInfo": "6.8.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/importlib-metadata@6.8.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-zipp-3.16.2",
+                "name": "pip:zipp",
+                "versionInfo": "3.16.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/zipp@3.16.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-absl-py",
+                "name": "pip:absl-py",
+                "versionInfo": "~> 1.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-astunparse",
+                "name": "pip:astunparse",
+                "versionInfo": "~> 1.6.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-auditwheel",
+                "name": "pip:auditwheel",
+                "versionInfo": "~> 5.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-flatbuffers",
+                "name": "pip:flatbuffers",
+                "versionInfo": "~> 23.1.21",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-google-pasta",
+                "name": "pip:google-pasta",
+                "versionInfo": "~> 0.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-grpcio",
+                "name": "pip:grpcio",
+                "versionInfo": "~> 1.49.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-h5py",
+                "name": "pip:h5py",
+                "versionInfo": "~> 3.8.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-jax",
+                "name": "pip:jax",
+                "versionInfo": "~> 0.3.24",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-jaxlib",
+                "name": "pip:jaxlib",
+                "versionInfo": "~> 0.3.24",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-junitparser",
+                "name": "pip:junitparser",
+                "versionInfo": "~> 2.2.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-lit",
+                "name": "pip:lit",
+                "versionInfo": "~> 16.0.5.post0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-lxml",
+                "name": "pip:lxml",
+                "versionInfo": "~> 4.9.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-numpy",
+                "name": "pip:numpy",
+                "versionInfo": "~> 1.22",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-opt-einsum",
+                "name": "pip:opt-einsum",
+                "versionInfo": "~> 3.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-packaging",
+                "name": "pip:packaging",
+                "versionInfo": "~> 21.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-portpicker",
+                "name": "pip:portpicker",
+                "versionInfo": "~> 1.5.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-protobuf",
+                "name": "pip:protobuf",
+                "versionInfo": ">= 3.20.3,< 5.0.0dev,< 4.21.0 || > 4.21.0,< 4.21.1 || > 4.21.1,< 4.21.2 || > 4.21.2,< 4.21.3 || > 4.21.3,< 4.21.4 || > 4.21.4,< 4.21.5 || > 4.21.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-pylint",
+                "name": "pip:pylint",
+                "versionInfo": "~> 2.13.9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-pyyaml",
+                "name": "pip:pyyaml",
+                "versionInfo": "~> 6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-scipy",
+                "name": "pip:scipy",
+                "versionInfo": "~> 1.7.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-six",
+                "name": "pip:six",
+                "versionInfo": "~> 1.16.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-termcolor",
+                "name": "pip:termcolor",
+                "versionInfo": "~> 2.1.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-twine",
+                "name": "pip:twine",
+                "versionInfo": "~> 3.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-typing-extensions",
+                "name": "pip:typing-extensions",
+                "versionInfo": "~> 3.10.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-wheel",
+                "name": "pip:wheel",
+                "versionInfo": "~> 0.38.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-wrapt",
+                "name": "pip:wrapt",
+                "versionInfo": "~> 1.14.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-keras-applications",
+                "name": "pip:keras-applications",
+                "versionInfo": ">= 1.0.5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-keras-preprocessing",
+                "name": "pip:keras-preprocessing",
+                "versionInfo": ">= 1.0.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-keras-nightly",
+                "name": "pip:keras-nightly",
+                "versionInfo": "~> 2.14.0.dev",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-ml-dtypes",
+                "name": "pip:ml-dtypes",
+                "versionInfo": "~> 0.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tb-nightly",
+                "name": "pip:tb-nightly",
+                "versionInfo": "~> 2.14.0.a",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tf-estimator-nightly",
+                "name": "pip:tf-estimator-nightly",
+                "versionInfo": "~> 2.14.0.dev",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-certifi",
+                "name": "pip:certifi",
+                "versionInfo": "~> 2022.12.07",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-setuptools",
+                "name": "pip:setuptools",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-google-api-python-client-1.8.0",
+                "name": "pip:google-api-python-client",
+                "versionInfo": "1.8.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/google-api-python-client@1.8.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-oauth2client",
+                "name": "pip:oauth2client",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-gast",
+                "name": "pip:gast",
+                "versionInfo": ">= 0.2.1,< 0.5.0 || > 0.5.0,< 0.5.1 || > 0.5.1,< 0.5.2 || > 0.5.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-libclang",
+                "name": "pip:libclang",
+                "versionInfo": ">= 13.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-tensorflow-io-gcs-filesystem",
+                "name": "pip:tensorflow-io-gcs-filesystem",
+                "versionInfo": ">= 0.23.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-755da8c3cf115ac066823e79a1e1788f8940201b",
+                "name": "actions:actions/checkout",
+                "versionInfo": "755da8c3cf115ac066823e79a1e1788f8940201b",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-citation-file-format-cffconvert-github-action-4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+                "name": "actions:citation-file-format/cffconvert-github-action",
+                "versionInfo": "4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-github-script-d556feaca394842dc55e4734bf3bb9f685482fa0",
+                "name": "actions:actions/github-script",
+                "versionInfo": "d556feaca394842dc55e4734bf3bb9f685482fa0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/github-script@d556feaca394842dc55e4734bf3bb9f685482fa0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-python-2c3dd9e7e29afd70cc0950079bde6c979d1f69f9",
+                "name": "actions:actions/setup-python",
+                "versionInfo": "2c3dd9e7e29afd70cc0950079bde6c979d1f69f9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-python@2c3dd9e7e29afd70cc0950079bde6c979d1f69f9",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-trilom-file-changes-action-a6ca26c14274c33b15e6499323aac178af06ad4b",
+                "name": "actions:trilom/file-changes-action",
+                "versionInfo": "a6ca26c14274c33b15e6499323aac178af06ad4b",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-peter-evans-create-pull-request-2b011faafdcbc9ceb11414d64d0573f37c774b04",
+                "name": "actions:peter-evans/create-pull-request",
+                "versionInfo": "2b011faafdcbc9ceb11414d64d0573f37c774b04",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/peter-evans/create-pull-request@2b011faafdcbc9ceb11414d64d0573f37c774b04",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-upload-artifact-83fd05a356d7e2593de66fc9913b3002723633cb",
+                "name": "actions:actions/upload-artifact",
+                "versionInfo": "83fd05a356d7e2593de66fc9913b3002723633cb",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-github-codeql-action-upload-sarif-896079047b4bb059ba6f150a5d87d47dde99e6e5",
+                "name": "actions:github/codeql-action/upload-sarif",
+                "versionInfo": "896079047b4bb059ba6f150a5d87d47dde99e6e5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/github/codeql-action/upload-sarif@896079047b4bb059ba6f150a5d87d47dde99e6e5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-ossf-scorecard-action-15c10fcf1cf912bd22260bfec67569a359ab87da",
+                "name": "actions:ossf/scorecard-action",
+                "versionInfo": "15c10fcf1cf912bd22260bfec67569a359ab87da",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/ossf/scorecard-action@15c10fcf1cf912bd22260bfec67569a359ab87da",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-docker-build-push-action-c56af957549030174b10d6867f20e78cfd7debc5",
+                "name": "actions:docker/build-push-action",
+                "versionInfo": "c56af957549030174b10d6867f20e78cfd7debc5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/docker/build-push-action@c56af957549030174b10d6867f20e78cfd7debc5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-docker-login-action-f4ef78c080cd8ba55a85445d5b36e214a81df20a",
+                "name": "actions:docker/login-action",
+                "versionInfo": "f4ef78c080cd8ba55a85445d5b36e214a81df20a",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-docker-setup-buildx-action-8c0edbc76e98fa90f69d9a2c020dcb50019dc325",
+                "name": "actions:docker/setup-buildx-action",
+                "versionInfo": "8c0edbc76e98fa90f69d9a2c020dcb50019dc325",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/docker/setup-buildx-action@8c0edbc76e98fa90f69d9a2c020dcb50019dc325",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-mshick-add-pr-comment-a65df5f64fc741e91c59b8359a4bc56e57aaf5b1",
+                "name": "actions:mshick/add-pr-comment",
+                "versionInfo": "a65df5f64fc741e91c59b8359a4bc56e57aaf5b1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/mshick/add-pr-comment@a65df5f64fc741e91c59b8359a4bc56e57aaf5b1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-stale-7",
+                "name": "actions:actions/stale",
+                "versionInfo": "7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/stale@7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-zofrex-mirror-branch-a8809f0b42f9dfe9b2c5c2162a46327c23d15266",
+                "name": "actions:zofrex/mirror-branch",
+                "versionInfo": "a8809f0b42f9dfe9b2c5c2162a46327c23d15266",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/zofrex/mirror-branch@a8809f0b42f9dfe9b2c5c2162a46327c23d15266",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-absl-py-1.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-astor-0.7.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-astunparse-1.6.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-cachetools-5.3.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-certifi-2023.7.22"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-charset-normalizer-3.2.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-dill-0.3.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-gast-0.4.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-google-auth-2.22.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-google-auth-oauthlib-1.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-grpcio-1.58.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-h5py-3.9.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-idna-3.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-jax-0.4.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-keras-nightly-2.15.0.dev2023090707"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-lit-16.0.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-markdown-3.4.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-markupsafe-2.1.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-ml-dtypes-0.2.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-numpy-1.23.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-oauthlib-3.2.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-opt-einsum-3.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-packaging-23.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-portpicker-1.5.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-protobuf-4.23.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-psutil-5.9.5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-pyasn1-0.5.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-pyasn1-modules-0.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-requests-2.31.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-requests-oauthlib-1.3.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-rsa-4.9"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-scipy-1.10.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-setuptools-67.6.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-six-1.16.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tb-nightly-2.15.0a20230907"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tblib-1.7.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tensorboard-data-server-0.7.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-termcolor-2.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tf-estimator-nightly-2.15.0.dev2023090708"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-typing-extensions-4.2.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-urllib3-1.26.16"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-werkzeug-2.3.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-wheel-0.38.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-wrapt-1.14.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-importlib-metadata-6.8.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-zipp-3.16.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-absl-py"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-astunparse"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-auditwheel"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-flatbuffers"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-google-pasta"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-grpcio"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-h5py"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-jax"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-jaxlib"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-junitparser"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-lit"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-lxml"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-numpy"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-opt-einsum"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-packaging"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-portpicker"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-protobuf"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-pylint"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-pyyaml"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-scipy"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-six"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-termcolor"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-twine"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-typing-extensions"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-wheel"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-wrapt"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-keras-applications"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-keras-preprocessing"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-keras-nightly"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-ml-dtypes"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tb-nightly"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tf-estimator-nightly"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-certifi"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-setuptools"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-google-api-python-client-1.8.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-oauth2client"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-gast"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-libclang"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-pip-tensorflow-io-gcs-filesystem"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-755da8c3cf115ac066823e79a1e1788f8940201b"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-citation-file-format-cffconvert-github-action-4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-actions-github-script-d556feaca394842dc55e4734bf3bb9f685482fa0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-python-2c3dd9e7e29afd70cc0950079bde6c979d1f69f9"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-trilom-file-changes-action-a6ca26c14274c33b15e6499323aac178af06ad4b"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-peter-evans-create-pull-request-2b011faafdcbc9ceb11414d64d0573f37c774b04"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-actions-upload-artifact-83fd05a356d7e2593de66fc9913b3002723633cb"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-github-codeql-action-upload-sarif-896079047b4bb059ba6f150a5d87d47dde99e6e5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-ossf-scorecard-action-15c10fcf1cf912bd22260bfec67569a359ab87da"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-docker-build-push-action-c56af957549030174b10d6867f20e78cfd7debc5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-docker-login-action-f4ef78c080cd8ba55a85445d5b36e214a81df20a"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-docker-setup-buildx-action-8c0edbc76e98fa90f69d9a2c020dcb50019dc325"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-mshick-add-pr-comment-a65df5f64fc741e91c59b8359a4bc56e57aaf5b1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-actions-stale-7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.tensorflow-tensorflow",
+                "relatedSpdxElement": "SPDXRef-actions-zofrex-mirror-branch-a8809f0b42f9dfe9b2c5c2162a46327c23d15266"
+            }
+        ]
+    }
+}

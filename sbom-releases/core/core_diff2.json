@@ -1,0 +1,528 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/macos-test.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "3.0.4",
+        "package_url": "pkg:npm/minimatch@3.0.4",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/minimatch",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f8q6-p94x-37v3",
+                "advisory_summary": "minimatch ReDoS vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-f8q6-p94x-37v3"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "4.2.1",
+        "package_url": "pkg:npm/minimatch@4.2.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/minimatch",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimatch",
+        "version": "3.1.2",
+        "package_url": "pkg:npm/minimatch@3.1.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/isaacs/minimatch",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "9.2.2",
+        "package_url": "pkg:npm/mocha@9.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "nanoid",
+        "version": "3.3.1",
+        "package_url": "pkg:npm/nanoid@3.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ai/nanoid",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "9.2.1",
+        "package_url": "pkg:npm/mocha@9.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mochajs/mocha",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "nanoid",
+        "version": "3.2.0",
+        "package_url": "pkg:npm/nanoid@3.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ai/nanoid",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/ports/rs_port/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "metacall-inline",
+        "version": ">= 0.2.0, < 0.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/metacall/core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/rs_port/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "metacall-inline",
+        "version": ">= 0.1.0, < 0.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/metacall/core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.2.6.2",
+        "package_url": "pkg:gem/rack@2.2.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3h57-hmj3-gj3p",
+                "advisory_summary": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-3h57-hmj3-gj3p"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-c6qg-cjj8-47qp",
+                "advisory_summary": "Possible Denial of Service Vulnerability in Rack's header parsing",
+                "advisory_url": "https://github.com/advisories/GHSA-c6qg-cjj8-47qp"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "jquery-rails",
+        "version": "4.3.5",
+        "package_url": "pkg:gem/jquery-rails@4.3.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/jquery-rails",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jpcq-cgw6-v4j6",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-257q-pv89-v3xv",
+                "advisory_summary": "jQuery Cross Site Scripting vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-257q-pv89-v3xv"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gxr4-xjj5-5px2",
+                "advisory_summary": "Potential XSS vulnerability in jQuery",
+                "advisory_url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.13.10",
+        "package_url": "pkg:gem/nokogiri@1.13.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pxvg-2qj5-37jq",
+                "advisory_summary": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "advisory_url": "https://github.com/advisories/GHSA-pxvg-2qj5-37jq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "builder",
+        "version": "3.2.4",
+        "package_url": "pkg:gem/builder@3.2.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jimweirich/builder",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "1.2.2",
+        "package_url": "pkg:gem/concurrent-ruby@1.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "i18n",
+        "version": "1.13.0",
+        "package_url": "pkg:gem/i18n@1.13.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-i18n/i18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "jquery-rails",
+        "version": "4.4.0",
+        "package_url": "pkg:gem/jquery-rails@4.4.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/jquery-rails",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "loofah",
+        "version": "2.20.0",
+        "package_url": "pkg:gem/loofah@2.20.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/loofah",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "method_source",
+        "version": "1.0.0",
+        "package_url": "pkg:gem/method_source@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/banister/method_source",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_portile2",
+        "version": "2.8.2",
+        "package_url": "pkg:gem/mini_portile2@2.8.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/mini_portile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "minitest",
+        "version": "5.18.0",
+        "package_url": "pkg:gem/minitest@5.18.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/minitest/minitest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "nokogiri",
+        "version": "1.14.3",
+        "package_url": "pkg:gem/nokogiri@1.14.3",
+        "license": "Apache-2.0 AND BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND MIT AND MPL-2.0 AND NOASSERTION AND X11 AND Zlib",
+        "source_repository_url": "https://github.com/sparklemotion/nokogiri",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "racc",
+        "version": "1.6.2",
+        "package_url": "pkg:gem/racc@1.6.2",
+        "license": "BSD-2-Clause OR (BSD-2-Clause AND Ruby)",
+        "source_repository_url": "https://github.com/ruby/racc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rack",
+        "version": "2.2.7",
+        "package_url": "pkg:gem/rack@2.2.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rack/rack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails-html-sanitizer",
+        "version": "1.5.0",
+        "package_url": "pkg:gem/rails-html-sanitizer@1.5.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails-html-sanitizer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rake",
+        "version": "13.0.6",
+        "package_url": "pkg:gem/rake@13.0.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby/rake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "thor",
+        "version": "1.2.1",
+        "package_url": "pkg:gem/thor@1.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/thor",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "tzinfo",
+        "version": "1.2.11",
+        "package_url": "pkg:gem/tzinfo@1.2.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tzinfo/tzinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "builder",
+        "version": "3.2.3",
+        "package_url": "pkg:gem/builder@3.2.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/jimweirich/builder",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "concurrent-ruby",
+        "version": "1.1.10",
+        "package_url": "pkg:gem/concurrent-ruby@1.1.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "i18n",
+        "version": "1.12.0",
+        "package_url": "pkg:gem/i18n@1.12.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby-i18n/i18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "loofah",
+        "version": "2.19.1",
+        "package_url": "pkg:gem/loofah@2.19.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/loofah",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "method_source",
+        "version": "0.9.2",
+        "package_url": "pkg:gem/method_source@0.9.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/banister/method_source",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "mini_portile2",
+        "version": "2.8.0",
+        "package_url": "pkg:gem/mini_portile2@2.8.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/flavorjones/mini_portile",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "minitest",
+        "version": "5.17.0",
+        "package_url": "pkg:gem/minitest@5.17.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/minitest/minitest",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "racc",
+        "version": "1.6.1",
+        "package_url": "pkg:gem/racc@1.6.1",
+        "license": "Ruby OR BSD-2-Clause",
+        "source_repository_url": "https://github.com/ruby/racc",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rails-html-sanitizer",
+        "version": "1.4.4",
+        "package_url": "pkg:gem/rails-html-sanitizer@1.4.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/rails-html-sanitizer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "rake",
+        "version": "12.3.3",
+        "package_url": "pkg:gem/rake@12.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/ruby/rake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "thor",
+        "version": "0.20.3",
+        "package_url": "pkg:gem/thor@0.20.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rails/thor",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/scripts/ruby/blog/source/Gemfile.lock",
+        "ecosystem": "rubygems",
+        "name": "tzinfo",
+        "version": "1.2.10",
+        "package_url": "pkg:gem/tzinfo@1.2.10",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tzinfo/tzinfo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

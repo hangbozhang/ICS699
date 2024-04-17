@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release-drafter.yml",
+        "ecosystem": "actions",
+        "name": "release-drafter/release-drafter",
+        "version": "5",
+        "package_url": "pkg:githubactions/release-drafter/release-drafter@5",
+        "license": null,
+        "source_repository_url": "https://github.com/release-drafter/release-drafter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,1890 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:47:06Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ],
+            "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
+        },
+        "name": "com.github.protocolbuffers/protobuf",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.protocolbuffers-protobuf"
+        ],
+        "documentNamespace": "https://github.com/protocolbuffers/protobuf/dependency_graph/sbom-a92e3ce19c8503fd",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "name": "com.github.protocolbuffers/protobuf",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/protocolbuffers/protobuf",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/protocolbuffers/protobuf"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rubygems-ffi",
+                "name": "rubygems:ffi",
+                "versionInfo": "~> 1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-rubygems-ffi-compiler",
+                "name": "rubygems:ffi-compiler",
+                "versionInfo": "~> 1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-rubygems-rake",
+                "name": "rubygems:rake",
+                "versionInfo": "~> 13",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-rubygems-rake-compiler",
+                "name": "rubygems:rake-compiler",
+                "versionInfo": "~> 1.1.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-rubygems-rake-compiler-dock-1.2.1",
+                "name": "rubygems:rake-compiler-dock",
+                "versionInfo": "1.2.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:gem/rake-compiler-dock@1.2.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-rubygems-test-unit",
+                "name": "rubygems:test-unit",
+                "versionInfo": "~> 3.0,>= 3.0.9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-numpy",
+                "name": "pip:numpy",
+                "versionInfo": "<= 1.24.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-pip-googleapis-common-protos-1.56.1",
+                "name": "pip:googleapis-common-protos",
+                "versionInfo": "1.56.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/googleapis-common-protos@1.56.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-jinja2-3.0.0",
+                "name": "pip:jinja2",
+                "versionInfo": "3.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/jinja2@3.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-sphinx-3.0.4",
+                "name": "pip:sphinx",
+                "versionInfo": "3.0.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/sphinx@3.0.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-sphinx-rtd-theme-0.4.3",
+                "name": "pip:sphinx-rtd-theme",
+                "versionInfo": "0.4.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/sphinx-rtd-theme@0.4.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-pip-sphinxcontrib-napoleon-0.7",
+                "name": "pip:sphinxcontrib-napoleon",
+                "versionInfo": "0.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-2-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:pypi/sphinxcontrib-napoleon@0.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.guava-guava-32.0.1-android",
+                "name": "maven:com.google.guava:guava",
+                "versionInfo": "32.0.1-android",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.guava/guava@32.0.1-android",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.guava-guava-testlib-32.0.1-android",
+                "name": "maven:com.google.guava:guava-testlib",
+                "versionInfo": "32.0.1-android",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.guava/guava-testlib@32.0.1-android",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-bom-3.24.0",
+                "name": "maven:com.google.protobuf:protobuf-bom",
+                "versionInfo": "3.24.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-bom@3.24.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.truth-truth-1.1.2",
+                "name": "maven:com.google.truth:truth",
+                "versionInfo": "1.1.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.truth/truth@1.1.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-junit-junit-4.13.2",
+                "name": "maven:junit:junit",
+                "versionInfo": "4.13.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "EPL-1.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/junit/junit@4.13.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-3.0.1",
+                "name": "maven:org.apache.felix:maven-bundle-plugin",
+                "versionInfo": "3.0.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.felix/maven-bundle-plugin@3.0.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-2.10.3",
+                "name": "maven:org.apache.maven.plugins:maven-javadoc-plugin",
+                "versionInfo": "2.10.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin@2.10.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-2.2.1",
+                "name": "maven:org.apache.maven.plugins:maven-source-plugin",
+                "versionInfo": "2.2.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-source-plugin@2.2.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-animal-sniffer-maven-plugin-1.20",
+                "name": "maven:org.codehaus.mojo:animal-sniffer-maven-plugin",
+                "versionInfo": "1.20",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.codehaus.mojo/animal-sniffer-maven-plugin@1.20",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-animal-sniffer-maven-plugin-4.0_r4",
+                "name": "maven:org.codehaus.mojo:animal-sniffer-maven-plugin",
+                "versionInfo": "4.0_r4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.codehaus.mojo/animal-sniffer-maven-plugin@4.0_r4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-1.10",
+                "name": "maven:org.codehaus.mojo:build-helper-maven-plugin",
+                "versionInfo": "1.10",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.codehaus.mojo/build-helper-maven-plugin@1.10",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.jetbrains.dokka-dokka-maven-plugin-1.4.32",
+                "name": "maven:org.jetbrains.dokka:dokka-maven-plugin",
+                "versionInfo": "1.4.32",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.jetbrains.dokka/dokka-maven-plugin@1.4.32",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.mockito-mockito-core-4.3.1",
+                "name": "maven:org.mockito:mockito-core",
+                "versionInfo": "4.3.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.mockito/mockito-core@4.3.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-1.6.6",
+                "name": "maven:org.sonatype.plugins:nexus-staging-maven-plugin",
+                "versionInfo": "1.6.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.sonatype.plugins/nexus-staging-maven-plugin@1.6.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-3.24.0",
+                "name": "maven:com.google.protobuf:protobuf-java",
+                "versionInfo": "3.24.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@3.24.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-util-3.24.0",
+                "name": "maven:com.google.protobuf:protobuf-java-util",
+                "versionInfo": "3.24.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util@3.24.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-kotlin-3.24.0",
+                "name": "maven:com.google.protobuf:protobuf-kotlin",
+                "versionInfo": "3.24.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-kotlin@3.24.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.guava-guava",
+                "name": "maven:com.google.guava:guava",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.truth-truth",
+                "name": "maven:com.google.truth:truth",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-junit-junit",
+                "name": "maven:junit:junit",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin",
+                "name": "maven:org.apache.felix:maven-bundle-plugin",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin",
+                "name": "maven:org.codehaus.mojo:build-helper-maven-plugin",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.mockito-mockito-core",
+                "name": "maven:org.mockito:mockito-core",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.guava-guava-testlib",
+                "name": "maven:com.google.guava:guava-testlib",
+                "versionInfo": "",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-maven-plugin-1.6.0",
+                "name": "maven:org.jetbrains.kotlin:kotlin-maven-plugin",
+                "versionInfo": "1.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-maven-plugin@1.6.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-1.6.0",
+                "name": "maven:org.jetbrains.kotlin:kotlin-stdlib",
+                "versionInfo": "1.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-test-1.6.0",
+                "name": "maven:org.jetbrains.kotlin:kotlin-test",
+                "versionInfo": "1.6.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-test@1.6.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.api.grpc-grpc-google-common-protos-2.22.0",
+                "name": "maven:com.google.api.grpc:grpc-google-common-protos",
+                "versionInfo": "2.22.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.api.grpc/grpc-google-common-protos@2.22.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.api.grpc-proto-google-common-protos-2.22.0",
+                "name": "maven:com.google.api.grpc:proto-google-common-protos",
+                "versionInfo": "2.22.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.22.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.api.grpc-proto-google-iam-v1-1.17.0",
+                "name": "maven:com.google.api.grpc:proto-google-iam-v1",
+                "versionInfo": "1.17.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.api.grpc/proto-google-iam-v1@1.17.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.api.grpc-proto-google-iam-v2-1.17.0",
+                "name": "maven:com.google.api.grpc:proto-google-iam-v2",
+                "versionInfo": "1.17.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.api.grpc/proto-google-iam-v2@1.17.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.api.grpc-proto-google-iam-v2beta-1.17.0",
+                "name": "maven:com.google.api.grpc:proto-google-iam-v2beta",
+                "versionInfo": "1.17.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.api.grpc/proto-google-iam-v2beta@1.17.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.cloud-google-cloud-bigquery-2.29.0",
+                "name": "maven:com.google.cloud:google-cloud-bigquery",
+                "versionInfo": "2.29.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.cloud/google-cloud-bigquery@2.29.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.cloud-google-cloud-bigtable-2.24.1",
+                "name": "maven:com.google.cloud:google-cloud-bigtable",
+                "versionInfo": "2.24.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.cloud/google-cloud-bigtable@2.24.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-bom-3.23.2",
+                "name": "maven:com.google.protobuf:protobuf-bom",
+                "versionInfo": "3.23.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-bom@3.23.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-io.grpc-grpc-bom-1.55.3",
+                "name": "maven:io.grpc:grpc-bom",
+                "versionInfo": "1.55.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/io.grpc/grpc-bom@1.55.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2",
+                "name": "maven:com.google.code.findbugs:jsr305",
+                "versionInfo": "3.0.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.code.gson-gson-2.8.9",
+                "name": "maven:com.google.code.gson:gson",
+                "versionInfo": "2.8.9",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.8.9",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.errorprone-error-prone-annotations-2.5.1",
+                "name": "maven:com.google.errorprone:error_prone_annotations",
+                "versionInfo": "2.5.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-com.google.j2objc-j2objc-annotations-2.8",
+                "name": "maven:com.google.j2objc:j2objc-annotations",
+                "versionInfo": "2.8",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.codehaus.mojo-animal-sniffer-maven-plugin-4.4.2_r4",
+                "name": "maven:org.codehaus.mojo:animal-sniffer-maven-plugin",
+                "versionInfo": "4.4.2_r4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.codehaus.mojo/animal-sniffer-maven-plugin@4.4.2_r4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-assembly-plugin-3.3.0",
+                "name": "maven:org.apache.maven.plugins:maven-assembly-plugin",
+                "versionInfo": "3.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.8.1",
+                "name": "maven:org.apache.maven.plugins:maven-compiler-plugin",
+                "versionInfo": "3.8.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.8.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-maven-org.jruby-jruby-complete-9.2.20.1",
+                "name": "maven:org.jruby:jruby-complete",
+                "versionInfo": "9.2.20.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "(EPL-2.0 AND MIT) OR (GPL-2.0 AND MIT) OR (LGPL-2.1 AND MIT)",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:maven/org.jruby/jruby-complete@9.2.20.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.NETFramework.ReferenceAssemblies-1.0.2",
+                "name": "nuget:Microsoft.NETFramework.ReferenceAssemblies",
+                "versionInfo": "1.0.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.NETFramework.ReferenceAssemblies@1.0.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-NUnit-3.6.1",
+                "name": "nuget:NUnit",
+                "versionInfo": "3.6.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/NUnit@3.6.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-NUnitLite-3.6.1",
+                "name": "nuget:NUnitLite",
+                "versionInfo": "3.6.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/NUnitLite@3.6.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.NETFramework.ReferenceAssemblies-1.0.0",
+                "name": "nuget:Microsoft.NETFramework.ReferenceAssemblies",
+                "versionInfo": "1.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.NETFramework.ReferenceAssemblies@1.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.SourceLink.GitHub-1.0.0",
+                "name": "nuget:Microsoft.SourceLink.GitHub",
+                "versionInfo": "1.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.SourceLink.GitHub@1.0.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-System.Memory-4.5.3",
+                "name": "nuget:System.Memory",
+                "versionInfo": "4.5.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/System.Memory@4.5.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-System.Runtime.CompilerServices.Unsafe-4.5.2",
+                "name": "nuget:System.Runtime.CompilerServices.Unsafe",
+                "versionInfo": "4.5.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@4.5.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.NET.Test.Sdk-17.5.0",
+                "name": "nuget:Microsoft.NET.Test.Sdk",
+                "versionInfo": "17.5.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.NET.Test.Sdk@17.5.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-NUnit-3.13.3",
+                "name": "nuget:NUnit",
+                "versionInfo": "3.13.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/NUnit@3.13.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-NUnit3TestAdapter-4.2.2",
+                "name": "nuget:NUnit3TestAdapter",
+                "versionInfo": "4.2.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/NUnit3TestAdapter@4.2.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-composer-php",
+                "name": "composer:php",
+                "versionInfo": ">= 8.0.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-composer-phpunit-phpunit",
+                "name": "composer:phpunit/phpunit",
+                "versionInfo": ">= 5.0.0,< 8.5.27",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION"
+            },
+            {
+                "SPDXID": "SPDXRef-go-google.golang.org-protobuf-1.27.1",
+                "name": "go:google.golang.org/protobuf",
+                "versionInfo": "1.27.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:golang/google.golang.org/protobuf@1.27.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-cache-627f0f41f6904a5b1efbaed9f96d9eb58e92e920",
+                "name": "actions:actions/cache",
+                "versionInfo": "627f0f41f6904a5b1efbaed9f96d9eb58e92e920",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/cache@627f0f41f6904a5b1efbaed9f96d9eb58e92e920",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+                "name": "actions:actions/checkout",
+                "versionInfo": "93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-upload-artifact-3cea5372237819ed00197afe530f5a7ea3e805c8",
+                "name": "actions:actions/upload-artifact",
+                "versionInfo": "3cea5372237819ed00197afe530f5a7ea3e805c8",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-github-codeql-action-upload-sarif-17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+                "name": "actions:github/codeql-action/upload-sarif",
+                "versionInfo": "17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-ossf-scorecard-action-e38b1902ae4f44df626f11ba0734b14fb91f8f86",
+                "name": "actions:ossf/scorecard-action",
+                "versionInfo": "e38b1902ae4f44df626f11ba0734b14fb91f8f86",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-checkout-2",
+                "name": "actions:protocolbuffers/protobuf-ci/checkout",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/checkout@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-checkout-ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+                "name": "actions:actions/checkout",
+                "versionInfo": "ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-ilammy-msvc-dev-cmd-cec98b9d092141f74527d0afa6feb2af698cfe89",
+                "name": "actions:ilammy/msvc-dev-cmd",
+                "versionInfo": "cec98b9d092141f74527d0afa6feb2af698cfe89",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/ilammy/msvc-dev-cmd@cec98b9d092141f74527d0afa6feb2af698cfe89",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-bash-2",
+                "name": "actions:protocolbuffers/protobuf-ci/bash",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/bash@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-bazel-2",
+                "name": "actions:protocolbuffers/protobuf-ci/bazel",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/bazel@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-bazel-docker-2",
+                "name": "actions:protocolbuffers/protobuf-ci/bazel-docker",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/bazel-docker@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-cross-compile-protoc-2",
+                "name": "actions:protocolbuffers/protobuf-ci/cross-compile-protoc",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/cross-compile-protoc@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-docker-2",
+                "name": "actions:protocolbuffers/protobuf-ci/docker",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/docker@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-sccache-2",
+                "name": "actions:protocolbuffers/protobuf-ci/sccache",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/sccache@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-dotnet-607fce577a46308457984d59e4954e075820f10a",
+                "name": "actions:actions/setup-dotnet",
+                "versionInfo": "607fce577a46308457984d59e4954e075820f10a",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-dotnet@607fce577a46308457984d59e4954e075820f10a",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-googleapis-java-cloud-bom-tests-validate-bom-fd56f04bb0bc581776a74031591f0b3bc5e7920a",
+                "name": "actions:googleapis/java-cloud-bom/tests/validate-bom",
+                "versionInfo": "fd56f04bb0bc581776a74031591f0b3bc5e7920a",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/googleapis/java-cloud-bom/tests/validate-bom@fd56f04bb0bc581776a74031591f0b3bc5e7920a",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-ccache-2",
+                "name": "actions:protocolbuffers/protobuf-ci/ccache",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/ccache@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-protocolbuffers-protobuf-ci-composer-setup-2",
+                "name": "actions:protocolbuffers/protobuf-ci/composer-setup",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/protocolbuffers/protobuf-ci/composer-setup@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-shivammathur-setup-php-d30ad8b1843ace22e6698ab99bbafaa747b6bd0d",
+                "name": "actions:shivammathur/setup-php",
+                "versionInfo": "d30ad8b1843ace22e6698ab99bbafaa747b6bd0d",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/shivammathur/setup-php@d30ad8b1843ace22e6698ab99bbafaa747b6bd0d",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-download-artifact-9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+                "name": "actions:actions/download-artifact",
+                "versionInfo": "9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-upload-artifact-0b7f8abb1508181956e8e162db84b466c27e18ce",
+                "name": "actions:actions/upload-artifact",
+                "versionInfo": "0b7f8abb1508181956e8e162db84b466c27e18ce",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-python-61a6322f88396a6271a6ee3565807d608ecaddd1",
+                "name": "actions:actions/setup-python",
+                "versionInfo": "61a6322f88396a6271a6ee3565807d608ecaddd1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-ruby-setup-ruby-ee26e27437bde475b19a6bf8cb73c9fa658876a2",
+                "name": "actions:ruby/setup-ruby",
+                "versionInfo": "ee26e27437bde475b19a6bf8cb73c9fa658876a2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/ruby/setup-ruby@ee26e27437bde475b19a6bf8cb73c9fa658876a2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-ecosystem-action-remove-labels-2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+                "name": "actions:actions-ecosystem/action-remove-labels",
+                "versionInfo": "2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-download-artifact-3",
+                "name": "actions:actions/download-artifact",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/download-artifact@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-setup-python-2",
+                "name": "actions:actions/setup-python",
+                "versionInfo": "2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/setup-python@2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-upload-artifact-3",
+                "name": "actions:actions/upload-artifact",
+                "versionInfo": "3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/upload-artifact@3",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-rubygems-ffi"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-rubygems-ffi-compiler"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-rubygems-rake"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-rubygems-rake-compiler"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-rubygems-rake-compiler-dock-1.2.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-rubygems-test-unit"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-pip-numpy"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-pip-googleapis-common-protos-1.56.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-pip-jinja2-3.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-pip-sphinx-3.0.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-pip-sphinx-rtd-theme-0.4.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-pip-sphinxcontrib-napoleon-0.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-32.0.1-android"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-testlib-32.0.1-android"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-bom-3.24.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.truth-truth-1.1.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-3.0.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-2.10.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-2.2.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-animal-sniffer-maven-plugin-1.20"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-animal-sniffer-maven-plugin-4.0_r4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-1.10"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.dokka-dokka-maven-plugin-1.4.32"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.mockito-mockito-core-4.3.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-1.6.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-3.24.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-util-3.24.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-kotlin-3.24.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.truth-truth"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-junit-junit"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.mockito-mockito-core"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-testlib"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-maven-plugin-1.6.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-1.6.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-test-1.6.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.api.grpc-grpc-google-common-protos-2.22.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.api.grpc-proto-google-common-protos-2.22.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.api.grpc-proto-google-iam-v1-1.17.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.api.grpc-proto-google-iam-v2-1.17.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.api.grpc-proto-google-iam-v2beta-1.17.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.cloud-google-cloud-bigquery-2.29.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.cloud-google-cloud-bigtable-2.24.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-bom-3.23.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-bom-1.55.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.code.gson-gson-2.8.9"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.errorprone-error-prone-annotations-2.5.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-com.google.j2objc-j2objc-annotations-2.8"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-animal-sniffer-maven-plugin-4.4.2_r4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-assembly-plugin-3.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.8.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-maven-org.jruby-jruby-complete-9.2.20.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.NETFramework.ReferenceAssemblies-1.0.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-NUnit-3.6.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-NUnitLite-3.6.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.NETFramework.ReferenceAssemblies-1.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.SourceLink.GitHub-1.0.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-System.Memory-4.5.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-System.Runtime.CompilerServices.Unsafe-4.5.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.NET.Test.Sdk-17.5.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-NUnit-3.13.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-nuget-NUnit3TestAdapter-4.2.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-composer-php"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-composer-phpunit-phpunit"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-go-google.golang.org-protobuf-1.27.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-cache-627f0f41f6904a5b1efbaed9f96d9eb58e92e920"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-upload-artifact-3cea5372237819ed00197afe530f5a7ea3e805c8"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-github-codeql-action-upload-sarif-17573ee1cc1b9d061760f3a006fc4aac4f944fd5"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-ossf-scorecard-action-e38b1902ae4f44df626f11ba0734b14fb91f8f86"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-checkout-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-checkout-ac593985615ec2ede58e132d2e21d2b1cbd6127c"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-ilammy-msvc-dev-cmd-cec98b9d092141f74527d0afa6feb2af698cfe89"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-bash-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-bazel-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-bazel-docker-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-cross-compile-protoc-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-docker-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-sccache-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-dotnet-607fce577a46308457984d59e4954e075820f10a"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-googleapis-java-cloud-bom-tests-validate-bom-fd56f04bb0bc581776a74031591f0b3bc5e7920a"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-ccache-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-protocolbuffers-protobuf-ci-composer-setup-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-shivammathur-setup-php-d30ad8b1843ace22e6698ab99bbafaa747b6bd0d"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-download-artifact-9bc31d5ccc31df68ecc42ccf4149144866c47d8a"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-upload-artifact-0b7f8abb1508181956e8e162db84b466c27e18ce"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-python-61a6322f88396a6271a6ee3565807d608ecaddd1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-ruby-setup-ruby-ee26e27437bde475b19a6bf8cb73c9fa658876a2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-ecosystem-action-remove-labels-2ce5d41b4b6aa8503e285553f75ed56e0a40bae0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-download-artifact-3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-setup-python-2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.protocolbuffers-protobuf",
+                "relatedSpdxElement": "SPDXRef-actions-actions-upload-artifact-3"
+            }
+        ]
+    }
+}

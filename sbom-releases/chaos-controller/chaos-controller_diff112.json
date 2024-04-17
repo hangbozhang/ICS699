@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/DataDog/datadog-go",
+        "version": "3.5.0+incompatible",
+        "package_url": "pkg:golang/github.com/DataDog/datadog-go@3.5.0%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/DataDog/datadog-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/DataDog/datadog-go",
+        "version": "3.3.1+incompatible",
+        "package_url": "pkg:golang/github.com/DataDog/datadog-go@3.3.1%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/DataDog/datadog-go",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

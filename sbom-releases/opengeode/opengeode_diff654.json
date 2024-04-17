@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/CI.yml",
+        "ecosystem": "actions",
+        "name": "pullreminders/slack-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/pullreminders/slack-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/abinoda/slack-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/mattermost-ziti-webhook.yml",
+        "ecosystem": "actions",
+        "name": "openziti/ziti-mattermost-action-py",
+        "version": "main",
+        "package_url": "pkg:githubactions/openziti/ziti-mattermost-action-py@main",
+        "license": null,
+        "source_repository_url": "https://github.com/openziti/ziti-mattermost-action-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/mattermost-ziti-webhook.yml",
+        "ecosystem": "actions",
+        "name": "openziti/ziti-webhook-action",
+        "version": "main",
+        "package_url": "pkg:githubactions/openziti/ziti-webhook-action@main",
+        "license": null,
+        "source_repository_url": "https://github.com/openziti/ziti-webhook-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "code_generation/requirements.txt",
+        "ecosystem": "pip",
+        "name": "dataclasses_json",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "code_generation/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jinja2",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

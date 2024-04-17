@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/Tasmota_build_devel.yml",
+        "ecosystem": "actions",
+        "name": "jason2866/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/jason2866/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/Jason2866/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/Tasmota_build_devel.yml",
+        "ecosystem": "actions",
+        "name": "jason2866/upload-artifact",
+        "version": "2.0.2",
+        "package_url": "pkg:githubactions/jason2866/upload-artifact@2.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/Jason2866/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/Tasmota_build_devel.yml",
+        "ecosystem": "actions",
+        "name": "stefanzweifel/git-auto-commit-action",
+        "version": "4",
+        "package_url": "pkg:githubactions/stefanzweifel/git-auto-commit-action@4",
+        "license": null,
+        "source_repository_url": "https://github.com/stefanzweifel/git-auto-commit-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/Tasmota_build_devel.yml",
+        "ecosystem": "actions",
+        "name": "Jason2866/copy_file_to_another_repo_action",
+        "version": "main",
+        "package_url": "pkg:githubactions/Jason2866/copy_file_to_another_repo_action@main",
+        "license": null,
+        "source_repository_url": "https://github.com/Jason2866/copy_file_to_another_repo_action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/Tasmota_build_master.yml",
+        "ecosystem": "actions",
+        "name": "Jason2866/copy_file_to_another_repo_action",
+        "version": "main",
+        "package_url": "pkg:githubactions/Jason2866/copy_file_to_another_repo_action@main",
+        "license": null,
+        "source_repository_url": "https://github.com/Jason2866/copy_file_to_another_repo_action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

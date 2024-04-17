@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release_zips.yml",
+        "ecosystem": "actions",
+        "name": "espressif/github-actions/release_zips",
+        "version": "master",
+        "package_url": "pkg:githubactions/espressif/github-actions/release_zips@master",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

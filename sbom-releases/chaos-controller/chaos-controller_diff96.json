@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/mitchellh/go-ps",
+        "version": "1.0.0",
+        "package_url": "pkg:golang/github.com/mitchellh/go-ps@1.0.0",
+        "license": null,
+        "source_repository_url": "https://github.com/mitchellh/go-ps",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

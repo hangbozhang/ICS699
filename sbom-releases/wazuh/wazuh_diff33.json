@@ -1,0 +1,388 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Flask",
+        "version": "1.1.2",
+        "package_url": "pkg:pypi/flask@1.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/flask",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m2qf-hxjv-5gpq",
+                "advisory_summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "advisory_url": "https://github.com/advisories/GHSA-m2qf-hxjv-5gpq"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Werkzeug",
+        "version": "2.0.2",
+        "package_url": "pkg:pypi/werkzeug@2.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/werkzeug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xg9f-g7g7-2323",
+                "advisory_summary": "High resource usage when parsing multipart form data with many fields",
+                "advisory_url": "https://github.com/advisories/GHSA-xg9f-g7g7-2323"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrfv-mqp8-q5rw",
+                "advisory_summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+                "advisory_url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-px8h-6qxv-m22q",
+                "advisory_summary": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-px8h-6qxv-m22q"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp",
+        "version": "3.8.1",
+        "package_url": "pkg:pypi/aiohttp@3.8.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q3qx-c6g2-7pw2",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "advisory_url": "https://github.com/advisories/GHSA-q3qx-c6g2-7pw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-45c4-8wx5-qw6w",
+                "advisory_summary": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+                "advisory_url": "https://github.com/advisories/GHSA-45c4-8wx5-qw6w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gfw2-4jvh-wgfg",
+                "advisory_summary": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "advisory_url": "https://github.com/advisories/GHSA-gfw2-4jvh-wgfg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pjjw-qhg8-p2p9",
+                "advisory_summary": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-pjjw-qhg8-p2p9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qvrw-v9rv-5rjx",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "advisory_url": "https://github.com/advisories/GHSA-qvrw-v9rv-5rjx"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Werkzeug",
+        "version": "1.0.1",
+        "package_url": "pkg:pypi/werkzeug@1.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/werkzeug",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xg9f-g7g7-2323",
+                "advisory_summary": "High resource usage when parsing multipart form data with many fields",
+                "advisory_url": "https://github.com/advisories/GHSA-xg9f-g7g7-2323"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hrfv-mqp8-q5rw",
+                "advisory_summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+                "advisory_url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-px8h-6qxv-m22q",
+                "advisory_summary": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-px8h-6qxv-m22q"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiohttp",
+        "version": "3.7.4",
+        "package_url": "pkg:pypi/aiohttp@3.7.4",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiohttp",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q3qx-c6g2-7pw2",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "advisory_url": "https://github.com/advisories/GHSA-q3qx-c6g2-7pw2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-45c4-8wx5-qw6w",
+                "advisory_summary": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+                "advisory_url": "https://github.com/advisories/GHSA-45c4-8wx5-qw6w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-gfw2-4jvh-wgfg",
+                "advisory_summary": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "advisory_url": "https://github.com/advisories/GHSA-gfw2-4jvh-wgfg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-pjjw-qhg8-p2p9",
+                "advisory_summary": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "advisory_url": "https://github.com/advisories/GHSA-pjjw-qhg8-p2p9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qvrw-v9rv-5rjx",
+                "advisory_summary": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "advisory_url": "https://github.com/advisories/GHSA-qvrw-v9rv-5rjx"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-xx9p-xxvh-7g8j",
+                "advisory_summary": "Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding` differing in C and Python fallbacks",
+                "advisory_url": "https://github.com/advisories/GHSA-xx9p-xxvh-7g8j"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "setuptools",
+        "version": "46.1.3",
+        "package_url": "pkg:pypi/setuptools@46.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/setuptools",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-r9hx-vwmv-q579",
+                "advisory_summary": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-r9hx-vwmv-q579"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "wheel",
+        "version": "0.34.2",
+        "package_url": "pkg:pypi/wheel@0.34.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/wheel",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-qwmp-2cf2-g9g6",
+                "advisory_summary": "pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-qwmp-2cf2-g9g6"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pip",
+        "version": "21.1.3",
+        "package_url": "pkg:pypi/pip@21.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pypa/pip",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mq26-g339-26xf",
+                "advisory_summary": "Command Injection in pip when used with Mercurial",
+                "advisory_url": "https://github.com/advisories/GHSA-mq26-g339-26xf"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Cython",
+        "version": "0.29.21",
+        "package_url": "pkg:pypi/cython@0.29.21",
+        "license": null,
+        "source_repository_url": "https://github.com/cython/cython",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "5.4.1",
+        "package_url": "pkg:pypi/pyyaml@5.4.1",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aioredis",
+        "version": "1.3.1",
+        "package_url": "pkg:pypi/aioredis@1.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/aio-libs-abandoned/aioredis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "aiosignal",
+        "version": "1.2.0",
+        "package_url": "pkg:pypi/aiosignal@1.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/aiosignal",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "async-timeout",
+        "version": "4.0.2",
+        "package_url": "pkg:pypi/async-timeout@4.0.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/async-timeout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "attrs",
+        "version": "20.3.0",
+        "package_url": "pkg:pypi/attrs@20.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-attrs/attrs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "envparse",
+        "version": "0.2.0",
+        "package_url": "pkg:pypi/envparse@0.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rconradharris/envparse",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "frozenlist",
+        "version": "1.2.0",
+        "package_url": "pkg:pypi/frozenlist@1.2.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/frozenlist",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "hiredis",
+        "version": "1.1.0",
+        "package_url": "pkg:pypi/hiredis@1.1.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/redis/hiredis-py",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "multidict",
+        "version": "5.1.0",
+        "package_url": "pkg:pypi/multidict@5.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/multidict",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "yarl",
+        "version": "1.6.3",
+        "package_url": "pkg:pypi/yarl@1.6.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/aio-libs/yarl",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "cython",
+        "version": "0.29.21",
+        "package_url": "pkg:pypi/cython@0.29.21",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/cython/cython",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "framework/requirements.txt",
+        "ecosystem": "pip",
+        "name": "swagger-ui-bundle",
+        "version": "0.0.3",
+        "package_url": "pkg:pypi/swagger-ui-bundle@0.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/spec-first/swagger_ui_bundle",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

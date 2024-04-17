@@ -1,0 +1,1293 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "abatilo/actions-poetry",
+        "version": "2.2.0",
+        "package_url": "pkg:githubactions/abatilo/actions-poetry@2.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/abatilo/actions-poetry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/vast.yaml",
+        "ecosystem": "actions",
+        "name": "abatilo/actions-poetry",
+        "version": "2.1.6",
+        "package_url": "pkg:githubactions/abatilo/actions-poetry@2.1.6",
+        "license": null,
+        "source_repository_url": "https://github.com/abatilo/actions-poetry",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "examples/notebooks/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-core",
+        "version": "4.11.1",
+        "package_url": "pkg:pypi/jupyter-core@4.11.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/jupyter_core",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m678-f26j-3hrp",
+                "advisory_summary": "Execution with Unnecessary Privileges in JupyterApp",
+                "advisory_url": "https://github.com/advisories/GHSA-m678-f26j-3hrp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "examples/notebooks/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-core",
+        "version": "4.11.2",
+        "package_url": "pkg:pypi/jupyter-core@4.11.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/jupyter_core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "10.0.1",
+        "package_url": "pkg:pypi/pyarrow@10.0.1",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "10.0.0",
+        "package_url": "pkg:pypi/pyarrow@10.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "exceptiongroup",
+        "version": "1.0.4",
+        "package_url": "pkg:pypi/exceptiongroup@1.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-trio/exceptiongroup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "python/poetry.lock",
+        "ecosystem": "pip",
+        "name": "exceptiongroup",
+        "version": "1.0.0",
+        "package_url": "pkg:pypi/exceptiongroup@1.0.0",
+        "license": "MIT AND Python-2.0",
+        "source_repository_url": "https://github.com/python-trio/exceptiongroup",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-core",
+        "version": "4.11.1",
+        "package_url": "pkg:pypi/jupyter-core@4.11.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/jupyter_core",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-m678-f26j-3hrp",
+                "advisory_summary": "Execution with Unnecessary Privileges in JupyterApp",
+                "advisory_url": "https://github.com/advisories/GHSA-m678-f26j-3hrp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipython",
+        "version": "8.6.0",
+        "package_url": "pkg:pypi/ipython@8.6.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipython",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29gw-9793-fvw7",
+                "advisory_summary": "IPython vulnerable to command injection via set_term_title",
+                "advisory_url": "https://github.com/advisories/GHSA-29gw-9793-fvw7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-server",
+        "version": "1.23.3",
+        "package_url": "pkg:pypi/jupyter-server@1.23.3",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter-server/jupyter_server",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-64x5-55rw-9974",
+                "advisory_summary": "cross-site inclusion (XSSI) of files in jupyter-server",
+                "advisory_url": "https://github.com/advisories/GHSA-64x5-55rw-9974"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-r726-vmfq-j9j3",
+                "advisory_summary": " Open Redirect Vulnerability in jupyter-server",
+                "advisory_url": "https://github.com/advisories/GHSA-r726-vmfq-j9j3"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-h56g-gq9v-vc8r",
+                "advisory_summary": "jupyter-server errors include tracebacks with path information",
+                "advisory_url": "https://github.com/advisories/GHSA-h56g-gq9v-vc8r"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pygments",
+        "version": "2.13.0",
+        "package_url": "pkg:pypi/pygments@2.13.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pygments/pygments",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mrwq-x4v8-fh7p",
+                "advisory_summary": "Pygments vulnerable to ReDoS",
+                "advisory_url": "https://github.com/advisories/GHSA-mrwq-x4v8-fh7p"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "Pygments",
+        "version": "2.13.0",
+        "package_url": "pkg:pypi/pygments@2.13.0",
+        "license": null,
+        "source_repository_url": "https://github.com/pygments/pygments",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-mrwq-x4v8-fh7p",
+                "advisory_summary": "Pygments vulnerable to ReDoS",
+                "advisory_url": "https://github.com/advisories/GHSA-mrwq-x4v8-fh7p"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipython",
+        "version": "8.5.0",
+        "package_url": "pkg:pypi/ipython@8.5.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipython",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29gw-9793-fvw7",
+                "advisory_summary": "IPython vulnerable to command injection via set_term_title",
+                "advisory_url": "https://github.com/advisories/GHSA-29gw-9793-fvw7"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "anyio",
+        "version": "3.6.2",
+        "package_url": "pkg:pypi/anyio@3.6.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/agronholm/anyio",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "asttokens",
+        "version": "2.1.0",
+        "package_url": "pkg:pypi/asttokens@2.1.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gristlabs/asttokens",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "colorama",
+        "version": "0.4.6",
+        "package_url": "pkg:pypi/colorama@0.4.6",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/tartley/colorama",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "comm",
+        "version": "0.1.1",
+        "package_url": "pkg:pypi/comm@0.1.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/comm",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "executing",
+        "version": "1.2.0",
+        "package_url": "pkg:pypi/executing@1.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/alexmojaki/executing",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "idna",
+        "version": "3.4",
+        "package_url": "pkg:pypi/idna@3.4",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/kjd/idna",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.18.1",
+        "package_url": "pkg:pypi/ipykernel@6.18.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipython-genutils",
+        "version": "0.2.0",
+        "package_url": "pkg:pypi/ipython-genutils@0.2.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipython_genutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jedi",
+        "version": "0.18.2",
+        "package_url": "pkg:pypi/jedi@0.18.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/davidhalter/jedi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jinja2",
+        "version": "3.1.2",
+        "package_url": "pkg:pypi/jinja2@3.1.2",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jsonschema",
+        "version": "4.17.1",
+        "package_url": "pkg:pypi/jsonschema@4.17.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-jsonschema/jsonschema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-client",
+        "version": "7.4.7",
+        "package_url": "pkg:pypi/jupyter-client@7.4.7",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/jupyter_client",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-core",
+        "version": "5.0.0",
+        "package_url": "pkg:pypi/jupyter-core@5.0.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/jupyter_core",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "markupsafe",
+        "version": "2.1.1",
+        "package_url": "pkg:pypi/markupsafe@2.1.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/pallets/markupsafe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbclassic",
+        "version": "0.4.8",
+        "package_url": "pkg:pypi/nbclassic@0.4.8",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbclassic",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbclient",
+        "version": "0.7.0",
+        "package_url": "pkg:pypi/nbclient@0.7.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbclient",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbformat",
+        "version": "5.7.0",
+        "package_url": "pkg:pypi/nbformat@5.7.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbformat",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "notebook",
+        "version": "6.5.2",
+        "package_url": "pkg:pypi/notebook@6.5.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/mirobeka/notebook",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "notebook-shim",
+        "version": "0.2.2",
+        "package_url": "pkg:pypi/notebook-shim@0.2.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/notebook_shim",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "platformdirs",
+        "version": "2.5.4",
+        "package_url": "pkg:pypi/platformdirs@2.5.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/platformdirs/platformdirs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "prometheus-client",
+        "version": "0.15.0",
+        "package_url": "pkg:pypi/prometheus-client@0.15.0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/prometheus/client_python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "prompt-toolkit",
+        "version": "3.0.33",
+        "package_url": "pkg:pypi/prompt-toolkit@3.0.33",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.9.4",
+        "package_url": "pkg:pypi/psutil@5.9.4",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyrsistent",
+        "version": "0.19.2",
+        "package_url": "pkg:pypi/pyrsistent@0.19.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tobgu/pyrsistent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pywin32",
+        "version": "305",
+        "package_url": "pkg:pypi/pywin32@305",
+        "license": null,
+        "source_repository_url": "https://github.com/mhammond/pywin32",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pywinpty",
+        "version": "2.0.9",
+        "package_url": "pkg:pypi/pywinpty@2.0.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/andfoy/pywinpty",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "qtconsole",
+        "version": "5.4.0",
+        "package_url": "pkg:pypi/qtconsole@5.4.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/qtconsole",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "qtpy",
+        "version": "2.3.0",
+        "package_url": "pkg:pypi/qtpy@2.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/spyder-ide/qtpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "send2trash",
+        "version": "1.8.0",
+        "package_url": "pkg:pypi/send2trash@1.8.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/arsenetar/send2trash",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "sniffio",
+        "version": "1.3.0",
+        "package_url": "pkg:pypi/sniffio@1.3.0",
+        "license": "(Apache-2.0 AND BSD-3-Clause) OR (Apache-2.0 AND MIT)",
+        "source_repository_url": "https://github.com/python-trio/sniffio",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "stack-data",
+        "version": "0.6.1",
+        "package_url": "pkg:pypi/stack-data@0.6.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/alexmojaki/stack_data",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "terminado",
+        "version": "0.17.0",
+        "package_url": "pkg:pypi/terminado@0.17.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/terminado",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "tinycss2",
+        "version": "1.2.1",
+        "package_url": "pkg:pypi/tinycss2@1.2.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/Kozea/tinycss2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "traitlets",
+        "version": "5.5.0",
+        "package_url": "pkg:pypi/traitlets@5.5.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/ipython/traitlets",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "websocket-client",
+        "version": "1.4.2",
+        "package_url": "pkg:pypi/websocket-client@1.4.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/websocket-client/websocket-client",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "Jinja2",
+        "version": "3.1.2",
+        "package_url": "pkg:pypi/jinja2@3.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/jinja",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "MarkupSafe",
+        "version": "2.1.1",
+        "package_url": "pkg:pypi/markupsafe@2.1.1",
+        "license": null,
+        "source_repository_url": "https://github.com/pallets/markupsafe",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "QtPy",
+        "version": "2.2.0",
+        "package_url": "pkg:pypi/qtpy@2.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/avalentino/qtpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "Send2Trash",
+        "version": "1.8.0",
+        "package_url": "pkg:pypi/send2trash@1.8.0",
+        "license": null,
+        "source_repository_url": "https://github.com/arsenetar/send2trash",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "asttokens",
+        "version": "2.0.8",
+        "package_url": "pkg:pypi/asttokens@2.0.8",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/gristlabs/asttokens",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "colorama",
+        "version": "0.4.5",
+        "package_url": "pkg:pypi/colorama@0.4.5",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/tartley/colorama",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "executing",
+        "version": "1.1.0",
+        "package_url": "pkg:pypi/executing@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/alexmojaki/executing",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "6.17.1",
+        "package_url": "pkg:pypi/ipykernel@6.17.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "ipython_genutils",
+        "version": "0.2.0",
+        "package_url": "pkg:pypi/ipython-genutils@0.2.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/ipython/ipython_genutils",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jedi",
+        "version": "0.18.1",
+        "package_url": "pkg:pypi/jedi@0.18.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/davidhalter/jedi",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jsonschema",
+        "version": "4.16.0",
+        "package_url": "pkg:pypi/jsonschema@4.16.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/python-jsonschema/jsonschema",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "jupyter-client",
+        "version": "7.3.5",
+        "package_url": "pkg:pypi/jupyter-client@7.3.5",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/jupyter_client",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbclient",
+        "version": "0.6.8",
+        "package_url": "pkg:pypi/nbclient@0.6.8",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbclient",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "nbformat",
+        "version": "5.6.1",
+        "package_url": "pkg:pypi/nbformat@5.6.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/nbformat",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "notebook",
+        "version": "6.4.12",
+        "package_url": "pkg:pypi/notebook@6.4.12",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/mirobeka/notebook",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "prometheus-client",
+        "version": "0.14.1",
+        "package_url": "pkg:pypi/prometheus-client@0.14.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/prometheus/client_python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "prompt-toolkit",
+        "version": "3.0.31",
+        "package_url": "pkg:pypi/prompt-toolkit@3.0.31",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "psutil",
+        "version": "5.9.2",
+        "package_url": "pkg:pypi/psutil@5.9.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/giampaolo/psutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyrsistent",
+        "version": "0.18.1",
+        "package_url": "pkg:pypi/pyrsistent@0.18.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tobgu/pyrsistent",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pywin32",
+        "version": "304",
+        "package_url": "pkg:pypi/pywin32@304",
+        "license": "PSF-2.0",
+        "source_repository_url": "https://github.com/mhammond/pywin32",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pywinpty",
+        "version": "2.0.8",
+        "package_url": "pkg:pypi/pywinpty@2.0.8",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/andfoy/pywinpty",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "qtconsole",
+        "version": "5.3.2",
+        "package_url": "pkg:pypi/qtconsole@5.3.2",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/jupyter/qtconsole",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "stack-data",
+        "version": "0.5.1",
+        "package_url": "pkg:pypi/stack-data@0.5.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/alexmojaki/stack_data",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "terminado",
+        "version": "0.16.0",
+        "package_url": "pkg:pypi/terminado@0.16.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/jupyter/terminado",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "tinycss2",
+        "version": "1.1.1",
+        "package_url": "pkg:pypi/tinycss2@1.1.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/Kozea/tinycss2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/poetry.lock",
+        "ecosystem": "pip",
+        "name": "traitlets",
+        "version": "5.4.0",
+        "package_url": "pkg:pypi/traitlets@5.4.0",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/ipython/traitlets",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.18.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "web/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "ipykernel",
+        "version": "^ 6.17.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ipython/ipykernel",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/analysis.yaml",
+        "ecosystem": "actions",
+        "name": "actions/setup-node",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-node@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-node",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyarrow",
+        "version": "10.0.0",
+        "package_url": "pkg:pypi/pyarrow@10.0.0",
+        "license": "Apache-2.0",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-5wvp-7f3h-6wmm",
+                "advisory_summary": "PyArrow: Arbitrary code execution when loading a malicious data file",
+                "advisory_url": "https://github.com/advisories/GHSA-5wvp-7f3h-6wmm"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "certifi",
+        "version": "2022.9.24",
+        "package_url": "pkg:pypi/certifi@2022.9.24",
+        "license": "MPL-2.0",
+        "source_repository_url": "https://github.com/certifi/python-certifi",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-xqr8-7jwr-rhp7",
+                "advisory_summary": "Removal of e-Tugra root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-xqr8-7jwr-rhp7"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-43fp-rhv2-5gv8",
+                "advisory_summary": "Certifi removing TrustCor root certificate",
+                "advisory_url": "https://github.com/advisories/GHSA-43fp-rhv2-5gv8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "requests",
+        "version": "2.28.1",
+        "package_url": "pkg:pypi/requests@2.28.1",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/psf/requests",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j8r2-6x86-q33q",
+                "advisory_summary": "Unintended leak of Proxy-Authorization header in requests",
+                "advisory_url": "https://github.com/advisories/GHSA-j8r2-6x86-q33q"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "urllib3",
+        "version": "1.26.12",
+        "package_url": "pkg:pypi/urllib3@1.26.12",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/urllib3/urllib3",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-v845-jxx5-vc9f",
+                "advisory_summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "advisory_url": "https://github.com/advisories/GHSA-v845-jxx5-vc9f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g4mx-q9vg-27p4",
+                "advisory_summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "advisory_url": "https://github.com/advisories/GHSA-g4mx-q9vg-27p4"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3",
+        "package_url": "pkg:pypi/antlr4-python3-runtime@4.9.3",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/sharwell/antlr4-python3",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "charset-normalizer",
+        "version": "2.1.1",
+        "package_url": "pkg:pypi/charset-normalizer@2.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Ousret/charset_normalizer",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "coloredlogs",
+        "version": "15.0.1",
+        "package_url": "pkg:pypi/coloredlogs@15.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/xolox/python-coloredlogs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "dynaconf",
+        "version": "3.1.11",
+        "package_url": "pkg:pypi/dynaconf@3.1.11",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/dynaconf/dynaconf",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "humanfriendly",
+        "version": "10.0",
+        "package_url": "pkg:pypi/humanfriendly@10.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/xolox/python-humanfriendly",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "idna",
+        "version": "3.4",
+        "package_url": "pkg:pypi/idna@3.4",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/kjd/idna",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "numpy",
+        "version": "1.23.4",
+        "package_url": "pkg:pypi/numpy@1.23.4",
+        "license": "BSD-2-Clause",
+        "source_repository_url": "https://github.com/numpy/numpy",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pandas",
+        "version": "1.5.1",
+        "package_url": "pkg:pypi/pandas@1.5.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/pandas-dev/pandas",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pyreadline3",
+        "version": "3.4.1",
+        "package_url": "pkg:pypi/pyreadline3@3.4.1",
+        "license": "BSD-2-Clause",
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "python-dateutil",
+        "version": "2.8.2",
+        "package_url": "pkg:pypi/python-dateutil@2.8.2",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/dateutil/dateutil",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "pytz",
+        "version": "2022.6",
+        "package_url": "pkg:pypi/pytz@2022.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/stub42/pytz",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "simplejson",
+        "version": "3.17.6",
+        "package_url": "pkg:pypi/simplejson@3.17.6",
+        "license": "AFL-2.1 OR MIT",
+        "source_repository_url": "https://github.com/simplejson/simplejson",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "six",
+        "version": "1.16.0",
+        "package_url": "pkg:pypi/six@1.16.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/benjaminp/six",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "stix2",
+        "version": "3.0.1",
+        "package_url": "pkg:pypi/stix2@3.0.1",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/oasis-open/cti-python-stix2",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/poetry.lock",
+        "ecosystem": "pip",
+        "name": "stix2-patterns",
+        "version": "2.0.0",
+        "package_url": "pkg:pypi/stix2-patterns@2.0.0",
+        "license": "BSD-2-Clause AND BSD-3-Clause",
+        "source_repository_url": "https://github.com/oasis-open/cti-pattern-validator",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docker/misp/app/pyproject.toml",
+        "ecosystem": "pip",
+        "name": "python",
+        "version": "^ 3.10",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mathspp/building-a-python-compiler-and-interpreter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

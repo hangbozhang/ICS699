@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Pygments",
+        "version": ">= 2.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pygments/pygments",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "markdown",
+        "version": ">= 3.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/Python-Markdown/markdown",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs",
+        "version": ">= 1.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/mkdocs/mkdocs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-material-extensions",
+        "version": ">= 1.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facelessuser/mkdocs-material-extensions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "mkdocs-minify-plugin",
+        "version": "0.3.0",
+        "package_url": "pkg:pypi/mkdocs-minify-plugin@0.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/byrnereese/mkdocs-minify-plugin",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pymdown-extensions",
+        "version": ">= 7.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/facelessuser/pymdown-extensions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

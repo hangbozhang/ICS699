@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/ci.yml",
+        "ecosystem": "actions",
+        "name": "humbletim/setup-vulkan-sdk",
+        "version": "1.2.0",
+        "package_url": "pkg:githubactions/humbletim/setup-vulkan-sdk@1.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/humbletim/setup-vulkan-sdk",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

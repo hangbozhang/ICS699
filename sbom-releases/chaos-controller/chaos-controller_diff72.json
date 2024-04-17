@@ -1,0 +1,141 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "k8s.io/kubernetes",
+        "version": "1.13.0",
+        "package_url": "pkg:golang/k8s.io/kubernetes@1.13.0",
+        "license": null,
+        "source_repository_url": "https://github.com/kubernetes/kubernetes",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hq6q-c2x6-hmch",
+                "advisory_summary": "Kubernetes Improper Input Validation vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-hq6q-c2x6-hmch"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-7fxm-f474-hf8w",
+                "advisory_summary": "Kubernetes privilege escalation vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-7fxm-f474-hf8w"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-f5f7-6478-qm6p",
+                "advisory_summary": "Files or Directories Accessible to External Parties in kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-f5f7-6478-qm6p"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-q78c-gwqw-jcmc",
+                "advisory_summary": "Kubernetes privilege escalation vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-q78c-gwqw-jcmc"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-pmqp-h87c-mr78",
+                "advisory_summary": "XML Entity Expansion and Improper Input Validation in Kubernetes API server",
+                "advisory_url": "https://github.com/advisories/GHSA-pmqp-h87c-mr78"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-wqv3-8cm6-h6wg",
+                "advisory_summary": "Improper Authentication in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-wqv3-8cm6-h6wg"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-35c7-w35f-xwgh",
+                "advisory_summary": "Kube-proxy may unintentionally forward traffic",
+                "advisory_url": "https://github.com/advisories/GHSA-35c7-w35f-xwgh"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-x6mj-w4jf-jmgw",
+                "advisory_summary": "Server Side Request Forgery (SSRF) in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-x6mj-w4jf-jmgw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-34jx-wx69-9x8v",
+                "advisory_summary": "Symlink Attack in kubectl cp",
+                "advisory_url": "https://github.com/advisories/GHSA-34jx-wx69-9x8v"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-q4rr-64r9-fwgf",
+                "advisory_summary": "Kubernetes DoS Vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-q4rr-64r9-fwgf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-cgcv-5272-97pr",
+                "advisory_summary": "Kubernetes mountable secrets policy bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-cgcv-5272-97pr"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-qc2g-gmh6-95p4",
+                "advisory_summary": "kube-apiserver vulnerable to policy bypass",
+                "advisory_url": "https://github.com/advisories/GHSA-qc2g-gmh6-95p4"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-xc8m-28vv-4pjc",
+                "advisory_summary": "Kubelet vulnerable to bypass of seccomp profile enforcement",
+                "advisory_url": "https://github.com/advisories/GHSA-xc8m-28vv-4pjc"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-jmrx-5g74-6v2f",
+                "advisory_summary": "Kubernetes client-go library logs may disclose credentials to unauthorized users",
+                "advisory_url": "https://github.com/advisories/GHSA-jmrx-5g74-6v2f"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-8mjg-8c8g-6h85",
+                "advisory_summary": "Kubernetes Sensitive Information leak via Log File",
+                "advisory_url": "https://github.com/advisories/GHSA-8mjg-8c8g-6h85"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-j9wf-vvm6-4r9w",
+                "advisory_summary": "Unverified Ownership in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-j9wf-vvm6-4r9w"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g42g-737j-qx6j",
+                "advisory_summary": "Access Restriction Bypass in kube-apiserver",
+                "advisory_url": "https://github.com/advisories/GHSA-g42g-737j-qx6j"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-74j8-88mm-7496",
+                "advisory_summary": "Confused Deputy in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-74j8-88mm-7496"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-f9jg-8p32-2f55",
+                "advisory_summary": "kubectl ANSI escape characters not filtered",
+                "advisory_url": "https://github.com/advisories/GHSA-f9jg-8p32-2f55"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-qh36-44jv-c8xj",
+                "advisory_summary": "Potential proxy IP restriction bypass in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-qh36-44jv-c8xj"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-vw47-mr44-3jf9",
+                "advisory_summary": "Confused Deputy in Kubernetes",
+                "advisory_url": "https://github.com/advisories/GHSA-vw47-mr44-3jf9"
+            }
+        ]
+    }
+]

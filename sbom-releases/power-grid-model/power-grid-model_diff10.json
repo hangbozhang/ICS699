@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "conda-incubator/setup-miniconda",
+        "version": "3",
+        "package_url": "pkg:githubactions/conda-incubator/setup-miniconda@3",
+        "license": null,
+        "source_repository_url": "https://github.com/conda-incubator/setup-miniconda",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/main.yml",
+        "ecosystem": "actions",
+        "name": "conda-incubator/setup-miniconda",
+        "version": "2",
+        "package_url": "pkg:githubactions/conda-incubator/setup-miniconda@2",
+        "license": null,
+        "source_repository_url": "https://github.com/conda-incubator/setup-miniconda",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

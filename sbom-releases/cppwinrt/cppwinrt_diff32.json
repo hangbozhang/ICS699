@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "cppwinrt/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.210629.2",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.210629.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "cppwinrt/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.210505.3",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.210505.3",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.210629.2",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.210629.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "natvis/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.WinMD",
+        "version": "1.0.210505.3",
+        "package_url": "pkg:nuget/Microsoft.Windows.WinMD@1.0.210505.3",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/winmd",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "vsix/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.BuildTools",
+        "version": "17.0.1619-preview1",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.BuildTools@17.0.1619-preview1",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "vsix/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.VSSDK.BuildTools",
+        "version": "16.0.2258",
+        "package_url": "pkg:nuget/Microsoft.VSSDK.BuildTools@16.0.2258",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

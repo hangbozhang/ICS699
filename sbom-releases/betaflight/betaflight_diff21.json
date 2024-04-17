@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/issues.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2.3.4",
+        "package_url": "pkg:githubactions/actions/checkout@2.3.4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/issues.yml",
+        "ecosystem": "actions",
+        "name": "ergo720/auto-close-issues",
+        "version": "1.0.4",
+        "package_url": "pkg:githubactions/ergo720/auto-close-issues@1.0.4",
+        "license": null,
+        "source_repository_url": "https://github.com/ergo720/auto-close-issues",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/stale.yaml",
+        "ecosystem": "actions",
+        "name": "actions/stale",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/stale@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/stale",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

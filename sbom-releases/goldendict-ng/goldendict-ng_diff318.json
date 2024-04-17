@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release_drafter_workflow.yml",
+        "ecosystem": "actions",
+        "name": "release-drafter/release-drafter",
+        "version": "master",
+        "package_url": "pkg:githubactions/release-drafter/release-drafter@master",
+        "license": null,
+        "source_repository_url": "https://github.com/release-drafter/release-drafter",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

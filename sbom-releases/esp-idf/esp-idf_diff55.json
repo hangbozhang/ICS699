@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/issue_comment.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/issue_comment.yml",
+        "ecosystem": "actions",
+        "name": "espressif/github-actions/sync_issues_to_jira",
+        "version": "master",
+        "package_url": "pkg:githubactions/espressif/github-actions/sync_issues_to_jira@master",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/new_issues.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/new_issues.yml",
+        "ecosystem": "actions",
+        "name": "espressif/github-actions/sync_issues_to_jira",
+        "version": "master",
+        "package_url": "pkg:githubactions/espressif/github-actions/sync_issues_to_jira@master",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/new_prs.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/new_prs.yml",
+        "ecosystem": "actions",
+        "name": "espressif/github-actions/sync_issues_to_jira",
+        "version": "master",
+        "package_url": "pkg:githubactions/espressif/github-actions/sync_issues_to_jira@master",
+        "license": null,
+        "source_repository_url": "https://github.com/espressif/github-actions",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/python_lint.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/checkout@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/python_lint.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-python",
+        "version": "master",
+        "package_url": "pkg:githubactions/actions/setup-python@master",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-python",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

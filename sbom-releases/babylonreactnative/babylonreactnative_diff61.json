@@ -1,0 +1,93 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bn_master_commit.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2.3.3",
+        "package_url": "pkg:githubactions/actions/checkout@2.3.3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bn_master_commit.yml",
+        "ecosystem": "actions",
+        "name": "jwlawson/actions-setup-cmake",
+        "version": "1.8",
+        "package_url": "pkg:githubactions/jwlawson/actions-setup-cmake@1.8",
+        "license": null,
+        "source_repository_url": "https://github.com/jwlawson/actions-setup-cmake",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bn_master_commit.yml",
+        "ecosystem": "actions",
+        "name": "microsoft/setup-msbuild",
+        "version": "1.0.2",
+        "package_url": "pkg:githubactions/microsoft/setup-msbuild@1.0.2",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/setup-msbuild",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/bn_master_commit.yml",
+        "ecosystem": "actions",
+        "name": "nuget/setup-nuget",
+        "version": "1",
+        "package_url": "pkg:githubactions/nuget/setup-nuget@1",
+        "license": null,
+        "source_repository_url": "https://github.com/NuGet/setup-nuget",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "Apps/PackageTest/0.63.1/package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/y18n@4.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c4w7-xm78-47vh",
+                "advisory_summary": "Prototype Pollution in y18n",
+                "advisory_url": "https://github.com/advisories/GHSA-c4w7-xm78-47vh"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/PackageTest/0.63.1/package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.3",
+        "package_url": "pkg:npm/y18n@4.0.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "Apps/Playground/package.json",
+        "ecosystem": "npm",
+        "name": "shelljs",
+        "version": "^0.8.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/shelljs/shelljs",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

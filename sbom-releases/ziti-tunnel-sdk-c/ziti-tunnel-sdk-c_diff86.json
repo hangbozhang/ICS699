@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/mattermost-ziti-webhook.yml",
+        "ecosystem": "actions",
+        "name": "openziti/ziti-webhook-action",
+        "version": "1",
+        "package_url": "pkg:githubactions/openziti/ziti-webhook-action@1",
+        "license": null,
+        "source_repository_url": "https://github.com/openziti/ziti-webhook-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/mattermost-ziti-webhook.yml",
+        "ecosystem": "actions",
+        "name": "openziti/ziti-webhook-action",
+        "version": "main",
+        "package_url": "pkg:githubactions/openziti/ziti-webhook-action@main",
+        "license": null,
+        "source_repository_url": "https://github.com/openziti/ziti-webhook-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/checkout@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/upload-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "softprops/action-gh-release",
+        "version": "1",
+        "package_url": "pkg:githubactions/softprops/action-gh-release@1",
+        "license": null,
+        "source_repository_url": "https://github.com/softprops/action-gh-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "actions/upload-artifact",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/upload-artifact@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/upload-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/release.yml",
+        "ecosystem": "actions",
+        "name": "bruceadams/get-release",
+        "version": "1.2.2",
+        "package_url": "pkg:githubactions/bruceadams/get-release@1.2.2",
+        "license": null,
+        "source_repository_url": "https://github.com/bruceadams/get-release",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

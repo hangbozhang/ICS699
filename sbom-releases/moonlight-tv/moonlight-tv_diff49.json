@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "fontmin",
+        "version": "^0.9.9",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/ecomfe/fontmin",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "gulp-rename",
+        "version": "^2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/hparra/gulp-rename",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "vinyl-fs",
+        "version": "^3.0.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/gulpjs/vinyl-fs",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

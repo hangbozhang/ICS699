@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "rust/notcurses/Cargo.toml",
+        "ecosystem": "cargo",
+        "name": "libnotcurses-sys",
+        "version": ">= 1.4.3, < 2.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/dankamongmen/libnotcurses-sys",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

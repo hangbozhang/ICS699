@@ -1,0 +1,33 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimist",
+        "version": "1.2.5",
+        "package_url": "pkg:npm/minimist@1.2.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/substack/minimist",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "critical",
+                "advisory_ghsa_id": "GHSA-xvch-5gv4-984h",
+                "advisory_summary": "Prototype Pollution in minimist",
+                "advisory_url": "https://github.com/advisories/GHSA-xvch-5gv4-984h"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "minimist",
+        "version": "1.2.6",
+        "package_url": "pkg:npm/minimist@1.2.6",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/substack/minimist",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

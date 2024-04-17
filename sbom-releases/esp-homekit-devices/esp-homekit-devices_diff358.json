@@ -1,0 +1,98 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfcrypt/requirements-testing.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": ">= 1.6.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfcrypt/requirements-testing.txt",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": ">= 2.9.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfcrypt/requirements-testing.txt",
+        "ecosystem": "pip",
+        "name": "tox",
+        "version": ">= 2.3.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tox-dev/tox",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfssl/docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "Sphinx",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/sphinx-doc/sphinx",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfssl/docs/requirements.txt",
+        "ecosystem": "pip",
+        "name": "sphinx_rtd_theme",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/readthedocs/sphinx_rtd_theme",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfssl/requirements-testing.txt",
+        "ecosystem": "pip",
+        "name": "cffi",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/python-cffi/cffi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfssl/requirements-testing.txt",
+        "ecosystem": "pip",
+        "name": "pytest",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/pytest-dev/pytest",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "devices/HAA_LCM/esp-wolfssl/wolfssl-3.13.0-stable/wrapper/python/wolfssl/requirements-testing.txt",
+        "ecosystem": "pip",
+        "name": "tox",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tox-dev/tox",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

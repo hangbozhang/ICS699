@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nix-ci-aarch64.yml",
+        "ecosystem": "actions",
+        "name": "DeterminateSystems/magic-nix-cache-action",
+        "version": "2",
+        "package_url": "pkg:githubactions/DeterminateSystems/magic-nix-cache-action@2",
+        "license": null,
+        "source_repository_url": "https://github.com/DeterminateSystems/magic-nix-cache-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nix-ci-aarch64.yml",
+        "ecosystem": "actions",
+        "name": "DeterminateSystems/nix-installer-action",
+        "version": "9",
+        "package_url": "pkg:githubactions/DeterminateSystems/nix-installer-action@9",
+        "license": null,
+        "source_repository_url": "https://github.com/DeterminateSystems/nix-installer-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nix-ci-aarch64.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "4",
+        "package_url": "pkg:githubactions/actions/checkout@4",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/nix-ci-aarch64.yml",
+        "ecosystem": "actions",
+        "name": "cachix/cachix-action",
+        "version": "13",
+        "package_url": "pkg:githubactions/cachix/cachix-action@13",
+        "license": null,
+        "source_repository_url": "https://github.com/cachix/cachix-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

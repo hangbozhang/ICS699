@@ -1,0 +1,549 @@
+{
+    "sbom": {
+        "SPDXID": "SPDXRef-DOCUMENT",
+        "spdxVersion": "SPDX-2.3",
+        "creationInfo": {
+            "created": "2023-09-27T08:42:52Z",
+            "creators": [
+                "Tool: GitHub.com-Dependency-Graph"
+            ]
+        },
+        "name": "com.github.microsoft/terminal",
+        "dataLicense": "CC0-1.0",
+        "documentDescribes": [
+            "SPDXRef-com.github.microsoft-terminal"
+        ],
+        "documentNamespace": "https://github.com/microsoft/terminal/dependency_graph/sbom-3e48488ad2d1b6a3",
+        "packages": [
+            {
+                "SPDXID": "SPDXRef-com.github.microsoft-terminal",
+                "name": "com.github.microsoft/terminal",
+                "versionInfo": "",
+                "downloadLocation": "git+https://github.com/microsoft/terminal",
+                "licenseDeclared": "MIT",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceType": "purl",
+                        "referenceLocator": "pkg:github/microsoft/terminal"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Pipelines.Sockets.Unofficial-2.0.22",
+                "name": "nuget:Pipelines.Sockets.Unofficial",
+                "versionInfo": "2.0.22",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Pipelines.Sockets.Unofficial@2.0.22",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Vanara.PInvoke.Kernel32-2.3.6",
+                "name": "nuget:Vanara.PInvoke.Kernel32",
+                "versionInfo": "2.3.6",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Vanara.PInvoke.Kernel32@2.3.6",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-StyleCop.Analyzers-1.1.118",
+                "name": "nuget:StyleCop.Analyzers",
+                "versionInfo": "1.1.118",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/StyleCop.Analyzers@1.1.118",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-vswhere-2.6.7",
+                "name": "nuget:vswhere",
+                "versionInfo": "2.6.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/vswhere@2.6.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Debugging.Tools.PdbStr-20220617.1556.0",
+                "name": "nuget:Microsoft.Debugging.Tools.PdbStr",
+                "versionInfo": "20220617.1556.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Debugging.Tools.PdbStr@20220617.1556.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Debugging.Tools.SrcTool-20220617.1556.0",
+                "name": "nuget:Microsoft.Debugging.Tools.SrcTool",
+                "versionInfo": "20220617.1556.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Debugging.Tools.SrcTool@20220617.1556.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Internal.PGO-Helpers.Cpp-0.2.34",
+                "name": "nuget:Microsoft.Internal.PGO-Helpers.Cpp",
+                "versionInfo": "0.2.34",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Internal.PGO-Helpers.Cpp@0.2.34",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Taef-10.60.210621002",
+                "name": "nuget:Microsoft.Taef",
+                "versionInfo": "10.60.210621002",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Taef@10.60.210621002",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-MUXCustomBuildTasks-1.0.48",
+                "name": "nuget:MUXCustomBuildTasks",
+                "versionInfo": "1.0.48",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/MUXCustomBuildTasks@1.0.48",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Appium.WebDriver-3.0.0.2",
+                "name": "nuget:Appium.WebDriver",
+                "versionInfo": "3.0.0.2",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Appium.WebDriver@3.0.0.2",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Castle.Core-4.1.1",
+                "name": "nuget:Castle.Core",
+                "versionInfo": "4.1.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Castle.Core@4.1.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Internal.Windows.Terminal.ThemeHelpers-0.7.230706001",
+                "name": "nuget:Microsoft.Internal.Windows.Terminal.ThemeHelpers",
+                "versionInfo": "0.7.230706001",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Internal.Windows.Terminal.ThemeHelpers@0.7.230706001",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.UI.Xaml-2.8.4",
+                "name": "nuget:Microsoft.UI.Xaml",
+                "versionInfo": "2.8.4",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.UI.Xaml@2.8.4",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.VisualStudio.Setup.Configuration.Native-2.3.2262",
+                "name": "nuget:Microsoft.VisualStudio.Setup.Configuration.Native",
+                "versionInfo": "2.3.2262",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.VisualStudio.Setup.Configuration.Native@2.3.2262",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Web.WebView2-1.0.1661.34",
+                "name": "nuget:Microsoft.Web.WebView2",
+                "versionInfo": "1.0.1661.34",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "BSD-3-Clause",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Web.WebView2@1.0.1661.34",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Windows.CppWinRT-2.0.230207.1",
+                "name": "nuget:Microsoft.Windows.CppWinRT",
+                "versionInfo": "2.0.230207.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.230207.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Windows.ImplementationLibrary-1.0.220201.1",
+                "name": "nuget:Microsoft.Windows.ImplementationLibrary",
+                "versionInfo": "1.0.220201.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Windows.ImplementationLibrary@1.0.220201.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Newtonsoft.Json-13.0.1",
+                "name": "nuget:Newtonsoft.Json",
+                "versionInfo": "13.0.1",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "MIT",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Newtonsoft.Json@13.0.1",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Selenium.Support-3.5.0",
+                "name": "nuget:Selenium.Support",
+                "versionInfo": "3.5.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Selenium.Support@3.5.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Selenium.WebDriver-3.5.0",
+                "name": "nuget:Selenium.WebDriver",
+                "versionInfo": "3.5.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "licenseConcluded": "Apache-2.0",
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Selenium.WebDriver@3.5.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.Toolkit.Win32.UI.XamlApplication-6.1.3",
+                "name": "nuget:Microsoft.Toolkit.Win32.UI.XamlApplication",
+                "versionInfo": "6.1.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.Toolkit.Win32.UI.XamlApplication@6.1.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-Microsoft.UI.Xaml-2.7.3",
+                "name": "nuget:Microsoft.UI.Xaml",
+                "versionInfo": "2.7.3",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/Microsoft.UI.Xaml@2.7.3",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-nuget-clang-format.win-x86-15.0.7",
+                "name": "nuget:clang-format.win-x86",
+                "versionInfo": "15.0.7",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:nuget/clang-format.win-x86@15.0.7",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-actions-add-to-project-0.3.0",
+                "name": "actions:actions/add-to-project",
+                "versionInfo": "0.3.0",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/actions/add-to-project@0.3.0",
+                        "referenceType": "purl"
+                    }
+                ]
+            },
+            {
+                "SPDXID": "SPDXRef-actions-check-spelling-check-spelling-0.0.21",
+                "name": "actions:check-spelling/check-spelling",
+                "versionInfo": "0.0.21",
+                "downloadLocation": "NOASSERTION",
+                "filesAnalyzed": false,
+                "supplier": "NOASSERTION",
+                "externalRefs": [
+                    {
+                        "referenceCategory": "PACKAGE-MANAGER",
+                        "referenceLocator": "pkg:githubactions/check-spelling/check-spelling@0.0.21",
+                        "referenceType": "purl"
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Pipelines.Sockets.Unofficial-2.0.22"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Vanara.PInvoke.Kernel32-2.3.6"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-StyleCop.Analyzers-1.1.118"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-vswhere-2.6.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Debugging.Tools.PdbStr-20220617.1556.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Debugging.Tools.SrcTool-20220617.1556.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Internal.PGO-Helpers.Cpp-0.2.34"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Taef-10.60.210621002"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-MUXCustomBuildTasks-1.0.48"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Appium.WebDriver-3.0.0.2"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Castle.Core-4.1.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Internal.Windows.Terminal.ThemeHelpers-0.7.230706001"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.UI.Xaml-2.8.4"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.VisualStudio.Setup.Configuration.Native-2.3.2262"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Web.WebView2-1.0.1661.34"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Windows.CppWinRT-2.0.230207.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Windows.ImplementationLibrary-1.0.220201.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Newtonsoft.Json-13.0.1"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Selenium.Support-3.5.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Selenium.WebDriver-3.5.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.Toolkit.Win32.UI.XamlApplication-6.1.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-Microsoft.UI.Xaml-2.7.3"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-nuget-clang-format.win-x86-15.0.7"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-actions-actions-add-to-project-0.3.0"
+            },
+            {
+                "relationshipType": "DEPENDS_ON",
+                "spdxElementId": "SPDXRef-com.github.microsoft-terminal",
+                "relatedSpdxElement": "SPDXRef-actions-check-spelling-check-spelling-0.0.21"
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "6.1.2",
+        "package_url": "pkg:npm/prebuild-install@6.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "6.0.1",
+        "package_url": "pkg:npm/prebuild-install@6.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "which-pm-runs",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/which-pm-runs@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zkochan/which-pm-runs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "6.1.2",
+        "package_url": "pkg:npm/prebuild-install@6.1.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "prebuild-install",
+        "version": "6.0.1",
+        "package_url": "pkg:npm/prebuild-install@6.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/prebuild/prebuild-install",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

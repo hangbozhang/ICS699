@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Costura.Fody",
+        "version": "3.1.0",
+        "package_url": "pkg:nuget/Costura.Fody@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Costura",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Fody",
+        "version": "3.2.2",
+        "package_url": "pkg:nuget/Fody@3.2.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Fody",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "HtmlAgilityPack",
+        "version": "1.8.7",
+        "package_url": "pkg:nuget/HtmlAgilityPack@1.8.7",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zzzprojects/html-agility-pack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Octokit",
+        "version": "0.32.0",
+        "package_url": "pkg:nuget/Octokit@0.32.0",
+        "license": null,
+        "source_repository_url": "https://github.com/octokit/octokit.net",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Costura.Fody",
+        "version": "3.0.0",
+        "package_url": "pkg:nuget/Costura.Fody@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Costura",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "Fody",
+        "version": "3.0.4",
+        "package_url": "pkg:nuget/Fody@3.0.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Fody/Fody",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "OmniMIDIConfigurator/OmniMIDIConfigurator/packages.config",
+        "ecosystem": "nuget",
+        "name": "HtmlAgilityPack",
+        "version": "1.8.4",
+        "package_url": "pkg:nuget/HtmlAgilityPack@1.8.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/zzzprojects/html-agility-pack",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-project.yaml",
+        "ecosystem": "actions",
+        "name": "yuzutech/annotations-action",
+        "version": "0.4.0",
+        "package_url": "pkg:githubactions/yuzutech/annotations-action@0.4.0",
+        "license": null,
+        "source_repository_url": "https://github.com/yuzutech/annotations-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

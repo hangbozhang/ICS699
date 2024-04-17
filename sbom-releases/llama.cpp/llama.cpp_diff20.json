@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "actions/setup-java",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/setup-java@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/setup-java",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/build.yml",
+        "ecosystem": "actions",
+        "name": "android-actions/setup-android",
+        "version": "3",
+        "package_url": "pkg:githubactions/android-actions/setup-android@3",
+        "license": null,
+        "source_repository_url": "https://github.com/android-actions/setup-android",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

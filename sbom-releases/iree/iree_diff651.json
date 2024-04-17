@@ -1,0 +1,62 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/update_llvm_dependent_submodules.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "2",
+        "package_url": "pkg:githubactions/actions/checkout@2",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/update_llvm_dependent_submodules.yml",
+        "ecosystem": "actions",
+        "name": "peter-evans/create-pull-request",
+        "version": "3",
+        "package_url": "pkg:githubactions/peter-evans/create-pull-request@3",
+        "license": null,
+        "source_repository_url": "https://github.com/peter-evans/create-pull-request",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "tensorflow-model-optimization",
+        "version": "0.5.1.dev0",
+        "package_url": "pkg:pypi/tensorflow-model-optimization@0.5.1.dev0",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/tensorflow/model-optimization",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "integrations/tensorflow/bindings/python/build_requirements.txt",
+        "ecosystem": "pip",
+        "name": "tf-nightly",
+        "version": ">= 2.7.0.dev20210802",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

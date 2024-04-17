@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "integrations/pjrt/requirements.txt",
+        "ecosystem": "pip",
+        "name": "iree-compiler",
+        "version": "20230922.653",
+        "package_url": "pkg:pypi/iree-compiler@20230922.653",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "integrations/pjrt/requirements.txt",
+        "ecosystem": "pip",
+        "name": "jaxlib",
+        "version": "0.4.17.dev20230922",
+        "package_url": "pkg:pypi/jaxlib@0.4.17.dev20230922",
+        "license": null,
+        "source_repository_url": "https://github.com/google/jax",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/run_convperf.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "package_url": "pkg:githubactions/actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/run_mmperf.yml",
+        "ecosystem": "actions",
+        "name": "actions/checkout",
+        "version": "8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "package_url": "pkg:githubactions/actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/checkout",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

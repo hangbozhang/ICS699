@@ -1,0 +1,363 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/runc",
+        "version": "1.1.2",
+        "package_url": "pkg:golang/github.com/opencontainers/runc@1.1.2",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/runc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpvm-3wq2-2wvm",
+                "advisory_summary": "Opencontainers runc Incorrect Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vpvm-3wq2-2wvm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g2j6-57v7-gm8c",
+                "advisory_summary": "runc AppArmor bypass with symlinked /proc",
+                "advisory_url": "https://github.com/advisories/GHSA-g2j6-57v7-gm8c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m8cg-xc2p-r3fc",
+                "advisory_summary": "rootless: `/sys/fs/cgroup` is writable when cgroupns isn't unshared in runc",
+                "advisory_url": "https://github.com/advisories/GHSA-m8cg-xc2p-r3fc"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/runc",
+        "version": "1.0.3",
+        "package_url": "pkg:golang/github.com/opencontainers/runc@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/runc",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-vpvm-3wq2-2wvm",
+                "advisory_summary": "Opencontainers runc Incorrect Authorization vulnerability",
+                "advisory_url": "https://github.com/advisories/GHSA-vpvm-3wq2-2wvm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-f3fp-gc8g-vw66",
+                "advisory_summary": "Default inheritable capabilities for linux container should be empty",
+                "advisory_url": "https://github.com/advisories/GHSA-f3fp-gc8g-vw66"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-g2j6-57v7-gm8c",
+                "advisory_summary": "runc AppArmor bypass with symlinked /proc",
+                "advisory_url": "https://github.com/advisories/GHSA-g2j6-57v7-gm8c"
+            },
+            {
+                "severity": "low",
+                "advisory_ghsa_id": "GHSA-m8cg-xc2p-r3fc",
+                "advisory_summary": "rootless: `/sys/fs/cgroup` is writable when cgroupns isn't unshared in runc",
+                "advisory_url": "https://github.com/advisories/GHSA-m8cg-xc2p-r3fc"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/containerd/containerd",
+        "version": "1.5.13",
+        "package_url": "pkg:golang/github.com/containerd/containerd@1.5.13",
+        "license": null,
+        "source_repository_url": "https://github.com/containerd/containerd",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qjp-425j-52j9",
+                "advisory_summary": "containerd CRI stream server vulnerable to host memory exhaustion via terminal",
+                "advisory_url": "https://github.com/advisories/GHSA-2qjp-425j-52j9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hmfx-3pcx-653p",
+                "advisory_summary": "Supplementary groups are not set up properly in github.com/containerd/containerd",
+                "advisory_url": "https://github.com/advisories/GHSA-hmfx-3pcx-653p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-259w-8hf6-59c2",
+                "advisory_summary": "OCI image importer memory exhaustion in github.com/containerd/containerd",
+                "advisory_url": "https://github.com/advisories/GHSA-259w-8hf6-59c2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7ww5-4wqc-m92c",
+                "advisory_summary": "containerd allows RAPL to be accessible to a container",
+                "advisory_url": "https://github.com/advisories/GHSA-7ww5-4wqc-m92c"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/cyphar/filepath-securejoin",
+        "version": "0.2.3",
+        "package_url": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.3",
+        "license": null,
+        "source_repository_url": "https://github.com/cyphar/filepath-securejoin",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6xv5-86q9-7xr8",
+                "advisory_summary": "SecureJoin: on windows, paths outside of the rootfs could be inadvertently produced",
+                "advisory_url": "https://github.com/advisories/GHSA-6xv5-86q9-7xr8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/containerd/containerd",
+        "version": "1.5.10",
+        "package_url": "pkg:golang/github.com/containerd/containerd@1.5.10",
+        "license": null,
+        "source_repository_url": "https://github.com/containerd/containerd",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-5ffw-gxpp-mxpf",
+                "advisory_summary": "containerd CRI plugin: Host memory exhaustion through ExecSync",
+                "advisory_url": "https://github.com/advisories/GHSA-5ffw-gxpp-mxpf"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-2qjp-425j-52j9",
+                "advisory_summary": "containerd CRI stream server vulnerable to host memory exhaustion via terminal",
+                "advisory_url": "https://github.com/advisories/GHSA-2qjp-425j-52j9"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-hmfx-3pcx-653p",
+                "advisory_summary": "Supplementary groups are not set up properly in github.com/containerd/containerd",
+                "advisory_url": "https://github.com/advisories/GHSA-hmfx-3pcx-653p"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-259w-8hf6-59c2",
+                "advisory_summary": "OCI image importer memory exhaustion in github.com/containerd/containerd",
+                "advisory_url": "https://github.com/advisories/GHSA-259w-8hf6-59c2"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7ww5-4wqc-m92c",
+                "advisory_summary": "containerd allows RAPL to be accessible to a container",
+                "advisory_url": "https://github.com/advisories/GHSA-7ww5-4wqc-m92c"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/cyphar/filepath-securejoin",
+        "version": "0.2.2",
+        "package_url": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.2",
+        "license": null,
+        "source_repository_url": "https://github.com/cyphar/filepath-securejoin",
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-6xv5-86q9-7xr8",
+                "advisory_summary": "SecureJoin: on windows, paths outside of the rootfs could be inadvertently produced",
+                "advisory_url": "https://github.com/advisories/GHSA-6xv5-86q9-7xr8"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20210817190340-bfb29a6856f2",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20210817190340-bfb29a6856f2",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p782-xgp4-8hr8",
+                "advisory_summary": "golang.org/x/sys/unix has Incorrect privilege reporting in syscall",
+                "advisory_url": "https://github.com/advisories/GHSA-p782-xgp4-8hr8"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/Microsoft/hcsshim",
+        "version": "0.8.24",
+        "package_url": "pkg:golang/github.com/Microsoft/hcsshim@0.8.24",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/hcsshim",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/containerd/cgroups",
+        "version": "1.0.3",
+        "package_url": "pkg:golang/github.com/containerd/cgroups@1.0.3",
+        "license": null,
+        "source_repository_url": "https://github.com/containerd/cgroups",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/godbus/dbus/v5",
+        "version": "5.0.6",
+        "package_url": "pkg:golang/github.com/godbus/dbus/v5@5.0.6",
+        "license": null,
+        "source_repository_url": "https://github.com/godbus/dbus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/moby/sys/mountinfo",
+        "version": "0.5.0",
+        "package_url": "pkg:golang/github.com/moby/sys/mountinfo@0.5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/moby/sys",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/selinux",
+        "version": "1.10.0",
+        "package_url": "pkg:golang/github.com/opencontainers/selinux@1.10.0",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/selinux",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.0.0-20220412211240-33da011f77ad",
+        "package_url": "pkg:golang/golang.org/x/sys@0.0.0-20220412211240-33da011f77ad",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "gotest.tools",
+        "version": "2.2.0+incompatible",
+        "package_url": "pkg:golang/gotest.tools@2.2.0%2Bincompatible",
+        "license": null,
+        "source_repository_url": "https://github.com/gotestyourself/gotest.tools",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/Microsoft/hcsshim",
+        "version": "0.8.23",
+        "package_url": "pkg:golang/github.com/Microsoft/hcsshim@0.8.23",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/hcsshim",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/bits-and-blooms/bitset",
+        "version": "1.2.0",
+        "package_url": "pkg:golang/github.com/bits-and-blooms/bitset@1.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/bits-and-blooms/bitset",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/containerd/cgroups",
+        "version": "1.0.1",
+        "package_url": "pkg:golang/github.com/containerd/cgroups@1.0.1",
+        "license": null,
+        "source_repository_url": "https://github.com/containerd/cgroups",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/godbus/dbus/v5",
+        "version": "5.0.4",
+        "package_url": "pkg:golang/github.com/godbus/dbus/v5@5.0.4",
+        "license": null,
+        "source_repository_url": "https://github.com/godbus/dbus",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/moby/sys/mountinfo",
+        "version": "0.4.1",
+        "package_url": "pkg:golang/github.com/moby/sys/mountinfo@0.4.1",
+        "license": null,
+        "source_repository_url": "https://github.com/moby/sys",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/opencontainers/selinux",
+        "version": "1.8.2",
+        "package_url": "pkg:golang/github.com/opencontainers/selinux@1.8.2",
+        "license": null,
+        "source_repository_url": "https://github.com/opencontainers/selinux",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

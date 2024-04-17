@@ -1,0 +1,26 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docs.yml",
+        "ecosystem": "actions",
+        "name": "actions/download-artifact",
+        "version": "3",
+        "package_url": "pkg:githubactions/actions/download-artifact@3",
+        "license": null,
+        "source_repository_url": "https://github.com/actions/download-artifact",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/docs.yml",
+        "ecosystem": "actions",
+        "name": "cloudflare/wrangler-action",
+        "version": "4c10c1822abba527d820b29e6333e7f5dac2cabd",
+        "package_url": "pkg:githubactions/cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd",
+        "license": null,
+        "source_repository_url": "https://github.com/cloudflare/wrangler-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

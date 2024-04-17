@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "ep_gui/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.UI.Xaml",
+        "version": "2.6.3",
+        "package_url": "pkg:nuget/Microsoft.UI.Xaml@2.6.3",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ep_gui/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Web.WebView2",
+        "version": "1.0.1264.42",
+        "package_url": "pkg:nuget/Microsoft.Web.WebView2@1.0.1264.42",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/arturo-lang/arturo",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "ep_gui/packages.config",
+        "ecosystem": "nuget",
+        "name": "Microsoft.Windows.CppWinRT",
+        "version": "2.0.230706.1",
+        "package_url": "pkg:nuget/Microsoft.Windows.CppWinRT@2.0.230706.1",
+        "license": null,
+        "source_repository_url": "https://github.com/microsoft/cppwinrt",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

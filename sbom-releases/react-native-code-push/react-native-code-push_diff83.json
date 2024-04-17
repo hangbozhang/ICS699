@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "react-native",
+        "version": "0.19.0",
+        "package_url": "pkg:npm/react-native@0.19.0",
+        "license": "BSD-3-Clause",
+        "source_repository_url": "https://github.com/facebook/react-native",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

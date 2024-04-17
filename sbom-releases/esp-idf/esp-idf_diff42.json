@@ -1,0 +1,74 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "ecdsa",
+        "version": ">= 0.16.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tlsfuzzer/python-ecdsa",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "gdbgui",
+        "version": "0.13.2.0",
+        "package_url": "pkg:pypi/gdbgui@0.13.2.0",
+        "license": "GPL-3.0-only AND GPL-3.0-or-later",
+        "source_repository_url": "https://github.com/cs01/gdbgui",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "python-socketio",
+        "version": "< 5",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/miguelgrinberg/python-socketio",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "reedsolo",
+        "version": ">= 1.5.3,<= 1.5.4",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/tomerfiliba-org/reedsolomon",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "gdbgui",
+        "version": ">= 0.13.2.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/cs01/gdbgui",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "requirements.txt",
+        "ecosystem": "pip",
+        "name": "reedsolo",
+        "version": "1.5.3",
+        "package_url": "pkg:pypi/reedsolo@1.5.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/tomerfiliba-org/reedsolomon",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

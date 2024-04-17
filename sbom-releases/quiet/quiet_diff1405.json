@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/build-release.yml",
+        "ecosystem": "actions",
+        "name": "shallwefootball/s3-upload-action",
+        "version": "master",
+        "package_url": "pkg:githubactions/shallwefootball/s3-upload-action@master",
+        "license": null,
+        "source_repository_url": "https://github.com/shallwefootball/upload-s3-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

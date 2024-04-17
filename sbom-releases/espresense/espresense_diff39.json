@@ -1,0 +1,39 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "loader-utils",
+        "version": "3.2.0",
+        "package_url": "pkg:npm/loader-utils@3.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/webpack/loader-utils",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-hhq3-ff78-jv3g",
+                "advisory_summary": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "advisory_url": "https://github.com/advisories/GHSA-hhq3-ff78-jv3g"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-3rfm-jhwj-7488",
+                "advisory_summary": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable",
+                "advisory_url": "https://github.com/advisories/GHSA-3rfm-jhwj-7488"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "ui/package-lock.json",
+        "ecosystem": "npm",
+        "name": "loader-utils",
+        "version": "3.2.1",
+        "package_url": "pkg:npm/loader-utils@3.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/webpack/loader-utils",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

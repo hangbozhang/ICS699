@@ -1,0 +1,820 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-regex",
+        "version": "5.0.0",
+        "package_url": "pkg:npm/ansi-regex@5.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-regex",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-93q8-gq69-wqmw",
+                "advisory_summary": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "advisory_url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.19",
+        "package_url": "pkg:npm/lodash@4.17.19",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "y18n",
+        "version": "4.0.0",
+        "package_url": "pkg:npm/y18n@4.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/y18n",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-c4w7-xm78-47vh",
+                "advisory_summary": "Prototype Pollution in y18n",
+                "advisory_url": "https://github.com/advisories/GHSA-c4w7-xm78-47vh"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "4.17.15",
+        "package_url": "pkg:npm/lodash@4.17.15",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lodash/lodash",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-35jh-r3h4-6jhm",
+                "advisory_summary": "Command Injection in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+            },
+            {
+                "severity": "high",
+                "advisory_ghsa_id": "GHSA-p6mc-m468-83gw",
+                "advisory_summary": "Prototype Pollution in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-p6mc-m468-83gw"
+            },
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-29mw-wpgm-hmr9",
+                "advisory_summary": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "advisory_url": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "7.3.2",
+        "package_url": "pkg:npm/semver@7.3.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/npm/node-semver",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-c2qf-rxjj-qqgw",
+                "advisory_summary": "semver vulnerable to Regular Expression Denial of Service",
+                "advisory_url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "standard-version",
+        "version": "5.0.2",
+        "package_url": "pkg:npm/standard-version@5.0.2",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/conventional-changelog/standard-version",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7xcx-6wjh-7xp2",
+                "advisory_summary": "Command Injection in standard-version",
+                "advisory_url": "https://github.com/advisories/GHSA-7xcx-6wjh-7xp2"
+            }
+        ]
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs-parser",
+        "version": "11.1.1",
+        "package_url": "pkg:npm/yargs-parser@11.1.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/yargs-parser",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-p9pc-299p-vxgp",
+                "advisory_summary": "yargs-parser Vulnerable to Prototype Pollution",
+                "advisory_url": "https://github.com/advisories/GHSA-p9pc-299p-vxgp"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babel/code-frame",
+        "version": "7.10.4",
+        "package_url": "pkg:npm/%40babel/code-frame@7.10.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babel/helper-validator-identifier",
+        "version": "7.10.4",
+        "package_url": "pkg:npm/%40babel/helper-validator-identifier@7.10.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babel/highlight",
+        "version": "7.10.4",
+        "package_url": "pkg:npm/%40babel/highlight@7.10.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@types/color-name",
+        "version": "1.1.1",
+        "package_url": "pkg:npm/%40types/color-name@1.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "ansi-styles",
+        "version": "4.2.1",
+        "package_url": "pkg:npm/ansi-styles@4.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/ansi-styles",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cliui",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/cliui@6.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/cliui",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "color-convert",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/color-convert@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/Qix-/color-convert",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "color-name",
+        "version": "1.1.4",
+        "package_url": "pkg:npm/color-name@1.1.4",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/colorjs/color-name",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "conventional-changelog-config-spec",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/conventional-changelog-config-spec@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/conventional-changelog/conventional-changelog-config-spec",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "conventional-recommended-bump",
+        "version": "6.0.9",
+        "package_url": "pkg:npm/conventional-recommended-bump@6.0.9",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/conventional-changelog/conventional-changelog",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "detect-indent",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/detect-indent@6.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/detect-indent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "detect-newline",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/detect-newline@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/detect-newline",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "emoji-regex",
+        "version": "8.0.0",
+        "package_url": "pkg:npm/emoji-regex@8.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mathiasbynens/emoji-regex",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "figures",
+        "version": "3.2.0",
+        "package_url": "pkg:npm/figures@3.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/figures",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "get-caller-file",
+        "version": "2.0.5",
+        "package_url": "pkg:npm/get-caller-file@2.0.5",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/stefanpenner/get-caller-file",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-fullwidth-code-point",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/is-fullwidth-code-point@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-fullwidth-code-point",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "require-main-filename",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/require-main-filename@2.0.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/require-main-filename",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "standard-version",
+        "version": "8.0.1",
+        "package_url": "pkg:npm/standard-version@8.0.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/conventional-changelog/standard-version",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "string-width",
+        "version": "4.2.0",
+        "package_url": "pkg:npm/string-width@4.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/string-width",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-ansi",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/strip-ansi@6.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/strip-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "through2",
+        "version": "3.0.2",
+        "package_url": "pkg:npm/through2@3.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/through2",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "wrap-ansi",
+        "version": "6.2.0",
+        "package_url": "pkg:npm/wrap-ansi@6.2.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/chalk/wrap-ansi",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "15.4.1",
+        "package_url": "pkg:npm/yargs@15.4.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babel/code-frame",
+        "version": "7.10.3",
+        "package_url": "pkg:npm/%40babel/code-frame@7.10.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babel/helper-validator-identifier",
+        "version": "7.10.3",
+        "package_url": "pkg:npm/%40babel/helper-validator-identifier@7.10.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "@babel/highlight",
+        "version": "7.10.3",
+        "package_url": "pkg:npm/%40babel/highlight@7.10.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/babel/babel",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cliui",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/cliui@4.1.0",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/cliui",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "conventional-recommended-bump",
+        "version": "4.1.1",
+        "package_url": "pkg:npm/conventional-recommended-bump@4.1.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/conventional-changelog/conventional-changelog",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "package_url": "pkg:npm/cross-spawn@6.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/moxystudio/node-cross-spawn",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "detect-indent",
+        "version": "5.0.0",
+        "package_url": "pkg:npm/detect-indent@5.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/detect-indent",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "detect-newline",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/detect-newline@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/detect-newline",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "execa",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/execa@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/execa",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "get-caller-file",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/get-caller-file@1.0.3",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/stefanpenner/get-caller-file",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "get-stream",
+        "version": "4.1.0",
+        "package_url": "pkg:npm/get-stream@4.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/get-stream",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "git-semver-tags",
+        "version": "2.0.3",
+        "package_url": "pkg:npm/git-semver-tags@2.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/conventional-changelog/conventional-changelog",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "invert-kv",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/invert-kv@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/invert-kv",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "is-stream",
+        "version": "1.1.0",
+        "package_url": "pkg:npm/is-stream@1.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/is-stream",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "lcid",
+        "version": "2.0.0",
+        "package_url": "pkg:npm/lcid@2.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/lcid",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "map-age-cleaner",
+        "version": "0.1.3",
+        "package_url": "pkg:npm/map-age-cleaner@0.1.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/SamVerschueren/map-age-cleaner",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mem",
+        "version": "4.3.0",
+        "package_url": "pkg:npm/mem@4.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/memoize",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "mimic-fn",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/mimic-fn@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/mimic-function",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "nice-try",
+        "version": "1.0.5",
+        "package_url": "pkg:npm/nice-try@1.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/electerious/nice-try",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "npm-run-path",
+        "version": "2.0.2",
+        "package_url": "pkg:npm/npm-run-path@2.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/npm-run-path",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "os-locale",
+        "version": "3.1.0",
+        "package_url": "pkg:npm/os-locale@3.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/os-locale",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-defer",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/p-defer@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-defer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-finally",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/p-finally@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-finally",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "p-is-promise",
+        "version": "2.1.0",
+        "package_url": "pkg:npm/p-is-promise@2.1.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/p-is-promise",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "path-key",
+        "version": "2.0.1",
+        "package_url": "pkg:npm/path-key@2.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/path-key",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "pump",
+        "version": "3.0.0",
+        "package_url": "pkg:npm/pump@3.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mafintosh/pump",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "require-main-filename",
+        "version": "1.0.1",
+        "package_url": "pkg:npm/require-main-filename@1.0.1",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/yargs/require-main-filename",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "strip-eof",
+        "version": "1.0.0",
+        "package_url": "pkg:npm/strip-eof@1.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/sindresorhus/strip-final-newline",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "through2",
+        "version": "3.0.1",
+        "package_url": "pkg:npm/through2@3.0.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/rvagg/through2",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package-lock.json",
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "12.0.5",
+        "package_url": "pkg:npm/yargs@12.0.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/yargs/yargs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "standard-version",
+        "version": "^5.0.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/conventional-changelog/standard-version",
+        "scope": "development",
+        "vulnerabilities": [
+            {
+                "severity": "moderate",
+                "advisory_ghsa_id": "GHSA-7xcx-6wjh-7xp2",
+                "advisory_summary": "Command Injection in standard-version",
+                "advisory_url": "https://github.com/advisories/GHSA-7xcx-6wjh-7xp2"
+            }
+        ]
+    },
+    {
+        "change_type": "added",
+        "manifest": "bindings/node/package.json",
+        "ecosystem": "npm",
+        "name": "standard-version",
+        "version": "^8.0.1",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/conventional-changelog/standard-version",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

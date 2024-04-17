@@ -1,0 +1,110 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "bit-buffer",
+        "version": "0.2.5",
+        "package_url": "pkg:npm/bit-buffer@0.2.5",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/inolen/bit-buffer",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "debug",
+        "version": "4.3.1",
+        "package_url": "pkg:npm/debug@4.3.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/debug-js/debug",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "lv_font_conv",
+        "version": "1.5.2",
+        "package_url": "pkg:npm/lv_font_conv@1.5.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/lvgl/lv_font_conv",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "make-error",
+        "version": "1.3.6",
+        "package_url": "pkg:npm/make-error@1.3.6",
+        "license": "ISC",
+        "source_repository_url": "https://github.com/JsCommunity/make-error",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "opentype.js",
+        "version": "1.3.3",
+        "package_url": "pkg:npm/opentype.js@1.3.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/opentypejs/opentype.js",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "pngjs",
+        "version": "6.0.0",
+        "package_url": "pkg:npm/pngjs@6.0.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/pngjs/pngjs",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "string.prototype.codepointat",
+        "version": "0.2.1",
+        "package_url": "pkg:npm/string.prototype.codepointat@0.2.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/mathiasbynens/String.prototype.codePointAt",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package-lock.json",
+        "ecosystem": "npm",
+        "name": "tiny-inflate",
+        "version": "1.0.3",
+        "package_url": "pkg:npm/tiny-inflate@1.0.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/foliojs/tiny-inflate",
+        "scope": "development",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "package.json",
+        "ecosystem": "npm",
+        "name": "lv_font_conv",
+        "version": "^1.5.2",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/adampietrasiak/lv_font_conv",
+        "scope": "development",
+        "vulnerabilities": []
+    }
+]

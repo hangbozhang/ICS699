@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/purple_archive.yml",
+        "ecosystem": "actions",
+        "name": "mvasigh/dispatch-action",
+        "version": "1.1.6",
+        "package_url": "pkg:githubactions/mvasigh/dispatch-action@1.1.6",
+        "license": null,
+        "source_repository_url": "https://github.com/mvasigh/dispatch-action",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

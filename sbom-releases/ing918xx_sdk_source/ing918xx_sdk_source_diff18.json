@@ -1,0 +1,86 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "DateTime",
+        "version": "5.0",
+        "package_url": "pkg:pypi/datetime@5.0",
+        "license": null,
+        "source_repository_url": "https://github.com/zopefoundation/DateTime",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "PyYAML",
+        "version": "6.0",
+        "package_url": "pkg:pypi/pyyaml@6.0",
+        "license": null,
+        "source_repository_url": "https://github.com/yaml/pyyaml",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "future",
+        "version": "0.18.3",
+        "package_url": "pkg:pypi/future@0.18.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/PythonCharmers/python-future",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "iso8601",
+        "version": "1.0.2",
+        "package_url": "pkg:pypi/iso8601@1.0.2",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/micktwomey/pyiso8601",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pyocd",
+        "version": "0.34.3",
+        "package_url": "pkg:pypi/pyocd@0.34.3",
+        "license": "Apache-2.0",
+        "source_repository_url": "https://github.com/pyocd/pyOCD",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "pytz",
+        "version": "2022.7.1",
+        "package_url": "pkg:pypi/pytz@2022.7.1",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/stub42/pytz",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "tools/requirements.txt",
+        "ecosystem": "pip",
+        "name": "zope.interface",
+        "version": "5.5.2",
+        "package_url": "pkg:pypi/zope.interface@5.5.2",
+        "license": null,
+        "source_repository_url": "https://github.com/zopefoundation/zope.interface",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "github.com/robfig/cron",
+        "version": "1.2.0",
+        "package_url": "pkg:golang/github.com/robfig/cron@1.2.0",
+        "license": null,
+        "source_repository_url": "https://github.com/robfig/cron",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.9.0",
+        "package_url": "pkg:golang/golang.org/x/sys@0.9.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "go.mod",
+        "ecosystem": "gomod",
+        "name": "golang.org/x/sys",
+        "version": "0.8.0",
+        "package_url": "pkg:golang/golang.org/x/sys@0.8.0",
+        "license": null,
+        "source_repository_url": null,
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

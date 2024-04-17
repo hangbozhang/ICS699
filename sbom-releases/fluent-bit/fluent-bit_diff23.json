@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/auth",
+        "version": "1",
+        "package_url": "pkg:githubactions/google-github-actions/auth@1",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/auth",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/setup-gcloud",
+        "version": "1",
+        "package_url": "pkg:githubactions/google-github-actions/setup-gcloud@1",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/setup-gcloud",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/auth",
+        "version": "0",
+        "package_url": "pkg:githubactions/google-github-actions/auth@0",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/auth",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": ".github/workflows/call-run-integration-test.yaml",
+        "ecosystem": "actions",
+        "name": "google-github-actions/setup-gcloud",
+        "version": "0",
+        "package_url": "pkg:githubactions/google-github-actions/setup-gcloud@0",
+        "license": null,
+        "source_repository_url": "https://github.com/google-github-actions/setup-gcloud",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

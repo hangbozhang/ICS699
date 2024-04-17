@@ -1,0 +1,50 @@
+[
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/node_loader/trampoline/package-lock.json",
+        "ecosystem": "npm",
+        "name": "bindings",
+        "version": "1.3.0",
+        "package_url": "pkg:npm/bindings@1.3.0",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/TooTallNate/node-bindings",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/loaders/node_loader/trampoline/package.json",
+        "ecosystem": "npm",
+        "name": "bindings",
+        "version": "~1.3.0",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/TooTallNate/node-bindings",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package-lock.json",
+        "ecosystem": "npm",
+        "name": "node-addon-api",
+        "version": "1.6.3",
+        "package_url": "pkg:npm/node-addon-api@1.6.3",
+        "license": "MIT",
+        "source_repository_url": "https://github.com/nodejs/node-addon-api",
+        "scope": "runtime",
+        "vulnerabilities": []
+    },
+    {
+        "change_type": "removed",
+        "manifest": "source/ports/node_port/package.json",
+        "ecosystem": "npm",
+        "name": "node-addon-api",
+        "version": "^1.6.3",
+        "package_url": "",
+        "license": null,
+        "source_repository_url": "https://github.com/nodejs/node-addon-api",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]

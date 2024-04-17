@@ -1,0 +1,14 @@
+[
+    {
+        "change_type": "added",
+        "manifest": ".github/workflows/purge.yaml",
+        "ecosystem": "actions",
+        "name": "Mattraks/delete-workflow-runs",
+        "version": "main",
+        "package_url": "pkg:githubactions/Mattraks/delete-workflow-runs@main",
+        "license": null,
+        "source_repository_url": "https://github.com/Mattraks/delete-workflow-runs",
+        "scope": "runtime",
+        "vulnerabilities": []
+    }
+]
