@@ -39,7 +39,7 @@ else:
 	model = Top2Vec(
 		notes_messages_original,
 		embedding_model="doc2vec",
-		speed="fast-learn",
+		speed="deep-learn",
 		workers=8,
 		hdbscan_args={"min_cluster_size": 65, "min_samples": 10},
 	)
